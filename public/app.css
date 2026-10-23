@@ -1,7 +1,7 @@
 /* Party Finance Explorer — app layer over kit.css */
-:root { --series-7: #6250d6; --status-good: #0ca30c; --status-warn: #fab219; --status-serious: #ec835a; --status-critical: #d03b3b; }
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --series-7: #9085e9; } }
-:root[data-theme="dark"] { --series-7: #9085e9; }
+:root { --party-default: #8a94a6; --series-7: #6250d6; --status-good: #0ca30c; --status-warn: #fab219; --status-serious: #ec835a; --status-critical: #d03b3b; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --series-7: #9085e9; --party-default: #7d8799; } }
+:root[data-theme="dark"] { --series-7: #9085e9; --party-default: #7d8799; }
 
 body { background: var(--page); }
 .topnav { overflow-x: auto; scrollbar-width: none; }
@@ -149,3 +149,10 @@ table.data a:hover { text-decoration: underline; }
 .mini-head .mini-v { color: var(--ink-muted); font-size: .75rem; font-variant-numeric: tabular-nums; white-space: nowrap; }
 .mini .legend { padding: 4px 0 0; }
 .card .legend { padding-left: 0; }
+
+/* drawer statement detail */
+.stmt-grid { display: grid; gap: 14px; margin-top: 10px; }
+@media (min-width: 640px) { .stmt-grid { grid-template-columns: 1fr 1fr; } }
+.stmt h3 { font-size: .8125rem; margin: 0 0 4px; color: var(--ink-2); }
+.stmt table.data td { padding: 5px 6px; font-size: .78rem; }
+.stmt table.data td.wrap { min-width: 0; }

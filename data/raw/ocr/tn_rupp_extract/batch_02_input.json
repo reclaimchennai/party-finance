@@ -1,0 +1,583 @@
+[
+ {
+  "n": 1,
+  "text_file": "001.txt",
+  "pdf_file": "638010863841614155.pdf",
+  "title": "All India Jananayaka Makkal Kazhagam (Annual Audit Report for the Financial Year 2021-22)",
+  "fy": "2021-22",
+  "pages": 3,
+  "ocr_pages": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "n": 3,
+  "text_file": "003.txt",
+  "pdf_file": "638011565429730819.pdf",
+  "title": "Kongunadu Makkal Desia Katchi (Annual Audit Report for the Financial Year 2021-22)",
+  "fy": "2021-22",
+  "pages": 4,
+  "ocr_pages": [
+   1,
+   2,
+   3,
+   4
+  ]
+ },
+ {
+  "n": 8,
+  "text_file": "008.txt",
+  "pdf_file": "638011577804632375.pdf",
+  "title": "Marumalarchi Dravida Munnetra Kazhagam (Annual Audit Report for the Financial Year 2020-21)",
+  "fy": "2020-21",
+  "pages": 11,
+  "ocr_pages": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11
+  ]
+ },
+ {
+  "n": 12,
+  "text_file": "012.txt",
+  "pdf_file": "638011653218655337.pdf",
+  "title": "Makkal Needhi Maiam (Annual Audit Report for the Financial Year 2019-20)",
+  "fy": "2019-20",
+  "pages": 13,
+  "ocr_pages": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13
+  ]
+ },
+ {
+  "n": 15,
+  "text_file": "015.txt",
+  "pdf_file": "638011656002141615.pdf",
+  "title": "Naam Tamilar Katchi (Annual Audit Report for the Financial Year 2019-20)",
+  "fy": "2019-20",
+  "pages": 7,
+  "ocr_pages": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ]
+ },
+ {
+  "n": 16,
+  "text_file": "016.txt",
+  "pdf_file": "638011657355821163.pdf",
+  "title": "Tamil Maanila Congress (Moopanar) (Annual Audit Report for the Financial Year 2019-20)",
+  "fy": "2019-20",
+  "pages": 8,
+  "ocr_pages": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ]
+ },
+ {
+  "n": 17,
+  "text_file": "017.txt",
+  "pdf_file": "638011658886095112.pdf",
+  "title": "All India Moovendar Munnani Kazhagam (Annual Audit Report for the Financial Year 2018-19)",
+  "fy": "2018-19",
+  "pages": 16,
+  "ocr_pages": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16
+  ]
+ },
+ {
+  "n": 18,
+  "text_file": "018.txt",
+  "pdf_file": "638011663236292380.pdf",
+  "title": "Kongunadu Makkal Desia Katchi (Annual Audit Report for the Financial Year 2018-19)",
+  "fy": "2018-19",
+  "pages": 4,
+  "ocr_pages": [
+   1,
+   2,
+   3,
+   4
+  ]
+ },
+ {
+  "n": 22,
+  "text_file": "022.txt",
+  "pdf_file": "638011666221274355.pdf",
+  "title": "Tamil Maanila Congress (Moopanar) (Annual Audit Report for the Financial Year 2018-19)",
+  "fy": "2018-19",
+  "pages": 6,
+  "ocr_pages": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ]
+ },
+ {
+  "n": 23,
+  "text_file": "023.txt",
+  "pdf_file": "638011666365117525.pdf",
+  "title": "Tamil Maanila Katchi (Annual Audit Report for the Financial Year 2018-19)",
+  "fy": "2018-19",
+  "pages": 24,
+  "ocr_pages": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24
+  ]
+ },
+ {
+  "n": 28,
+  "text_file": "028.txt",
+  "pdf_file": "638011689484783797.pdf",
+  "title": "Kongunadu Makkal Desia Katchi (Annual Audit Report for the Financial Year 2015-16)",
+  "fy": "2015-16",
+  "pages": 4,
+  "ocr_pages": [
+   1,
+   2,
+   3,
+   4
+  ]
+ },
+ {
+  "n": 31,
+  "text_file": "031.txt",
+  "pdf_file": "638011699668853730.pdf",
+  "title": "Indiya Jananayaka Katchi (Annual Audit Report for the Financial Year 2014-15)",
+  "fy": "2014-15",
+  "pages": 6,
+  "ocr_pages": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ]
+ },
+ {
+  "n": 34,
+  "text_file": "034.txt",
+  "pdf_file": "638011700276032004.pdf",
+  "title": "Naam Tamilar Katchi (Annual Audit Report for the Financial Year 2014-15)",
+  "fy": "2014-15",
+  "pages": 6,
+  "ocr_pages": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ]
+ },
+ {
+  "n": 39,
+  "text_file": "039.txt",
+  "pdf_file": "638179202268169109.pdf",
+  "title": "Manithaneya Jananayaga Katchi (Annual Audit Report for the Financial Year 2019-20)",
+  "fy": "2019-20",
+  "pages": 5,
+  "ocr_pages": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ]
+ },
+ {
+  "n": 42,
+  "text_file": "042.txt",
+  "pdf_file": "638204188366859105.pdf",
+  "title": "Marumalarchi Dravida Munnetra Kazhagam (Annual Audit Report for the Financial Year 2014-15)",
+  "fy": "2014-15",
+  "pages": 13,
+  "ocr_pages": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13
+  ]
+ },
+ {
+  "n": 44,
+  "text_file": "044.txt",
+  "pdf_file": "638204188785501463.pdf",
+  "title": "Marumalarchi Dravida Munnetra Kazhagam (Annual Audit Report for the Financial Year 2016-17)",
+  "fy": "2016-17",
+  "pages": 10,
+  "ocr_pages": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ]
+ },
+ {
+  "n": 48,
+  "text_file": "048.txt",
+  "pdf_file": "638204385152669313.pdf",
+  "title": "Marumalarchi Dravida Munnetra Kazhagam (Annual Audit Report for the Financial Year 2018-19)",
+  "fy": "2018-19",
+  "pages": 13,
+  "ocr_pages": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13
+  ]
+ },
+ {
+  "n": 50,
+  "text_file": "050.txt",
+  "pdf_file": "638204396621322698.pdf",
+  "title": "Makkal Needhi Maiam (Annual Audit Report for the Financial Year 2021-22)",
+  "fy": "2021-22",
+  "pages": 11,
+  "ocr_pages": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11
+  ]
+ },
+ {
+  "n": 52,
+  "text_file": "052.txt",
+  "pdf_file": "638215373601571056.pdf",
+  "title": "Indiya Jananayaka Katchi (Annual Audit Report for the Financial Year 2021-22)",
+  "fy": "2021-22",
+  "pages": 4,
+  "ocr_pages": [
+   1,
+   2,
+   3,
+   4
+  ]
+ },
+ {
+  "n": 58,
+  "text_file": "058.txt",
+  "pdf_file": "638321808318309356.pdf",
+  "title": "Naam Tamilar Katchi (Annual Audit Report for the Financial Year 2021-22)",
+  "fy": "2021-22",
+  "pages": 12,
+  "ocr_pages": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ]
+ },
+ {
+  "n": 60,
+  "text_file": "060.txt",
+  "pdf_file": "638397766185386192.pdf",
+  "title": "Manithaneya Makkal Katchi (Annual Audit Report for the Financial Year 2022-23)",
+  "fy": "2022-23",
+  "pages": 8,
+  "ocr_pages": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ]
+ },
+ {
+  "n": 62,
+  "text_file": "062.txt",
+  "pdf_file": "638430976475970448.pdf",
+  "title": "Naam Tamilar Katchi (Annual Audit Report for the Financial Year 2022-23)",
+  "fy": "2022-23",
+  "pages": 9,
+  "ocr_pages": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ]
+ },
+ {
+  "n": 63,
+  "text_file": "063.txt",
+  "pdf_file": "638433351829829524.pdf",
+  "title": "Indiya Jananayaka Katchi (Annual Audit Report for the Financial Year 2020-21)",
+  "fy": "2020-21",
+  "pages": 5,
+  "ocr_pages": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ]
+ },
+ {
+  "n": 69,
+  "text_file": "069.txt",
+  "pdf_file": "638465481281232130.pdf",
+  "title": "Indiya Jananayaka Katchi (Annual Audit Report for the Financial Year 2022-23)",
+  "fy": "2022-23",
+  "pages": 6,
+  "ocr_pages": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ]
+ },
+ {
+  "n": 72,
+  "text_file": "072.txt",
+  "pdf_file": "638653498597284776.pdf",
+  "title": "Manithaneya Makkal Katchi (Annual Audit Report for the Financial Year 2023-24)",
+  "fy": "2023-24",
+  "pages": 8,
+  "ocr_pages": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ]
+ },
+ {
+  "n": 74,
+  "text_file": "074.txt",
+  "pdf_file": "638666430196503615.pdf",
+  "title": "Marumalarchi Dravida Munnetra Kazhagam (Annual Audit Report for the Financial Year 2023-24)",
+  "fy": "2023-24",
+  "pages": 17,
+  "ocr_pages": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17
+  ]
+ },
+ {
+  "n": 75,
+  "text_file": "075.txt",
+  "pdf_file": "638666431059374572.pdf",
+  "title": "Makkal Needhi Maiam (Annual Audit Report for the Financial Year 2023-24)",
+  "fy": "2023-24",
+  "pages": 11,
+  "ocr_pages": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11
+  ]
+ },
+ {
+  "n": 78,
+  "text_file": "078.txt",
+  "pdf_file": "638899910748899085.pdf",
+  "title": "Manithaneya Jananayaga Katchi (Annual Audit Report for the Financial Year 2021-22)",
+  "fy": "2021-22",
+  "pages": 10,
+  "ocr_pages": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ]
+ },
+ {
+  "n": 84,
+  "text_file": "084.txt",
+  "pdf_file": "639008117909789441.pdf",
+  "title": "Periyar Ambedkar Munnetra Kazhagam (PAMK) (Annual Audit Report for the Financial Year 2024-25)",
+  "fy": "2024-25",
+  "pages": 18,
+  "ocr_pages": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18
+  ]
+ },
+ {
+  "n": 86,
+  "text_file": "086.txt",
+  "pdf_file": "639026243590667952.pdf",
+  "title": "Tamil Maanila Congress (Moopanar) (Annual Audit Report for the Financial Year 2024-25)",
+  "fy": "2024-25",
+  "pages": 9,
+  "ocr_pages": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ]
+ }
+]

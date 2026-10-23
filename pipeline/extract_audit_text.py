@@ -14,8 +14,11 @@ import subprocess
 import tempfile
 from concurrent.futures import ThreadPoolExecutor
 
-SRC = "data/raw/annual_audits"
-OUT = "data/raw/ocr/audit_text"
+import sys
+
+# default: ECI audit reports; `extract_audit_text.py tn` handles the CEO Tamil Nadu RUPP filings
+SRC, OUT = ("data/raw/tn_rupp_audits", "data/raw/ocr/tn_rupp_audit_text") if "tn" in sys.argv[1:] else \
+           ("data/raw/annual_audits", "data/raw/ocr/audit_text")
 
 
 def catalog_index():

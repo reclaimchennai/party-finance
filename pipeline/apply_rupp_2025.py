@@ -25,6 +25,7 @@ from collections import Counter
 sys.modules.setdefault("pymupdf", types.ModuleType("pymupdf"))   # only the geocoder is needed
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from build_all_india_parties import detect_state_and_coords, extract_pincode  # noqa: E402
+from names import clean_name  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 NOTIF = "ECI Notification No. 56/2025/PPS-III (10 Oct 2025)"
@@ -154,6 +155,8 @@ def main():
                 stats["2021 RUPP not in 2025 list"] += 1
     print(dict(stats))
 
+    for p in reg:
+        p["party_name"] = clean_name(p["party_name"])
     order = {"Recognized National": 1, "Recognized State": 2, "Registered Unrecognized (RUPP)": 3,
              "RUPP (not in 2025 list)": 4, "Inactive": 5, "Delisted / Cancelled": 6}
     reg.sort(key=lambda x: (order.get(x["status"], 99), x["state"], x["party_name"]))

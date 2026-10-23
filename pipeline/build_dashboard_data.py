@@ -22,6 +22,10 @@ import glob
 import difflib
 from collections import defaultdict
 from datetime import date
+import sys
+import hashlib
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from names import clean_name  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "public/data/dash")
@@ -181,35 +185,52 @@ def put(key, fy, src, **vals):
     sources[(key, fy)].append(src)
 
 
-# --------------------------------------------- 1. ECI audited accounts -----
-audit_index = {d["n"]: d for d in load("data/raw/ocr/audit_text/index.json")}
-extracted = []
-for f in sorted(glob.glob(os.path.join(ROOT, "data/raw/ocr/audit_extract/batch_*_output.json"))):
-    extracted.extend(json.load(open(f)))
+# --------------------------------------------- 1. audited accounts read per report -----
+# ECI audit reports (recognised parties) and the CEO Tamil Nadu filings of TN RUPPs,
+# each figure with its page and confidence.
+def party_key_for(name, state="Tamil Nadu"):
+    k = canon(name)
+    if not k:
+        k = "TN:" + norm(name)[:40]
+        add_party(k, clean_name(name.strip()), "", "RUPP", state, tn_rupp=True)
+    return k
 
-best = {}
-unmapped_titles = set()
-for e in extracted:
-    meta = audit_index.get(e["n"], {})
-    key = canon(title_party(meta.get("title", e.get("party", ""))))
-    if not key:
-        unmapped_titles.add(meta.get("title"))
+
+EXTRACTIONS = [
+    ("data/raw/ocr/audit_text/index.json", "data/raw/ocr/audit_extract", "ECI audited accounts", False),
+    ("data/raw/ocr/tn_rupp_audit_text/index.json", "data/raw/ocr/tn_rupp_extract", "CEO Tamil Nadu audited accounts", True),
+]
+extracted, best, unmapped_titles = [], {}, set()
+for index_path, extract_dir, src_type, tn in EXTRACTIONS:
+    if not os.path.exists(os.path.join(ROOT, index_path)):
         continue
-    fy = meta.get("fy") or e.get("fy")
-    has_totals = e.get("total_income") is not None or e.get("total_expenditure") is not None
-    score = (has_totals, {"high": 3, "medium": 2, "low": 1}.get(e.get("confidence"), 0),
-             "revised" in (meta.get("title") or "").lower())
-    cur = best.get((key, fy))
-    if not cur or score > cur[0]:
-        best[(key, fy)] = (score, e, meta)
+    index = {d["n"]: d for d in load(index_path)}
+    rows = []
+    for f in sorted(glob.glob(os.path.join(ROOT, extract_dir, "batch_*_output.json"))):
+        rows.extend(json.load(open(f)))
+    extracted.extend(rows)
+    for e in rows:
+        meta = index.get(e["n"], {})
+        name = title_party(meta.get("title", e.get("party", "")))
+        key = party_key_for(name) if tn else canon(name)
+        if not key:
+            unmapped_titles.add(meta.get("title"))
+            continue
+        fy = meta.get("fy") or e.get("fy")
+        has_totals = e.get("total_income") is not None or e.get("total_expenditure") is not None
+        score = (has_totals, not tn, {"high": 3, "medium": 2, "low": 1}.get(e.get("confidence"), 0),
+                 "revised" in (meta.get("title") or "").lower())
+        cur = best.get((key, fy))
+        if not cur or score > cur[0]:
+            best[(key, fy)] = (score, e, meta, src_type)
 
-for (key, fy), (_, e, meta) in best.items():
+for (key, fy), (_, e, meta, src_type) in best.items():
     inc, exp = dict(e.get("income") or {}), e.get("expenditure") or {}
     # Some statements print bonds as a sub-line of donations; don't count them twice
     total, eb_line, don = e.get("total_income"), inc.get("electoral_bonds"), inc.get("donations_contributions")
     if total and eb_line and don and don >= eb_line and sum(v for v in inc.values() if v) > total * 1.01:
         inc["donations_contributions"] = don - eb_line
-    put(key, fy, {"type": "ECI audited accounts", "url": meta.get("pdf_url"), "title": meta.get("title"),
+    put(key, fy, {"type": src_type, "url": meta.get("pdf_url"), "title": meta.get("title"),
                   "page": (e.get("pages") or {}).get("income_statement"), "confidence": e.get("confidence"),
                   "notes": e.get("notes")},
         income=e.get("total_income"), expenditure=e.get("total_expenditure"), surplus=e.get("surplus"),
@@ -224,10 +245,7 @@ for (key, fy), (_, e, meta) in best.items():
 erolls = load("public/data/tn_rupp_filings_erolls.json")
 erolls_party_key = {}
 for r in erolls:
-    k = canon(r["party_name"])
-    if not k:
-        k = "TN:" + norm(r["party_name"])[:40]
-        add_party(k, r["party_name"].strip(), "", "RUPP", "Tamil Nadu", tn_rupp=True)
+    k = party_key_for(r["party_name"])
     erolls_party_key[r["party_name"]] = k
     PARTIES[k].setdefault("address", r.get("address"))
     if r["status"] != "Submitted":
@@ -242,6 +260,84 @@ for r in erolls:
             row["surplus"] = row["income"] - row["expenditure"]
     elif r["category"] == "Form 24A Contribution Report":
         put(k, fy, src, contributions_24a=r.get("amount"))
+
+# --------------------------------------------- 2b. ADR MyNeta history (FY 2001-02 on) ---
+# ADR transcribes each ECI audit report into balance sheet + income/expenditure heads.
+# Used for every party-year we have not read ourselves; overlapping years are kept as a
+# cross-check (adr_income / adr_expenditure).
+INCOME_RULES = [
+    ("_skip", r"excess of|deficit|surplus|balance being|net loss"),   # balancing lines, whichever way ADR labels them
+    ("eb_reported", r"electoral bond"),
+    ("donations", r"donat|contribut|grant|relief fund|electoral trust|collection from"),
+    ("membership", r"member|fee|subscri|delegate|levy|application|admission"),
+    ("interest", r"interest|dividend"),
+]
+SPEND_RULES = [
+    ("_skip", r"excess of|surplus|deficit|balance being|net profit"),
+    ("election_exp", r"election|campaign|\bpoll"),
+    ("staff_exp", r"employee|salar|staff|wage|remunerat|honorari|bonus|provident"),
+    ("publicity_exp", r"publicity|propaganda|advertis|media|pamphlet|poster|banner"),
+    ("admin_exp", r"administrat|general exp|office|rent|electric|telephone|printing|stationery|travel|conveyance|"
+                  r"audit|legal|professional|repair|maint|insurance|meeting|accounting|vehicle|newspaper|"
+                  r"bank charge|postage|courier|misc|water|internet|computer|conference|function"),
+]
+
+
+def classify(label, rules):
+    for bucket, rx in rules:
+        if re.search(rx, label, re.I):
+            return bucket
+    return "_other"
+
+
+myneta_path = os.path.join(ROOT, "data/derived/myneta_statements.json")
+statements = {}            # "k|fy" -> itemised heads, for the party drawer
+adr_rows = 0
+if os.path.exists(myneta_path):
+    for m in json.load(open(myneta_path)):
+        k = canon(m["name"]) or canon(m.get("abbr") or "")
+        if not k:
+            k = re.sub(r"[^A-Z0-9]", "", (m.get("abbr") or m["name"]).upper())[:12]
+            add_party(k, clean_name(m["name"]), m.get("abbr") or "", "State", "")
+        fy = m["fy"]
+        inc_b, exp_b = defaultdict(int), defaultdict(int)
+        for label, v in (m.get("income") or {}).items():
+            inc_b[classify(label, INCOME_RULES)] += v or 0
+        for label, v in (m.get("expenditure") or {}).items():
+            exp_b[classify(label, SPEND_RULES)] += v or 0
+        income = sum(v for b, v in inc_b.items() if b != "_skip")
+        expenditure = sum(v for b, v in exp_b.items() if b != "_skip")
+        liab, assets = m.get("liabilities") or {}, m.get("assets") or {}
+        fund = sum(v or 0 for l, v in liab.items() if re.search(r"general fund|corpus|capital fund", l, re.I)
+                   and not re.search(r"earmark|building", l, re.I)) or None
+        cash = sum(v or 0 for l, v in assets.items() if re.search(r"cash|bank|fixed deposit|term deposit|fdr", l, re.I)
+                   and not re.search(r"loan|advance", l, re.I)) or None
+        statements[f"{k}|{fy}"] = {"src": m["url"], "income": m.get("income"), "expenditure": m.get("expenditure"),
+                                   "assets": assets, "liabilities": liab}
+        row = finance[(k, fy)]
+        audited = any(x["type"] in ("ECI audited accounts", "CEO Tamil Nadu audited accounts") for x in sources[(k, fy)])
+        if audited and row.get("audit_confidence") == "low" and (income or expenditure):
+            # our own read of a damaged scan was low confidence: ADR's transcription wins
+            for f in ("income", "expenditure", "surplus", "donations", "eb_reported", "membership", "interest",
+                      "election_exp", "admin_exp", "staff_exp", "publicity_exp"):
+                row.pop(f, None)
+            audited = False
+        if audited:
+            row["adr_income"], row["adr_expenditure"] = income, expenditure
+            continue
+        if not income and not expenditure:
+            continue
+        if row.get("income") is not None:
+            # only portal totals so far (CEO TN): ADR's itemised statement replaces them
+            for f in ("income", "expenditure", "surplus"):
+                row.pop(f, None)
+        adr_rows += 1
+        put(k, fy, {"type": "ADR MyNeta (from ECI audit report)", "url": m["url"]},
+            income=income, expenditure=expenditure, surplus=income - expenditure,
+            donations=inc_b.get("donations"), eb_reported=inc_b.get("eb_reported"), membership=inc_b.get("membership"),
+            interest=inc_b.get("interest"), election_exp=exp_b.get("election_exp"), admin_exp=exp_b.get("admin_exp"),
+            staff_exp=exp_b.get("staff_exp"), publicity_exp=exp_b.get("publicity_exp"),
+            general_fund=fund, cash_bank=cash, total_assets=(m.get("printed_totals") or {}).get("Assets"))
 
 # --------------------------------------------- 3. Electoral bonds by FY -------
 eb = load("public/data/electoral_bonds_all.json")
@@ -339,14 +435,28 @@ for k, p in PARTIES.items():
 
 parties_out = sorted(PARTIES.values(), key=lambda p: ({"National": 0, "State": 1}.get(p["rec"], 2), p["name"]))
 meta = {"built": date.today().isoformat(), "fin_rows": len(fin_rows), "parties": len(parties_out),
-        "audit_docs_extracted": len(extracted), "unmapped_titles": sorted(t for t in unmapped_titles if t)}
+        "audit_docs_extracted": len(extracted), "adr_rows": adr_rows,
+        "eb_total": sum(eb_total.values()), "eb_bonds": sum(eb_n.values()), "eb_parties": len(eb_total),
+        "documents": len(docs), "unmapped_titles": sorted(t for t in unmapped_titles if t)}
 
-for name, obj in (("parties", parties_out), ("finance", fin_rows), ("compliance", compliance),
-                  ("documents", docs), ("meta", meta)):
+# Content hash of everything the site loads: the app requests data with ?v=<version>, so
+# browsers can cache it for good and still pick up a rebuild immediately.
+payloads = {name: json.dumps(obj, separators=(",", ":"), ensure_ascii=False) for name, obj in
+            (("parties", parties_out), ("finance", fin_rows), ("compliance", compliance),
+             ("documents", docs), ("statements", statements))}
+h = hashlib.sha1()
+for name in sorted(payloads):
+    h.update(payloads[name].encode())
+for extra in ("public/data/electoral_bonds_all.json", "public/data/all_india_parties.json", "public/data/india-states.geojson",
+              "public/data/all_india_parties_summary.json", "public/data/tn_rupp_filing_summary.json"):
+    h.update(open(os.path.join(ROOT, extra), "rb").read())
+meta["version"] = h.hexdigest()[:10]
+payloads["meta"] = json.dumps(meta, separators=(",", ":"), ensure_ascii=False)
+for name, text in payloads.items():
     with open(os.path.join(OUT, f"{name}.json"), "w", encoding="utf-8") as f:
-        json.dump(obj, f, separators=(",", ":"), ensure_ascii=False)
+        f.write(text)
 
 print(f"parties {len(parties_out)}, finance rows {len(fin_rows)}, compliance {len(compliance)}, docs {len(docs)}")
-print(f"audit docs extracted: {len(extracted)}; unmapped titles: {len(meta['unmapped_titles'])}")
+print(f"audit docs extracted: {len(extracted)}; ADR rows used: {adr_rows}; version {meta['version']}; unmapped titles: {len(meta['unmapped_titles'])}")
 for t in meta["unmapped_titles"][:30]:
     print("  ?", t)

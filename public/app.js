@@ -42,6 +42,7 @@ const num = v => (v ?? 0).toLocaleString('en-IN');
 const pct = (a, b) => (b ? `${Math.round((a / b) * 100)}%` : '—');
 function tickFmt(v) {
   const a = Math.abs(v);
+  if (a >= 1000 * CR) return `${v < 0 ? '−' : ''}${(a / CR / 1000).toLocaleString('en-IN', { maximumFractionDigits: 1 })}K Cr`;
   if (a >= CR) return `${v < 0 ? '−' : ''}${(a / CR).toLocaleString('en-IN', { maximumFractionDigits: a / CR >= 10 ? 0 : 1 })} Cr`;
   if (a >= LAKH) return `${v < 0 ? '−' : ''}${(a / LAKH).toLocaleString('en-IN', { maximumFractionDigits: 0 })} L`;
   if (a >= 1000) return `${v < 0 ? '−' : ''}${(a / 1000).toFixed(0)}K`;
@@ -82,19 +83,44 @@ function tipRows(el, title, sub, rows, src) {
   if (src) el.append(h('div', { class: 'src', text: src }));
 }
 
+/* ------------------------------------------------------------ lazy render */
+// Charts draw only when they come near the viewport; a filter change re-renders the
+// page but only the visible charts do any work.
+const lazyQueue = new Map();
+const lazyIO = 'IntersectionObserver' in window ? new IntersectionObserver(entries => {
+  for (const e of entries) if (e.isIntersecting) {
+    const fn = lazyQueue.get(e.target); lazyIO.unobserve(e.target); lazyQueue.delete(e.target);
+    if (fn) fn();
+  }
+}, { rootMargin: '600px 0px' }) : null;
+function lazy(el, fn) {
+  if (!lazyIO) { requestAnimationFrame(fn); return; }
+  lazyQueue.set(el, fn); lazyIO.observe(el);
+}
+
 /* ----------------------------------------------------------------- charts */
 const SLOT = i => `var(--series-${(i % 8) + 1})`;
+/* Party colours follow each party's own identity wherever a party is drawn. */
+const PARTY_COLOR = {
+  BJP: '#f97316', INC: '#0ea5e9', DMK: '#dc2626', AIADMK: '#15803d', AITC: '#14b8a6', BRS: '#ec4899',
+  BJD: '#84cc16', YSRCP: '#2563eb', TDP: '#eab308', AAP: '#6366f1', CPIM: '#9f1239', CPI: '#f43f5e',
+  BSP: '#3b5bdb', SP: '#c026d3', NTK: '#b45309', DMDK: '#ca8a04', PMK: '#f59e0b', VCK: '#60a5fa',
+  MDMK: '#be123c', TVK: '#9a3412', IUML: '#4d7c0f', AMMK: '#0f766e', MNM: '#94a3b8', JDU: '#16a34a',
+  RJD: '#047857', SHS: '#d97706', NCP: '#0891b2', JDS: '#65a30d', JMM: '#166534', SAD: '#1d4ed8',
+  AIMIM: '#059669', CPIMLL: '#b91c1c', JSP: '#e11d48', SKM: '#dc2626', MNS: '#f97316',
+};
+const partyColor = (k, i) => PARTY_COLOR[k] || (i == null ? 'var(--party-default)' : SLOT(i));
 
 /** Horizontal ranked bars. rows: [{key,label,value,color?,sub?}] */
 function barChart(host, rows, o = {}) {
   host.replaceChildren();
   if (!rows.length) { host.append(h('div', { class: 'empty', text: o.empty || 'No data for this selection.' })); return; }
-  const W = Math.max(320, host.clientWidth || 600), labW = Math.min(o.labelWidth || 170, W * 0.38), rowH = o.rowH || 26, barH = Math.min(18, rowH - 8);
+  const W = Math.max(260, host.clientWidth || 600), labW = Math.min(o.labelWidth || 170, W * 0.34), rowH = o.rowH || 26, barH = Math.min(18, rowH - 8);
   const top = 22, H = top + rows.length * rowH + 6, valW = 74;
   const vals = rows.map(r => r.value), min = Math.min(0, ...vals), max = Math.max(0, ...vals);
-  const ticks = niceTicks(min, max, Math.max(3, Math.floor((W - labW) / 110)));
   // negative bars get room on the left for their value labels
-  const x0 = labW + 8 + (min < 0 ? 72 : 0), x1 = W - valW, sx = v => x0 + ((v - ticks[0]) / (ticks.at(-1) - ticks[0])) * (x1 - x0);
+  const x0 = labW + 8 + (min < 0 ? 72 : 0), x1 = W - valW;
+  const ticks = niceTicks(min, max, Math.max(2, Math.floor((x1 - x0) / 75))), sx = v => x0 + ((v - ticks[0]) / (ticks.at(-1) - ticks[0])) * (x1 - x0);
   const svg = s('svg', { class: 'chart', viewBox: `0 0 ${W} ${H}`, width: W, height: H, role: 'img', 'aria-label': o.aria || 'Ranked bar chart' });
   for (const t of ticks) {
     svg.append(s('line', { class: 'grid-line', x1: sx(t), x2: sx(t), y1: top - 4, y2: H - 4 }));
@@ -130,7 +156,7 @@ function lineChart(host, xs, series, o = {}) {
   host.replaceChildren();
   const live = series.filter(se => xs.some(x => se.points[x] != null));
   if (!live.length || !xs.length) { host.append(h('div', { class: 'empty', text: o.empty || 'No values to plot for this selection.' })); return; }
-  const W = Math.max(320, host.clientWidth || 600), H = o.height || 280, m = { l: 62, r: live.length <= 4 ? 96 : 16, t: 14, b: 28 };
+  const W = Math.max(260, host.clientWidth || 600), H = o.height || 280, m = { l: 54, r: live.length <= 4 && W > 420 ? 96 : 12, t: 14, b: 28 };
   const all = live.flatMap(se => xs.map(x => se.points[x]).filter(v => v != null));
   const ticks = niceTicks(Math.min(0, ...all), Math.max(0, ...all), 4);
   // financial years are placed by year, so a missing year keeps its gap
@@ -142,8 +168,7 @@ function lineChart(host, xs, series, o = {}) {
     svg.append(s('line', { class: t === 0 ? 'zero-line' : 'grid-line', x1: m.l, x2: W - m.r, y1: sy(t), y2: sy(t) }));
     svg.append(s('text', { class: 'tick', x: m.l - 8, y: sy(t) + 4, 'text-anchor': 'end' }, (o.tick || tickFmt)(t)));
   }
-  const every = Math.ceil(xs.length / Math.floor((W - m.l - m.r) / 64));
-  xs.forEach((x, i) => { if (i % every === 0 || i === xs.length - 1) svg.append(s('text', { class: 'tick', x: sx(i), y: H - 8, 'text-anchor': 'middle' }, x)); });
+  xLabels(svg, xs, sx, H - 8, x => x, { x0: 0, x1: W });
   const ends = [];
   for (const se of live) {
     let d = '', pen = false;
@@ -153,7 +178,7 @@ function lineChart(host, xs, series, o = {}) {
     const lastI = xs.map((x, i) => (se.points[x] != null ? i : -1)).filter(i => i >= 0).at(-1);
     ends.push({ se, y: sy(se.points[xs[lastI]]), x: sx(lastI) });
   }
-  if (live.length <= 4) {
+  if (live.length <= 4 && m.r > 40) {   // phones: legend only
     ends.sort((a, b) => a.y - b.y);
     for (let i = 1; i < ends.length; i++) if (ends[i].y - ends[i - 1].y < 13) ends[i].ly = (ends[i - 1].ly ?? ends[i - 1].y) + 13;
     for (const e of ends) svg.append(s('text', { class: 'end-label', x: W - m.r + 8, y: (e.ly ?? e.y) + 4 }, trunc(e.se.label, 13)));
@@ -178,7 +203,7 @@ function lineChart(host, xs, series, o = {}) {
 function stackedColumns(host, xs, stacks, o = {}) {
   host.replaceChildren();
   if (!xs.length) { host.append(h('div', { class: 'empty', text: o.empty || 'No data for this selection.' })); return; }
-  const W = Math.max(320, host.clientWidth || 600), H = o.height || 260, m = { l: 58, r: 8, t: 12, b: 28 };
+  const W = Math.max(260, host.clientWidth || 600), H = o.height || 260, m = { l: 52, r: 8, t: 12, b: 28 };
   const totals = xs.map(x => stacks.reduce((a, st) => a + (st.points[x] || 0), 0));
   const ticks = niceTicks(0, o.percent ? 1 : Math.max(...totals, 1), 4);
   const band = (W - m.l - m.r) / xs.length, bw = Math.max(2, Math.min(24, band - 2));
@@ -188,10 +213,9 @@ function stackedColumns(host, xs, stacks, o = {}) {
     svg.append(s('line', { class: 'grid-line', x1: m.l, x2: W - m.r, y1: sy(t), y2: sy(t) }));
     svg.append(s('text', { class: 'tick', x: m.l - 8, y: sy(t) + 4, 'text-anchor': 'end' }, o.percent ? `${Math.round(t * 100)}%` : tickFmt(t)));
   }
-  const every = Math.max(1, Math.ceil(xs.length / Math.floor((W - m.l) / 58)));
+  xLabels(svg, xs, i => m.l + band * i + band / 2, H - 8, o.xLabel || (x => x), { x0: 0, x1: W });
   xs.forEach((x, i) => {
     const cx = m.l + band * i + band / 2, tot = totals[i];
-    if (i % every === 0) svg.append(s('text', { class: 'tick', x: cx, y: H - 8, 'text-anchor': 'middle' }, o.xLabel ? o.xLabel(x) : x));
     let acc = 0;
     const g = s('g');
     const visible = stacks.filter(st => st.points[x]);
@@ -307,7 +331,7 @@ function partyPicker(selected, pool, onChange, max = 8) {
     h('div', { class: 'picker-foot' }, h('span', { text: `${selected.length}/${max} compared` }), h('button', { class: 'ctl small', type: 'button', onclick: () => onChange([]) }, 'Clear')));
   selected.forEach((k, i) => {
     const p = P[k]; if (!p) return;
-    wrap.append(h('span', { class: 'picker-chip' }, h('span', { class: 'dot', style: `background:${SLOT(i)}` }),
+    wrap.append(h('span', { class: 'picker-chip' }, h('span', { class: 'dot', style: `background:${partyColor(k, i)}` }),
       h('button', { class: 'nm', type: 'button', onclick: () => openParty(k), title: p.name }, p.short || p.name),
       h('button', { class: 'x', type: 'button', 'aria-label': `Remove ${p.name}`, onclick: () => onChange(selected.filter(x => x !== k)) }, icon('i-close'))));
   });
@@ -335,24 +359,34 @@ const metricName = m => METRICS.find(x => x[0] === m)?.[1] || m;
 
 const rel = u => (u && u.startsWith('/') && !u.startsWith('//') ? u.slice(1) : u);   // site may live under a sub-path
 async function loadJSON(u) { const r = await fetch(u); if (!r.ok) throw new Error(u); return r.json(); }
+// Core tables load at start (small); the rest load the first time a view or the drawer needs them.
 async function loadCore() {
-  const [parties, finance, compliance, documents, meta, bonds, regSummary, tnSummary] = await Promise.all([
-    loadJSON('data/dash/parties.json'), loadJSON('data/dash/finance.json'), loadJSON('data/dash/compliance.json'),
-    loadJSON('data/dash/documents.json'), loadJSON('data/dash/meta.json'), loadJSON('data/electoral_bonds_all.json'),
-    loadJSON('data/all_india_parties_summary.json'), loadJSON('data/tn_rupp_filing_summary.json'),
+  D.meta = await loadJSON('data/dash/meta.json');
+  const [parties, finance, regSummary, tnSummary] = await Promise.all([
+    loadJSON(ver('data/dash/parties.json')), loadJSON(ver('data/dash/finance.json')),
+    loadJSON(ver('data/all_india_parties_summary.json')), loadJSON(ver('data/tn_rupp_filing_summary.json')),
   ]);
-  D = { parties, finance, compliance, documents, meta, bonds, regSummary, tnSummary };
+  Object.assign(D, { parties, finance, regSummary, tnSummary });
   P = Object.fromEntries(parties.map(p => [p.k, p]));
   FYS.push(...[...new Set(finance.map(r => r.fy))].filter(Boolean).sort());
-  // bonds: map SBI party index -> party key
-  const byCode = Object.fromEntries(parties.filter(p => p.eb_code).map(p => [p.eb_code, p.k]));
-  D.bondParty = bonds.parties.map(p => byCode[p.code] || p.code);
-  const tot = {}; bonds.rows.forEach(r => { const k = D.bondParty[r[0]]; tot[k] = (tot[k] || 0) + r[2]; });
+}
+const ver = u => (D.meta?.version ? `${u}?v=${D.meta.version}` : u);
+const LAZY_DATA = {
+  bonds: 'data/electoral_bonds_all.json', compliance: 'data/dash/compliance.json', documents: 'data/dash/documents.json',
+  registry: 'data/all_india_parties.json', geo: 'data/india-states.geojson', statements: 'data/dash/statements.json',
+};
+const pendingData = {};
+function need(...names) {
+  return Promise.all(names.map(n => (pendingData[n] ??= loadJSON(ver(LAZY_DATA[n])).then(v => { D[n] = v; if (n === 'bonds') prepBonds(); return v; }))));
+}
+function prepBonds() {
+  // SBI party index -> party key; the seven largest recipients keep fixed colours
+  const byCode = Object.fromEntries(D.parties.filter(p => p.eb_code).map(p => [p.eb_code, p.k]));
+  D.bondParty = D.bonds.parties.map(p => byCode[p.code] || p.code);
+  const tot = {}; D.bonds.rows.forEach(r => { const k = D.bondParty[r[0]]; tot[k] = (tot[k] || 0) + r[2]; });
   D.bondTop7 = Object.entries(tot).sort((a, b) => b[1] - a[1]).slice(0, 7).map(x => x[0]);
 }
-let registryCache = null, geoCache = null;
-const loadRegistry = async () => (registryCache ??= await loadJSON('data/all_india_parties.json'));
-const loadGeo = async () => (geoCache ??= await loadJSON('data/india-states.geojson'));
+const VIEW_NEEDS = { bonds: ['bonds'], compliance: ['compliance'], registry: ['registry', 'geo'], documents: ['documents'] };
 
 /* ---------------------------------------------------------------- router */
 const VIEWS = { overview: viewOverview, finance: viewFinance, bonds: viewBonds, compliance: viewCompliance, registry: viewRegistry, documents: viewDocuments };
@@ -370,10 +404,18 @@ function setParams(patch, { push = false } = {}) {
 }
 const go = (view, params = {}) => { location.hash = `#${view}${Object.keys(params).length ? '?' + new URLSearchParams(params) : ''}`; };
 let lastView = null;
-function render() {
+let renderSeq = 0;
+async function render() {
   const { view, params } = parseHash();
+  const seq = ++renderSeq;
   $$('#nav a').forEach(a => a.setAttribute('aria-current', a.getAttribute('href') === '#' + view ? 'page' : 'false'));
   const main = $('#main');
+  const needs = (VIEW_NEEDS[view] || []).filter(n => !D[n]);
+  if (needs.length) {
+    main.replaceChildren(h('div', { class: 'loading', text: 'Loading…' }));
+    try { await need(...needs); } catch (err) { main.replaceChildren(h('div', { class: 'empty', text: `Could not load data (${err.message}).` })); return; }
+    if (seq !== renderSeq) return;   // a newer navigation started while this one was loading
+  }
   const keepScroll = lastView === view ? scrollY : 0;
   // keep typing focus when a search box re-renders the view
   const act = document.activeElement, focusLabel = act?.tagName === 'INPUT' && main.contains(act) ? act.getAttribute('aria-label') : null;
@@ -393,7 +435,7 @@ function viewOverview(main) {
   const heroFY = bestFY(audited) || FYS.at(-1);
   const heroRows = audited.filter(r => r.fy === heroFY);
   const heroTotal = heroRows.reduce((a, r) => a + r.income, 0);
-  const ebTotal = D.bonds.rows.reduce((a, r) => a + r[2], 0);
+  const ebTotal = D.meta.eb_total;
   const reg = D.regSummary;
   const tnAudit = D.tnSummary.filter(r => r.category === 'Annual Audit Report').sort((a, b) => b.year.localeCompare(a.year));
   const tnLatest = tnAudit.find(r => r.submitted > 15) || tnAudit[0];
@@ -405,27 +447,27 @@ function viewOverview(main) {
     h('span', { class: 'big', text: heroRows.length ? inr(heroTotal) : '—' }),
     h('span', { class: 'cap', text: heroRows.length ? `Total income declared by ${heroRows.length} recognised parties in their FY ${heroFY} audited accounts` : 'Audited figures are still being compiled.' })));
   main.append(h('div', { class: 'tiles five', style: 'margin:16px 0 18px' },
-    tile('Electoral bonds encashed', inr(ebTotal), `${num(D.bonds.rows.length)} bonds · ${D.bonds.parties.length} parties`, () => go('bonds')),
+    tile('Electoral bonds encashed', inr(ebTotal), `${num(D.meta.eb_bonds)} bonds · ${D.meta.eb_parties} parties`, () => go('bonds')),
     tile('Active unrecognised parties', num(reg.active_rupps_2025), 'ECI list of 10 Oct 2025', () => go('registry', { status: 'Registered Unrecognized (RUPP)' })),
     tile('Delisted in 2025', num(reg.delisted_2025['I(B)'] + reg.delisted_2025['I(C)']), `${reg.delisted_2025['I(B)']} + ${reg.delisted_2025['I(C)']} in two rounds`, () => go('registry', { status: 'Delisted / Cancelled', y25: '1' })),
     tile(`TN RUPPs filing audit FY ${tnLatest.year.slice(0, 4)}-${tnLatest.year.slice(-2)}`, pct(tnLatest.submitted, tnLatest.total_rupps), `${tnLatest.submitted} of ${tnLatest.total_rupps} on CEO TN portal`, () => go('compliance')),
-    tile('Source documents linked', num(D.documents.length), 'ECI, CEO Tamil Nadu, SBI', () => go('documents'))));
+    tile('Source documents linked', num(D.meta.documents), 'ECI, CEO Tamil Nadu, ADR', () => go('documents'))));
 
   // Ranked income + bonds
   const incHost = h('div'), ebHost = h('div');
   main.append(h('div', { class: 'grid-2' },
     card(`Declared income, FY ${heroFY}`, 'Recognised parties, from audited accounts. Click a bar to open the party.', body(incHost), [], 'Audited accounts'),
     card('Electoral bonds encashed, 2018–2024', 'All 20,421 bonds redeemed, by recipient party.', body(ebHost), [], 'SBI disclosure')));
-  const ebBy = {}; D.bonds.rows.forEach(r => { const k = D.bondParty[r[0]]; ebBy[k] = (ebBy[k] || 0) + r[2]; });
-  requestAnimationFrame(() => {
-    barChart(incHost, heroRows.sort((a, b) => b.income - a.income).slice(0, 15).map(r => ({ key: r.k, label: label(r.k), value: r.income, sub: P[r.k]?.name, src: srcLine(r) })), { onClick: r => openParty(r.key), valueLabel: 'Income', empty: 'Audited figures are still being compiled.' });
-    barChart(ebHost, Object.entries(ebBy).sort((a, b) => b[1] - a[1]).slice(0, 15).map(([k, v]) => ({ key: k, label: label(k), value: v, sub: P[k]?.name })), { onClick: r => openParty(r.key), valueLabel: 'Encashed' });
+  const ebBy = Object.fromEntries(D.parties.filter(p => p.eb_total).map(p => [p.k, p.eb_total]));
+  lazy(incHost, () => {
+    barChart(incHost, heroRows.sort((a, b) => b.income - a.income).slice(0, 15).map(r => ({ key: r.k, label: label(r.k), value: r.income, sub: P[r.k]?.name, src: srcLine(r), color: partyColor(r.k) })), { onClick: r => openParty(r.key), valueLabel: 'Income', empty: 'Audited figures are still being compiled.' });
+    barChart(ebHost, Object.entries(ebBy).sort((a, b) => b[1] - a[1]).slice(0, 15).map(([k, v]) => ({ key: k, label: label(k), value: v, sub: P[k]?.name, color: partyColor(k) })), { onClick: r => openParty(r.key), valueLabel: 'Encashed' });
   });
 
   // TN RUPP filing trend
   const trendHost = h('div');
   main.append(card('Tamil Nadu unrecognised parties: share that file their reports', 'Per CEO Tamil Nadu. A party counts as filed whether on time or late.', body(trendHost, h('p', { class: 'note', text: 'Due dates: Form 24A by 30 Sept, audited accounts by 31 Oct after each financial year.' })), [], 'Filing compliance'));
-  requestAnimationFrame(() => {
+  lazy(trendHost, () => {
     const yrs = [...new Set(D.tnSummary.filter(r => /^\d{4}-\d{4}$/.test(r.year)).map(r => r.year))].sort();
     const series = [['Annual Audit Report', 'Audited accounts'], ['Form 24A Contribution Report', 'Form 24A contributions']].map(([c, l], i) => ({
       key: c, label: l, color: SLOT(i), points: Object.fromEntries(D.tnSummary.filter(r => r.category === c).map(r => [r.year, r.submitted / r.total_rupps])) }));
@@ -451,7 +493,7 @@ const TN_COLS = [
   { key: 'n_docs', label: 'Filings', num: true, fmt: num },
 ];
 function srcLine(r) {
-  const a = r.sources?.find(x => x.type === 'ECI audited accounts') || r.sources?.[0];
+  const a = r.sources?.find(x => /audited|ADR/.test(x.type)) || r.sources?.[0];
   if (!a) return null;
   return `${a.type}${a.page ? `, p.${a.page}` : ''}${a.confidence ? ` · ${a.confidence} confidence` : ''}`;
 }
@@ -486,14 +528,14 @@ function viewFinance(main, q) {
   const incRows = D.finance.filter(r => r.income != null && P[r.k] && inScope(P[r.k], scope));
   const incFY = bestFY(incRows);
   const trendKeys = sel.length ? sel : incRows.filter(r => r.fy === incFY).sort((a, b) => b.income - a.income).slice(0, 5).map(r => r.k);
-  requestAnimationFrame(() => {
+  lazy(rankHost, () => {
     barChart(rankHost, rows.slice(0, 60).map(r => {
       const i = sel.indexOf(r.k);
-      return { key: r.k, label: label(r.k), value: r[metric], sub: P[r.k]?.name, src: srcLine(r), color: sel.length ? (i >= 0 ? SLOT(i) : 'var(--other)') : SLOT(0) };
+      return { key: r.k, label: label(r.k), value: r[metric], sub: P[r.k]?.name, src: srcLine(r), color: partyColor(r.k, i >= 0 ? i : null), dim: sel.length > 0 && i < 0, hl: i >= 0 };
     }), { onClick: r => setParams({ p: (sel.includes(r.key) ? sel.filter(k => k !== r.key) : [...sel, r.key].slice(-8)).join(',') }), valueLabel: metricName(metric) });
     if (rows.length > 60) rankHost.append(h('p', { class: 'note', text: `Showing the top 60 of ${rows.length}. The table below has every row.` }));
     const xs = FYS.filter(f => D.finance.some(r => r.fy === f && trendKeys.includes(r.k) && r[metric] != null));
-    const series = trendKeys.map((k, i) => ({ key: k, label: label(k), color: sel.length ? SLOT(i) : SLOT(i), points: Object.fromEntries(D.finance.filter(r => r.k === k && r[metric] != null).map(r => [r.fy, r[metric]])) }));
+    const series = trendKeys.map((k, i) => ({ key: k, label: label(k), color: partyColor(k, i), points: Object.fromEntries(D.finance.filter(r => r.k === k && r[metric] != null).map(r => [r.fy, r[metric]])) }));
     trendHost.append(legend(series, true)); const ch = h('div'); trendHost.append(ch);
     lineChart(ch, xs, series, { xLabel: x => `FY ${x}`, sub: metricName(metric) });
   });
@@ -504,7 +546,7 @@ function viewFinance(main, q) {
     .map(r => { const known = (r.donations || 0) + (r.eb_reported || 0) + (r.membership || 0) + (r.interest || 0); return { ...r, other_inc: Math.max(0, r.income - known) }; })
     .sort((a, b) => b.income - a.income).slice(0, 14);
   main.append(card(`Where the money came from, FY ${fy}`, 'Share of audited income by source. “Other” is the remainder of total income not itemised under the four heads.', body(mixHost), [], 'Income mix'));
-  requestAnimationFrame(() => {
+  lazy(mixHost, () => {
     if (!mixRows.length) { mixHost.append(h('div', { class: 'empty', text: 'No itemised audited income for this year and scope.' })); return; }
     mixHost.append(legend(BUCKETS.map(([k, l], i) => ({ label: l, color: SLOT(i) }))));
     mixBars(mixHost, mixRows, BUCKETS);
@@ -521,8 +563,8 @@ function viewFinance(main, q) {
     main.append(card(sec.title, `${n} part${n === 1 ? 'y' : 'ies'} in this scope. ${sec.sub} Each panel has its own scale.`,
       body(legend(sec.parts.map(([, l], i) => ({ label: l, color: sec.colors ? sec.colors[i] : SLOT(i) })), !sec.stack), grid),
       sec.stack ? [seg([['amount', '₹ amount'], ['share', '% share']], share ? 'share' : 'amount', v => setParams({ mix: v === 'share' ? 'share' : '' }), 'Show as')] : [], 'Over time'));
-    requestAnimationFrame(() => {
-      if (!n) { grid.replaceWith(h('div', { class: 'empty', text: 'No figures for this scope.' })); return; }
+    if (!n) grid.replaceWith(h('div', { class: 'empty', text: 'No figures for this scope.' }));
+    else {
       for (const k of panelKeys) {
         const rows = D.finance.filter(r => r.k === k && sec.has(r)).sort((a, b) => a.fy.localeCompare(b.fy));
         if (!rows.length) continue;
@@ -530,11 +572,13 @@ function viewFinance(main, q) {
         const last = rows.at(-1);
         panel.append(h('div', { class: 'mini-head' }, h('button', { class: 'party-link', type: 'button', onclick: () => openParty(k), title: P[k]?.name }, label(k)),
           h('span', { class: 'mini-v', text: `${inr(sec.total(last))} · ${last.fy}` })));
-        const ch = h('div'); panel.append(ch); grid.append(panel);
-        const layers = sec.parts.map(([key, l], i) => ({ key, label: l, color: sec.colors ? sec.colors[i] : SLOT(i), points: Object.fromEntries(rows.map(r => [r.fy, sec.value(r, key)])) }));
-        (sec.stack ? miniStack : miniLines)(ch, rows.map(r => r.fy), layers, { share: sec.stack && share, title: P[k]?.name || k });
+        const ch = h('div', { class: 'mini-chart' }); panel.append(ch); grid.append(panel);
+        lazy(ch, () => {
+          const layers = sec.parts.map(([key, l], i) => ({ key, label: l, color: sec.colors ? sec.colors[i] : SLOT(i), points: Object.fromEntries(rows.map(r => [r.fy, sec.value(r, key)])) }));
+          (sec.stack ? miniStack : miniLines)(ch, rows.map(r => r.fy), layers, { share: sec.stack && share, title: P[k]?.name || k });
+        });
       }
-    });
+    }
   }
 
   // Table
@@ -582,15 +626,22 @@ function yearScale(xs, x0, x1) {
   const ys = xs.map(x => parseInt(x, 10)), lo = Math.min(...ys), hi = Math.max(...ys);
   return i => (hi === lo ? (x0 + x1) / 2 : x0 + ((ys[i] - lo) / (hi - lo)) * (x1 - x0));
 }
-/** FY ticks: always the ends, inner years only where they don't collide */
-function yearLabels(svg, xs, sx, H) {
-  const W = 52, keep = xs.map(() => false);
-  keep[0] = true; keep[xs.length - 1] = true;
-  let lastX = sx(0);
-  for (let i = 1; i < xs.length - 1; i++) if (sx(i) - lastX >= W && sx(xs.length - 1) - sx(i) >= W) { keep[i] = true; lastX = sx(i); }
-  if (xs.length > 1 && sx(xs.length - 1) - sx(0) < W) keep[0] = false;
-  xs.forEach((x, i) => { if (keep[i]) svg.append(s('text', { class: 'tick', x: sx(i), y: H - 5, 'text-anchor': xs.length === 1 ? 'middle' : i === 0 ? 'start' : i === xs.length - 1 ? 'end' : 'middle' }, x)); });
+/** x labels without overlap: estimate each label's width, always keep the last,
+ * then the first, then fill in between left to right wherever there is room. */
+function xLabels(svg, xs, sx, y, fmt = x => x, { x0 = -Infinity, x1 = Infinity } = {}) {
+  if (!xs.length) return;
+  const CH = 6.1, GAP = 8, n = xs.length;
+  const text = xs.map(fmt), w = text.map(t => String(t).length * CH);
+  const anchor = i => (n === 1 ? 'middle' : i === 0 && sx(0) - w[0] / 2 < x0 ? 'start' : i === n - 1 && sx(n - 1) + w[n - 1] / 2 > x1 ? 'end' : 'middle');
+  const span = i => { const a = anchor(i), x = sx(i); return a === 'start' ? [x, x + w[i]] : a === 'end' ? [x - w[i], x] : [x - w[i] / 2, x + w[i] / 2]; };
+  const taken = [];
+  const fits = i => { const [a, b] = span(i); return taken.every(([c, d]) => b + GAP <= c || a >= d + GAP); };
+  const order = [n - 1, 0, ...Array.from({ length: Math.max(0, n - 2) }, (_, j) => j + 1)];
+  const keep = new Set();
+  for (const i of order) if (fits(i)) { keep.add(i); taken.push(span(i)); }
+  for (const i of keep) svg.append(s('text', { class: 'tick', x: sx(i), y, 'text-anchor': anchor(i) }, text[i]));
 }
+function yearLabels(svg, xs, sx, H) { xLabels(svg, xs, sx, H - 5, x => x, { x0: 0, x1: Infinity }); }
 /** Small stacked-area panel; a single year draws as one stacked column */
 function miniStack(host, xs, layers, o = {}) {
   const W = Math.max(220, host.clientWidth || 260), H = o.height || 130, m = { l: 46, r: 8, t: 8, b: 20 };
@@ -670,7 +721,7 @@ function bestFY(rows) {
   return Object.keys(n).sort().reverse().find(f => n[f] >= max * 0.6);
 }
 function mixBars(host, rows, buckets) {
-  const W = Math.max(320, host.clientWidth || 600), labW = 120, rowH = 26, bh = 16, top = 6, H = top + rows.length * rowH;
+  const W = Math.max(260, host.clientWidth || 600), labW = W < 420 ? 84 : 120, rowH = 26, bh = 16, top = 6, H = top + rows.length * rowH;
   const svg = s('svg', { class: 'chart', viewBox: `0 0 ${W} ${H}`, width: W, height: H });
   rows.forEach((r, i) => {
     const y = top + i * rowH, g = s('g', { class: 'clickable' });
@@ -691,9 +742,12 @@ function mixBars(host, rows, buckets) {
 }
 function sourceCell(r) {
   const out = h('span', { style: 'display:inline-flex;gap:6px;align-items:center' });
-  const a = r.sources?.find(x => x.url) ;
+  const MAIN = ['ECI audited accounts', 'CEO Tamil Nadu audited accounts', 'ADR MyNeta (from ECI audit report)', 'CEO Tamil Nadu filing'];
+  const a = MAIN.map(t => r.sources?.find(x => x.type === t && x.url)).find(Boolean) || r.sources?.find(x => x.url);
   const types = [...new Set((r.sources || []).map(x => x.type))];
-  if (a) out.append(h('a', { href: a.url, target: '_blank', rel: 'noopener', title: a.title || a.type }, a.type === 'ECI audited accounts' ? `ECI audit${a.page ? ' p.' + a.page : ''}` : 'CEO TN'));
+  const short = x => ({ 'ECI audited accounts': `ECI audit${x.page ? ' p.' + x.page : ''}`, 'CEO Tamil Nadu audited accounts': `CEO TN audit${x.page ? ' p.' + x.page : ''}`,
+    'ADR MyNeta (from ECI audit report)': 'ADR' }[x.type] || 'CEO TN');
+  if (a) out.append(h('a', { href: rel(a.url), target: '_blank', rel: 'noopener', title: a.title || a.type }, short(a)));
   else out.append(h('span', { class: 'muted', text: types.join(', ') }));
   const conf = r.audit_confidence;
   if (conf) out.append(h('span', { class: `badge conf-${conf}`, text: conf }));
@@ -752,16 +806,16 @@ function viewBonds(main, q) {
   const topKeys = sel.length ? sel.slice(0, 7) : D.bondTop7;
   const months = {}; rows.forEach(r => { const m = String(Math.floor(r[3] / 100)); months[m] ??= {}; const k = D.bondParty[r[0]]; const key = topKeys.includes(k) ? k : '_other'; months[m][key] = (months[m][key] || 0) + r[2]; });
   const xs = Object.keys(months).sort();
-  const stacks = [...topKeys.map((k, i) => ({ key: k, label: label(k), color: SLOT(i) })).filter(st => byParty[st.key]), { key: '_other', label: 'Other parties', color: 'var(--other)' }]
+  const stacks = [...topKeys.map((k, i) => ({ key: k, label: label(k), color: partyColor(k, i) })).filter(st => byParty[st.key]), { key: '_other', label: 'Other parties', color: 'var(--other)' }]
     .map(st => ({ ...st, points: Object.fromEntries(xs.map(x => [x, months[x][st.key] || 0])) })).filter(st => xs.some(x => st.points[x]));
   const monthHost = h('div'), shareHost = h('div', { class: 'chart-wrap' });
   const ml = x => new Date(+x.slice(0, 4), +x.slice(4) - 1, 1).toLocaleString('en-IN', { month: 'short', year: 'numeric' });
   main.append(h('div', { class: 'grid-32' },
     card('When bonds were encashed', 'Monthly value by recipient party. Encashment clusters before elections.', body(legend(stacks), monthHost), [], 'Timeline'),
     card(donorQ ? `Parties funded by “${q.donor}”` : 'Share by party', `${ranked.length} parties in this selection.`, body(shareHost), [], 'Recipients')));
-  requestAnimationFrame(() => {
+  lazy(monthHost, () => {
     stackedColumns(monthHost, xs, stacks, { xLabel: ml, height: 280 });
-    barChart(shareHost, ranked.slice(0, 25).map(([k, v]) => ({ key: k, label: label(k), value: v, sub: `${P[k]?.name || k} · ${pct(v, total)} of selection`, color: topKeys.includes(k) ? SLOT(topKeys.indexOf(k)) : 'var(--other)' })),
+    barChart(shareHost, ranked.slice(0, 25).map(([k, v]) => ({ key: k, label: label(k), value: v, sub: `${P[k]?.name || k} · ${pct(v, total)} of selection`, color: topKeys.includes(k) ? partyColor(k, topKeys.indexOf(k)) : (PARTY_COLOR[k] || 'var(--other)') })),
       { onClick: r => openParty(r.key), valueLabel: 'Encashed' });
   });
 
@@ -777,7 +831,7 @@ function viewBonds(main, q) {
   dRows.sort((a, b) => b.amount - a.amount);
   const topHost = h('div', { class: 'chart-wrap' }), tblHost = h('div');
   main.append(card('Largest named buyers', 'Click a buyer to filter everything to their bonds.', body(topHost), [], 'Buyers'));
-  requestAnimationFrame(() => barChart(topHost, dRows.slice(0, 20).map(d => ({ key: d.donor, label: d.donor, value: d.amount, sub: `${d.bonds} bonds · ${d.n_parties} part${d.n_parties === 1 ? 'y' : 'ies'}`, extra: d.top.slice(0, 4).map(([k, v]) => ({ label: label(k), value: inr(v) })) })),
+  lazy(topHost, () => barChart(topHost, dRows.slice(0, 20).map(d => ({ key: d.donor, label: d.donor, value: d.amount, sub: `${d.bonds} bonds · ${d.n_parties} part${d.n_parties === 1 ? 'y' : 'ies'}`, extra: d.top.slice(0, 4).map(([k, v]) => ({ label: label(k), value: inr(v) })) })),
     { onClick: r => setParams({ donor: r.key }), labelWidth: 230, valueLabel: 'Bought & encashed' }));
   const fmtD = v => (v && v < 99999999 ? `${String(v).slice(6, 8)}/${String(v).slice(4, 6)}/${String(v).slice(0, 4)}` : '—');
   const DCOLS = [
@@ -845,7 +899,7 @@ function viewCompliance(main, q) {
     { key: 'miss', label: scope === 'tn' ? 'Not filed' : 'Not on ECI site', color: 'var(--status-critical)' },
   ].map(st => ({ ...st, points: Object.fromEntries(counts.map(c => [c.y, c[st.key]])) })).filter(st => counts.some(c => c[st.key]));
   main.append(card('Filing status by year', 'Share of listed parties. Status colours always come with an icon in the grid below.', body(legend(statusStacks), trendHost), [], 'Trend'));
-  requestAnimationFrame(() => stackedColumns(trendHost, years, statusStacks, { percent: true, height: 220, countFmt: v => `${v} parties` }));
+  lazy(trendHost, () => stackedColumns(trendHost, years, statusStacks, { percent: true, height: 220, countFmt: v => `${v} parties` }));
 
   let list = partyRows.filter(r => (!query || longLabel(r.k).toLowerCase().includes(query)) && (!hideNever || r.filed > 0));
   list.sort(sort === 'name' ? (a, b) => label(a.k).localeCompare(label(b.k)) : sort === 'best' ? (a, b) => b.rate - a.rate || b.filed - a.filed : (a, b) => a.rate - b.rate || b.due - a.due);
@@ -875,13 +929,12 @@ function viewCompliance(main, q) {
 /* ============================================================== REGISTRY */
 const REG_STATUS = ['Recognized National', 'Recognized State', 'Registered Unrecognized (RUPP)', 'RUPP (not in 2025 list)', 'Inactive', 'Delisted / Cancelled'];
 const REG_LABEL = { 'Recognized National': 'National', 'Recognized State': 'State', 'Registered Unrecognized (RUPP)': 'Active RUPP (2025)', 'RUPP (not in 2025 list)': 'RUPP, not in 2025 list', 'Inactive': 'Inactive (2022)', 'Delisted / Cancelled': 'Delisted' };
-const GEO_NAME = { 'Andaman and Nicobar': 'Andaman & Nicobar Islands', 'Orissa': 'Odisha', 'Uttaranchal': 'Uttarakhand' };
+// map file (DataMeet, Survey of India boundaries incl. all of J&K and Ladakh) -> registry state names
+const GEO_NAME = { 'Andaman & Nicobar': 'Andaman & Nicobar Islands', 'Jammu & Kashmir': 'Jammu and Kashmir' };
 function viewRegistry(main, q) {
   main.append(h('div', { class: 'view-head' }, h('h1', { text: 'Every registered party in India' }),
     h('p', { text: 'The ECI party registry: recognised national and state parties, the 2,049 registered unrecognised parties on the 10 Oct 2025 list, and parties delisted or declared inactive since 2016, including the 808 delisted in 2025. Headquarters are placed by PIN code or district.' })));
-  const holder = h('div', { class: 'loading', text: 'Loading registry…' });
-  main.append(holder);
-  Promise.all([loadRegistry(), loadGeo()]).then(([reg, geo]) => { holder.remove(); registryBody(main, q, reg, geo); });
+  registryBody(main, q, D.registry, D.geo);
 }
 function registryBody(main, q, reg, geo) {
   const statuses = q.status ? q.status.split('|') : [], state = q.state || '', query = (q.q || '').toLowerCase(), y25 = q.y25 === '1', newOnly = q.new === '1';
@@ -910,7 +963,7 @@ function registryBody(main, q, reg, geo) {
   main.append(h('div', { class: 'grid-32' },
     card('Headquarters by state', 'Darker = more parties in the current view. Click a state to filter.', body(mapHost, h('div', { class: 'ramp-legend' }, '0', h('span', { class: 'bar' }), num(Math.max(0, ...Object.values(byState))))), [], 'Map'),
     card('Parties by state', state ? `Filtered to ${state}.` : 'Click a bar to filter.', body(barHost), [], 'Ranking')));
-  requestAnimationFrame(() => {
+  lazy(mapHost, () => {
     indiaMap(mapHost, geo, byState, state, st => setParams({ state: st === state ? '' : st }), rows);
     barChart(barHost, Object.entries(byState).sort((a, b) => b[1] - a[1]).map(([k, v]) => ({ key: k, label: k, value: v, color: k === state ? SLOT(1) : SLOT(0) })), { fmt: num, valueLabel: 'Parties', onClick: r => setParams({ state: r.key === state ? '' : r.key }) });
   });
@@ -926,7 +979,7 @@ function registryBody(main, q, reg, geo) {
   dataTable(tblHost, rows, RCOLS, { sort: 'party_name', dir: 1, pageSize: 50 });
 }
 function indiaMap(host, geo, counts, selState, onClick, pts) {
-  const W = Math.max(300, host.clientWidth || 500);
+  const W = Math.max(260, host.clientWidth || 500);
   let minX = 180, maxX = -180, minY = 90, maxY = -90;
   const walk = (c, f) => (typeof c[0] === 'number' ? f(c) : c.forEach(x => walk(x, f)));
   geo.features.forEach(ft => walk(ft.geometry.coordinates, ([x, y]) => { minX = Math.min(minX, x); maxX = Math.max(maxX, x); minY = Math.min(minY, y); maxY = Math.max(maxY, y); }));
@@ -987,6 +1040,13 @@ function viewDocuments(main, q) {
 /* ================================================================ DRAWER */
 function openParty(k, push = true) {
   const p = P[k]; if (!p) return;
+  if (!D.bonds || !D.compliance || !D.documents || !D.statements) {
+    $('#drawer-title').replaceChildren(h('div', { class: 'p-title' }, h('div', {}, h('h2', { text: p.name }))));
+    $('#drawer-body').replaceChildren(h('div', { class: 'loading', text: 'Loading filings…' }));
+    $('#drawer').classList.add('open'); $('#drawer').setAttribute('aria-hidden', 'false');
+    need('bonds', 'compliance', 'documents', 'statements').then(() => openParty(k, push));
+    return;
+  }
   if (push && parseHash().params.party !== k) { history.replaceState(null, '', location.hash.replace(/([?&])party=[^&]*&?/, '$1').replace(/[?&]$/, '') + (location.hash.includes('?') ? '&' : '?') + 'party=' + encodeURIComponent(k)); }
   const dr = $('#drawer'), bodyEl = $('#drawer-body'), title = $('#drawer-title');
   title.replaceChildren(h('div', { class: 'p-title' },
@@ -1026,6 +1086,26 @@ function openParty(k, push = true) {
     const host = h('div');
     bodyEl.append(card(`Electoral bonds: ${inr(tot)}`, `${num(rs.length)} bonds encashed. Largest buyers:`, body(host, h('button', { class: 'ctl small', type: 'button', onclick: () => { closeDrawer(); go('bonds', { p: k }); } }, 'Explore these bonds →')), [], 'SBI disclosure'));
     requestAnimationFrame(() => barChart(host, Object.entries(by).sort((a, b) => b[1] - a[1]).slice(0, 10).map(([d, v]) => ({ key: d, label: D.bonds.donors[d], value: v, sub: `${pct(v, tot)} of ${p.short || p.name}'s bonds` })), { labelWidth: 200 }));
+  }
+
+  const stYears = Object.keys(D.statements).filter(x => x.startsWith(k + '|')).map(x => x.split('|')[1]).sort().reverse();
+  if (stYears.length) {
+    const holder = h('div');
+    const show = fy => {
+      const st = D.statements[`${k}|${fy}`], sec = (title, items) => {
+        const rows = Object.entries(items || {}).filter(([, v]) => v);
+        if (!rows.length) return null;
+        return h('div', { class: 'stmt' }, h('h3', { text: title }), h('table', { class: 'data' }, h('tbody', {},
+          rows.map(([l, v]) => h('tr', {}, h('td', { class: 'wrap' }, l, /excess of|balance being|deficit|surplus/i.test(l) ? h('span', { class: 'badge', style: 'margin-left:6px' }, 'balancing figure') : null),
+            h('td', { class: 'num', text: inr(v) }))))));
+      };
+      holder.replaceChildren(h('div', { class: 'stmt-grid' }, sec('Income', st.income), sec('Expenditure', st.expenditure),
+        sec('Assets', st.assets), sec('Liabilities & funds', st.liabilities)),
+        h('p', { class: 'note' }, 'Line items as transcribed by ADR from the ECI audit report. ', h('a', { href: st.src, target: '_blank', rel: 'noopener', text: 'Source page' })));
+    };
+    const pick = select('Year', stYears.map(y => [y, `FY ${y}`]), stYears[0], show);
+    bodyEl.append(card('Statement detail', `Every income and expenditure head, ${stYears.at(-1)} to ${stYears[0]}.`, body(pick, holder), [], 'Line items'));
+    show(stYears[0]);
   }
 
   const comp = D.compliance.filter(r => r.k === k);
@@ -1082,7 +1162,11 @@ async function boot() {
   addEventListener('keydown', e => { if (e.key === 'Escape') closeDrawer(); });
   try { await loadCore(); } catch (err) { $('#main').replaceChildren(h('div', { class: 'empty', text: `Could not load data (${err.message}).` })); return; }
   addEventListener('hashchange', render);
-  addEventListener('resize', debounce(() => { if (document.activeElement?.tagName !== 'INPUT') render(); }, 250));
+  let lastW = innerWidth;
+  addEventListener('resize', debounce(() => {
+    if (Math.abs(innerWidth - lastW) < 40 || document.activeElement?.tagName === 'INPUT') return;
+    lastW = innerWidth; render();
+  }, 250));
   render();
 }
 boot();

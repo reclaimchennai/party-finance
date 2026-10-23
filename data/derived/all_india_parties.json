@@ -4200,7 +4200,7 @@
  },
  {
   "party_id": "R25_A0649",
-  "party_name": "GaribJanta Party Loktantrik",
+  "party_name": "Garib Janta Party Loktantrik",
   "short_name": "",
   "symbol": "Free Symbol (Allotted per election)",
   "address": "Shri Krishna Nagar, Near Dadar Bridge, Zeromic, Bairia Road, Muzaffarpur, Bihar-842001",
@@ -4990,7 +4990,7 @@
  },
  {
   "party_id": "RUPP_1438",
-  "party_name": "Log Jan Party - Secular",
+  "party_name": "Log Jan Party Secular",
   "short_name": "",
   "status": "Registered Unrecognized (RUPP)",
   "category": "RUPP",
@@ -9923,7 +9923,7 @@
  },
  {
   "party_id": "RUPP_1915",
-  "party_name": "Proutist Bloc, India",
+  "party_name": "Proutist Bloc",
   "short_name": "",
   "status": "Registered Unrecognized (RUPP)",
   "category": "RUPP",
@@ -10179,7 +10179,7 @@
  },
  {
   "party_id": "RUPP_2256",
-  "party_name": "Rashtriya Janadhikar - Party",
+  "party_name": "Rashtriya Janadhikar Party",
   "short_name": "",
   "status": "Registered Unrecognized (RUPP)",
   "category": "RUPP",
@@ -12268,7 +12268,7 @@
  },
  {
   "party_id": "R25_A0665",
-  "party_name": "Gujarat SarvaSamaj - . Party",
+  "party_name": "Gujarat Sarva Samaj Party",
   "short_name": "",
   "symbol": "Free Symbol (Allotted per election)",
   "address": "Plot No.20,Survey No.133/3,Nirmal Nagar,Kidana,Tehsil- Gandhidham, Distt.-Kachh,Gujarat-370205",
@@ -12938,7 +12938,7 @@
  },
  {
   "party_id": "R25_A1420",
-  "party_name": "Rashtra Mangal Mission . Party",
+  "party_name": "Rashtra Mangal Mission Party",
   "short_name": "",
   "symbol": "Free Symbol (Allotted per election)",
   "address": "Kamdhenu Krupa, Kacho Madh, Pilaji Ganj, Sriram Chowk, Mehsana, Gujarat 384001",
@@ -14049,7 +14049,7 @@
  },
  {
   "party_id": "RUPP_0986",
-  "party_name": "Haryana Hitkari Dal,",
+  "party_name": "Haryana Hitkari Dal",
   "short_name": "",
   "status": "Registered Unrecognized (RUPP)",
   "category": "RUPP",
@@ -15376,7 +15376,7 @@
  },
  {
   "party_id": "R25_A0802",
-  "party_name": "Jammu & Kashmir All Alliance Democratic - Party",
+  "party_name": "Jammu & Kashmir All Alliance Democratic Party",
   "short_name": "",
   "symbol": "Free Symbol (Allotted per election)",
   "address": "Harco House Masjid Noor Lane,Rajbagh,Srinagar,Jammu & Kashmir-190008",
@@ -17079,7 +17079,7 @@
  },
  {
   "party_id": "RUPP_1350",
-  "party_name": "Karnataka Pragnyavantha Janatha . Party",
+  "party_name": "Karnataka Pragnyavantha Janatha Party",
   "short_name": "",
   "status": "Registered Unrecognized (RUPP)",
   "category": "RUPP",
@@ -18457,7 +18457,7 @@
  },
  {
   "party_id": "RUPP_1374",
-  "party_name": "Kerala Revolutionary Socialist Party (Leninist- Marxist)",
+  "party_name": "Kerala Revolutionary Socialist Party (Leninist-Marxist)",
   "short_name": "",
   "status": "Registered Unrecognized (RUPP)",
   "category": "RUPP",
@@ -20034,7 +20034,7 @@
  },
  {
   "party_id": "R25_A1645",
-  "party_name": "Republican Party of India(A)",
+  "party_name": "Republican Party of India (A)",
   "short_name": "",
   "symbol": "Free Symbol (Allotted per election)",
   "address": "1/16, Sanjay Complex, T.T. Nagar, Bhopal-462003,(Madhya Pradesh)",
@@ -27687,29 +27687,6 @@
   "registered_after_2021": true
  },
  {
-  "party_id": "RUPP_1908",
-  "party_name": "PRISM",
-  "short_name": "",
-  "status": "Registered Unrecognized (RUPP)",
-  "category": "RUPP",
-  "state": "Rajasthan",
-  "district": "Kota",
-  "pincode": "324005",
-  "address": "Top Floor, 4-Chha-30, Vigyan Nagar, Kota-324005 (Rajasthan)",
-  "symbol": "Free Symbol (Allotted per election)",
-  "lat": 25.1226,
-  "lon": 76.20612,
-  "delisted_order": null,
-  "delisted_date": null,
-  "source_doc": "ECI Notification No. 56/2025/PPS-III (10 Oct 2025) Table I(A)",
-  "previous_address": "Top Floor, 4-CHHA-30, Vigyan Nagar, Kota-324005 (Rajasthan).",
-  "eci_2025_table": "I(A)",
-  "eci_2025_sl": 1373,
-  "eci_2025_page": 63,
-  "name_source": "ocr-matched",
-  "in_2025_list": true
- },
- {
   "party_id": "RUPP_1824",
   "party_name": "Pehchan People’s Party",
   "short_name": "",
@@ -27752,6 +27729,29 @@
   "eci_2025_table": "I(A)",
   "eci_2025_sl": 1311,
   "eci_2025_page": 60,
+  "name_source": "ocr-matched",
+  "in_2025_list": true
+ },
+ {
+  "party_id": "RUPP_1908",
+  "party_name": "Prism",
+  "short_name": "",
+  "status": "Registered Unrecognized (RUPP)",
+  "category": "RUPP",
+  "state": "Rajasthan",
+  "district": "Kota",
+  "pincode": "324005",
+  "address": "Top Floor, 4-Chha-30, Vigyan Nagar, Kota-324005 (Rajasthan)",
+  "symbol": "Free Symbol (Allotted per election)",
+  "lat": 25.1226,
+  "lon": 76.20612,
+  "delisted_order": null,
+  "delisted_date": null,
+  "source_doc": "ECI Notification No. 56/2025/PPS-III (10 Oct 2025) Table I(A)",
+  "previous_address": "Top Floor, 4-CHHA-30, Vigyan Nagar, Kota-324005 (Rajasthan).",
+  "eci_2025_table": "I(A)",
+  "eci_2025_sl": 1373,
+  "eci_2025_page": 63,
   "name_source": "ocr-matched",
   "in_2025_list": true
  },
@@ -31207,7 +31207,7 @@
  },
  {
   "party_id": "RUPP_2290",
-  "party_name": "Republican Party of India(A)",
+  "party_name": "Republican Party of India (A)",
   "short_name": "",
   "status": "Registered Unrecognized (RUPP)",
   "category": "RUPP",
@@ -31767,7 +31767,7 @@
  },
  {
   "party_id": "R25_A1911",
-  "party_name": "Thamizhaga Dravidar . Katchi",
+  "party_name": "Thamizhaga Dravidar Katchi",
   "short_name": "",
   "symbol": "Free Symbol (Allotted per election)",
   "address": "No.32/217,Gandhi Road,West Tambaram,Tambaram . (Tk),Chengalpattu District, Chennai,Tamil Nadu-600045",
@@ -32093,7 +32093,7 @@
  },
  {
   "party_id": "RUPP_2713",
-  "party_name": "Veerath Thiyagi Viswanathadoss - Thozhilalarkal Katchi",
+  "party_name": "Veerath Thiyagi Viswanathadoss Thozhilalarkal Katchi",
   "short_name": "",
   "status": "Registered Unrecognized (RUPP)",
   "category": "RUPP",
@@ -32675,7 +32675,7 @@
  },
  {
   "party_id": "R25_A0333",
-  "party_name": "Bharathiya YuvaKula Dalam",
+  "party_name": "Bharathiya Yuva Kula Dalam",
   "short_name": "",
   "symbol": "Free Symbol (Allotted per election)",
   "address": "4-4-30/2/J/5, Cheekural Road Line, Road No. 1, Chaitanya Colony, Peddapalli, Telangana-505172",
@@ -32744,7 +32744,7 @@
  },
  {
   "party_id": "RUPP_0841",
-  "party_name": "Communist Party of Telangana (Marxist- Ambedkarist)CPT(MA)",
+  "party_name": "Communist Party of Telangana (Marxist-Ambedkarist) CPT (MA)",
   "short_name": "",
   "status": "Registered Unrecognized (RUPP)",
   "category": "RUPP",
@@ -35250,7 +35250,7 @@
  },
  {
   "party_id": "R25_A0097",
-  "party_name": "Akhil Bharatiya Socialist - Party",
+  "party_name": "Akhil Bharatiya Socialist Party",
   "short_name": "",
   "symbol": "Free Symbol (Allotted per election)",
   "address": "3,Circular Road,Prayagraj,Uttar Pradesh-211001",
@@ -36245,7 +36245,7 @@
  },
  {
   "party_id": "RUPP_0383",
-  "party_name": "Bahujan Kranti Party (Marxwad- Ambedkarwad)",
+  "party_name": "Bahujan Kranti Party (Marxwad-Ambedkarwad)",
   "short_name": "",
   "status": "Registered Unrecognized (RUPP)",
   "category": "RUPP",
@@ -36386,7 +36386,7 @@
  },
  {
   "party_id": "RUPP_0431",
-  "party_name": "Bhagidari Party(P)",
+  "party_name": "Bhagidari Party (P)",
   "short_name": "",
   "status": "Registered Unrecognized (RUPP)",
   "category": "RUPP",
@@ -37461,7 +37461,7 @@
  },
  {
   "party_id": "RUPP_0641",
-  "party_name": "Bhartiya Gadar Party(S)",
+  "party_name": "Bhartiya Gadar Party (S)",
   "short_name": "",
   "status": "Registered Unrecognized (RUPP)",
   "category": "RUPP",
@@ -40561,7 +40561,7 @@
  },
  {
   "party_id": "R25_A1022",
-  "party_name": "Lok Rashtriya Party Secular(S)",
+  "party_name": "Lok Rashtriya Party Secular (S)",
   "short_name": "",
   "symbol": "Free Symbol (Allotted per election)",
   "address": "Avantibai Nagar Bhogaon,Distt.-Mainpuri Uttar Pradesh- 205262",
@@ -42899,7 +42899,7 @@
  },
  {
   "party_id": "R25_A1450",
-  "party_name": "Rashtriya 85 Pragatishil Samaj Party",
+  "party_name": "Rashtriya",
   "short_name": "",
   "symbol": "Free Symbol (Allotted per election)",
   "address": "Village-Olmapur, Post-Berma, Tehsil-Sagri, Distt-Azamgarh, Uttar Pradesh-276001",
@@ -47936,7 +47936,7 @@
  },
  {
   "party_id": "RUPP_1168",
-  "party_name": "Jamat -E- Seratul Mustakim",
+  "party_name": "Jamat -E-Seratul Mustakim",
   "short_name": "",
   "status": "Registered Unrecognized (RUPP)",
   "category": "RUPP",
@@ -48098,7 +48098,7 @@
  },
  {
   "party_id": "R25_A1144",
-  "party_name": "Mera Bharat Mahan - Party",
+  "party_name": "Mera Bharat Mahan Party",
   "short_name": "",
   "symbol": "Free Symbol (Allotted per election)",
   "address": "Indira Nagar, Block-3, Panihti,Post-Sodepur, District-24 Paganas (N), Kolkata, West Bengal-700110",
@@ -48587,7 +48587,7 @@
  },
  {
   "party_id": "RUPP_0094",
-  "party_name": "Akhand Bharat National Party 22-3-947/33/A/1/1, Mega City No.125, Purani Haveli, Opp. Setwin",
+  "party_name": "Akhand Bharat National Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -48677,7 +48677,7 @@
  },
  {
   "party_id": "RUPP_0484",
-  "party_name": "Bharatheeya Chaithanya Party D. No. 9-186/7, High School Road, Venkat Nagar, Kadiyam, East",
+  "party_name": "Bharatheeya Chaithanya Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -48695,7 +48695,7 @@
  },
  {
   "party_id": "RUPP_0493",
-  "party_name": "Bharathiya Yuvatha, Samatha,",
+  "party_name": "Bharathiya Yuvatha",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -48713,7 +48713,7 @@
  },
  {
   "party_id": "RUPP_1251",
-  "party_name": "Janapaalana Party (Democratic) 8-2-703/2/B, Plot No.2, Road No.12, Banjara Hills, Hyderabad,",
+  "party_name": "Janapaalana Party (Democratic)",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -48767,7 +48767,7 @@
  },
  {
   "party_id": "RUPP_1542",
-  "party_name": "Majlis Markaz-e-Siyasee Party 10-5-391/54/182/A, Ground Floor, Kashan-e-Ghousia Aleem, Sayed",
+  "party_name": "Majlis Markaz-e-Siyasee Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -48857,7 +48857,7 @@
  },
  {
   "party_id": "RUPP_1700",
-  "party_name": "National Republican Congress Holding No. 223, House No. 6, Ward No. 26, Located at Pragati Path,",
+  "party_name": "National Republican Congress Holding",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -48911,7 +48911,7 @@
  },
  {
   "party_id": "RUPP_2664",
-  "party_name": "United Minorities Front,",
+  "party_name": "United Minorities Front",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -49019,7 +49019,7 @@
  },
  {
   "party_id": "RUPP_0451",
-  "party_name": "Bharat Ka Kisan Majdoor Party Village-Baliyan (Nayan Nagar),Post – Baliyan,Maharajganj,",
+  "party_name": "Bharat Ka Kisan Majdoor Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -49091,7 +49091,7 @@
  },
  {
   "party_id": "RUPP_0695",
-  "party_name": "Bhartiya Jantantra Sanatan Dal No. 752, Charitra Van, Teacher’s Colony, District- Buxar, Bihar-",
+  "party_name": "Bhartiya Jantantra Sanatan Dal",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -49109,7 +49109,7 @@
  },
  {
   "party_id": "RUPP_0740",
-  "party_name": "Bhartiya Rajnitik Vikalp Party Village – Nayatola Bariapur, Panchayat – Champapur, Ward No. 13,",
+  "party_name": "Bhartiya Rajnitik Vikalp Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -49127,7 +49127,7 @@
  },
  {
   "party_id": "RUPP_0790",
-  "party_name": "Bhartiya Yuva Janshakti Party Rozy Anima XTTI, Near Akhand Jyoti Hospital, Digha, Patna,",
+  "party_name": "Bhartiya Yuva Janshakti Party Rozy Anima XTTI",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -49145,7 +49145,7 @@
  },
  {
   "party_id": "RUPP_1186",
-  "party_name": "Jan Adhikar Party (Loktantrik) Ward No. 05/14, Vardhman Hata, Arjun Bhawan, Arjun Nagar, Post",
+  "party_name": "Jan Adhikar Party (Loktantrik)",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -49163,7 +49163,7 @@
  },
  {
   "party_id": "RUPP_1663",
-  "party_name": "Nation First Democratic Party House No. 99, Ward No. 39, Gangotri, Ganga Vihar, R.P.S. Road,",
+  "party_name": "Nation First Democratic Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -49181,7 +49181,7 @@
  },
  {
   "party_id": "RUPP_2109",
-  "party_name": "Rashtriya Jansambhavna Party U.K Sahni Commercial Complex, Room No.101, First Floor,Village-",
+  "party_name": "Rashtriya Jansambhavna Party U.K Sahni Commercial Complex",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -49235,7 +49235,7 @@
  },
  {
   "party_id": "RUPP_2438",
-  "party_name": "Sathi Aur Aapka Faisala Party Plot No. 2005, Village – Chamrahara, Mahnar Road, District –",
+  "party_name": "Sathi Aur Aapka Faisala Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -49253,7 +49253,7 @@
  },
  {
   "party_id": "RUPP_2711",
-  "party_name": "Vasudhaiv Kutumbakam Party Ward No. 07, Holding No.1050 New, Mohalla- Sahebdad Ganj,",
+  "party_name": "Vasudhaiv Kutumbakam Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -49271,7 +49271,7 @@
  },
  {
   "party_id": "RUPP_0826",
-  "party_name": "Chhattisgarh Navnirman Sena C. R. – 12, R.D.A. Building, Gurunanak Market, Sharda Chowk,",
+  "party_name": "Chhattisgarh Navnirman Sena C. R. –",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -49289,7 +49289,7 @@
  },
  {
   "party_id": "RUPP_0827",
-  "party_name": "Chhattisgarh Samajwadi Party Ramanujganj Road, In front of Sanjay Park, Ambikapur, Chhattisgarh -",
+  "party_name": "Chhattisgarh Samajwadi Party Ramanujganj Road",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -49451,7 +49451,7 @@
  },
  {
   "party_id": "RUPP_0246",
-  "party_name": "All India Women United Party Room No-1, 4th Floor, A-117, Shubrati Apartment, Okhla Village,",
+  "party_name": "All India Women United Party Room No-1",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -49505,7 +49505,7 @@
  },
  {
   "party_id": "RUPP_0607",
-  "party_name": "Bharatrashtra Democratic Party Shop No. 22, CSC-II, DDA Market, I.P. Extension, Patparganj, Delhi-",
+  "party_name": "Bharatrashtra Democratic Party Shop",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -49541,7 +49541,7 @@
  },
  {
   "party_id": "RUPP_0691",
-  "party_name": "Bhartiya Janta Dal (Integrated) H.No. 62, Gali No.16, A-1 Block, Sant Nagar, (Bengali Colony),",
+  "party_name": "Bhartiya Janta Dal (Integrated)",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -49649,7 +49649,7 @@
  },
  {
   "party_id": "RUPP_1106",
-  "party_name": "Indian Public Federation Party 220, Vardhman Fortune Mall, (Opp. Mahendru Enclave), G.T. Karnal",
+  "party_name": "Indian Public Federation Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -49703,7 +49703,7 @@
  },
  {
   "party_id": "RUPP_2032",
-  "party_name": "Rashtriya Bahujan Hitay Party C-158, Captain Satish Marg, Rishi Nagar, Rani Bagh, New Delhi-",
+  "party_name": "Rashtriya Bahujan Hitay Party C-158",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -49847,7 +49847,7 @@
  },
  {
   "party_id": "RUPP_0723",
-  "party_name": "Bhartiya Nagrik Suraksha Party No.13,New Ketan Society,Near Uma Shikshan Tirth,Bh. Bhagyoday",
+  "party_name": "Bhartiya Nagrik Suraksha Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -49865,7 +49865,7 @@
  },
  {
   "party_id": "RUPP_0746",
-  "party_name": "Bhartiya Rashtriya Tantra Party N/502,Madhuvan Glory,Near St. Marya",
+  "party_name": "Bhartiya Rashtriya Tantra Party N/502",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -49883,7 +49883,7 @@
  },
  {
   "party_id": "RUPP_1884",
-  "party_name": "Praja Shakti Democratic Party Survey No. 1073, C/o Vasant Vadgo, Near K-7 Circle, Gandhinagar,",
+  "party_name": "Praja Shakti Democratic Party Survey",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -49901,7 +49901,7 @@
  },
  {
   "party_id": "RUPP_1970",
-  "party_name": "Rashtra Mangal Mission Party Kamdhenu Krupa, Kacho Madh, Pilaji Ganj, Sriram Chowk, Mehsana,",
+  "party_name": "Rashtra Mangal Mission Party Kamdhenu Krupa",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -49937,7 +49937,7 @@
  },
  {
   "party_id": "RUPP_2742",
-  "party_name": "Vishwa Hindustani Sangathan 3/105, Anandnagar, 100 ft. Ring Road,Satelite Vejalpur, Ahmedabad,",
+  "party_name": "Vishwa Hindustani Sangathan",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -49973,7 +49973,7 @@
  },
  {
   "party_id": "RUPP_0587",
-  "party_name": "Bharatiya Samtawadi Party (A) Near Khan Atta Chakki, Opposite Devi Lal Colony, Saraswati Vihar,",
+  "party_name": "Bharatiya Samtawadi Party (A) Near Khan Atta Chakki",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -49991,7 +49991,7 @@
  },
  {
   "party_id": "RUPP_0988",
-  "party_name": "Haryana Jan Chetna Party (V) Kothi No. 118A, Circular Road, Model Town, Ambala City, Haryana –",
+  "party_name": "Haryana Jan Chetna Party (V) Kothi",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -50009,7 +50009,7 @@
  },
  {
   "party_id": "RUPP_1685",
-  "party_name": "National Janhit Congress (AB) 043A/5 Piarey Lal Building, Near Government College, Mehrauli",
+  "party_name": "National Janhit Congress (AB) 043A/5 Piarey Lal Building",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -50027,7 +50027,7 @@
  },
  {
   "party_id": "RUPP_2170",
-  "party_name": "Rashtriya Majdoor Vikas Party H.No. 502, Yamuna Road, Ist floor, Village- Mehandipur, Tehsil &",
+  "party_name": "Rashtriya Majdoor Vikas Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -50171,7 +50171,7 @@
  },
  {
   "party_id": "RUPP_0152",
-  "party_name": "Akhil Bhartiya Jharkhand Party Village – Kinudeeh, Post – Karandeeh, Jamshedpur-831002, Distt. –",
+  "party_name": "Akhil Bhartiya Jharkhand Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -50207,7 +50207,7 @@
  },
  {
   "party_id": "RUPP_0425",
-  "party_name": "Bengaluru Nava Nirmana Party 101,Brigade Paramount,5,Old Madras Road,C.V. Raman",
+  "party_name": "Bengaluru Nava Nirmana Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -50261,7 +50261,7 @@
  },
  {
   "party_id": "RUPP_1353",
-  "party_name": "Karnataka Rajya Ryota Sangha 636, Ideal Homes Layout, Rajarajeshwarinagar, Bangalore-560098",
+  "party_name": "Karnataka Rajya Ryota Sangha",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -50297,7 +50297,7 @@
  },
  {
   "party_id": "RUPP_1361",
-  "party_name": "Karunadaga Thamizhar Katchi No.15,Nidharsanam,JV.Shetty Road,Ramasamy Palya,MS Nagar",
+  "party_name": "Karunadaga Thamizhar Katchi",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -50333,7 +50333,7 @@
  },
  {
   "party_id": "RUPP_2064",
-  "party_name": "Rashtriya Hindustan Sena,",
+  "party_name": "Rashtriya Hindustan Sena",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -50351,7 +50351,7 @@
  },
  {
   "party_id": "RUPP_2093",
-  "party_name": "Rashtriya Janandholan Paksha “Powrabhavan”, No.567(38), 60 Ft. Road, Gokula Mathikere Layout,",
+  "party_name": "Rashtriya Janandholan Paksha",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -50423,7 +50423,7 @@
  },
  {
   "party_id": "RUPP_0177",
-  "party_name": "Akhila Kerala Trinamool Party House No. 161, Swathi Nagar, Edaikkode Desam, Pallichal Village,",
+  "party_name": "Akhila Kerala Trinamool Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -50441,7 +50441,7 @@
  },
  {
   "party_id": "RUPP_0866",
-  "party_name": "Democratic Social Justice Party Thiruvonam,NLRA-140,NeerazhiLane (No.7/242),Trivandrum",
+  "party_name": "Democratic Social Justice Party Thiruvonam",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -50477,7 +50477,7 @@
  },
  {
   "party_id": "RUPP_1371",
-  "party_name": "Kerala Janapaksham (Secular) T.C. 16/882(13), Sreekrishna Nagar, Jagathy – Post,",
+  "party_name": "Kerala Janapaksham (Secular)",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -50495,7 +50495,7 @@
  },
  {
   "party_id": "RUPP_2454",
-  "party_name": "Secular National Dravida Party Kadakkavoor Buildings, Thumpara Nagar, Mundakkal, Kollam City,",
+  "party_name": "Secular National Dravida Party Kadakkavoor Buildings",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -50513,7 +50513,7 @@
  },
  {
   "party_id": "RUPP_0009",
-  "party_name": "Shivakhand, Jhilmil, Delhi-110095.",
+  "party_name": "Shivakhand",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -50549,7 +50549,7 @@
  },
  {
   "party_id": "RUPP_2164",
-  "party_name": "Rashtriya Mahajan Shakti Party H.No. 843/39, Shiv Utsav Vatika, New Railway Station Marg, Ater",
+  "party_name": "Rashtriya Mahajan Shakti Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -50567,7 +50567,7 @@
  },
  {
   "party_id": "RUPP_2420",
-  "party_name": "Sarve Bhavanti Sukhinah Party Village & Post - Mamdar, Tehsil & P.S. – Rampur Naikin, District –",
+  "party_name": "Sarve Bhavanti Sukhinah Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -50603,7 +50603,7 @@
  },
  {
   "party_id": "RUPP_0276",
-  "party_name": "Ambedkarist Republican Party Behind Rashtrabhasha Prachar Sammittee, Wardha-442001, Distt. –",
+  "party_name": "Ambedkarist Republican Party Behind Rashtrabhasha Prachar Sammittee",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -50621,7 +50621,7 @@
  },
  {
   "party_id": "RUPP_0560",
-  "party_name": "Bharatiya Parivartan Congress 126, Adivasi Colony, Near Rashtra Sant Tukdoji Maharaj, Cancer",
+  "party_name": "Bharatiya Parivartan Congress",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -50657,7 +50657,7 @@
  },
  {
   "party_id": "RUPP_0608",
-  "party_name": "Bharipa Bahujan Mahasangha Dr. Ambedkar Bhawan, Gokuldas Pasta Road, Dadar, Mumbai-400014",
+  "party_name": "Bharipa Bahujan Mahasangha Dr. Ambedkar Bhawan",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -50675,7 +50675,7 @@
  },
  {
   "party_id": "RUPP_0683",
-  "party_name": "Bhartiya Janhit Congress Party A-3, Room No. 602, 6th Floor, R.N.A Park, Vashi Naka, R.C. Marg,",
+  "party_name": "Bhartiya Janhit Congress Party A-3",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -50693,7 +50693,7 @@
  },
  {
   "party_id": "RUPP_0777",
-  "party_name": "Bhartiya Swarajya Kranti Party Tryamboli Nagar,Kasaba Bawada,District-Kolhapur,Maharashtra-",
+  "party_name": "Bhartiya Swarajya Kranti Party Tryamboli Nagar",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -50711,7 +50711,7 @@
  },
  {
   "party_id": "RUPP_1423",
-  "party_name": "Kunbi Bahujan Sawrajya Party H. No. 114,A-2,Village & Post Khadi Lolvan,Taluka-Sangameshwar,",
+  "party_name": "Kunbi Bahujan Sawrajya Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -50765,7 +50765,7 @@
  },
  {
   "party_id": "RUPP_1967",
-  "party_name": "Rani Laxmibai Krantikari Party Shop No. 6, Rahul Bazar, Commercial Complex, 1st floor, Sitaburdi,",
+  "party_name": "Rani Laxmibai Krantikari Party Shop",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -50783,7 +50783,7 @@
  },
  {
   "party_id": "RUPP_2023",
-  "party_name": "Rashtriya Antyodaya Congress SS-III / 800, Sector – 1, Koparkhairane, Navi Mumbai, Maharashtra -",
+  "party_name": "Rashtriya Antyodaya Congress SS-III /",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -50801,7 +50801,7 @@
  },
  {
   "party_id": "RUPP_2024",
-  "party_name": "Rashtriya Anyay Nivaran Sena 138,Jahagirdarwadi,P.O- Shingoli,Tehsil & Disrtict-",
+  "party_name": "Rashtriya Anyay Nivaran Sena",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -50819,7 +50819,7 @@
  },
  {
   "party_id": "RUPP_2034",
-  "party_name": "Rashtriya Balmiki Sena Paksha Jagadguru Maharishi Balmiki Swami Mandir Marg, C.M.E. Ram",
+  "party_name": "Rashtriya Balmiki Sena Paksha Jagadguru Maharishi Balmiki Swami Mandir Marg",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -50837,7 +50837,7 @@
  },
  {
   "party_id": "RUPP_2135",
-  "party_name": "Rashtriya Kisan Bahujan Party Ajinkya, Rajwada Bhawan, In front of Govt. ITI College, Tuljapur",
+  "party_name": "Rashtriya Kisan Bahujan Party Ajinkya",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -50855,7 +50855,7 @@
  },
  {
   "party_id": "RUPP_2136",
-  "party_name": "Rashtriya Kisan Congress Party H. No. 1-11-602, Ramamata Ambedkar Nagar, Near of Guru Govind",
+  "party_name": "Rashtriya Kisan Congress Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -50891,7 +50891,7 @@
  },
  {
   "party_id": "RUPP_2549",
-  "party_name": "Swarajya Rashtra Nirman Sena H. No. 797,Ward No. 01,Post-Koregaon,Bhima,Taluk-Shirur,Distt.",
+  "party_name": "Swarajya Rashtra Nirman Sena",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -50927,7 +50927,7 @@
  },
  {
   "party_id": "RUPP_2778",
-  "party_name": "Yuva Bharat Atmanirbhal Dal F/49/1A,Ayodhya Nagar,Near Shiv Mandir,N-",
+  "party_name": "Yuva Bharat Atmanirbhal Dal F/49/1A",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -50999,7 +50999,7 @@
  },
  {
   "party_id": "RUPP_2068",
-  "party_name": "Rashtriya Independent Morcha At: Mining Road, Keonjhar (In front of O.S.M.E. Ladies Hostal),",
+  "party_name": "Rashtriya Independent Morcha",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51017,7 +51017,7 @@
  },
  {
   "party_id": "RUPP_2525",
-  "party_name": "Supreme Zero Party of Bharat Ward No.6,Holding No.222,Upara Shahi,Khordha",
+  "party_name": "Supreme Zero Party of Bharat",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51035,7 +51035,7 @@
  },
  {
   "party_id": "RUPP_0098",
-  "party_name": "Akhand Bharat Swatantra Party Village- Patni, Post and Thana- Chiklana, District- Saharanpur, Uttar",
+  "party_name": "Akhand Bharat Swatantra Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51053,7 +51053,7 @@
  },
  {
   "party_id": "RUPP_0111",
-  "party_name": "Akhil Bharat Hindu Mahasabha Mandir Marg, New Delhi-110001.",
+  "party_name": "Akhil Bharat Hindu Mahasabha Mandir Marg",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51089,7 +51089,7 @@
  },
  {
   "party_id": "RUPP_0133",
-  "party_name": "Akhil Bharatiya Rajarya Sabha Adarsh Gurukul Shahi, District Pilibhit-262001 (Uttar Pradesh).",
+  "party_name": "Akhil Bharatiya Rajarya Sabha Adarsh Gurukul Shahi",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51107,7 +51107,7 @@
  },
  {
   "party_id": "RUPP_0137",
-  "party_name": "Akhil Bharatiya Sangharsh Dal Nangli Bhattha, Fethehgarh Choorian Road, Amritsar-143001, Punjab.",
+  "party_name": "Akhil Bharatiya Sangharsh Dal Nangli Bhattha",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51125,7 +51125,7 @@
  },
  {
   "party_id": "RUPP_0140",
-  "party_name": "Akhil Bharatiya Socialist Party 3,Circular Road,Prayagraj,Uttar Pradesh-211001",
+  "party_name": "Akhil Bharatiya Socialist Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51143,7 +51143,7 @@
  },
  {
   "party_id": "RUPP_0185",
-  "party_name": "All India Azaad Congress Party H. No. 5-9-30/C, Madison House, Basheer Bagh, Hyderabad, Andhra",
+  "party_name": "All India Azaad Congress Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51161,7 +51161,7 @@
  },
  {
   "party_id": "RUPP_0252",
-  "party_name": "All J & K Kisan Majdoor Party Standard Hotel, Saheed Chowk, Jammu, Jammu & Kashmir.",
+  "party_name": "All J & K Kisan Majdoor Party Standard Hotel",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51179,7 +51179,7 @@
  },
  {
   "party_id": "RUPP_0267",
-  "party_name": "Ambedkar Peoples Movement 39. Saravana Street, T. Nagar, Chennai- 600017 (Tamil Nadu).",
+  "party_name": "Ambedkar Peoples Movement",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51197,7 +51197,7 @@
  },
  {
   "party_id": "RUPP_0314",
-  "party_name": "Anti Reservation Party of India H.No. 1184, Sector-21-B, Chandigarh.",
+  "party_name": "Anti Reservation Party of India",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51215,7 +51215,7 @@
  },
  {
   "party_id": "RUPP_0355",
-  "party_name": "Awami Socialist Party of India Bukhara, Bakshiwala Road,Bijnaur – 246 701 (Uttar Pradesh).",
+  "party_name": "Awami Socialist Party of India Bukhara",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51233,7 +51233,7 @@
  },
  {
   "party_id": "RUPP_0010",
-  "party_name": "B, Karanje Turf, Plot No. 7, Satara,Maharashtra – 415002.",
+  "party_name": "B, Karanje Turf",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51251,7 +51251,7 @@
  },
  {
   "party_id": "RUPP_0396",
-  "party_name": "Bahujan Samaj Mukti Morcha H. No. B-198, Gali No. 11, Ground Floor, Bhajanpura, Delhi-110053.",
+  "party_name": "Bahujan Samaj Mukti Morcha",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51269,7 +51269,7 @@
  },
  {
   "party_id": "RUPP_0426",
-  "party_name": "Berojgar Aadmi Adhikar Party D-2/329, Shiv Durga Vihar, Lakkarpur, Faridabad, Haryana.",
+  "party_name": "Berojgar Aadmi Adhikar Party D-2/329",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51287,7 +51287,7 @@
  },
  {
   "party_id": "RUPP_0454",
-  "party_name": "Bharat Ki Lok Jimmedar Party 3/250, Vishwas Khand, Gomti Nagar, Lucknow-226010 (Uttar",
+  "party_name": "Bharat Ki Lok Jimmedar Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51305,7 +51305,7 @@
  },
  {
   "party_id": "RUPP_0463",
-  "party_name": "Bharat Navnirman Voter Sena 1255-F, Basantvihar,Kanpur-208021Uttar Pradesh.",
+  "party_name": "Bharat Navnirman Voter Sena",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51323,7 +51323,7 @@
  },
  {
   "party_id": "RUPP_0512",
-  "party_name": "Bharatiya Chhatrasangh Bharat Premghan Marg, Badli Ghat, Mirzapur, Uttar Pradesh-231 001.",
+  "party_name": "Bharatiya Chhatrasangh Bharat Premghan Marg",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51341,7 +51341,7 @@
  },
  {
   "party_id": "RUPP_0534",
-  "party_name": "Bharatiya Jan Samajwadi Party A-62, J. J. Colongy, Khanpur, New Delhi-110062.",
+  "party_name": "Bharatiya Jan Samajwadi Party A-62",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51359,7 +51359,7 @@
  },
  {
   "party_id": "RUPP_0565",
-  "party_name": "Bharatiya Praja Surajya Paksha A/P- Khandaj, Taluka- Baramati, District- Pune, Maharashtra- 413116.",
+  "party_name": "Bharatiya Praja Surajya Paksha A/P-Khandaj",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51395,7 +51395,7 @@
  },
  {
   "party_id": "RUPP_0595",
-  "party_name": "Bharatiya Satya Vijayee Party C- 120, Begam Vihar Extension, Begampur, Delhi-110086.",
+  "party_name": "Bharatiya Satya Vijayee Party C-",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51413,7 +51413,7 @@
  },
  {
   "party_id": "RUPP_0625",
-  "party_name": "Bhartiya Awaam Activist Party Village-Keshru, P.S. – Chandauti, District – Gaya, Bihar - 823002.",
+  "party_name": "Bhartiya Awaam Activist Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51431,7 +51431,7 @@
  },
  {
   "party_id": "RUPP_0696",
-  "party_name": "Bhartiya Jantantrik Janata Dal 1, Daroga Rai Path,Patna – 800001, Bihar.",
+  "party_name": "Bhartiya Jantantrik Janata Dal",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51449,7 +51449,7 @@
  },
  {
   "party_id": "RUPP_0702",
-  "party_name": "Bhartiya Kisan Sena (Secular) At-Vyara,Taluka- Vaghodiya,District-Vadodara,Gujarat- 391760.",
+  "party_name": "Bhartiya Kisan Sena (Secular)",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51485,7 +51485,7 @@
  },
  {
   "party_id": "RUPP_0736",
-  "party_name": "Bhartiya Pragatisheel Congress D-43, Rajdhani Park,Nangloi, Delhi – 110041.",
+  "party_name": "Bhartiya Pragatisheel Congress D-43",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51503,7 +51503,7 @@
  },
  {
   "party_id": "RUPP_0743",
-  "party_name": "Bhartiya Rashtriya Jagruk Dal E-2548, Rajajipuram, Lucknow, Uttar Pradesh- 226017.",
+  "party_name": "Bhartiya Rashtriya Jagruk Dal E-2548",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51521,7 +51521,7 @@
  },
  {
   "party_id": "RUPP_0769",
-  "party_name": "Bhartiya Satya Sangharsh Party Village – Bijhinya, P.S. – Mandla,District – Mandla, Madhya Pradesh.",
+  "party_name": "Bhartiya Satya Sangharsh Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51539,7 +51539,7 @@
  },
  {
   "party_id": "RUPP_0774",
-  "party_name": "Bhartiya Shramik Dal Socialist Baman Nagar, Pateri, Sector – 20, District - Satna, Madhya Pradesh.",
+  "party_name": "Bhartiya Shramik Dal Socialist Baman Nagar",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51557,7 +51557,7 @@
  },
  {
   "party_id": "RUPP_0836",
-  "party_name": "Christian Mannetra Kazhagam 93, Thaiyappa Mudali Street, Chennai-600001 (Tamil Nadu).",
+  "party_name": "Christian Mannetra Kazhagam",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51575,7 +51575,7 @@
  },
  {
   "party_id": "RUPP_1052",
-  "party_name": "Ilantamilar Munnani Kazhagam 1/159, Periyar Nagar, Thirisulam, Chennai, Tamil Nadu- 600043",
+  "party_name": "Ilantamilar Munnani Kazhagam",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51593,7 +51593,7 @@
  },
  {
   "party_id": "RUPP_1060",
-  "party_name": "India Makkal Munnetra Katchi 95, Cauveri Street, Bhavani – 638301, Erode District, TAMIL NADU.",
+  "party_name": "India Makkal Munnetra Katchi",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51611,7 +51611,7 @@
  },
  {
   "party_id": "RUPP_1073",
-  "party_name": "Indian Christian Secular Party Plot No. 8, Wahab Nagar, Sikh Village, Secunderabad – 500 009.",
+  "party_name": "Indian Christian Secular Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51629,7 +51629,7 @@
  },
  {
   "party_id": "RUPP_1312",
-  "party_name": "Jharkhand Ki Krantikari Party 23, Purvi Jail Road, Ranchi-1, (Jharkhand).",
+  "party_name": "Jharkhand Ki Krantikari Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51647,7 +51647,7 @@
  },
  {
   "party_id": "RUPP_1318",
-  "party_name": "Jharkhand Vananchal Congress 5, Ratu Road, Ranchi-834005, Jharkhand.",
+  "party_name": "Jharkhand Vananchal Congress",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51665,7 +51665,7 @@
  },
  {
   "party_id": "RUPP_1383",
-  "party_name": "Kisan Majdoor Berojgar Sangh Village-Jaitpur,Post-Phaphund, Oraia,Uttar Pradesh",
+  "party_name": "Kisan Majdoor Berojgar Sangh",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51683,7 +51683,7 @@
  },
  {
   "party_id": "RUPP_1386",
-  "party_name": "Kisan Mazdoor Bahujan Party J-1/2, Dali Bagh Colony, Lucknow(Uttar Pradesh).",
+  "party_name": "Kisan Mazdoor Bahujan Party J-1/2",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51701,7 +51701,7 @@
  },
  {
   "party_id": "RUPP_1448",
-  "party_name": "Lok Hit Rashtriya Vikas Party Grain Market, Longowal, District – Sangrur, Punjab.",
+  "party_name": "Lok Hit Rashtriya Vikas Party Grain Market",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51719,7 +51719,7 @@
  },
  {
   "party_id": "RUPP_1458",
-  "party_name": "Lok Rashtriya Party Secular(S) Avantibai Nagar Bhogaon,Distt.-Mainpuri Uttar Pradesh- 205262",
+  "party_name": "Lok Rashtriya Party Secular (S) Avantibai Nagar Bhogaon",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51737,7 +51737,7 @@
  },
  {
   "party_id": "RUPP_1493",
-  "party_name": "Loktantrik Manavatavadi Party Shop No. 5, SD 366, Shastri Nagar, Ghaziabad, Uttar Pradesh.",
+  "party_name": "Loktantrik Manavatavadi Party Shop",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51755,7 +51755,7 @@
  },
  {
   "party_id": "RUPP_1495",
-  "party_name": "Loktantrik Samajik Nyay Party H. No. E-5, Indira Gandhi Marg, East Vinod Nagar, Delhi – 110091.",
+  "party_name": "Loktantrik Samajik Nyay Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51773,7 +51773,7 @@
  },
  {
   "party_id": "RUPP_1499",
-  "party_name": "Loktantrik Sarvjan Samaj Party B-103, Sapna Apartment,Ramnagari, Ashiyana Nagar,Patna-",
+  "party_name": "Loktantrik Sarvjan Samaj Party B-103",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51791,7 +51791,7 @@
  },
  {
   "party_id": "RUPP_1519",
-  "party_name": "Mahanayak Sardar Patel Sangh 52/98, IInd Floor, Chittaranjan Park, New Delhi-110019.",
+  "party_name": "Mahanayak Sardar Patel Sangh",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51809,7 +51809,7 @@
  },
  {
   "party_id": "RUPP_1671",
-  "party_name": "National Confederacy of India 63, Southern Avenue, Flat No. – 9, Kolkata, West Bengal – 700029.",
+  "party_name": "National Confederacy of India",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51827,7 +51827,7 @@
  },
  {
   "party_id": "RUPP_1701",
-  "party_name": "National Samajwadi Congress No.42,Naidu Layout,Kuvempu Nagar,Bangalore,Karnataka-560014",
+  "party_name": "National Samajwadi Congress",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51845,7 +51845,7 @@
  },
  {
   "party_id": "RUPP_1758",
-  "party_name": "New All India Congress Party A-138, Main Vikas Marg, Shakarpur, Delhi – 110092.",
+  "party_name": "New All India Congress Party A-138",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51863,7 +51863,7 @@
  },
  {
   "party_id": "RUPP_1760",
-  "party_name": "New Democratic Party of India 2nd Floor, 9A/83, W.E.A., Karol Bagh,NEW DELHI-110005.",
+  "party_name": "New Democratic Party of India 2nd Floor",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51881,7 +51881,7 @@
  },
  {
   "party_id": "RUPP_1777",
-  "party_name": "Niz Goenkar Revolution Front H.No. 9/222, Patrong, Baina, Vasco-Da-Gama, Goa.",
+  "party_name": "Niz Goenkar Revolution Front",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51899,7 +51899,7 @@
  },
  {
   "party_id": "RUPP_1808",
-  "party_name": "Party for Democratic Socialism 183, Jodhpur Park, Kolkata-700068, West Bengal.",
+  "party_name": "Party for Democratic Socialism",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51917,7 +51917,7 @@
  },
  {
   "party_id": "RUPP_1846",
-  "party_name": "Perunthalaivar Makkal Katchi ‘NRD Towers’, First Avenue , Ashok Nagar, Chennai-600 083 Tamil",
+  "party_name": "Perunthalaivar Makkal Katchi ‘NRD Towers’",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51935,7 +51935,7 @@
  },
  {
   "party_id": "RUPP_1898",
-  "party_name": "Prajatantrik Bahujan Shakti Dal T-1, Shriram House,117 H-2/52, Pandunagar,Kanpur, Uttar Pradesh.",
+  "party_name": "Prajatantrik Bahujan Shakti Dal T-1",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51953,7 +51953,7 @@
  },
  {
   "party_id": "RUPP_1922",
-  "party_name": "Puducherry Development Party No. 51, Second Cross, Selva Nagar, Uruvaiyar, Puducherry- 605110",
+  "party_name": "Puducherry Development Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51971,7 +51971,7 @@
  },
  {
   "party_id": "RUPP_1981",
-  "party_name": "Rashtravadi Communist Party Begaria Ka Khera,P.O. Brawan Kalan, Kakori,Lucknow, Uttar",
+  "party_name": "Rashtravadi Communist Party Begaria Ka Khera",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -51989,7 +51989,7 @@
  },
  {
   "party_id": "RUPP_2047",
-  "party_name": "Rashtriya Dehat Morcha Party 601, Rohit House, 3-Tolstoy Marg, New Delhi-110001.",
+  "party_name": "Rashtriya Dehat Morcha Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -52007,7 +52007,7 @@
  },
  {
   "party_id": "RUPP_2065",
-  "party_name": "Rashtriya Hindustan Shakti Dal I- 26/1, Gali No. 10, Brahmapuri, Delhi- 110053",
+  "party_name": "Rashtriya Hindustan Shakti Dal I-",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -52025,7 +52025,7 @@
  },
  {
   "party_id": "RUPP_2084",
-  "party_name": "Rashtriya Jan Samarthan Party A-122B, Ground Floor, Hari Nagar, New Delhi- 110064",
+  "party_name": "Rashtriya Jan Samarthan Party A-122B",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -52043,7 +52043,7 @@
  },
  {
   "party_id": "RUPP_2095",
-  "party_name": "Rashtriya Janata Janardan Party Suraj Ka-Purva, Atarrarural, P.O. Atarra, District Banda, Uttar",
+  "party_name": "Rashtriya Janata Janardan Party Suraj Ka-Purva",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -52061,7 +52061,7 @@
  },
  {
   "party_id": "RUPP_2137",
-  "party_name": "Rashtriya Kisan Majdoor Party W-127, 1st Floor, Greater Kailash –II, New Delhi- 110048.",
+  "party_name": "Rashtriya Kisan Majdoor Party W-127",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -52079,7 +52079,7 @@
  },
  {
   "party_id": "RUPP_2171",
-  "party_name": "Rashtriya Manav Adhikar Party 17/700, Village-Gopalpur, Post-Azadpur (Timarpur), Delhi-110009.",
+  "party_name": "Rashtriya Manav Adhikar Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -52097,7 +52097,7 @@
  },
  {
   "party_id": "RUPP_2181",
-  "party_name": "Rashtriya Mazdoor Ekta Party Block-B, Sant Nagar, Gali No.57, Burari Road, Delhi –110009.",
+  "party_name": "Rashtriya Mazdoor Ekta Party Block-B",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -52115,7 +52115,7 @@
  },
  {
   "party_id": "RUPP_2232",
-  "party_name": "Rashtriya Sarvjan Samaj Party Village & Post – Mandhata, Tehsil – Sadar, Distt. – Pratapgarh, Uttar",
+  "party_name": "Rashtriya Sarvjan Samaj Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -52133,7 +52133,7 @@
  },
  {
   "party_id": "RUPP_2236",
-  "party_name": "Rashtriya Sawarn Shakti Party 299, Ground Floor, Gagan Vihar, Delhi – 110051",
+  "party_name": "Rashtriya Sawarn Shakti Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -52151,7 +52151,7 @@
  },
  {
   "party_id": "RUPP_2238",
-  "party_name": "Rashtriya Secular Majlis Party Ward No.36,Village-Bihar Sharif,Badi Dargah,Nalanda,Bihar-803101",
+  "party_name": "Rashtriya Secular Majlis Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -52169,7 +52169,7 @@
  },
  {
   "party_id": "RUPP_2303",
-  "party_name": "Roti Kapda Aur Makkan Party Block D,Baba Complex,Harsh Nagar Etawah,Uttar Pradesh- 206001",
+  "party_name": "Roti Kapda Aur Makkan Party Block D",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -52187,7 +52187,7 @@
  },
  {
   "party_id": "RUPP_2368",
-  "party_name": "Sampoorna Bharat Kranti Party WZ- 150, Village- Bodhela, VikasPuri, New Delhi- 110018",
+  "party_name": "Sampoorna Bharat Kranti Party WZ-",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -52205,7 +52205,7 @@
  },
  {
   "party_id": "RUPP_2388",
-  "party_name": "Sankhyanupati Bhagidari Party New Vigrahpur, Mithapur, (Bus Stand) Patna-800001",
+  "party_name": "Sankhyanupati Bhagidari Party New Vigrahpur",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -52223,7 +52223,7 @@
  },
  {
   "party_id": "RUPP_2399",
-  "party_name": "Sardar Vallabhbhai Patel Party 1, Olekar House, Dattapada Road,Borivali (East), Mumbai – 400 066.",
+  "party_name": "Sardar Vallabhbhai Patel Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -52241,7 +52241,7 @@
  },
  {
   "party_id": "RUPP_2489",
-  "party_name": "Sikkim National People’s Party The Dzong,MG Marg,Gangtok,East Sikkim-737101",
+  "party_name": "Sikkim National People’s Party The Dzong",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -52259,7 +52259,7 @@
  },
  {
   "party_id": "RUPP_2670",
-  "party_name": "United Peoples Party of Assam S.S. Road, Lakhtokia, Guwahati-781001, Assam.",
+  "party_name": "United Peoples Party of Assam S.S. Road",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -52277,7 +52277,7 @@
  },
  {
   "party_id": "RUPP_2688",
-  "party_name": "Uttar Pradesh Republican Party 552/2, Rajendra Nagar, 2nd Street, Lucknow-226004 (U.P.).",
+  "party_name": "Uttar Pradesh Republican Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -52295,7 +52295,7 @@
  },
  {
   "party_id": "RUPP_2700",
-  "party_name": "Uttarakhand Sanskriti Parishad D-355, Vinod Nagar (West), Delhi-110092.",
+  "party_name": "Uttarakhand Sanskriti Parishad D-355",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -52313,7 +52313,7 @@
  },
  {
   "party_id": "RUPP_2725",
-  "party_name": "Viduthalai Chiruthaigal Katchi No. 16, Chinnaiah Street, T-Nagar,Chennai – 17, Tamil Nadu.",
+  "party_name": "Viduthalai Chiruthaigal Katchi",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -52331,7 +52331,7 @@
  },
  {
   "party_id": "RUPP_0080",
-  "party_name": "Agila India Makkal Kazhagam No.3, Second Cross, Vallalar Nagar, Pethuchettipet, Lawspet Post,",
+  "party_name": "Agila India Makkal Kazhagam",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -52385,7 +52385,7 @@
  },
  {
   "party_id": "RUPP_2470",
-  "party_name": "Shiromani Akali Dal (Taksali) No. 30, Guru Har Rai Avenue, Opposite Khalsa College, Amritsar,",
+  "party_name": "Shiromani Akali Dal (Taksali)",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -52601,7 +52601,7 @@
  },
  {
   "party_id": "RUPP_0313",
-  "party_name": "Anti Corruption Dynamic Party Plot no. 52, Ganesh Nagar, Veppampattu – Village, Thiruvellur-",
+  "party_name": "Anti Corruption Dynamic Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -52619,7 +52619,7 @@
  },
  {
   "party_id": "RUPP_0331",
-  "party_name": "Appaamma Makkal Kazhakam 3/59, Mariyamman Kovil Street, Ammapalayam Post, Perambalur Tk.",
+  "party_name": "Appaamma Makkal Kazhakam",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -52835,7 +52835,7 @@
  },
  {
   "party_id": "RUPP_1402",
-  "party_name": "Kongunadu Jananayaga Katchi “Irai Arul” No. 24, Metha Layout, Laxmipuram, Peelamedu (PO),",
+  "party_name": "Kongunadu Jananayaga Katchi",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -52943,7 +52943,7 @@
  },
  {
   "party_id": "RUPP_1761",
-  "party_name": "New Generation People’s Party 30-C1, Ambu Nagar, Edayarpalayam Post, Coimbatore, Tamil Nadu-",
+  "party_name": "New Generation People’s Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -52961,7 +52961,7 @@
  },
  {
   "party_id": "RUPP_1794",
-  "party_name": "Our Mahathma National Party No. 62(II Floor),Pillaiyar Koil Street,Kamaraj Street,Gandhi Nagar,K.",
+  "party_name": "Our Mahathma National Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -52997,7 +52997,7 @@
  },
  {
   "party_id": "RUPP_2354",
-  "party_name": "Samaniya Makkal Nala Katchi S.F.No.1172/12A,Karur Byepass Road,Indira Nagar,Erode,Tamil",
+  "party_name": "Samaniya Makkal Nala Katchi S.F.No.1172/12A",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -53015,7 +53015,7 @@
  },
  {
   "party_id": "RUPP_2362",
-  "party_name": "Samathuva Makkal Kazhagam 139- T.H. Road, Kaladipet, Thiruvottiyur, Chennai, Tamil Nadu-",
+  "party_name": "Samathuva Makkal Kazhagam",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -53123,7 +53123,7 @@
  },
  {
   "party_id": "RUPP_2705",
-  "party_name": "Valimai Valartchi Indians Party 411 D, Goundachi Palayam, Vadamugam Vellode, Erode District,",
+  "party_name": "Valimai Valartchi Indians Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -53141,7 +53141,7 @@
  },
  {
   "party_id": "RUPP_2602",
-  "party_name": "Telangana Praja Shakthi Party H.No.- 3-5-233, 1st Floor, Kota Gally, Shivaji Nagar, Opposite to",
+  "party_name": "Telangana Praja Shakthi Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -53159,7 +53159,7 @@
  },
  {
   "party_id": "RUPP_2745",
-  "party_name": "Vishwa Jana Samrajyam Party MIG-74,H.No. 15-13-vii-m-74,Phase VII,KPHB",
+  "party_name": "Vishwa Jana Samrajyam Party MIG-74",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -53177,7 +53177,7 @@
  },
  {
   "party_id": "RUPP_0006",
-  "party_name": "Aadarshwaadi Congress Party E.W.S. – 04, Kausalpuri Colony, Phase-2, Near of Water Tank,",
+  "party_name": "Aadarshwaadi Congress Party E.W.S. –",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -53195,7 +53195,7 @@
  },
  {
   "party_id": "RUPP_0052",
-  "party_name": "Aawaam Adhikar Jagran Party Village – Sarokhanpur, Near Govt. Hospital (CHC), Post – Badlapur,",
+  "party_name": "Aawaam Adhikar Jagran Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -53213,7 +53213,7 @@
  },
  {
   "party_id": "RUPP_0071",
-  "party_name": "Adarshwadi Party (Loktantrik) H.No.81, Mohalla-Chitrasai, Near Ashok Inter College, Sadar Jaunpur,",
+  "party_name": "Adarshwadi Party (Loktantrik)",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -53231,7 +53231,7 @@
  },
  {
   "party_id": "RUPP_0148",
-  "party_name": "Akhil Bhartiya Janadesh Party House No.43,Village-Delhua near Berubarvari,Main",
+  "party_name": "Akhil Bhartiya Janadesh Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -53285,7 +53285,7 @@
  },
  {
   "party_id": "RUPP_0233",
-  "party_name": "All India Ravidas Samata Party Bhagwat Singh Bhawan No. 10, Sector – 11, Shastrinagar, Meerut,",
+  "party_name": "All India Ravidas Samata Party Bhagwat Singh Bhawan",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -53339,7 +53339,7 @@
  },
  {
   "party_id": "RUPP_0317",
-  "party_name": "Apna Bharatiya Sanatan Party Jay Shesh Market,Village Kirtar Tara,Post- Birshahpur,Distt.-",
+  "party_name": "Apna Bharatiya Sanatan Party Jay Shesh Market",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -53357,7 +53357,7 @@
  },
  {
   "party_id": "RUPP_0508",
-  "party_name": "Bharatiya Bahujan Samta Party Village & Post- Surjannagar, District- Moradabad, Uttar Pradesh-",
+  "party_name": "Bharatiya Bahujan Samta Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -53411,7 +53411,7 @@
  },
  {
   "party_id": "RUPP_0541",
-  "party_name": "Bharatiya Kisan Rajnaitik Dal Plot No-04,Khasra No. 151/01,Semra Gaudhi,Madigawn,Sita",
+  "party_name": "Bharatiya Kisan Rajnaitik Dal",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -53429,7 +53429,7 @@
  },
  {
   "party_id": "RUPP_0548",
-  "party_name": "Bharatiya Majdoor Janta Party Village – Lalpura, Post – Kukthari (Pinahat),Tehsil – Bah, District –",
+  "party_name": "Bharatiya Majdoor Janta Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -53465,7 +53465,7 @@
  },
  {
   "party_id": "RUPP_0589",
-  "party_name": "Bharatiya Sanghathit Party (S) Sai Green City, Ator Road, Near Morti, Rajnagar Extension, NH-58,",
+  "party_name": "Bharatiya Sanghathit Party (S) Sai Green City",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -53483,7 +53483,7 @@
  },
  {
   "party_id": "RUPP_0592",
-  "party_name": "Bharatiya Sarvjan Vikas Party Village- Harshpur (pure Ralhi), Post- Kotwashukulpur, Tehsil- Lalganj,",
+  "party_name": "Bharatiya Sarvjan Vikas Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -53519,7 +53519,7 @@
  },
  {
   "party_id": "RUPP_0602",
-  "party_name": "Bharatiya Swajivi Nagrik Party Village- Kukuriha, Post- Rudrapur Korwa, Thana- Rudrapur, Tehsil-",
+  "party_name": "Bharatiya Swajivi Nagrik Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -53537,7 +53537,7 @@
  },
  {
   "party_id": "RUPP_0700",
-  "party_name": "Bhartiya Kisan Janshakti Party House No. 600, Ward No. 5, Ghasiyari Pura Nauvagarhi, Bahraich,",
+  "party_name": "Bhartiya Kisan Janshakti Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -53573,7 +53573,7 @@
  },
  {
   "party_id": "RUPP_0754",
-  "party_name": "Bhartiya Samajik Nyay Morcha Ward No.3, Vikas Nagar, Robertsganj, Janpad – Sonbhadra, Uttar",
+  "party_name": "Bhartiya Samajik Nyay Morcha",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -53591,7 +53591,7 @@
  },
  {
   "party_id": "RUPP_0762",
-  "party_name": "Bhartiya Sanskrit Virasat Party H.No. 338, Village and Post- Lakhaura Khurd, P.S- Kurawali, District-",
+  "party_name": "Bhartiya Sanskrit Virasat Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -53627,7 +53627,7 @@
  },
  {
   "party_id": "RUPP_0780",
-  "party_name": "Bhartiya Swatantra Panch Party Naurangia Chwraha Se 50 Meter Koni Marg,Post-Koni,Nehru Chowk",
+  "party_name": "Bhartiya Swatantra Panch Party Naurangia Chwraha Se",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -53663,7 +53663,7 @@
  },
  {
   "party_id": "RUPP_1038",
-  "party_name": "Hindustanwadi Party (Jaihind) H.No.102,Village-Ramdattpur,Post-",
+  "party_name": "Hindustanwadi Party (Jaihind)",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -53717,7 +53717,7 @@
  },
  {
   "party_id": "RUPP_1385",
-  "party_name": "Kisan Majdoor Suraksha Party House No. 45, Village- Kheria Hairat Khan, PO- Kulwath, Tehsil-",
+  "party_name": "Kisan Majdoor Suraksha Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -53753,7 +53753,7 @@
  },
  {
   "party_id": "RUPP_1581",
-  "party_name": "Manavadhikar Janshakti Party J-6/7-B-D, Near Police Station,Jaitpura, Varanasi, Uttar Pradesh-",
+  "party_name": "Manavadhikar Janshakti Party J-6/7-B-D",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -53861,7 +53861,7 @@
  },
  {
   "party_id": "RUPP_2000",
-  "party_name": "Rashtrawadi Kisan Kranti Dal H.No. 73, Mohalla – Raysahab,Tehsil – Sirauli, Gauspur, District -",
+  "party_name": "Rashtrawadi Kisan Kranti Dal",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -53879,7 +53879,7 @@
  },
  {
   "party_id": "RUPP_2010",
-  "party_name": "Rashtrawadi Swarn Ekta Party Plot No. 11, 2nd Floor, Awadhpuri Khand – I, Market Khargapur,",
+  "party_name": "Rashtrawadi Swarn Ekta Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -53897,7 +53897,7 @@
  },
  {
   "party_id": "RUPP_2052",
-  "party_name": "Rashtriya Ekta Party (Secular) Bhawan No. 543, Mohalla- Upadiyan, Ward No.14, Kithore, District-",
+  "party_name": "Rashtriya Ekta Party (Secular) Bhawan",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -53915,7 +53915,7 @@
  },
  {
   "party_id": "RUPP_2140",
-  "party_name": "Rashtriya Kisan Shramik Party Village- Takhat Khera, Post- Akampur Bihar, Bagwant Nagar, District-",
+  "party_name": "Rashtriya Kisan Shramik Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -53969,7 +53969,7 @@
  },
  {
   "party_id": "RUPP_2182",
-  "party_name": "Rashtriya Mazdoor Kisan Party Aakash Bhawan, Opp. IDBI Bank, Main Road Dadri, Surajpur, Greater",
+  "party_name": "Rashtriya Mazdoor Kisan Party Aakash Bhawan",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -54005,7 +54005,7 @@
  },
  {
   "party_id": "RUPP_2211",
-  "party_name": "Rashtriya Samajwadi Apna Dal Vill. – Basupar (Bankut),Near Shiva Nursing Home, P.O. – Jiyanpur,",
+  "party_name": "Rashtriya Samajwadi Apna Dal",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -54059,7 +54059,7 @@
  },
  {
   "party_id": "RUPP_2229",
-  "party_name": "Rashtriya Sanyukt Samaj Party N8/236-R-53-1, (Ganeshdham Colony), Newada, Sunderpur, Varanasi,",
+  "party_name": "Rashtriya Sanyukt Samaj Party N8/236-R-53-1",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -54077,7 +54077,7 @@
  },
  {
   "party_id": "RUPP_2233",
-  "party_name": "Rashtriya Sarvjan Vikas Party Khasra No. 496/1, Main Wazirabad Road, Village- Pasonda, Tehsil-",
+  "party_name": "Rashtriya Sarvjan Vikas Party Khasra",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -54095,7 +54095,7 @@
  },
  {
   "party_id": "RUPP_2241",
-  "party_name": "Rashtriya Shoshit Samaj Party Village – Lohvan, Post – Lohvan, Laxmi Nagar-Baldeo Road, District",
+  "party_name": "Rashtriya Shoshit Samaj Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -54113,7 +54113,7 @@
  },
  {
   "party_id": "RUPP_2243",
-  "party_name": "Rashtriya Surya Prakash Party C/o Sh. Panna Lal, S/o. Sh. Bhole Shankar, Thana-Avagarh, Jalesar",
+  "party_name": "Rashtriya Surya Prakash Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -54131,7 +54131,7 @@
  },
  {
   "party_id": "RUPP_2306",
-  "party_name": "Sab Jan Vikas Rashtriya Party Shop/House of Nabi Rasul Ansari S/o Mohammad Husen,Village &",
+  "party_name": "Sab Jan Vikas Rashtriya Party Shop/House of Nabi Rasul Ansari S/o Mohammad Husen",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -54185,7 +54185,7 @@
  },
  {
   "party_id": "RUPP_2545",
-  "party_name": "Swaraj Party – Yes (Subhash",
+  "party_name": "Swaraj Party Yes (Subhash",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -54221,7 +54221,7 @@
  },
  {
   "party_id": "RUPP_2557",
-  "party_name": "Swatantra Indian Labour Party Khasra No.916,At Village Dhilawal,Garhiya,Post – Bhopat Patti,P.S.",
+  "party_name": "Swatantra Indian Labour Party Khasra",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -54239,7 +54239,7 @@
  },
  {
   "party_id": "RUPP_2687",
-  "party_name": "Uttar Pradesh Navnirman Sena House No. 3, Sector- 15A, District- Gotambuddh Nagar, Noida, Uttar",
+  "party_name": "Uttar Pradesh Navnirman Sena",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -54275,7 +54275,7 @@
  },
  {
   "party_id": "RUPP_2698",
-  "party_name": "Uttarakhand Pragatisheel Party 13, Subhash Road,Opposite back gate of St. Joseph School,Dehradun-",
+  "party_name": "Uttarakhand Pragatisheel Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -54293,7 +54293,7 @@
  },
  {
   "party_id": "RUPP_2776",
-  "party_name": "Yuva Aam Dal Aadami Vikas Apra City,Phase-2,Sector-C,Village Mishrauliya State,Post-",
+  "party_name": "Yuva Aam Dal Aadami Vikas Apra City",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -54365,7 +54365,7 @@
  },
  {
   "party_id": "RUPP_1322",
-  "party_name": "Justice and Development Party Vill. & P.O.-Ahiran,P.S.- Suti,Distt.-Murshidabad,West Bengal-",
+  "party_name": "Justice and Development Party",
   "short_name": "",
   "status": "RUPP (not in 2025 list)",
   "category": "RUPP",
@@ -55047,7 +55047,7 @@
  },
  {
   "party_id": "RUPP_0379",
-  "party_name": "Bahujan Ekta Party ( R )",
+  "party_name": "Bahujan Ekta Party (R)",
   "short_name": "",
   "status": "Inactive",
   "category": "RUPP",
@@ -56548,7 +56548,7 @@
  },
  {
   "party_id": "DEL_2943",
-  "party_name": "All India Party for the Protection of Civil Rights 100 A/5, 11th Sector, 66th Street, Ponnambalam Salai, K.K.",
+  "party_name": "All India Party for the Protection of Civil Rights",
   "short_name": "",
   "status": "Inactive",
   "category": "Delisted / Inactive",
@@ -58771,7 +58771,7 @@
  },
  {
   "party_id": "DEL_2975",
-  "party_name": "Swaraj Party – Yes (Subhash Chandra Bosh)",
+  "party_name": "Swaraj Party Yes (Subhash Chandra Bosh)",
   "short_name": "",
   "status": "Inactive",
   "category": "Delisted / Inactive",
@@ -58885,7 +58885,7 @@
  },
  {
   "party_id": "RUPP_1199",
-  "party_name": "Jan Kranti Party, Andaman &",
+  "party_name": "Jan Kranti Party",
   "short_name": "",
   "status": "Delisted / Cancelled",
   "category": "Delisted / Inactive",
@@ -59192,7 +59192,7 @@
  },
  {
   "party_id": "DEL_2861",
-  "party_name": "Bharathiya Yuvatha, Samatha, Rashtriyatha",
+  "party_name": "Bharathiya Yuvatha",
   "short_name": "",
   "status": "Delisted / Cancelled",
   "category": "Delisted / Inactive",
@@ -60051,7 +60051,7 @@
  },
  {
   "party_id": "DEL_2888",
-  "party_name": "United Minorities Front, Assam",
+  "party_name": "United Minorities Front",
   "short_name": "",
   "status": "Delisted / Cancelled",
   "category": "Delisted / Inactive",
@@ -68799,7 +68799,7 @@
  },
  {
   "party_id": "DEL_2879",
-  "party_name": "Rashtriya Hindustan Sena, Karnataka",
+  "party_name": "Rashtriya Hindustan Sena",
   "short_name": "",
   "status": "Delisted / Cancelled",
   "category": "Delisted / Inactive",
@@ -70591,7 +70591,7 @@
  },
  {
   "party_id": "RUPP_2741",
-  "party_name": "Vishwa Adarsh Bharat Party i, — — — — — ——— om (ep ire",
+  "party_name": "Vishwa Adarsh Bharat Party i",
   "short_name": "",
   "status": "Delisted / Cancelled",
   "category": "Delisted / Inactive",
@@ -72912,7 +72912,7 @@
  },
  {
   "party_id": "RUPP_2665",
-  "party_name": "United Naga Democratic Party,",
+  "party_name": "United Naga Democratic Party",
   "short_name": "",
   "status": "Delisted / Cancelled",
   "category": "Delisted / Inactive",
@@ -73379,7 +73379,7 @@
  },
  {
   "party_id": "DEL_2851",
-  "party_name": "Akhil Bharatiya Azad Lokhit Congress Party Khari Mohalla, Khatikon Ka Chowk,Bhiwani, Haryana.",
+  "party_name": "Akhil Bharatiya Azad Lokhit Congress Party Khari Mohalla",
   "short_name": "",
   "status": "Delisted / Cancelled",
   "category": "Delisted / Inactive",
@@ -73796,7 +73796,7 @@
  },
  {
   "party_id": "R25_C0289",
-  "party_name": "Mool Bharati (S) Party SE. . .l!U!CUmLUDLlUlttwtCOS Ti i ee ee eee",
+  "party_name": "Mool Bharati (S) Party SE. .l!U!CUmLUDLlUlttwtCOS Ti i ee ee eee",
   "short_name": "",
   "symbol": "Cancelled / None",
   "address": "House No. 25 Near Khooni Masit Moga Mehla Singh OO ee — eee",
@@ -76570,7 +76570,7 @@
  },
  {
   "party_id": "DEL_3011",
-  "party_name": "Bharatha Makkal Congress N.30, Veluchetty Street, S.Kadiyur,",
+  "party_name": "Bharatha Makkal Congress N.30",
   "short_name": "",
   "status": "Delisted / Cancelled",
   "category": "Delisted / Inactive",
@@ -76741,7 +76741,7 @@
  },
  {
   "party_id": "DEL_2824",
-  "party_name": "Dravida Vizhipunarchi Kazhagam/New Name – Desiya",
+  "party_name": "Dravida Vizhipunarchi Kazhagam/New Name Desiya",
   "short_name": "",
   "status": "Delisted / Cancelled",
   "category": "Delisted / Inactive",
@@ -77353,7 +77353,7 @@
  },
  {
   "party_id": "RUPP_1558",
-  "party_name": "Makkal Neethi Katchi- India",
+  "party_name": "Makkal Neethi Katchi-India",
   "short_name": "",
   "status": "Delisted / Cancelled",
   "category": "Delisted / Inactive",
@@ -78215,7 +78215,7 @@
  },
  {
   "party_id": "DEL_2844",
-  "party_name": "Tamilina Vidiyal Pulikal Iyakkam,",
+  "party_name": "Tamilina Vidiyal Pulikal Iyakkam",
   "short_name": "",
   "status": "Delisted / Cancelled",
   "category": "Delisted / Inactive",
@@ -78728,7 +78728,7 @@
  },
  {
   "party_id": "RUPP_0188",
-  "party_name": "All India BC, OBC Party",
+  "party_name": "All India BC",
   "short_name": "",
   "status": "Delisted / Cancelled",
   "category": "Delisted / Inactive",
@@ -79064,7 +79064,7 @@
  },
  {
   "party_id": "R25_B0317",
-  "party_name": "Telangana Praja Samithi (Kishore, Rao and Kishan)",
+  "party_name": "Telangana Praja Samithi (Kishore",
   "short_name": "",
   "symbol": "Cancelled / None",
   "address": "H.No.10-4-108, Girmajipet, Warangal-506002 Telangana",
@@ -80972,7 +80972,7 @@
  },
  {
   "party_id": "DEL_2909",
-  "party_name": "Bharatiya Samaj Kalyan Party Bharat Ravender Electronics, Purani Chungi,",
+  "party_name": "Bharatiya Samaj Kalyan Party Bharat Ravender Electronics",
   "short_name": "",
   "status": "Delisted / Cancelled",
   "category": "Delisted / Inactive",
@@ -83625,7 +83625,7 @@
  },
  {
   "party_id": "RUPP_1650",
-  "party_name": "Nagrik Sewa Party(R)",
+  "party_name": "Nagrik Sewa Party (R)",
   "short_name": "",
   "status": "Delisted / Cancelled",
   "category": "Delisted / Inactive",
@@ -85937,7 +85937,7 @@
  },
  {
   "party_id": "DEL_2843",
-  "party_name": "Swatantra Adarshwadi  Bhartiya  Kranti Party",
+  "party_name": "Swatantra Adarshwadi Bhartiya Kranti Party",
   "short_name": "",
   "status": "Delisted / Cancelled",
   "category": "Delisted / Inactive",
@@ -87170,7 +87170,7 @@
  },
  {
   "party_id": "DEL_2914",
-  "party_name": "People'S Democratic Conference Of InBankra, Post Office – Birati,Kolkata",
+  "party_name": "People's Democratic Conference Of InBankra",
   "short_name": "",
   "status": "Delisted / Cancelled",
   "category": "Delisted / Inactive",

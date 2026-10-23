@@ -19,3 +19,4 @@ data/raw/*
 !data/raw/ocr/
 data/raw/ocr/*
 !data/raw/ocr/audit_extract/
+!data/raw/ocr/tn_rupp_extract/

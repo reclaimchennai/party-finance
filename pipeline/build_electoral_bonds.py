@@ -2,7 +2,9 @@ import fitz
 import re
 import json
 import os
-from collections import defaultdict
+import sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))  # for names.py
+from collections import defaultdict, Counter
 from datetime import datetime
 
 print("Starting Electoral Bonds processor...")
@@ -410,16 +412,25 @@ def ymd(s):
     except (ValueError, TypeError):
         return 0
 
+from names import clean_name, name_key
+
 party_codes = sorted({b['party_code'] for b in joined_bonds})
-party_names = {b['party_code']: b['party_name'] for b in joined_bonds}
-donor_names = sorted({b['purchaser_normalized'] for b in joined_bonds})
+party_names = {b['party_code']: clean_name(b['party_name']) for b in joined_bonds}
+# clean buyer names and merge spelling variants ("& Finance" / "and Finance" / "Pvt Ltd" / "Private Limited")
+variants = {}
+for b in joined_bonds:
+    raw = b['purchaser_normalized']
+    variants.setdefault(name_key(clean_name(raw)) or raw, Counter())[clean_name(raw)] += b['denomination']
+display = {k: c.most_common(1)[0][0] for k, c in variants.items()}
+donor_of = {b['purchaser_normalized']: display[name_key(clean_name(b['purchaser_normalized'])) or b['purchaser_normalized']] for b in joined_bonds}
+donor_names = sorted(set(donor_of.values()))
 p_idx = {c: i for i, c in enumerate(party_codes)}
 d_idx = {d: i for i, d in enumerate(donor_names)}
 compact = {
     'source': 'SBI disclosures to ECI under Supreme Court order in ADR v. Union of India (WP(C) 880/2017), March 2024',
     'parties': [{'code': c, 'name': party_names[c]} for c in party_codes],
     'donors': donor_names,
-    'rows': [[p_idx[b['party_code']], d_idx[b['purchaser_normalized']], b['denomination'],
+    'rows': [[p_idx[b['party_code']], d_idx[donor_of[b['purchaser_normalized']]], b['denomination'],
               ymd(b['encash_date']), ymd(b['purchase_date'])] for b in joined_bonds],
 }
 for path in ('data/derived/electoral_bonds_all.json', 'public/data/electoral_bonds_all.json'):
