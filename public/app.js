@@ -133,7 +133,9 @@ function lineChart(host, xs, series, o = {}) {
   const W = Math.max(320, host.clientWidth || 600), H = o.height || 280, m = { l: 62, r: live.length <= 4 ? 96 : 16, t: 14, b: 28 };
   const all = live.flatMap(se => xs.map(x => se.points[x]).filter(v => v != null));
   const ticks = niceTicks(Math.min(0, ...all), Math.max(0, ...all), 4);
-  const sx = i => m.l + (xs.length === 1 ? (W - m.l - m.r) / 2 : (i / (xs.length - 1)) * (W - m.l - m.r));
+  // financial years are placed by year, so a missing year keeps its gap
+  const isFY = xs.every(x => /^\d{4}-\d{2}$/.test(x));
+  const sx = isFY ? yearScale(xs, m.l, W - m.r) : i => m.l + (xs.length === 1 ? (W - m.l - m.r) / 2 : (i / (xs.length - 1)) * (W - m.l - m.r));
   const sy = v => m.t + (1 - (v - ticks[0]) / (ticks.at(-1) - ticks[0])) * (H - m.t - m.b);
   const svg = s('svg', { class: 'chart', viewBox: `0 0 ${W} ${H}`, width: W, height: H, role: 'img', 'aria-label': o.aria || 'Line chart' });
   for (const t of ticks) {
