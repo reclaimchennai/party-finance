@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="64" height="64" role="img" aria-label="Speaker / Chair">
+  <title>Speaker / Chair</title>
+  <!-- The Chair's symbol (not a party mark): the Speaker's high-backed chair in brass on chamber green,
+       ringed by kolam dots. Keep in step with src/app/icons/ChairSymbol.tsx. -->
+  <circle cx="16" cy="16" r="15.5" fill="#173a2e"/>
+  <circle cx="16" cy="16" r="14" fill="none" stroke="#e0bd70" stroke-width="0.9"/>
+  <g fill="#e0bd70">
+    <circle cx="27.09" cy="20.59" r="0.8"/>
+    <circle cx="20.59" cy="27.09" r="0.8"/>
+    <circle cx="11.41" cy="27.09" r="0.8"/>
+    <circle cx="4.91" cy="20.59" r="0.8"/>
+    <circle cx="4.91" cy="11.41" r="0.8"/>
+    <circle cx="11.41" cy="4.91" r="0.8"/>
+    <circle cx="20.59" cy="4.91" r="0.8"/>
+    <circle cx="27.09" cy="11.41" r="0.8"/>
+    <circle cx="16" cy="4.4" r="0.9"/>
+    <path d="M12 20v-8.5c0-2.6 1.8-4.6 4-5.8 2.2 1.2 4 3.2 4 5.8V20z"/>
+    <rect x="8.6" y="15" width="4" height="1.8" rx="0.9"/>
+    <rect x="19.4" y="15" width="4" height="1.8" rx="0.9"/>
+    <rect x="9" y="15" width="1.6" height="6.5"/>
+    <rect x="21.4" y="15" width="1.6" height="6.5"/>
+    <rect x="8.4" y="19.4" width="15.2" height="2.6" rx="0.8"/>
+    <rect x="10" y="21.5" width="1.6" height="3.8"/>
+    <rect x="20.4" y="21.5" width="1.6" height="3.8"/>
+    <rect x="9" y="25" width="14" height="1.4" rx="0.7"/>
+  </g>
+  <path d="M14 18.4V12c0-1.4.8-2.6 2-3.4 1.2.8 2 2 2 3.4v6.4z" fill="#173a2e"/>
+</svg>

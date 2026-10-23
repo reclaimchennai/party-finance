@@ -1,0 +1,220 @@
+[
+ {
+  "n": 3,
+  "text_file": "003.txt",
+  "title": "Revolutionary Socialist Party (Annual Audit Report for the Financial Year 2018-19)",
+  "fy": "2018-19",
+  "pages": 12,
+  "ocr_pages": []
+ },
+ {
+  "n": 6,
+  "text_file": "006.txt",
+  "title": "Indian Union Muslim League (Annual Audit Report for the Financial Year 2020-21)",
+  "fy": "2020-21",
+  "pages": 5,
+  "ocr_pages": []
+ },
+ {
+  "n": 10,
+  "text_file": "010.txt",
+  "title": "United Democratic Party (Annual Audit Report for the Financial Year 2020-21)",
+  "fy": "2020-21",
+  "pages": 10,
+  "ocr_pages": []
+ },
+ {
+  "n": 27,
+  "text_file": "027.txt",
+  "title": "All India Trinamool Congress - (Annual Audit Report for the Financial Year 2022-23)",
+  "fy": "2022-23",
+  "pages": 15,
+  "ocr_pages": []
+ },
+ {
+  "n": 34,
+  "text_file": "034.txt",
+  "title": "Bodoland Peoples Front (Annual Audit Report for the Financial Year 2022-23)",
+  "fy": "2022-23",
+  "pages": 4,
+  "ocr_pages": []
+ },
+ {
+  "n": 36,
+  "text_file": "036.txt",
+  "title": "Communist Party of India (Marxist) - (Revised Annual Audit Report for FY 2022-23)",
+  "fy": "2022-23",
+  "pages": 30,
+  "ocr_pages": [
+   29
+  ]
+ },
+ {
+  "n": 53,
+  "text_file": "053.txt",
+  "title": "Maharashtrawadi Gomantak Party (Annual Audit Report for the Financial Year 2022-23)",
+  "fy": "2022-23",
+  "pages": 11,
+  "ocr_pages": []
+ },
+ {
+  "n": 63,
+  "text_file": "063.txt",
+  "title": "Revised - All India N.R. Congress (Annual Audit Report for the Financial Year 2022-23)",
+  "fy": "2022-23",
+  "pages": 10,
+  "ocr_pages": []
+ },
+ {
+  "n": 66,
+  "text_file": "066.txt",
+  "title": "Revised Report -Naga People's Front (Annual Audit Report for the Financial Year 2022-23)",
+  "fy": "2022-23",
+  "pages": 20,
+  "ocr_pages": []
+ },
+ {
+  "n": 72,
+  "text_file": "072.txt",
+  "title": "Sikkim Democratic Front -(Annual Audit Report Year 2022-23)",
+  "fy": "2022-23",
+  "pages": 19,
+  "ocr_pages": []
+ },
+ {
+  "n": 76,
+  "text_file": "076.txt",
+  "title": "United Democratic Party (Annual Audit Report for the Financial Year 2022-23)",
+  "fy": "2022-23",
+  "pages": 11,
+  "ocr_pages": []
+ },
+ {
+  "n": 86,
+  "text_file": "086.txt",
+  "title": "All India Majlis-e-Ittehadul Muslimeen (Annual Audit Report for the Financial Year 2023-24)",
+  "fy": "2023-24",
+  "pages": 5,
+  "ocr_pages": []
+ },
+ {
+  "n": 89,
+  "text_file": "089.txt",
+  "title": "All India United Democratic Front (Annual Audit Report for the Financial Year 2023-24)",
+  "fy": "2023-24",
+  "pages": 9,
+  "ocr_pages": []
+ },
+ {
+  "n": 97,
+  "text_file": "097.txt",
+  "title": "Communist Party of India (Annual Audit Report for the Financial Year 2023-24)",
+  "fy": "2023-24",
+  "pages": 13,
+  "ocr_pages": []
+ },
+ {
+  "n": 100,
+  "text_file": "100.txt",
+  "title": "Communist Party of India (Marxist) (Annual Audit Report for the Financial Year 2023-24)",
+  "fy": "2023-24",
+  "pages": 14,
+  "ocr_pages": []
+ },
+ {
+  "n": 110,
+  "text_file": "110.txt",
+  "title": "Janata Dal - Secular (Annual Audit Report for the Financial Year 2023-24)",
+  "fy": "2023-24",
+  "pages": 11,
+  "ocr_pages": []
+ },
+ {
+  "n": 112,
+  "text_file": "112.txt",
+  "title": "Janata Dal (United) (Annual Audit Report for the Financial Year 2023-24)",
+  "fy": "2023-24",
+  "pages": 10,
+  "ocr_pages": []
+ },
+ {
+  "n": 129,
+  "text_file": "129.txt",
+  "title": "Samajwadi Party (Annual Audit Report for the Financial Year 2023-24)",
+  "fy": "2023-24",
+  "pages": 14,
+  "ocr_pages": []
+ },
+ {
+  "n": 156,
+  "text_file": "156.txt",
+  "title": "Asom Gana Parishad (Revised Annual Audit Report for the Financial Year 2024-25)",
+  "fy": "2024-25",
+  "pages": 16,
+  "ocr_pages": []
+ },
+ {
+  "n": 161,
+  "text_file": "161.txt",
+  "title": "Biju Janata Dal (Annual Audit Report for the Financial Year 2024-25)",
+  "fy": "2024-25",
+  "pages": 13,
+  "ocr_pages": []
+ },
+ {
+  "n": 172,
+  "text_file": "172.txt",
+  "title": "Jammu and Kashmir People's Democratic Party (Annual Audit Report for the Financial Year 2024-25)",
+  "fy": "2024-25",
+  "pages": 10,
+  "ocr_pages": []
+ },
+ {
+  "n": 181,
+  "text_file": "181.txt",
+  "title": "Kerala Congress (M) (Annual Audit Report for the Financial Year 2024-25)",
+  "fy": "2024-25",
+  "pages": 25,
+  "ocr_pages": []
+ },
+ {
+  "n": 186,
+  "text_file": "186.txt",
+  "title": "Naam Tamilar Katchi (Annual Audit Report for the Financial Year 2024-25)",
+  "fy": "2024-25",
+  "pages": 10,
+  "ocr_pages": []
+ },
+ {
+  "n": 191,
+  "text_file": "191.txt",
+  "title": "Rashtriya Loktantrik Party (Annual Audit Report for the Financial Year 2024-25)",
+  "fy": "2024-25",
+  "pages": 11,
+  "ocr_pages": []
+ },
+ {
+  "n": 197,
+  "text_file": "197.txt",
+  "title": "Sikkim Krantikari Morcha (Annual Audit Report for the Financial Year 2024-25)",
+  "fy": "2024-25",
+  "pages": 14,
+  "ocr_pages": []
+ },
+ {
+  "n": 201,
+  "text_file": "201.txt",
+  "title": "Zoram People's Movement (Annual Audit Report for the Financial Year 2024-25)",
+  "fy": "2024-25",
+  "pages": 14,
+  "ocr_pages": []
+ },
+ {
+  "n": 212,
+  "text_file": "212.txt",
+  "title": "National People's Party (Annual Audit Report for the Financial Year 2025-26)",
+  "fy": "2025-26",
+  "pages": 15,
+  "ocr_pages": []
+ }
+]

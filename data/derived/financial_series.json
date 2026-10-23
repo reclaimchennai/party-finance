@@ -1,0 +1,372 @@
+[
+  {
+    "party": "DMK",
+    "fy": "2019-20",
+    "income_cr": 64.9,
+    "expenditure_cr": 42.1,
+    "surplus_cr": 22.8,
+    "eb_income_cr": 45.0,
+    "general_fund_cr": 284.1,
+    "cash_bank_cr": 260.4
+  },
+  {
+    "party": "DMK",
+    "fy": "2020-21",
+    "income_cr": 149.95,
+    "expenditure_cr": 218.4,
+    "surplus_cr": -68.45,
+    "eb_income_cr": 80.0,
+    "general_fund_cr": 215.65,
+    "cash_bank_cr": 190.2
+  },
+  {
+    "party": "DMK",
+    "fy": "2021-22",
+    "income_cr": 311.28,
+    "expenditure_cr": 128.5,
+    "surplus_cr": 182.78,
+    "eb_income_cr": 249.0,
+    "general_fund_cr": 398.43,
+    "cash_bank_cr": 385.1
+  },
+  {
+    "party": "DMK",
+    "fy": "2022-23",
+    "income_cr": 214.5,
+    "expenditure_cr": 71.86,
+    "surplus_cr": 142.64,
+    "eb_income_cr": 185.0,
+    "general_fund_cr": 541.06,
+    "cash_bank_cr": 513.12
+  },
+  {
+    "party": "DMK",
+    "fy": "2023-24",
+    "income_cr": 125.4,
+    "expenditure_cr": 144.52,
+    "surplus_cr": -19.12,
+    "eb_income_cr": 80.0,
+    "general_fund_cr": 521.94,
+    "cash_bank_cr": 513.12
+  },
+  {
+    "party": "DMK",
+    "fy": "2024-25",
+    "income_cr": 406.4,
+    "expenditure_cr": 180.82,
+    "surplus_cr": 225.58,
+    "eb_income_cr": 0.0,
+    "general_fund_cr": 747.52,
+    "cash_bank_cr": 737.53
+  },
+  {
+    "party": "AIADMK",
+    "fy": "2019-20",
+    "income_cr": 89.4,
+    "expenditure_cr": 65.2,
+    "surplus_cr": 24.2,
+    "eb_income_cr": 6.05,
+    "general_fund_cr": 235.1,
+    "cash_bank_cr": 160.4
+  },
+  {
+    "party": "AIADMK",
+    "fy": "2020-21",
+    "income_cr": 34.1,
+    "expenditure_cr": 115.8,
+    "surplus_cr": -81.7,
+    "eb_income_cr": 0.0,
+    "general_fund_cr": 153.4,
+    "cash_bank_cr": 98.5
+  },
+  {
+    "party": "AIADMK",
+    "fy": "2021-22",
+    "income_cr": 38.6,
+    "expenditure_cr": 24.1,
+    "surplus_cr": 14.5,
+    "eb_income_cr": 0.0,
+    "general_fund_cr": 167.9,
+    "cash_bank_cr": 120.2
+  },
+  {
+    "party": "AIADMK",
+    "fy": "2022-23",
+    "income_cr": 76.5,
+    "expenditure_cr": 32.4,
+    "surplus_cr": 44.1,
+    "eb_income_cr": 0.0,
+    "general_fund_cr": 212.0,
+    "cash_bank_cr": 154.0
+  },
+  {
+    "party": "AIADMK",
+    "fy": "2023-24",
+    "income_cr": 46.99,
+    "expenditure_cr": 25.84,
+    "surplus_cr": 21.15,
+    "eb_income_cr": 0.0,
+    "general_fund_cr": 291.72,
+    "cash_bank_cr": 156.92
+  },
+  {
+    "party": "AIADMK",
+    "fy": "2024-25",
+    "income_cr": 86.24,
+    "expenditure_cr": 50.38,
+    "surplus_cr": 35.86,
+    "eb_income_cr": 0.0,
+    "general_fund_cr": 327.16,
+    "cash_bank_cr": 196.64
+  },
+  {
+    "party": "NTK",
+    "fy": "2022-23",
+    "income_cr": 1.84,
+    "expenditure_cr": 1.43,
+    "surplus_cr": 0.41,
+    "eb_income_cr": 0.0,
+    "general_fund_cr": 0.41,
+    "cash_bank_cr": 0.15
+  },
+  {
+    "party": "NTK",
+    "fy": "2023-24",
+    "income_cr": 2.5,
+    "expenditure_cr": 1.91,
+    "surplus_cr": 0.6,
+    "eb_income_cr": 0.0,
+    "general_fund_cr": 1.0,
+    "cash_bank_cr": 0.47
+  },
+  {
+    "party": "NTK",
+    "fy": "2024-25",
+    "income_cr": 3.32,
+    "expenditure_cr": 3.76,
+    "surplus_cr": -0.45,
+    "eb_income_cr": 0.0,
+    "general_fund_cr": 0.56,
+    "cash_bank_cr": 0.02
+  },
+  {
+    "party": "DMDK",
+    "fy": "2022-23",
+    "income_cr": 0.28,
+    "expenditure_cr": 0.25,
+    "surplus_cr": 0.03,
+    "eb_income_cr": 0.0,
+    "general_fund_cr": 0.78,
+    "cash_bank_cr": 0.06
+  },
+  {
+    "party": "DMDK",
+    "fy": "2023-24",
+    "income_cr": 0.32,
+    "expenditure_cr": 0.29,
+    "surplus_cr": 0.03,
+    "eb_income_cr": 0.0,
+    "general_fund_cr": 0.83,
+    "cash_bank_cr": 0.08
+  },
+  {
+    "party": "DMDK",
+    "fy": "2024-25",
+    "income_cr": 0.35,
+    "expenditure_cr": 0.34,
+    "surplus_cr": 0.01,
+    "eb_income_cr": 0.0,
+    "general_fund_cr": 0.84,
+    "cash_bank_cr": 0.09
+  },
+  {
+    "party": "BJP",
+    "fy": "2021-22",
+    "income_cr": 1917.95,
+    "expenditure_cr": 854.47,
+    "surplus_cr": 1063.48,
+    "eb_income_cr": 1033.7,
+    "general_fund_cr": 7040.8,
+    "cash_bank_cr": 5420.0
+  },
+  {
+    "party": "BJP",
+    "fy": "2022-23",
+    "income_cr": 2360.84,
+    "expenditure_cr": 1361.68,
+    "surplus_cr": 999.16,
+    "eb_income_cr": 1294.15,
+    "general_fund_cr": 8039.96,
+    "cash_bank_cr": 6240.0
+  },
+  {
+    "party": "BJP",
+    "fy": "2023-24",
+    "income_cr": 4340.47,
+    "expenditure_cr": 2211.7,
+    "surplus_cr": 2128.77,
+    "eb_income_cr": 2120.0,
+    "general_fund_cr": 9169.58,
+    "cash_bank_cr": 7113.8
+  },
+  {
+    "party": "BJP",
+    "fy": "2024-25",
+    "income_cr": 6769.15,
+    "expenditure_cr": 3774.58,
+    "surplus_cr": 2994.57,
+    "eb_income_cr": 1612.66,
+    "general_fund_cr": 12164.15,
+    "cash_bank_cr": 9996.12
+  },
+  {
+    "party": "INC",
+    "fy": "2021-22",
+    "income_cr": 541.28,
+    "expenditure_cr": 400.58,
+    "surplus_cr": 140.7,
+    "eb_income_cr": 236.1,
+    "general_fund_cr": 312.4,
+    "cash_bank_cr": 280.5
+  },
+  {
+    "party": "INC",
+    "fy": "2022-23",
+    "income_cr": 452.37,
+    "expenditure_cr": 467.13,
+    "surplus_cr": -14.76,
+    "eb_income_cr": 171.02,
+    "general_fund_cr": 297.64,
+    "cash_bank_cr": 240.1
+  },
+  {
+    "party": "INC",
+    "fy": "2023-24",
+    "income_cr": 1225.59,
+    "expenditure_cr": 1025.78,
+    "surplus_cr": 199.81,
+    "eb_income_cr": 825.0,
+    "general_fund_cr": 497.45,
+    "cash_bank_cr": 410.2
+  },
+  {
+    "party": "INC",
+    "fy": "2024-25",
+    "income_cr": 918.29,
+    "expenditure_cr": 1111.95,
+    "surplus_cr": -193.66,
+    "eb_income_cr": 189.75,
+    "general_fund_cr": 365.49,
+    "cash_bank_cr": 391.07
+  },
+  {
+    "party": "CPIM",
+    "fy": "2022-23",
+    "income_cr": 162.24,
+    "expenditure_cr": 124.5,
+    "surplus_cr": 37.74,
+    "eb_income_cr": 0.0,
+    "general_fund_cr": 165.2,
+    "cash_bank_cr": 74.5
+  },
+  {
+    "party": "CPIM",
+    "fy": "2023-24",
+    "income_cr": 158.4,
+    "expenditure_cr": 148.1,
+    "surplus_cr": 10.3,
+    "eb_income_cr": 0.0,
+    "general_fund_cr": 175.5,
+    "cash_bank_cr": 78.2
+  },
+  {
+    "party": "CPIM",
+    "fy": "2024-25",
+    "income_cr": 168.5,
+    "expenditure_cr": 154.2,
+    "surplus_cr": 14.3,
+    "eb_income_cr": 0.0,
+    "general_fund_cr": 185.0,
+    "cash_bank_cr": 82.4
+  },
+  {
+    "party": "AAP",
+    "fy": "2022-23",
+    "income_cr": 85.17,
+    "expenditure_cr": 102.05,
+    "surplus_cr": -16.88,
+    "eb_income_cr": 45.45,
+    "general_fund_cr": 42.1,
+    "cash_bank_cr": 22.4
+  },
+  {
+    "party": "AAP",
+    "fy": "2023-24",
+    "income_cr": 112.5,
+    "expenditure_cr": 98.4,
+    "surplus_cr": 14.1,
+    "eb_income_cr": 20.0,
+    "general_fund_cr": 56.2,
+    "cash_bank_cr": 31.8
+  },
+  {
+    "party": "AAP",
+    "fy": "2024-25",
+    "income_cr": 142.8,
+    "expenditure_cr": 118.5,
+    "surplus_cr": 24.3,
+    "eb_income_cr": 0.0,
+    "general_fund_cr": 92.4,
+    "cash_bank_cr": 45.6
+  },
+  {
+    "party": "TVK",
+    "fy": "2024-25",
+    "income_cr": 1.22,
+    "expenditure_cr": 0.0,
+    "surplus_cr": 1.22,
+    "eb_income_cr": 0.0,
+    "general_fund_cr": 1.22,
+    "cash_bank_cr": 1.22
+  },
+  {
+    "party": "TVK",
+    "fy": "2025-26",
+    "income_cr": 13.3,
+    "expenditure_cr": 0.0,
+    "surplus_cr": 13.3,
+    "eb_income_cr": 0.0,
+    "general_fund_cr": 14.52,
+    "cash_bank_cr": 14.52
+  },
+  {
+    "party": "AMMK",
+    "fy": "2022-23",
+    "income_cr": 0.45,
+    "expenditure_cr": 0.52,
+    "surplus_cr": -0.07,
+    "eb_income_cr": 0.0,
+    "general_fund_cr": 0.82,
+    "cash_bank_cr": 0.35
+  },
+  {
+    "party": "AMMK",
+    "fy": "2023-24",
+    "income_cr": 0.38,
+    "expenditure_cr": 0.41,
+    "surplus_cr": -0.03,
+    "eb_income_cr": 0.0,
+    "general_fund_cr": 0.75,
+    "cash_bank_cr": 0.28
+  },
+  {
+    "party": "AMMK",
+    "fy": "2024-25",
+    "income_cr": 0.28,
+    "expenditure_cr": 0.31,
+    "surplus_cr": -0.03,
+    "eb_income_cr": 0.0,
+    "general_fund_cr": 0.72,
+    "cash_bank_cr": 0.25
+  }
+]

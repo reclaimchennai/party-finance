@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+.DS_Store
+__pycache__/
+
+# Virtual Environments
+venv/
+.venv/
+
+# Local tooling and scratch
+.claude/
+data/screenshots/
+
+# Raw source files are published as zipped GitHub release assets (see README),
+# except the small catalogs and the per-report figure extractions.
+data/raw/*
+!data/raw/metadata/
+!data/raw/geo/
+!data/raw/ocr/
+data/raw/ocr/*
+!data/raw/ocr/audit_extract/

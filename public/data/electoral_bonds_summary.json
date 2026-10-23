@@ -1,0 +1,3931 @@
+{
+  "total_scheme_encashed": 127690893000,
+  "total_scheme_encashed_cr": 12769.09,
+  "total_scheme_bonds": 20421,
+  "tn_regional_encashed": 6450500000,
+  "tn_regional_encashed_cr": 645.05,
+  "dmk_encashed_cr": 639.0,
+  "aiadmk_encashed_cr": 6.05,
+  "bjp_encashed_cr": 6060.51,
+  "inc_encashed_cr": 1421.87,
+  "zero_bond_parties": [
+    "CPI(M)",
+    "CPI",
+    "NTK",
+    "PMK",
+    "DMDK",
+    "MDMK",
+    "VCK",
+    "MNM",
+    "BSP"
+  ],
+  "parties": [
+    {
+      "party_code": "BJP",
+      "party_name": "BHARATIYA JANATA PARTY",
+      "is_tn_regional": false,
+      "is_tn_national": true,
+      "total_amount": 60605111000,
+      "total_amount_cr": 6060.51,
+      "total_bonds": 8633,
+      "matched_bonds": 7488,
+      "unmatched_bonds": 1145,
+      "top_donors": [
+        {
+          "donor": "Megha Engineering & Infrastructures Ltd",
+          "amount": 5840000000,
+          "amount_cr": 584.0,
+          "share_pct": 9.64
+        },
+        {
+          "donor": "Undisclosed (Purchased pre-12-Apr-2019)",
+          "amount": 4663100000,
+          "amount_cr": 466.31,
+          "share_pct": 7.69
+        },
+        {
+          "donor": "QWIKSUPPLYCHAINPRIVATELIMITED",
+          "amount": 3750000000,
+          "amount_cr": 375.0,
+          "share_pct": 6.19
+        },
+        {
+          "donor": "Bharti Airtel Group",
+          "amount": 2344000000,
+          "amount_cr": 234.4,
+          "share_pct": 3.87
+        },
+        {
+          "donor": "Vedanta Limited",
+          "amount": 2301500000,
+          "amount_cr": 230.15,
+          "share_pct": 3.8
+        },
+        {
+          "donor": "MADANLAL LTD.",
+          "amount": 1755000000,
+          "amount_cr": 175.5,
+          "share_pct": 2.9
+        },
+        {
+          "donor": "KEVENTER FOODPARK INFRA LIMITED",
+          "amount": 1445000000,
+          "amount_cr": 144.5,
+          "share_pct": 2.38
+        },
+        {
+          "donor": "Torrent Group",
+          "amount": 1370000000,
+          "amount_cr": 137.0,
+          "share_pct": 2.26
+        },
+        {
+          "donor": "DLF COMMERCIAL DEVELOPERS LIMITED",
+          "amount": 1300000000,
+          "amount_cr": 130.0,
+          "share_pct": 2.15
+        },
+        {
+          "donor": "BIRLACARBONINDIAPRIVATELIMITED",
+          "amount": 1050000000,
+          "amount_cr": 105.0,
+          "share_pct": 1.73
+        },
+        {
+          "donor": "Future Gaming and Hotel Services PR",
+          "amount": 1000000000,
+          "amount_cr": 100.0,
+          "share_pct": 1.65
+        },
+        {
+          "donor": "Haldia Energy Limited",
+          "amount": 810000000,
+          "amount_cr": 81.0,
+          "share_pct": 1.34
+        },
+        {
+          "donor": "WESTERN UP POWER TRANSMISSION COMPANY LI MITED",
+          "amount": 800000000,
+          "amount_cr": 80.0,
+          "share_pct": 1.32
+        },
+        {
+          "donor": "UTKAL ALUMINA INTERNATIONAL LIMITED",
+          "amount": 750000000,
+          "amount_cr": 75.0,
+          "share_pct": 1.24
+        },
+        {
+          "donor": "NCC LIMITED",
+          "amount": 600000000,
+          "amount_cr": 60.0,
+          "share_pct": 0.99
+        },
+        {
+          "donor": "INFINA FINANCE PRIVATE LIMITED",
+          "amount": 600000000,
+          "amount_cr": 60.0,
+          "share_pct": 0.99
+        },
+        {
+          "donor": "Essel Mining & Industries Ltd",
+          "amount": 500000000,
+          "amount_cr": 50.0,
+          "share_pct": 0.83
+        },
+        {
+          "donor": "SRI SIDDHARTH INFRATECH AND SERVICES I P",
+          "amount": 500000000,
+          "amount_cr": 50.0,
+          "share_pct": 0.83
+        },
+        {
+          "donor": "UNITED PHOSPHORUS INDIA LLP",
+          "amount": 500000000,
+          "amount_cr": 50.0,
+          "share_pct": 0.83
+        },
+        {
+          "donor": "RUNGTA SONS P LTD",
+          "amount": 500000000,
+          "amount_cr": 50.0,
+          "share_pct": 0.83
+        },
+        {
+          "donor": "NAVAYUGA  ENGINEERING COMPANY LIMITED",
+          "amount": 450000000,
+          "amount_cr": 45.0,
+          "share_pct": 0.74
+        },
+        {
+          "donor": "Jindal Group",
+          "amount": 420000000,
+          "amount_cr": 42.0,
+          "share_pct": 0.69
+        },
+        {
+          "donor": "PHL FINIVEST PVT LTD",
+          "amount": 400000000,
+          "amount_cr": 40.0,
+          "share_pct": 0.66
+        },
+        {
+          "donor": "MODERN ROAD MAKERS PVT. LTD.",
+          "amount": 400000000,
+          "amount_cr": 40.0,
+          "share_pct": 0.66
+        },
+        {
+          "donor": "LAXMI CIVIL ENGINEERING SERVICES PR",
+          "amount": 400000000,
+          "amount_cr": 40.0,
+          "share_pct": 0.66
+        }
+      ],
+      "monthly_timeline": [
+        {
+          "month": "2019-04",
+          "amount": 10568601000,
+          "amount_cr": 1056.86
+        },
+        {
+          "month": "2019-05",
+          "amount": 7147100000,
+          "amount_cr": 714.71
+        },
+        {
+          "month": "2019-07",
+          "amount": 150000000,
+          "amount_cr": 15.0
+        },
+        {
+          "month": "2019-10",
+          "amount": 1851800000,
+          "amount_cr": 185.18
+        },
+        {
+          "month": "2020-01",
+          "amount": 500000000,
+          "amount_cr": 50.0
+        },
+        {
+          "month": "2020-02",
+          "amount": 30000000,
+          "amount_cr": 3.0
+        },
+        {
+          "month": "2020-11",
+          "amount": 208900000,
+          "amount_cr": 20.89
+        },
+        {
+          "month": "2021-01",
+          "amount": 14950000,
+          "amount_cr": 1.5
+        },
+        {
+          "month": "2021-04",
+          "amount": 2915000000,
+          "amount_cr": 291.5
+        },
+        {
+          "month": "2021-07",
+          "amount": 180000000,
+          "amount_cr": 18.0
+        },
+        {
+          "month": "2021-10",
+          "amount": 620000000,
+          "amount_cr": 62.0
+        },
+        {
+          "month": "2022-01",
+          "amount": 6622000000,
+          "amount_cr": 662.2
+        },
+        {
+          "month": "2022-04",
+          "amount": 985000000,
+          "amount_cr": 98.5
+        },
+        {
+          "month": "2022-07",
+          "amount": 125000000,
+          "amount_cr": 12.5
+        },
+        {
+          "month": "2022-10",
+          "amount": 2225000000,
+          "amount_cr": 222.5
+        },
+        {
+          "month": "2022-11",
+          "amount": 6028499000,
+          "amount_cr": 602.85
+        },
+        {
+          "month": "2022-12",
+          "amount": 1650000000,
+          "amount_cr": 165.0
+        },
+        {
+          "month": "2023-01",
+          "amount": 1000000000,
+          "amount_cr": 100.0
+        },
+        {
+          "month": "2023-02",
+          "amount": 928000000,
+          "amount_cr": 92.8
+        },
+        {
+          "month": "2023-04",
+          "amount": 3342450000,
+          "amount_cr": 334.25
+        },
+        {
+          "month": "2023-07",
+          "amount": 869301000,
+          "amount_cr": 86.93
+        },
+        {
+          "month": "2023-10",
+          "amount": 3590500000,
+          "amount_cr": 359.05
+        },
+        {
+          "month": "2023-11",
+          "amount": 7020010000,
+          "amount_cr": 702.0
+        },
+        {
+          "month": "2023-12",
+          "amount": 13000000,
+          "amount_cr": 1.3
+        },
+        {
+          "month": "2024-01",
+          "amount": 2020000000,
+          "amount_cr": 202.0
+        }
+      ],
+      "denominations": [
+        {
+          "denomination": 10000000,
+          "count": 5854,
+          "total": 58540000000,
+          "total_cr": 5854.0
+        },
+        {
+          "denomination": 1000000,
+          "count": 1994,
+          "total": 1994000000,
+          "total_cr": 199.4
+        },
+        {
+          "denomination": 100000,
+          "count": 706,
+          "total": 70600000,
+          "total_cr": 7.06
+        },
+        {
+          "denomination": 10000,
+          "count": 48,
+          "total": 480000,
+          "total_cr": 0.05
+        },
+        {
+          "denomination": 1000,
+          "count": 31,
+          "total": 31000,
+          "total_cr": 0.0
+        }
+      ],
+      "note": ""
+    },
+    {
+      "party_code": "AITC",
+      "party_name": "ALL INDIA TRINAMOOL CONGRESS",
+      "is_tn_regional": false,
+      "is_tn_national": false,
+      "total_amount": 16095314000,
+      "total_amount_cr": 1609.53,
+      "total_bonds": 3305,
+      "matched_bonds": 3269,
+      "unmatched_bonds": 36,
+      "top_donors": [
+        {
+          "donor": "Future Gaming and Hotel Services PR",
+          "amount": 5420000000,
+          "amount_cr": 542.0,
+          "share_pct": 33.67
+        },
+        {
+          "donor": "Haldia Energy Limited",
+          "amount": 2810000000,
+          "amount_cr": 281.0,
+          "share_pct": 17.46
+        },
+        {
+          "donor": "DHARIWAL INFRASTRUCTURE LIMITED",
+          "amount": 900000000,
+          "amount_cr": 90.0,
+          "share_pct": 5.59
+        },
+        {
+          "donor": "IFB AGRO INDUSTRIES LIMITED",
+          "amount": 420000000,
+          "amount_cr": 42.0,
+          "share_pct": 2.61
+        },
+        {
+          "donor": "Chennai Green Woods Pvt Ltd",
+          "amount": 400000000,
+          "amount_cr": 40.0,
+          "share_pct": 2.49
+        },
+        {
+          "donor": "PCBL LIMITED",
+          "amount": 400000000,
+          "amount_cr": 40.0,
+          "share_pct": 2.49
+        },
+        {
+          "donor": "PRARAMBH SECURITIES PVT LTDPROPRIET",
+          "amount": 380000000,
+          "amount_cr": 38.0,
+          "share_pct": 2.36
+        },
+        {
+          "donor": "CRESCENT POWER LTD",
+          "amount": 330000000,
+          "amount_cr": 33.0,
+          "share_pct": 2.05
+        },
+        {
+          "donor": "MKJ ENTERPRISES LTD",
+          "amount": 274000000,
+          "amount_cr": 27.4,
+          "share_pct": 1.7
+        },
+        {
+          "donor": "AVEES TRADING & FINANCE PVT LTD",
+          "amount": 240000000,
+          "amount_cr": 24.0,
+          "share_pct": 1.49
+        },
+        {
+          "donor": "AVEES TRADING FINANCE PVT LTD",
+          "amount": 215000000,
+          "amount_cr": 21.5,
+          "share_pct": 1.34
+        },
+        {
+          "donor": "KEVENTER FOODPARK INFRA LIMITED",
+          "amount": 200000000,
+          "amount_cr": 20.0,
+          "share_pct": 1.24
+        },
+        {
+          "donor": "TRANSWAYS EXIM PRIVATE LIMITED",
+          "amount": 193000000,
+          "amount_cr": 19.3,
+          "share_pct": 1.2
+        },
+        {
+          "donor": "RASHMI CEMENT LTD",
+          "amount": 185000000,
+          "amount_cr": 18.5,
+          "share_pct": 1.15
+        },
+        {
+          "donor": "MKJ ENTERPRISES LIMITED",
+          "amount": 185000000,
+          "amount_cr": 18.5,
+          "share_pct": 1.15
+        },
+        {
+          "donor": "Undisclosed (Purchased pre-12-Apr-2019)",
+          "amount": 170100000,
+          "amount_cr": 17.01,
+          "share_pct": 1.06
+        },
+        {
+          "donor": "RAHUL BHATIA",
+          "amount": 162000000,
+          "amount_cr": 16.2,
+          "share_pct": 1.01
+        },
+        {
+          "donor": "Westwell Gases Pvt Ltd",
+          "amount": 154000000,
+          "amount_cr": 15.4,
+          "share_pct": 0.96
+        },
+        {
+          "donor": "MISRILALL MINES PVT LTD",
+          "amount": 140000000,
+          "amount_cr": 14.0,
+          "share_pct": 0.87
+        },
+        {
+          "donor": "HIMALAYAN ENDEAVOUR PVT LTD",
+          "amount": 112000000,
+          "amount_cr": 11.2,
+          "share_pct": 0.7
+        },
+        {
+          "donor": "PHILLIPS CARBON BLACK LIMITED",
+          "amount": 100000000,
+          "amount_cr": 10.0,
+          "share_pct": 0.62
+        },
+        {
+          "donor": "RIPLEY & CO STEVDORING & HANDLING PVT LT D",
+          "amount": 85000000,
+          "amount_cr": 8.5,
+          "share_pct": 0.53
+        },
+        {
+          "donor": "SENGUPTA AND SENGUPTA PRIVATE LIMIT",
+          "amount": 77000000,
+          "amount_cr": 7.7,
+          "share_pct": 0.48
+        },
+        {
+          "donor": "M/S. RAMESH AGARWAL C S BOTTLING PL",
+          "amount": 75000000,
+          "amount_cr": 7.5,
+          "share_pct": 0.47
+        },
+        {
+          "donor": "TIVOLI PARK APARTMENTS PVT LTD",
+          "amount": 70000000,
+          "amount_cr": 7.0,
+          "share_pct": 0.43
+        }
+      ],
+      "monthly_timeline": [
+        {
+          "month": "2019-04",
+          "amount": 177600000,
+          "amount_cr": 17.76
+        },
+        {
+          "month": "2019-05",
+          "amount": 339546000,
+          "amount_cr": 33.95
+        },
+        {
+          "month": "2019-07",
+          "amount": 153800000,
+          "amount_cr": 15.38
+        },
+        {
+          "month": "2019-10",
+          "amount": 200000000,
+          "amount_cr": 20.0
+        },
+        {
+          "month": "2020-01",
+          "amount": 123700000,
+          "amount_cr": 12.37
+        },
+        {
+          "month": "2020-10",
+          "amount": 164000000,
+          "amount_cr": 16.4
+        },
+        {
+          "month": "2020-11",
+          "amount": 10000000,
+          "amount_cr": 1.0
+        },
+        {
+          "month": "2021-01",
+          "amount": 260000000,
+          "amount_cr": 26.0
+        },
+        {
+          "month": "2021-04",
+          "amount": 554400000,
+          "amount_cr": 55.44
+        },
+        {
+          "month": "2021-07",
+          "amount": 1075630000,
+          "amount_cr": 107.56
+        },
+        {
+          "month": "2021-10",
+          "amount": 1419400000,
+          "amount_cr": 141.94
+        },
+        {
+          "month": "2022-01",
+          "amount": 2242000000,
+          "amount_cr": 224.2
+        },
+        {
+          "month": "2022-04",
+          "amount": 180000000,
+          "amount_cr": 18.0
+        },
+        {
+          "month": "2022-07",
+          "amount": 665000000,
+          "amount_cr": 66.5
+        },
+        {
+          "month": "2022-10",
+          "amount": 1431000000,
+          "amount_cr": 143.1
+        },
+        {
+          "month": "2022-12",
+          "amount": 170000000,
+          "amount_cr": 17.0
+        },
+        {
+          "month": "2023-01",
+          "amount": 605000000,
+          "amount_cr": 60.5
+        },
+        {
+          "month": "2023-02",
+          "amount": 200000000,
+          "amount_cr": 20.0
+        },
+        {
+          "month": "2023-04",
+          "amount": 1869550000,
+          "amount_cr": 186.96
+        },
+        {
+          "month": "2023-07",
+          "amount": 1170000000,
+          "amount_cr": 117.0
+        },
+        {
+          "month": "2023-10",
+          "amount": 1712888000,
+          "amount_cr": 171.29
+        },
+        {
+          "month": "2023-11",
+          "amount": 67300000,
+          "amount_cr": 6.73
+        },
+        {
+          "month": "2024-01",
+          "amount": 1304500000,
+          "amount_cr": 130.45
+        }
+      ],
+      "denominations": [
+        {
+          "denomination": 10000000,
+          "count": 1467,
+          "total": 14670000000,
+          "total_cr": 1467.0
+        },
+        {
+          "denomination": 1000000,
+          "count": 1384,
+          "total": 1384000000,
+          "total_cr": 138.4
+        },
+        {
+          "denomination": 100000,
+          "count": 410,
+          "total": 41000000,
+          "total_cr": 4.1
+        },
+        {
+          "denomination": 10000,
+          "count": 30,
+          "total": 300000,
+          "total_cr": 0.03
+        },
+        {
+          "denomination": 1000,
+          "count": 14,
+          "total": 14000,
+          "total_cr": 0.0
+        }
+      ],
+      "note": ""
+    },
+    {
+      "party_code": "INC",
+      "party_name": "PRESIDENT, ALL INDIA CONGRESS COMMITTEE",
+      "is_tn_regional": false,
+      "is_tn_national": true,
+      "total_amount": 14218655000,
+      "total_amount_cr": 1421.87,
+      "total_bonds": 3146,
+      "matched_bonds": 2908,
+      "unmatched_bonds": 238,
+      "top_donors": [
+        {
+          "donor": "Vedanta Limited",
+          "amount": 1250000000,
+          "amount_cr": 125.0,
+          "share_pct": 8.79
+        },
+        {
+          "donor": "WESTERN UP POWER TRANSMISSION COMPANY LI MITED",
+          "amount": 1100000000,
+          "amount_cr": 110.0,
+          "share_pct": 7.74
+        },
+        {
+          "donor": "Undisclosed (Purchased pre-12-Apr-2019)",
+          "amount": 707710000,
+          "amount_cr": 70.77,
+          "share_pct": 4.98
+        },
+        {
+          "donor": "MKJ ENTERPRISES LIMITED",
+          "amount": 693500000,
+          "amount_cr": 69.35,
+          "share_pct": 4.88
+        },
+        {
+          "donor": "YASHODA SUPER SPECIALITY HOSPITAL",
+          "amount": 640000000,
+          "amount_cr": 64.0,
+          "share_pct": 4.5
+        },
+        {
+          "donor": "AVEES TRADING FINANCE PVT LTD",
+          "amount": 530000000,
+          "amount_cr": 53.0,
+          "share_pct": 3.73
+        },
+        {
+          "donor": "Future Gaming and Hotel Services PR",
+          "amount": 500000000,
+          "amount_cr": 50.0,
+          "share_pct": 3.52
+        },
+        {
+          "donor": "SASMAL INFRASTRUCTURE PRIVATE LIMITED",
+          "amount": 390000000,
+          "amount_cr": 39.0,
+          "share_pct": 2.74
+        },
+        {
+          "donor": "RITHWIK PROJECTS  PRIVATE LIMITED",
+          "amount": 300000000,
+          "amount_cr": 30.0,
+          "share_pct": 2.11
+        },
+        {
+          "donor": "SEPC POWER PVT LTD OPERATION RETEN",
+          "amount": 300000000,
+          "amount_cr": 30.0,
+          "share_pct": 2.11
+        },
+        {
+          "donor": "Jindal Group",
+          "amount": 230000000,
+          "amount_cr": 23.0,
+          "share_pct": 1.62
+        },
+        {
+          "donor": "MKJ ENTERPRISES LTD",
+          "amount": 222500000,
+          "amount_cr": 22.25,
+          "share_pct": 1.56
+        },
+        {
+          "donor": "Torrent Group",
+          "amount": 220000000,
+          "amount_cr": 22.0,
+          "share_pct": 1.55
+        },
+        {
+          "donor": "SIDDHI TRADING",
+          "amount": 220000000,
+          "amount_cr": 22.0,
+          "share_pct": 1.55
+        },
+        {
+          "donor": "KEVENTER FOODPARK INFRA LIMITED",
+          "amount": 200000000,
+          "amount_cr": 20.0,
+          "share_pct": 1.41
+        },
+        {
+          "donor": "BKC PROPERTIES PVT LTD",
+          "amount": 200000000,
+          "amount_cr": 20.0,
+          "share_pct": 1.41
+        },
+        {
+          "donor": "Megha Engineering & Infrastructures Ltd",
+          "amount": 180000000,
+          "amount_cr": 18.0,
+          "share_pct": 1.27
+        },
+        {
+          "donor": "TRANSWAYS EXIM PRIVATE LIMITED",
+          "amount": 152000000,
+          "amount_cr": 15.2,
+          "share_pct": 1.07
+        },
+        {
+          "donor": "Haldia Energy Limited",
+          "amount": 150000000,
+          "amount_cr": 15.0,
+          "share_pct": 1.05
+        },
+        {
+          "donor": "Chennai Green Woods Pvt Ltd",
+          "amount": 150000000,
+          "amount_cr": 15.0,
+          "share_pct": 1.05
+        },
+        {
+          "donor": "APARNA FARMS AND ESTATES LLP",
+          "amount": 150000000,
+          "amount_cr": 15.0,
+          "share_pct": 1.05
+        },
+        {
+          "donor": "JK LAKSHMI CEMENT LIMITED",
+          "amount": 140000000,
+          "amount_cr": 14.0,
+          "share_pct": 0.98
+        },
+        {
+          "donor": "DR.REDDY'S LABORATORIES LTD",
+          "amount": 140000000,
+          "amount_cr": 14.0,
+          "share_pct": 0.98
+        },
+        {
+          "donor": "NIRMA LIMITED",
+          "amount": 130000000,
+          "amount_cr": 13.0,
+          "share_pct": 0.91
+        },
+        {
+          "donor": "NATCO PHARMA LTD",
+          "amount": 122500000,
+          "amount_cr": 12.25,
+          "share_pct": 0.86
+        }
+      ],
+      "monthly_timeline": [
+        {
+          "month": "2019-04",
+          "amount": 1185610000,
+          "amount_cr": 118.56
+        },
+        {
+          "month": "2019-05",
+          "amount": 500000000,
+          "amount_cr": 50.0
+        },
+        {
+          "month": "2019-10",
+          "amount": 17500000,
+          "amount_cr": 1.75
+        },
+        {
+          "month": "2020-01",
+          "amount": 60000000,
+          "amount_cr": 6.0
+        },
+        {
+          "month": "2020-10",
+          "amount": 30000000,
+          "amount_cr": 3.0
+        },
+        {
+          "month": "2021-01",
+          "amount": 70750000,
+          "amount_cr": 7.08
+        },
+        {
+          "month": "2021-04",
+          "amount": 587500000,
+          "amount_cr": 58.75
+        },
+        {
+          "month": "2021-07",
+          "amount": 247000000,
+          "amount_cr": 24.7
+        },
+        {
+          "month": "2021-10",
+          "amount": 333995000,
+          "amount_cr": 33.4
+        },
+        {
+          "month": "2022-01",
+          "amount": 1192500000,
+          "amount_cr": 119.25
+        },
+        {
+          "month": "2022-04",
+          "amount": 80000000,
+          "amount_cr": 8.0
+        },
+        {
+          "month": "2022-07",
+          "amount": 575000000,
+          "amount_cr": 57.5
+        },
+        {
+          "month": "2022-10",
+          "amount": 372000000,
+          "amount_cr": 37.2
+        },
+        {
+          "month": "2022-11",
+          "amount": 494100000,
+          "amount_cr": 49.41
+        },
+        {
+          "month": "2022-12",
+          "amount": 180000000,
+          "amount_cr": 18.0
+        },
+        {
+          "month": "2023-01",
+          "amount": 9100000,
+          "amount_cr": 0.91
+        },
+        {
+          "month": "2023-04",
+          "amount": 1905500000,
+          "amount_cr": 190.55
+        },
+        {
+          "month": "2023-07",
+          "amount": 205000000,
+          "amount_cr": 20.5
+        },
+        {
+          "month": "2023-10",
+          "amount": 4019100000,
+          "amount_cr": 401.91
+        },
+        {
+          "month": "2023-11",
+          "amount": 1795000000,
+          "amount_cr": 179.5
+        },
+        {
+          "month": "2024-01",
+          "amount": 359000000,
+          "amount_cr": 35.9
+        }
+      ],
+      "denominations": [
+        {
+          "denomination": 10000000,
+          "count": 1318,
+          "total": 13180000000,
+          "total_cr": 1318.0
+        },
+        {
+          "denomination": 1000000,
+          "count": 958,
+          "total": 958000000,
+          "total_cr": 95.8
+        },
+        {
+          "denomination": 100000,
+          "count": 800,
+          "total": 80000000,
+          "total_cr": 8.0
+        },
+        {
+          "denomination": 10000,
+          "count": 65,
+          "total": 650000,
+          "total_cr": 0.07
+        },
+        {
+          "denomination": 1000,
+          "count": 5,
+          "total": 5000,
+          "total_cr": 0.0
+        }
+      ],
+      "note": ""
+    },
+    {
+      "party_code": "BRS",
+      "party_name": "BHARAT RASHTRA SAMITHI",
+      "is_tn_regional": false,
+      "is_tn_national": false,
+      "total_amount": 12147099000,
+      "total_amount_cr": 1214.71,
+      "total_bonds": 1806,
+      "matched_bonds": 1773,
+      "unmatched_bonds": 33,
+      "top_donors": [
+        {
+          "donor": "Megha Engineering & Infrastructures Ltd",
+          "amount": 1950000000,
+          "amount_cr": 195.0,
+          "share_pct": 16.05
+        },
+        {
+          "donor": "YASHODA SUPER SPECIALITY HOSPITAL",
+          "amount": 940000000,
+          "amount_cr": 94.0,
+          "share_pct": 7.74
+        },
+        {
+          "donor": "Chennai Green Woods Pvt Ltd",
+          "amount": 500000000,
+          "amount_cr": 50.0,
+          "share_pct": 4.12
+        },
+        {
+          "donor": "DR.REDDY'S LABORATORIES LTD",
+          "amount": 320000000,
+          "amount_cr": 32.0,
+          "share_pct": 2.63
+        },
+        {
+          "donor": "HETERO DRUGS LIMITED",
+          "amount": 300000000,
+          "amount_cr": 30.0,
+          "share_pct": 2.47
+        },
+        {
+          "donor": "IRB MP EXPRESSWAY PRIVATE LIMITED",
+          "amount": 250000000,
+          "amount_cr": 25.0,
+          "share_pct": 2.06
+        },
+        {
+          "donor": "Undisclosed (Purchased pre-12-Apr-2019)",
+          "amount": 235500000,
+          "amount_cr": 23.55,
+          "share_pct": 1.94
+        },
+        {
+          "donor": "L7 HITECH PRIVATE LIMITED",
+          "amount": 220000000,
+          "amount_cr": 22.0,
+          "share_pct": 1.81
+        },
+        {
+          "donor": "RAJAPUSHPA PROPERTIES PVT LTD",
+          "amount": 200000000,
+          "amount_cr": 20.0,
+          "share_pct": 1.65
+        },
+        {
+          "donor": "MSN PHARMACHEM PVT LTD",
+          "amount": 200000000,
+          "amount_cr": 20.0,
+          "share_pct": 1.65
+        },
+        {
+          "donor": "HES INFRA PVT LTD",
+          "amount": 200000000,
+          "amount_cr": 20.0,
+          "share_pct": 1.65
+        },
+        {
+          "donor": "KOYA AND COMPANY CONSTRUCTION LTD",
+          "amount": 200000000,
+          "amount_cr": 20.0,
+          "share_pct": 1.65
+        },
+        {
+          "donor": "HONOUR LAB LTD",
+          "amount": 200000000,
+          "amount_cr": 20.0,
+          "share_pct": 1.65
+        },
+        {
+          "donor": "HETERO LABS LIMITED",
+          "amount": 200000000,
+          "amount_cr": 20.0,
+          "share_pct": 1.65
+        },
+        {
+          "donor": "DIVI S LABORATORIES LIMITED",
+          "amount": 200000000,
+          "amount_cr": 20.0,
+          "share_pct": 1.65
+        },
+        {
+          "donor": "TELLAPUR TECHNOCITY PRIVATE LIMI",
+          "amount": 200000000,
+          "amount_cr": 20.0,
+          "share_pct": 1.65
+        },
+        {
+          "donor": "NSL SEZ(HYDERABAD) PRIVATE LIMITED",
+          "amount": 195000000,
+          "amount_cr": 19.5,
+          "share_pct": 1.61
+        },
+        {
+          "donor": "K RAHEJA CORP PVT LTD",
+          "amount": 180000000,
+          "amount_cr": 18.0,
+          "share_pct": 1.48
+        },
+        {
+          "donor": "KITEX GARMENTS LIMITED",
+          "amount": 160000000,
+          "amount_cr": 16.0,
+          "share_pct": 1.32
+        },
+        {
+          "donor": "DHEERAJ MEDICALS",
+          "amount": 150000000,
+          "amount_cr": 15.0,
+          "share_pct": 1.23
+        },
+        {
+          "donor": "AUROBINDO PHARMA LIMITED",
+          "amount": 150000000,
+          "amount_cr": 15.0,
+          "share_pct": 1.23
+        },
+        {
+          "donor": "MY HOME INFRASTRUCTURES  PRIVATE LI",
+          "amount": 150000000,
+          "amount_cr": 15.0,
+          "share_pct": 1.23
+        },
+        {
+          "donor": "AQUA SPACE DEVELOPERS PRIVATE LIMIT",
+          "amount": 150000000,
+          "amount_cr": 15.0,
+          "share_pct": 1.23
+        },
+        {
+          "donor": "APARNA FARMS AND ESTATES LLP",
+          "amount": 150000000,
+          "amount_cr": 15.0,
+          "share_pct": 1.23
+        },
+        {
+          "donor": "SANDHYA  CONSTRUCTIONS & ESTATES PRIVATE  LIMITED",
+          "amount": 130000000,
+          "amount_cr": 13.0,
+          "share_pct": 1.07
+        }
+      ],
+      "monthly_timeline": [
+        {
+          "month": "2019-04",
+          "amount": 235500000,
+          "amount_cr": 23.55
+        },
+        {
+          "month": "2019-05",
+          "amount": 136029000,
+          "amount_cr": 13.6
+        },
+        {
+          "month": "2021-10",
+          "amount": 1530000000,
+          "amount_cr": 153.0
+        },
+        {
+          "month": "2022-04",
+          "amount": 4109870000,
+          "amount_cr": 410.99
+        },
+        {
+          "month": "2022-07",
+          "amount": 630000000,
+          "amount_cr": 63.0
+        },
+        {
+          "month": "2022-10",
+          "amount": 550000000,
+          "amount_cr": 55.0
+        },
+        {
+          "month": "2023-01",
+          "amount": 500000,
+          "amount_cr": 0.05
+        },
+        {
+          "month": "2023-04",
+          "amount": 911000000,
+          "amount_cr": 91.1
+        },
+        {
+          "month": "2023-07",
+          "amount": 3184200000,
+          "amount_cr": 318.42
+        },
+        {
+          "month": "2023-10",
+          "amount": 725000000,
+          "amount_cr": 72.5
+        },
+        {
+          "month": "2023-11",
+          "amount": 135000000,
+          "amount_cr": 13.5
+        }
+      ],
+      "denominations": [
+        {
+          "denomination": 10000000,
+          "count": 1181,
+          "total": 11810000000,
+          "total_cr": 1181.0
+        },
+        {
+          "denomination": 1000000,
+          "count": 310,
+          "total": 310000000,
+          "total_cr": 31.0
+        },
+        {
+          "denomination": 100000,
+          "count": 267,
+          "total": 26700000,
+          "total_cr": 2.67
+        },
+        {
+          "denomination": 10000,
+          "count": 39,
+          "total": 390000,
+          "total_cr": 0.04
+        },
+        {
+          "denomination": 1000,
+          "count": 9,
+          "total": 9000,
+          "total_cr": 0.0
+        }
+      ],
+      "note": ""
+    },
+    {
+      "party_code": "BJD",
+      "party_name": "BIJU JANATA DAL",
+      "is_tn_regional": false,
+      "is_tn_national": false,
+      "total_amount": 7755000000,
+      "total_amount_cr": 775.5,
+      "total_bonds": 861,
+      "matched_bonds": 861,
+      "unmatched_bonds": 0,
+      "top_donors": [
+        {
+          "donor": "Essel Mining & Industries Ltd",
+          "amount": 1745000000,
+          "amount_cr": 174.5,
+          "share_pct": 22.5
+        },
+        {
+          "donor": "Jindal Group",
+          "amount": 1300000000,
+          "amount_cr": 130.0,
+          "share_pct": 16.76
+        },
+        {
+          "donor": "UTKAL ALUMINA INTERNATIONAL LIMITED",
+          "amount": 600000000,
+          "amount_cr": 60.0,
+          "share_pct": 7.74
+        },
+        {
+          "donor": "RUNGTA SONS P LTD",
+          "amount": 500000000,
+          "amount_cr": 50.0,
+          "share_pct": 6.45
+        },
+        {
+          "donor": "MS S N MOHANTY",
+          "amount": 450000000,
+          "amount_cr": 45.0,
+          "share_pct": 5.8
+        },
+        {
+          "donor": "RASHMI CEMENT LTD",
+          "amount": 450000000,
+          "amount_cr": 45.0,
+          "share_pct": 5.8
+        },
+        {
+          "donor": "Vedanta Limited",
+          "amount": 400000000,
+          "amount_cr": 40.0,
+          "share_pct": 5.16
+        },
+        {
+          "donor": "PENGUIN TRADING & AGENCIES LIMITED",
+          "amount": 275000000,
+          "amount_cr": 27.5,
+          "share_pct": 3.55
+        },
+        {
+          "donor": "RASHMI METALIKS LTD",
+          "amount": 270000000,
+          "amount_cr": 27.0,
+          "share_pct": 3.48
+        },
+        {
+          "donor": "SHRI JAGANNATH STEELS & POWER LTD",
+          "amount": 140000000,
+          "amount_cr": 14.0,
+          "share_pct": 1.81
+        },
+        {
+          "donor": "KAYPEE ENTERPRISES",
+          "amount": 100000000,
+          "amount_cr": 10.0,
+          "share_pct": 1.29
+        },
+        {
+          "donor": "ULTRATECHCEMENTSLTD",
+          "amount": 100000000,
+          "amount_cr": 10.0,
+          "share_pct": 1.29
+        },
+        {
+          "donor": "GRASIM INDUSTRIES LTD",
+          "amount": 100000000,
+          "amount_cr": 10.0,
+          "share_pct": 1.29
+        },
+        {
+          "donor": "UTKAL ALUMINA INTERNATIONAL LTD",
+          "amount": 100000000,
+          "amount_cr": 10.0,
+          "share_pct": 1.29
+        },
+        {
+          "donor": "ORISSA METALIKS PVT LIMITED",
+          "amount": 100000000,
+          "amount_cr": 10.0,
+          "share_pct": 1.29
+        },
+        {
+          "donor": "MKJ ENTERPRISES LIMITED",
+          "amount": 100000000,
+          "amount_cr": 10.0,
+          "share_pct": 1.29
+        },
+        {
+          "donor": "SHRI SHAMLAJI SALES PRIVATE LIMITED",
+          "amount": 100000000,
+          "amount_cr": 10.0,
+          "share_pct": 1.29
+        },
+        {
+          "donor": "PROCURE ADVISORY SERVICES PRIVATE LTD",
+          "amount": 80000000,
+          "amount_cr": 8.0,
+          "share_pct": 1.03
+        },
+        {
+          "donor": "ORRISA METALIKS PVT LTD",
+          "amount": 80000000,
+          "amount_cr": 8.0,
+          "share_pct": 1.03
+        },
+        {
+          "donor": "THE PUNJAB BUSINESS SUPPLY COMPANY",
+          "amount": 78000000,
+          "amount_cr": 7.8,
+          "share_pct": 1.01
+        },
+        {
+          "donor": "IFB AGRO INDUSTRIES LIMITED",
+          "amount": 63000000,
+          "amount_cr": 6.3,
+          "share_pct": 0.81
+        },
+        {
+          "donor": "BALU IRON AND STEEL COMPANY",
+          "amount": 60000000,
+          "amount_cr": 6.0,
+          "share_pct": 0.77
+        },
+        {
+          "donor": "ROSHNI DEALMARK PRIVATE LTD",
+          "amount": 50000000,
+          "amount_cr": 5.0,
+          "share_pct": 0.64
+        },
+        {
+          "donor": "KAMNA CREDITS AND PROMOTORS PVT LTD",
+          "amount": 50000000,
+          "amount_cr": 5.0,
+          "share_pct": 0.64
+        },
+        {
+          "donor": "D S ENGINEERING WORKS LLP",
+          "amount": 50000000,
+          "amount_cr": 5.0,
+          "share_pct": 0.64
+        }
+      ],
+      "monthly_timeline": [
+        {
+          "month": "2019-07",
+          "amount": 100000000,
+          "amount_cr": 10.0
+        },
+        {
+          "month": "2020-01",
+          "amount": 100000000,
+          "amount_cr": 10.0
+        },
+        {
+          "month": "2020-10",
+          "amount": 670000000,
+          "amount_cr": 67.0
+        },
+        {
+          "month": "2021-04",
+          "amount": 1160000000,
+          "amount_cr": 116.0
+        },
+        {
+          "month": "2021-10",
+          "amount": 1250000000,
+          "amount_cr": 125.0
+        },
+        {
+          "month": "2022-01",
+          "amount": 500000000,
+          "amount_cr": 50.0
+        },
+        {
+          "month": "2022-04",
+          "amount": 30000000,
+          "amount_cr": 3.0
+        },
+        {
+          "month": "2022-07",
+          "amount": 1070000000,
+          "amount_cr": 107.0
+        },
+        {
+          "month": "2022-10",
+          "amount": 350000000,
+          "amount_cr": 35.0
+        },
+        {
+          "month": "2023-02",
+          "amount": 70000000,
+          "amount_cr": 7.0
+        },
+        {
+          "month": "2023-04",
+          "amount": 150000000,
+          "amount_cr": 15.0
+        },
+        {
+          "month": "2023-07",
+          "amount": 1555000000,
+          "amount_cr": 155.5
+        },
+        {
+          "month": "2023-10",
+          "amount": 450000000,
+          "amount_cr": 45.0
+        },
+        {
+          "month": "2023-11",
+          "amount": 300000000,
+          "amount_cr": 30.0
+        }
+      ],
+      "denominations": [
+        {
+          "denomination": 10000000,
+          "count": 766,
+          "total": 7660000000,
+          "total_cr": 766.0
+        },
+        {
+          "denomination": 1000000,
+          "count": 95,
+          "total": 95000000,
+          "total_cr": 9.5
+        }
+      ],
+      "note": ""
+    },
+    {
+      "party_code": "DMK",
+      "party_name": "DRAVIDA MUNNETRA KAZHAGAM (DMK)",
+      "is_tn_regional": true,
+      "is_tn_national": false,
+      "total_amount": 6390000000,
+      "total_amount_cr": 639.0,
+      "total_bonds": 648,
+      "matched_bonds": 641,
+      "unmatched_bonds": 7,
+      "top_donors": [
+        {
+          "donor": "Future Gaming and Hotel Services PR",
+          "amount": 5030000000,
+          "amount_cr": 503.0,
+          "share_pct": 78.72
+        },
+        {
+          "donor": "Megha Engineering & Infrastructures Ltd",
+          "amount": 850000000,
+          "amount_cr": 85.0,
+          "share_pct": 13.3
+        },
+        {
+          "donor": "Westwell Gases Pvt Ltd",
+          "amount": 80000000,
+          "amount_cr": 8.0,
+          "share_pct": 1.25
+        },
+        {
+          "donor": "Undisclosed (Purchased pre-12-Apr-2019)",
+          "amount": 70000000,
+          "amount_cr": 7.0,
+          "share_pct": 1.1
+        },
+        {
+          "donor": "Askus Logistics Pvt Ltd",
+          "amount": 70000000,
+          "amount_cr": 7.0,
+          "share_pct": 1.1
+        },
+        {
+          "donor": "Fertileland Foods Pvt Ltd",
+          "amount": 50000000,
+          "amount_cr": 5.0,
+          "share_pct": 0.78
+        },
+        {
+          "donor": "The India Cements Ltd",
+          "amount": 40000000,
+          "amount_cr": 4.0,
+          "share_pct": 0.63
+        },
+        {
+          "donor": "Herald Beverages Pvt Ltd",
+          "amount": 40000000,
+          "amount_cr": 4.0,
+          "share_pct": 0.63
+        },
+        {
+          "donor": "Kal Radio Ltd (Sun Group)",
+          "amount": 35000000,
+          "amount_cr": 3.5,
+          "share_pct": 0.55
+        },
+        {
+          "donor": "SOUTH ASIA FM LIMITED",
+          "amount": 35000000,
+          "amount_cr": 3.5,
+          "share_pct": 0.55
+        },
+        {
+          "donor": "SUN DISTRIBUTION SERVICES PVT LTD",
+          "amount": 30000000,
+          "amount_cr": 3.0,
+          "share_pct": 0.47
+        },
+        {
+          "donor": "THRIVENI EARTH MOVERS PVT LTD",
+          "amount": 30000000,
+          "amount_cr": 3.0,
+          "share_pct": 0.47
+        },
+        {
+          "donor": "MODERN ROAD MAKERS PVT LTD",
+          "amount": 20000000,
+          "amount_cr": 2.0,
+          "share_pct": 0.31
+        },
+        {
+          "donor": "SANDEEP AUTO LINES",
+          "amount": 10000000,
+          "amount_cr": 1.0,
+          "share_pct": 0.16
+        }
+      ],
+      "monthly_timeline": [
+        {
+          "month": "2019-04",
+          "amount": 90000000,
+          "amount_cr": 9.0
+        },
+        {
+          "month": "2020-10",
+          "amount": 800000000,
+          "amount_cr": 80.0
+        },
+        {
+          "month": "2021-04",
+          "amount": 1060000000,
+          "amount_cr": 106.0
+        },
+        {
+          "month": "2021-10",
+          "amount": 990000000,
+          "amount_cr": 99.0
+        },
+        {
+          "month": "2022-01",
+          "amount": 1000000000,
+          "amount_cr": 100.0
+        },
+        {
+          "month": "2022-04",
+          "amount": 1000000000,
+          "amount_cr": 100.0
+        },
+        {
+          "month": "2022-07",
+          "amount": 750000000,
+          "amount_cr": 75.0
+        },
+        {
+          "month": "2022-10",
+          "amount": 100000000,
+          "amount_cr": 10.0
+        },
+        {
+          "month": "2023-04",
+          "amount": 400000000,
+          "amount_cr": 40.0
+        },
+        {
+          "month": "2024-01",
+          "amount": 200000000,
+          "amount_cr": 20.0
+        }
+      ],
+      "denominations": [
+        {
+          "denomination": 10000000,
+          "count": 638,
+          "total": 6380000000,
+          "total_cr": 638.0
+        },
+        {
+          "denomination": 1000000,
+          "count": 10,
+          "total": 10000000,
+          "total_cr": 1.0
+        }
+      ],
+      "note": ""
+    },
+    {
+      "party_code": "YSRCP",
+      "party_name": "YSR  CONGRESS PARTY  (YUVAJANA SRAMIKA RYTHU CONGRESS PARTY)",
+      "is_tn_regional": false,
+      "is_tn_national": false,
+      "total_amount": 3370000000,
+      "total_amount_cr": 337.0,
+      "total_bonds": 472,
+      "matched_bonds": 448,
+      "unmatched_bonds": 24,
+      "top_donors": [
+        {
+          "donor": "Future Gaming and Hotel Services PR",
+          "amount": 1540000000,
+          "amount_cr": 154.0,
+          "share_pct": 45.7
+        },
+        {
+          "donor": "Megha Engineering & Infrastructures Ltd",
+          "amount": 370000000,
+          "amount_cr": 37.0,
+          "share_pct": 10.98
+        },
+        {
+          "donor": "THE RAMCO CEMENTS LIMITED",
+          "amount": 240000000,
+          "amount_cr": 24.0,
+          "share_pct": 7.12
+        },
+        {
+          "donor": "OSTRO JAISALMER PRIVATE LIMITED",
+          "amount": 170000000,
+          "amount_cr": 17.0,
+          "share_pct": 5.04
+        },
+        {
+          "donor": "OSTRO MADHYA WIND PRIVATE LIMITED",
+          "amount": 170000000,
+          "amount_cr": 17.0,
+          "share_pct": 5.04
+        },
+        {
+          "donor": "SNEHA KINETIC POWER PROJECTS PVT LTD",
+          "amount": 100000000,
+          "amount_cr": 10.0,
+          "share_pct": 2.97
+        },
+        {
+          "donor": "Undisclosed (Purchased pre-12-Apr-2019)",
+          "amount": 82500000,
+          "amount_cr": 8.25,
+          "share_pct": 2.45
+        },
+        {
+          "donor": "EVERSHINE INTERIORS CHENNAI PVT LTD",
+          "amount": 50000000,
+          "amount_cr": 5.0,
+          "share_pct": 1.48
+        },
+        {
+          "donor": "FUTURISTIC HANDLING SERVICES PVT LTD",
+          "amount": 50000000,
+          "amount_cr": 5.0,
+          "share_pct": 1.48
+        },
+        {
+          "donor": "GREENKO ANANTAPUR WIND POWER PRIVATE LIMITED",
+          "amount": 50000000,
+          "amount_cr": 5.0,
+          "share_pct": 1.48
+        },
+        {
+          "donor": "SKEIRON RENEWABLE ENERGY AMIDYALA PRIVATE LIMITED",
+          "amount": 50000000,
+          "amount_cr": 5.0,
+          "share_pct": 1.48
+        },
+        {
+          "donor": "TANOT WIND POWER VENTURES PVT LTD",
+          "amount": 30000000,
+          "amount_cr": 3.0,
+          "share_pct": 0.89
+        },
+        {
+          "donor": "AXIS WIND FARMS (MPR DAM) PRIVATE L",
+          "amount": 30000000,
+          "amount_cr": 3.0,
+          "share_pct": 0.89
+        },
+        {
+          "donor": "GREENKO URAVAKONDA WIND POWER PRIVA",
+          "amount": 30000000,
+          "amount_cr": 3.0,
+          "share_pct": 0.89
+        },
+        {
+          "donor": "NATCO PHARMA LTD",
+          "amount": 30000000,
+          "amount_cr": 3.0,
+          "share_pct": 0.89
+        },
+        {
+          "donor": "DIVYESH POWER PVT LTD",
+          "amount": 20000000,
+          "amount_cr": 2.0,
+          "share_pct": 0.59
+        },
+        {
+          "donor": "ELENA RENEWABLE ENERGY PVT LTD",
+          "amount": 20000000,
+          "amount_cr": 2.0,
+          "share_pct": 0.59
+        },
+        {
+          "donor": "SEI DIAMOND PVT LTD",
+          "amount": 20000000,
+          "amount_cr": 2.0,
+          "share_pct": 0.59
+        },
+        {
+          "donor": "AARISH SOLAR POWER PRIVATE LIMITED",
+          "amount": 20000000,
+          "amount_cr": 2.0,
+          "share_pct": 0.59
+        },
+        {
+          "donor": "ANIMALA WIND POWER PRIVATE LIMITED",
+          "amount": 20000000,
+          "amount_cr": 2.0,
+          "share_pct": 0.59
+        },
+        {
+          "donor": "GREENKO RAYALA WIND POWER PRIVATE LIMITE D",
+          "amount": 20000000,
+          "amount_cr": 2.0,
+          "share_pct": 0.59
+        },
+        {
+          "donor": "KHANDKE WIND ENERGY PRIVATE LIMITED",
+          "amount": 20000000,
+          "amount_cr": 2.0,
+          "share_pct": 0.59
+        },
+        {
+          "donor": "DEVARAHIPPARIGI WIND POWER PVT LTD",
+          "amount": 20000000,
+          "amount_cr": 2.0,
+          "share_pct": 0.59
+        },
+        {
+          "donor": "SKEIRON RENEWABLE ENERGY AMIDYALA P",
+          "amount": 20000000,
+          "amount_cr": 2.0,
+          "share_pct": 0.59
+        },
+        {
+          "donor": "Vedanta Limited",
+          "amount": 17500000,
+          "amount_cr": 1.75,
+          "share_pct": 0.52
+        }
+      ],
+      "monthly_timeline": [
+        {
+          "month": "2019-04",
+          "amount": 82500000,
+          "amount_cr": 8.25
+        },
+        {
+          "month": "2020-11",
+          "amount": 890000000,
+          "amount_cr": 89.0
+        },
+        {
+          "month": "2021-01",
+          "amount": 62500000,
+          "amount_cr": 6.25
+        },
+        {
+          "month": "2021-04",
+          "amount": 600000000,
+          "amount_cr": 60.0
+        },
+        {
+          "month": "2022-04",
+          "amount": 100000000,
+          "amount_cr": 10.0
+        },
+        {
+          "month": "2022-10",
+          "amount": 50000000,
+          "amount_cr": 5.0
+        },
+        {
+          "month": "2022-11",
+          "amount": 160000000,
+          "amount_cr": 16.0
+        },
+        {
+          "month": "2022-12",
+          "amount": 210000000,
+          "amount_cr": 21.0
+        },
+        {
+          "month": "2023-04",
+          "amount": 350000000,
+          "amount_cr": 35.0
+        },
+        {
+          "month": "2023-07",
+          "amount": 255000000,
+          "amount_cr": 25.5
+        },
+        {
+          "month": "2023-11",
+          "amount": 240000000,
+          "amount_cr": 24.0
+        },
+        {
+          "month": "2023-12",
+          "amount": 340000000,
+          "amount_cr": 34.0
+        },
+        {
+          "month": "2024-01",
+          "amount": 30000000,
+          "amount_cr": 3.0
+        }
+      ],
+      "denominations": [
+        {
+          "denomination": 10000000,
+          "count": 328,
+          "total": 3280000000,
+          "total_cr": 328.0
+        },
+        {
+          "denomination": 1000000,
+          "count": 84,
+          "total": 84000000,
+          "total_cr": 8.4
+        },
+        {
+          "denomination": 100000,
+          "count": 60,
+          "total": 6000000,
+          "total_cr": 0.6
+        }
+      ],
+      "note": ""
+    },
+    {
+      "party_code": "TDP",
+      "party_name": "TELUGU DESAM PARTY",
+      "is_tn_regional": false,
+      "is_tn_national": false,
+      "total_amount": 2188800000,
+      "total_amount_cr": 218.88,
+      "total_bonds": 279,
+      "matched_bonds": 260,
+      "unmatched_bonds": 19,
+      "top_donors": [
+        {
+          "donor": "SHIRDI SAI ELECTRICALS LTD",
+          "amount": 400000000,
+          "amount_cr": 40.0,
+          "share_pct": 18.27
+        },
+        {
+          "donor": "Megha Engineering & Infrastructures Ltd",
+          "amount": 280000000,
+          "amount_cr": 28.0,
+          "share_pct": 12.79
+        },
+        {
+          "donor": "WESTERN UP POWER TRANSMISSION COMPANY LI MITED",
+          "amount": 200000000,
+          "amount_cr": 20.0,
+          "share_pct": 9.14
+        },
+        {
+          "donor": "NATCO PHARMA LTD",
+          "amount": 140000000,
+          "amount_cr": 14.0,
+          "share_pct": 6.4
+        },
+        {
+          "donor": "DR.REDDY'S LABORATORIES LTD",
+          "amount": 100000000,
+          "amount_cr": 10.0,
+          "share_pct": 4.57
+        },
+        {
+          "donor": "BHARAT BIOTECH INTERNATIONAL LIMITED",
+          "amount": 100000000,
+          "amount_cr": 10.0,
+          "share_pct": 4.57
+        },
+        {
+          "donor": "Undisclosed (Purchased pre-12-Apr-2019)",
+          "amount": 73000000,
+          "amount_cr": 7.3,
+          "share_pct": 3.34
+        },
+        {
+          "donor": "TRIDENTCHEMPHARLIMITED",
+          "amount": 50000000,
+          "amount_cr": 5.0,
+          "share_pct": 2.28
+        },
+        {
+          "donor": "THE RAMCO CEMENTS LIMITED",
+          "amount": 50000000,
+          "amount_cr": 5.0,
+          "share_pct": 2.28
+        },
+        {
+          "donor": "RITHWIK PROJECTS  PRIVATE LIMITED",
+          "amount": 50000000,
+          "amount_cr": 5.0,
+          "share_pct": 2.28
+        },
+        {
+          "donor": "MAATHA PROJECTS LLP",
+          "amount": 50000000,
+          "amount_cr": 5.0,
+          "share_pct": 2.28
+        },
+        {
+          "donor": "C R ASSOCIATES",
+          "amount": 50000000,
+          "amount_cr": 5.0,
+          "share_pct": 2.28
+        },
+        {
+          "donor": "N A R INFRA PRIVATE LIMITED",
+          "amount": 50000000,
+          "amount_cr": 5.0,
+          "share_pct": 2.28
+        },
+        {
+          "donor": "SUDHAKAR KANCHARLA",
+          "amount": 50000000,
+          "amount_cr": 5.0,
+          "share_pct": 2.28
+        },
+        {
+          "donor": "SEPC POWER PVT LTD OPERATION RETEN",
+          "amount": 50000000,
+          "amount_cr": 5.0,
+          "share_pct": 2.28
+        },
+        {
+          "donor": "CHIRON BEHRING VACCINES PVT LTD",
+          "amount": 50000000,
+          "amount_cr": 5.0,
+          "share_pct": 2.28
+        },
+        {
+          "donor": "BIOVET PVT LTD",
+          "amount": 50000000,
+          "amount_cr": 5.0,
+          "share_pct": 2.28
+        },
+        {
+          "donor": "RCC NUTRA FILL PRIVATE LIMITED",
+          "amount": 50000000,
+          "amount_cr": 5.0,
+          "share_pct": 2.28
+        },
+        {
+          "donor": "SRI CHAITANYA STUDENTS FACILITY MANAGEME",
+          "amount": 50000000,
+          "amount_cr": 5.0,
+          "share_pct": 2.28
+        },
+        {
+          "donor": "DR REDDYS LABORATORIES LIMITED",
+          "amount": 30000000,
+          "amount_cr": 3.0,
+          "share_pct": 1.37
+        },
+        {
+          "donor": "GRANULES INDIA LIMITED",
+          "amount": 30000000,
+          "amount_cr": 3.0,
+          "share_pct": 1.37
+        },
+        {
+          "donor": "AUROBINDO PHARMA LIMITED",
+          "amount": 25000000,
+          "amount_cr": 2.5,
+          "share_pct": 1.14
+        },
+        {
+          "donor": "TEKREANT INDIA PRIVATE LIMITED",
+          "amount": 20000000,
+          "amount_cr": 2.0,
+          "share_pct": 0.91
+        },
+        {
+          "donor": "AMARAVATI TEKSYSTEMS PRIVATE LIMITE",
+          "amount": 20000000,
+          "amount_cr": 2.0,
+          "share_pct": 0.91
+        },
+        {
+          "donor": "EFICENS SOFTWARE SERVICES PVT LTD",
+          "amount": 20000000,
+          "amount_cr": 2.0,
+          "share_pct": 0.91
+        }
+      ],
+      "monthly_timeline": [
+        {
+          "month": "2019-04",
+          "amount": 73000000,
+          "amount_cr": 7.3
+        },
+        {
+          "month": "2021-04",
+          "amount": 35000000,
+          "amount_cr": 3.5
+        },
+        {
+          "month": "2022-07",
+          "amount": 80000000,
+          "amount_cr": 8.0
+        },
+        {
+          "month": "2022-10",
+          "amount": 50000000,
+          "amount_cr": 5.0
+        },
+        {
+          "month": "2023-01",
+          "amount": 190000000,
+          "amount_cr": 19.0
+        },
+        {
+          "month": "2023-02",
+          "amount": 20000000,
+          "amount_cr": 2.0
+        },
+        {
+          "month": "2023-04",
+          "amount": 320000000,
+          "amount_cr": 32.0
+        },
+        {
+          "month": "2023-07",
+          "amount": 27500000,
+          "amount_cr": 2.75
+        },
+        {
+          "month": "2023-10",
+          "amount": 111300000,
+          "amount_cr": 11.13
+        },
+        {
+          "month": "2023-11",
+          "amount": 100000000,
+          "amount_cr": 10.0
+        },
+        {
+          "month": "2024-01",
+          "amount": 1182000000,
+          "amount_cr": 118.2
+        }
+      ],
+      "denominations": [
+        {
+          "denomination": 10000000,
+          "count": 214,
+          "total": 2140000000,
+          "total_cr": 214.0
+        },
+        {
+          "denomination": 1000000,
+          "count": 47,
+          "total": 47000000,
+          "total_cr": 4.7
+        },
+        {
+          "denomination": 100000,
+          "count": 18,
+          "total": 1800000,
+          "total_cr": 0.18
+        }
+      ],
+      "note": ""
+    },
+    {
+      "party_code": "SHIVSENA",
+      "party_name": "SHIVSENA",
+      "is_tn_regional": false,
+      "is_tn_national": false,
+      "total_amount": 1593814000,
+      "total_amount_cr": 159.38,
+      "total_bonds": 355,
+      "matched_bonds": 319,
+      "unmatched_bonds": 36,
+      "top_donors": [
+        {
+          "donor": "B G SHIRKE CONSTRUCTION TECHNOLOGY PVT L TD",
+          "amount": 850000000,
+          "amount_cr": 85.0,
+          "share_pct": 53.33
+        },
+        {
+          "donor": "QWIKSUPPLYCHAINPRIVATELIMITED",
+          "amount": 250000000,
+          "amount_cr": 25.0,
+          "share_pct": 15.69
+        },
+        {
+          "donor": "Undisclosed (Purchased pre-12-Apr-2019)",
+          "amount": 69300000,
+          "amount_cr": 6.93,
+          "share_pct": 4.35
+        },
+        {
+          "donor": "PRL DEVELOPERS PRIVATE LIMITED",
+          "amount": 50000000,
+          "amount_cr": 5.0,
+          "share_pct": 3.14
+        },
+        {
+          "donor": "Torrent Group",
+          "amount": 30000000,
+          "amount_cr": 3.0,
+          "share_pct": 1.88
+        },
+        {
+          "donor": "ULTRA TECH CEMENT LIMITED",
+          "amount": 30000000,
+          "amount_cr": 3.0,
+          "share_pct": 1.88
+        },
+        {
+          "donor": "GENEXT HARDWARE   PARKS PVT. LTD",
+          "amount": 30000000,
+          "amount_cr": 3.0,
+          "share_pct": 1.88
+        },
+        {
+          "donor": "DINESHCHANDRA R AGRAWAL INFRACON PVT LTD",
+          "amount": 30000000,
+          "amount_cr": 3.0,
+          "share_pct": 1.88
+        },
+        {
+          "donor": "YUVAN TRADING   CONSULTANCY LLP",
+          "amount": 30000000,
+          "amount_cr": 3.0,
+          "share_pct": 1.88
+        },
+        {
+          "donor": "MAHALAXMI VIDYUT PVT.LTD.",
+          "amount": 25000000,
+          "amount_cr": 2.5,
+          "share_pct": 1.57
+        },
+        {
+          "donor": "ALLANASONS PRIVATE L",
+          "amount": 20000000,
+          "amount_cr": 2.0,
+          "share_pct": 1.25
+        },
+        {
+          "donor": "FRIGORIFICO ALLANA P",
+          "amount": 20000000,
+          "amount_cr": 2.0,
+          "share_pct": 1.25
+        },
+        {
+          "donor": "BIRLAESTATESPRIVATELIMITED",
+          "amount": 20000000,
+          "amount_cr": 2.0,
+          "share_pct": 1.25
+        },
+        {
+          "donor": "PRARAMBH SECURITIES PVT LTDPROPRIET",
+          "amount": 20000000,
+          "amount_cr": 2.0,
+          "share_pct": 1.25
+        },
+        {
+          "donor": "RANJIT BUILDCON LIMITED",
+          "amount": 20000000,
+          "amount_cr": 2.0,
+          "share_pct": 1.25
+        },
+        {
+          "donor": "RANJIT TOLL ROAD PRIVATE LIMITED",
+          "amount": 20000000,
+          "amount_cr": 2.0,
+          "share_pct": 1.25
+        },
+        {
+          "donor": "KEYSTONE REALTORS PVT LTD",
+          "amount": 13000000,
+          "amount_cr": 1.3,
+          "share_pct": 0.82
+        },
+        {
+          "donor": "K RAHEJA CORP PVT LTD",
+          "amount": 10000000,
+          "amount_cr": 1.0,
+          "share_pct": 0.63
+        },
+        {
+          "donor": "ALLANA COLD STORAGE",
+          "amount": 10000000,
+          "amount_cr": 1.0,
+          "share_pct": 0.63
+        },
+        {
+          "donor": "CENTURY TEXTILES AND INDUSTRIES LTD",
+          "amount": 10000000,
+          "amount_cr": 1.0,
+          "share_pct": 0.63
+        },
+        {
+          "donor": "RANJIT PROJECTS PRIVATE LIMITED",
+          "amount": 10000000,
+          "amount_cr": 1.0,
+          "share_pct": 0.63
+        },
+        {
+          "donor": "MANVAR SAVABHAI",
+          "amount": 5006000,
+          "amount_cr": 0.5,
+          "share_pct": 0.31
+        },
+        {
+          "donor": "SITARA DIAMOND PRIVATE LIMITED",
+          "amount": 5000000,
+          "amount_cr": 0.5,
+          "share_pct": 0.31
+        },
+        {
+          "donor": "Jindal Group",
+          "amount": 5000000,
+          "amount_cr": 0.5,
+          "share_pct": 0.31
+        },
+        {
+          "donor": "SULA VINEYARDS PVT LTD",
+          "amount": 2500000,
+          "amount_cr": 0.25,
+          "share_pct": 0.16
+        }
+      ],
+      "monthly_timeline": [
+        {
+          "month": "2019-04",
+          "amount": 146300000,
+          "amount_cr": 14.63
+        },
+        {
+          "month": "2019-05",
+          "amount": 7500000,
+          "amount_cr": 0.75
+        },
+        {
+          "month": "2019-07",
+          "amount": 50000000,
+          "amount_cr": 5.0
+        },
+        {
+          "month": "2019-10",
+          "amount": 130000000,
+          "amount_cr": 13.0
+        },
+        {
+          "month": "2022-01",
+          "amount": 290000000,
+          "amount_cr": 29.0
+        },
+        {
+          "month": "2023-07",
+          "amount": 330000000,
+          "amount_cr": 33.0
+        },
+        {
+          "month": "2023-10",
+          "amount": 390014000,
+          "amount_cr": 39.0
+        },
+        {
+          "month": "2024-01",
+          "amount": 250000000,
+          "amount_cr": 25.0
+        }
+      ],
+      "denominations": [
+        {
+          "denomination": 10000000,
+          "count": 151,
+          "total": 1510000000,
+          "total_cr": 151.0
+        },
+        {
+          "denomination": 1000000,
+          "count": 78,
+          "total": 78000000,
+          "total_cr": 7.8
+        },
+        {
+          "denomination": 100000,
+          "count": 55,
+          "total": 5500000,
+          "total_cr": 0.55
+        },
+        {
+          "denomination": 10000,
+          "count": 27,
+          "total": 270000,
+          "total_cr": 0.03
+        },
+        {
+          "denomination": 1000,
+          "count": 44,
+          "total": 44000,
+          "total_cr": 0.0
+        }
+      ],
+      "note": ""
+    },
+    {
+      "party_code": "RJD",
+      "party_name": "RASHTRIYA JANTA DAL",
+      "is_tn_regional": false,
+      "is_tn_national": false,
+      "total_amount": 735000000,
+      "total_amount_cr": 73.5,
+      "total_bonds": 150,
+      "matched_bonds": 140,
+      "unmatched_bonds": 10,
+      "top_donors": [
+        {
+          "donor": "IFB AGRO INDUSTRIES LIMITED",
+          "amount": 350000000,
+          "amount_cr": 35.0,
+          "share_pct": 47.62
+        },
+        {
+          "donor": "Askus Logistics Pvt Ltd",
+          "amount": 90000000,
+          "amount_cr": 9.0,
+          "share_pct": 12.24
+        },
+        {
+          "donor": "Westwell Gases Pvt Ltd",
+          "amount": 51000000,
+          "amount_cr": 5.1,
+          "share_pct": 6.94
+        },
+        {
+          "donor": "RAUNAK GUPTA",
+          "amount": 35000000,
+          "amount_cr": 3.5,
+          "share_pct": 4.76
+        },
+        {
+          "donor": "PURULIA BOTTLING PVT LTD",
+          "amount": 25000000,
+          "amount_cr": 2.5,
+          "share_pct": 3.4
+        },
+        {
+          "donor": "LAXMI INDUSTRIAL BOTTLING PLANT",
+          "amount": 24400000,
+          "amount_cr": 2.44,
+          "share_pct": 3.32
+        },
+        {
+          "donor": "SANDEEP AUTO LINES",
+          "amount": 20000000,
+          "amount_cr": 2.0,
+          "share_pct": 2.72
+        },
+        {
+          "donor": "Herald Beverages Pvt Ltd",
+          "amount": 20000000,
+          "amount_cr": 2.0,
+          "share_pct": 2.72
+        },
+        {
+          "donor": "VIKAS PARASRAMPURIA",
+          "amount": 15000000,
+          "amount_cr": 1.5,
+          "share_pct": 2.04
+        },
+        {
+          "donor": "MAHABIR BANKA",
+          "amount": 15000000,
+          "amount_cr": 1.5,
+          "share_pct": 2.04
+        },
+        {
+          "donor": "NORTHERN SPIRITS LTD",
+          "amount": 12000000,
+          "amount_cr": 1.2,
+          "share_pct": 1.63
+        },
+        {
+          "donor": "Undisclosed (Purchased pre-12-Apr-2019)",
+          "amount": 10000000,
+          "amount_cr": 1.0,
+          "share_pct": 1.36
+        },
+        {
+          "donor": "SHREE CEMENT LTD",
+          "amount": 10000000,
+          "amount_cr": 1.0,
+          "share_pct": 1.36
+        },
+        {
+          "donor": "SENGUPTA AND SENGUPTA PVT LTD",
+          "amount": 10000000,
+          "amount_cr": 1.0,
+          "share_pct": 1.36
+        },
+        {
+          "donor": "MONALISA BOTTLING INDUSTRIES PVT LTD",
+          "amount": 10000000,
+          "amount_cr": 1.0,
+          "share_pct": 1.36
+        },
+        {
+          "donor": "PRAKASH DISTILLERY & CHEMICAL CO (P) LT  D",
+          "amount": 8000000,
+          "amount_cr": 0.8,
+          "share_pct": 1.09
+        },
+        {
+          "donor": "CASTLE LIQUORS PRIVATE LIMITED",
+          "amount": 7000000,
+          "amount_cr": 0.7,
+          "share_pct": 0.95
+        },
+        {
+          "donor": "QUALITY MAINTENANCE VENTURE LTD",
+          "amount": 5000000,
+          "amount_cr": 0.5,
+          "share_pct": 0.68
+        },
+        {
+          "donor": "RICHA & CO",
+          "amount": 5000000,
+          "amount_cr": 0.5,
+          "share_pct": 0.68
+        },
+        {
+          "donor": "M S  VARAS INTERNATIONAL PVT LTD",
+          "amount": 5000000,
+          "amount_cr": 0.5,
+          "share_pct": 0.68
+        },
+        {
+          "donor": "SARITA HANDA EXPORTS PVT LTD",
+          "amount": 3000000,
+          "amount_cr": 0.3,
+          "share_pct": 0.41
+        },
+        {
+          "donor": "DYNAMIC CS BOTTLING PVT LTD",
+          "amount": 2200000,
+          "amount_cr": 0.22,
+          "share_pct": 0.3
+        },
+        {
+          "donor": "M/SGAURAV INTERNATIONAL",
+          "amount": 1000000,
+          "amount_cr": 0.1,
+          "share_pct": 0.14
+        },
+        {
+          "donor": "Bharti Airtel Group",
+          "amount": 1000000,
+          "amount_cr": 0.1,
+          "share_pct": 0.14
+        },
+        {
+          "donor": "RAHUL CHOUDHARY",
+          "amount": 400000,
+          "amount_cr": 0.04,
+          "share_pct": 0.05
+        }
+      ],
+      "monthly_timeline": [
+        {
+          "month": "2019-04",
+          "amount": 25000000,
+          "amount_cr": 2.5
+        },
+        {
+          "month": "2020-10",
+          "amount": 10000000,
+          "amount_cr": 1.0
+        },
+        {
+          "month": "2023-07",
+          "amount": 300000000,
+          "amount_cr": 30.0
+        },
+        {
+          "month": "2023-10",
+          "amount": 250000000,
+          "amount_cr": 25.0
+        },
+        {
+          "month": "2024-01",
+          "amount": 150000000,
+          "amount_cr": 15.0
+        }
+      ],
+      "denominations": [
+        {
+          "denomination": 10000000,
+          "count": 66,
+          "total": 660000000,
+          "total_cr": 66.0
+        },
+        {
+          "denomination": 1000000,
+          "count": 74,
+          "total": 74000000,
+          "total_cr": 7.4
+        },
+        {
+          "denomination": 100000,
+          "count": 10,
+          "total": 1000000,
+          "total_cr": 0.1
+        }
+      ],
+      "note": ""
+    },
+    {
+      "party_code": "AAP",
+      "party_name": "AAM AADMI PARTY",
+      "is_tn_regional": false,
+      "is_tn_national": true,
+      "total_amount": 654500000,
+      "total_amount_cr": 65.45,
+      "total_bonds": 245,
+      "matched_bonds": 243,
+      "unmatched_bonds": 2,
+      "top_donors": [
+        {
+          "donor": "AVEES TRADING FINANCE PVT LTD",
+          "amount": 100000000,
+          "amount_cr": 10.0,
+          "share_pct": 15.28
+        },
+        {
+          "donor": "Torrent Group",
+          "amount": 80000000,
+          "amount_cr": 8.0,
+          "share_pct": 12.22
+        },
+        {
+          "donor": "BAJAJ AUTO LTD",
+          "amount": 80000000,
+          "amount_cr": 8.0,
+          "share_pct": 12.22
+        },
+        {
+          "donor": "TRANSWAYS EXIM PRIVATE LIMITED",
+          "amount": 70000000,
+          "amount_cr": 7.0,
+          "share_pct": 10.7
+        },
+        {
+          "donor": "MKJ ENTERPRISES LIMITED",
+          "amount": 70000000,
+          "amount_cr": 7.0,
+          "share_pct": 10.7
+        },
+        {
+          "donor": "ASIAN TRADING CORPORATION LIMITED",
+          "amount": 50000000,
+          "amount_cr": 5.0,
+          "share_pct": 7.64
+        },
+        {
+          "donor": "IFB AGRO INDUSTRIES LIMITED",
+          "amount": 40000000,
+          "amount_cr": 4.0,
+          "share_pct": 6.11
+        },
+        {
+          "donor": "BIRD WORLDWIDE FLIGHT SERVICES INDI",
+          "amount": 20000000,
+          "amount_cr": 2.0,
+          "share_pct": 3.06
+        },
+        {
+          "donor": "AVON CYCLES LTD",
+          "amount": 14000000,
+          "amount_cr": 1.4,
+          "share_pct": 2.14
+        },
+        {
+          "donor": "BG SHIRKE CONSTRUCTION TECHNOLOGY PVT LTD",
+          "amount": 10000000,
+          "amount_cr": 1.0,
+          "share_pct": 1.53
+        },
+        {
+          "donor": "TECH MAHINDRA LTD",
+          "amount": 10000000,
+          "amount_cr": 1.0,
+          "share_pct": 1.53
+        },
+        {
+          "donor": "BENGAL VIPANAPAN PRIVATE LIMITED",
+          "amount": 10000000,
+          "amount_cr": 1.0,
+          "share_pct": 1.53
+        },
+        {
+          "donor": "BESSEGGENINFOTECHLLP",
+          "amount": 10000000,
+          "amount_cr": 1.0,
+          "share_pct": 1.53
+        },
+        {
+          "donor": "YASHODA SUPER SPECIALITY HOSPITAL",
+          "amount": 10000000,
+          "amount_cr": 1.0,
+          "share_pct": 1.53
+        },
+        {
+          "donor": "SPICEJET LIMITED",
+          "amount": 6500000,
+          "amount_cr": 0.65,
+          "share_pct": 0.99
+        },
+        {
+          "donor": "VARDHMAN TEXTILES LTD",
+          "amount": 5000000,
+          "amount_cr": 0.5,
+          "share_pct": 0.76
+        },
+        {
+          "donor": "ARCEDGES BUILDING INDIA LLP",
+          "amount": 5000000,
+          "amount_cr": 0.5,
+          "share_pct": 0.76
+        },
+        {
+          "donor": "FORTUNE METALIKS LIMITED",
+          "amount": 5000000,
+          "amount_cr": 0.5,
+          "share_pct": 0.76
+        },
+        {
+          "donor": "MANJIT KAUR",
+          "amount": 5000000,
+          "amount_cr": 0.5,
+          "share_pct": 0.76
+        },
+        {
+          "donor": "V M SALGAOCAR CORPORATION PVT LTD",
+          "amount": 3000000,
+          "amount_cr": 0.3,
+          "share_pct": 0.46
+        },
+        {
+          "donor": "SAN BEVERAGES PVT LTD",
+          "amount": 3000000,
+          "amount_cr": 0.3,
+          "share_pct": 0.46
+        },
+        {
+          "donor": "SAN LOGISTICS",
+          "amount": 3000000,
+          "amount_cr": 0.3,
+          "share_pct": 0.46
+        },
+        {
+          "donor": "AAYTEE LOGISTICS PRIVATE LIMITED",
+          "amount": 3000000,
+          "amount_cr": 0.3,
+          "share_pct": 0.46
+        },
+        {
+          "donor": "KULWANT SINGH",
+          "amount": 3000000,
+          "amount_cr": 0.3,
+          "share_pct": 0.46
+        },
+        {
+          "donor": "DIWAKAR NIGAM",
+          "amount": 2500000,
+          "amount_cr": 0.25,
+          "share_pct": 0.38
+        }
+      ],
+      "monthly_timeline": [
+        {
+          "month": "2019-04",
+          "amount": 2000000,
+          "amount_cr": 0.2
+        },
+        {
+          "month": "2019-05",
+          "amount": 20000000,
+          "amount_cr": 2.0
+        },
+        {
+          "month": "2020-01",
+          "amount": 3000000,
+          "amount_cr": 0.3
+        },
+        {
+          "month": "2020-11",
+          "amount": 30000000,
+          "amount_cr": 3.0
+        },
+        {
+          "month": "2021-01",
+          "amount": 12500000,
+          "amount_cr": 1.25
+        },
+        {
+          "month": "2021-04",
+          "amount": 3500000,
+          "amount_cr": 0.35
+        },
+        {
+          "month": "2021-07",
+          "amount": 2500000,
+          "amount_cr": 0.25
+        },
+        {
+          "month": "2022-01",
+          "amount": 34000000,
+          "amount_cr": 3.4
+        },
+        {
+          "month": "2022-10",
+          "amount": 254500000,
+          "amount_cr": 25.45
+        },
+        {
+          "month": "2022-11",
+          "amount": 80000000,
+          "amount_cr": 8.0
+        },
+        {
+          "month": "2022-12",
+          "amount": 111000000,
+          "amount_cr": 11.1
+        },
+        {
+          "month": "2023-07",
+          "amount": 101500000,
+          "amount_cr": 10.15
+        }
+      ],
+      "denominations": [
+        {
+          "denomination": 10000000,
+          "count": 55,
+          "total": 550000000,
+          "total_cr": 55.0
+        },
+        {
+          "denomination": 1000000,
+          "count": 95,
+          "total": 95000000,
+          "total_cr": 9.5
+        },
+        {
+          "denomination": 100000,
+          "count": 95,
+          "total": 9500000,
+          "total_cr": 0.95
+        }
+      ],
+      "note": ""
+    },
+    {
+      "party_code": "JD(S)",
+      "party_name": "JANATA DAL ( SECULAR )",
+      "is_tn_regional": false,
+      "is_tn_national": false,
+      "total_amount": 435000000,
+      "total_amount_cr": 43.5,
+      "total_bonds": 75,
+      "matched_bonds": 50,
+      "unmatched_bonds": 25,
+      "top_donors": [
+        {
+          "donor": "RITHWIK PROJECTS  PRIVATE LIMITED",
+          "amount": 100000000,
+          "amount_cr": 10.0,
+          "share_pct": 22.99
+        },
+        {
+          "donor": "NARA CONSTRUCTIONS",
+          "amount": 100000000,
+          "amount_cr": 10.0,
+          "share_pct": 22.99
+        },
+        {
+          "donor": "KCR ENTERPRISE LLP",
+          "amount": 50000000,
+          "amount_cr": 5.0,
+          "share_pct": 11.49
+        },
+        {
+          "donor": "ILABS HYD TECHNOLOGY CENTRE PVT LTD",
+          "amount": 50000000,
+          "amount_cr": 5.0,
+          "share_pct": 11.49
+        },
+        {
+          "donor": "Megha Engineering & Infrastructures Ltd",
+          "amount": 50000000,
+          "amount_cr": 5.0,
+          "share_pct": 11.49
+        },
+        {
+          "donor": "SIGMA ADVANCED SYSTEMS PRIVATE LIMI",
+          "amount": 30000000,
+          "amount_cr": 3.0,
+          "share_pct": 6.9
+        },
+        {
+          "donor": "Undisclosed (Purchased pre-12-Apr-2019)",
+          "amount": 25000000,
+          "amount_cr": 2.5,
+          "share_pct": 5.75
+        },
+        {
+          "donor": "NIMBHA BIOTECH PRIVATE LIMITED",
+          "amount": 20000000,
+          "amount_cr": 2.0,
+          "share_pct": 4.6
+        },
+        {
+          "donor": "KIRAN MAZUMDAR SHAW",
+          "amount": 10000000,
+          "amount_cr": 1.0,
+          "share_pct": 2.3
+        }
+      ],
+      "monthly_timeline": [
+        {
+          "month": "2019-04",
+          "amount": 25000000,
+          "amount_cr": 2.5
+        },
+        {
+          "month": "2023-04",
+          "amount": 410000000,
+          "amount_cr": 41.0
+        }
+      ],
+      "denominations": [
+        {
+          "denomination": 10000000,
+          "count": 40,
+          "total": 400000000,
+          "total_cr": 40.0
+        },
+        {
+          "denomination": 1000000,
+          "count": 35,
+          "total": 35000000,
+          "total_cr": 3.5
+        }
+      ],
+      "note": ""
+    },
+    {
+      "party_code": "SKM",
+      "party_name": "SIKKIM KRANTIKARI MORCHA",
+      "is_tn_regional": false,
+      "is_tn_national": false,
+      "total_amount": 365000000,
+      "total_amount_cr": 36.5,
+      "total_bonds": 50,
+      "matched_bonds": 50,
+      "unmatched_bonds": 0,
+      "top_donors": [
+        {
+          "donor": "Future Gaming and Hotel Services PR",
+          "amount": 110000000,
+          "amount_cr": 11.0,
+          "share_pct": 30.14
+        },
+        {
+          "donor": "ZYDUS HEALTHCARE LIMITED",
+          "amount": 80000000,
+          "amount_cr": 8.0,
+          "share_pct": 21.92
+        },
+        {
+          "donor": "MICRO LABS LIMITED",
+          "amount": 70000000,
+          "amount_cr": 7.0,
+          "share_pct": 19.18
+        },
+        {
+          "donor": "Torrent Group",
+          "amount": 70000000,
+          "amount_cr": 7.0,
+          "share_pct": 19.18
+        },
+        {
+          "donor": "IPCA LABORATORIES LIMITED",
+          "amount": 35000000,
+          "amount_cr": 3.5,
+          "share_pct": 9.59
+        }
+      ],
+      "monthly_timeline": [
+        {
+          "month": "2022-10",
+          "amount": 20000000,
+          "amount_cr": 2.0
+        },
+        {
+          "month": "2023-02",
+          "amount": 55000000,
+          "amount_cr": 5.5
+        },
+        {
+          "month": "2023-07",
+          "amount": 80000000,
+          "amount_cr": 8.0
+        },
+        {
+          "month": "2023-10",
+          "amount": 180000000,
+          "amount_cr": 18.0
+        },
+        {
+          "month": "2024-01",
+          "amount": 30000000,
+          "amount_cr": 3.0
+        }
+      ],
+      "denominations": [
+        {
+          "denomination": 10000000,
+          "count": 35,
+          "total": 350000000,
+          "total_cr": 35.0
+        },
+        {
+          "denomination": 1000000,
+          "count": 15,
+          "total": 15000000,
+          "total_cr": 1.5
+        }
+      ],
+      "note": ""
+    },
+    {
+      "party_code": "NATIONALIST CONGRESS PARTY MAHARASHTRA PRADESH",
+      "party_name": "NATIONALIST CONGRESS PARTY MAHARASHTRA PRADESH",
+      "is_tn_regional": false,
+      "is_tn_national": false,
+      "total_amount": 310000000,
+      "total_amount_cr": 31.0,
+      "total_bonds": 121,
+      "matched_bonds": 96,
+      "unmatched_bonds": 25,
+      "top_donors": [
+        {
+          "donor": "QWIKSUPPLYCHAINPRIVATELIMITED",
+          "amount": 100000000,
+          "amount_cr": 10.0,
+          "share_pct": 32.26
+        },
+        {
+          "donor": "RAHUL BHATIA",
+          "amount": 38000000,
+          "amount_cr": 3.8,
+          "share_pct": 12.26
+        },
+        {
+          "donor": "Torrent Group",
+          "amount": 35000000,
+          "amount_cr": 3.5,
+          "share_pct": 11.29
+        },
+        {
+          "donor": "MAGARPATTA TOWNSHIP DEV AND CONST C",
+          "amount": 30000000,
+          "amount_cr": 3.0,
+          "share_pct": 9.68
+        },
+        {
+          "donor": "Undisclosed (Purchased pre-12-Apr-2019)",
+          "amount": 25000000,
+          "amount_cr": 2.5,
+          "share_pct": 8.06
+        },
+        {
+          "donor": "MAHALAXMI VIDYUT PVT.LTD.",
+          "amount": 25000000,
+          "amount_cr": 2.5,
+          "share_pct": 8.06
+        },
+        {
+          "donor": "NANDED CITY DEVELOPMENT AND CONSTRU",
+          "amount": 20000000,
+          "amount_cr": 2.0,
+          "share_pct": 6.45
+        },
+        {
+          "donor": "AMBUJA HOUSING AND URBAN INFRASTRUCTURE  CO. LTD.",
+          "amount": 10000000,
+          "amount_cr": 1.0,
+          "share_pct": 3.23
+        },
+        {
+          "donor": "CYZACHEM PVT LTD",
+          "amount": 7500000,
+          "amount_cr": 0.75,
+          "share_pct": 2.42
+        },
+        {
+          "donor": "SEZ BIOTECH SERVICES PVT LTD",
+          "amount": 7500000,
+          "amount_cr": 0.75,
+          "share_pct": 2.42
+        },
+        {
+          "donor": "AMBUJA REALTY EVENTS MANAGMENT LTD",
+          "amount": 5000000,
+          "amount_cr": 0.5,
+          "share_pct": 1.61
+        },
+        {
+          "donor": "CHANDA INVESTMENT   TRADING CO. PVT",
+          "amount": 5000000,
+          "amount_cr": 0.5,
+          "share_pct": 1.61
+        },
+        {
+          "donor": "GOA CARBON LTD",
+          "amount": 1000000,
+          "amount_cr": 0.1,
+          "share_pct": 0.32
+        },
+        {
+          "donor": "V M SALGAOCAR CORPORATION PVT LTD",
+          "amount": 1000000,
+          "amount_cr": 0.1,
+          "share_pct": 0.32
+        }
+      ],
+      "monthly_timeline": [
+        {
+          "month": "2019-04",
+          "amount": 25000000,
+          "amount_cr": 2.5
+        },
+        {
+          "month": "2019-05",
+          "amount": 10000000,
+          "amount_cr": 1.0
+        },
+        {
+          "month": "2019-10",
+          "amount": 120000000,
+          "amount_cr": 12.0
+        },
+        {
+          "month": "2021-04",
+          "amount": 38000000,
+          "amount_cr": 3.8
+        },
+        {
+          "month": "2022-01",
+          "amount": 102000000,
+          "amount_cr": 10.2
+        },
+        {
+          "month": "2023-04",
+          "amount": 15000000,
+          "amount_cr": 1.5
+        }
+      ],
+      "denominations": [
+        {
+          "denomination": 10000000,
+          "count": 23,
+          "total": 230000000,
+          "total_cr": 23.0
+        },
+        {
+          "denomination": 1000000,
+          "count": 78,
+          "total": 78000000,
+          "total_cr": 7.8
+        },
+        {
+          "denomination": 100000,
+          "count": 20,
+          "total": 2000000,
+          "total_cr": 0.2
+        }
+      ],
+      "note": ""
+    },
+    {
+      "party_code": "JANASENA",
+      "party_name": "JANASENA PARTY",
+      "is_tn_regional": false,
+      "is_tn_national": false,
+      "total_amount": 210000000,
+      "total_amount_cr": 21.0,
+      "total_bonds": 39,
+      "matched_bonds": 39,
+      "unmatched_bonds": 0,
+      "top_donors": [
+        {
+          "donor": "WESTERN UP POWER TRANSMISSION COMPANY LI MITED",
+          "amount": 100000000,
+          "amount_cr": 10.0,
+          "share_pct": 47.62
+        },
+        {
+          "donor": "NATCO PHARMA LTD",
+          "amount": 50000000,
+          "amount_cr": 5.0,
+          "share_pct": 23.81
+        },
+        {
+          "donor": "Megha Engineering & Infrastructures Ltd",
+          "amount": 40000000,
+          "amount_cr": 4.0,
+          "share_pct": 19.05
+        },
+        {
+          "donor": "SRI CHAITANYA STUDENTS FACILITY MANAGEME",
+          "amount": 10000000,
+          "amount_cr": 1.0,
+          "share_pct": 4.76
+        },
+        {
+          "donor": "VALLURUPALLI PRABHU KISHORE",
+          "amount": 10000000,
+          "amount_cr": 1.0,
+          "share_pct": 4.76
+        }
+      ],
+      "monthly_timeline": [
+        {
+          "month": "2022-10",
+          "amount": 20000000,
+          "amount_cr": 2.0
+        },
+        {
+          "month": "2023-04",
+          "amount": 20000000,
+          "amount_cr": 2.0
+        },
+        {
+          "month": "2024-01",
+          "amount": 170000000,
+          "amount_cr": 17.0
+        }
+      ],
+      "denominations": [
+        {
+          "denomination": 10000000,
+          "count": 19,
+          "total": 190000000,
+          "total_cr": 19.0
+        },
+        {
+          "denomination": 1000000,
+          "count": 20,
+          "total": 20000000,
+          "total_cr": 2.0
+        }
+      ],
+      "note": ""
+    },
+    {
+      "party_code": "SP",
+      "party_name": "ADYAKSHA SAMAJVADI PARTY",
+      "is_tn_regional": false,
+      "is_tn_national": false,
+      "total_amount": 140500000,
+      "total_amount_cr": 14.05,
+      "total_bonds": 46,
+      "matched_bonds": 16,
+      "unmatched_bonds": 30,
+      "top_donors": [
+        {
+          "donor": "KEVENTER FOODPARK INFRA LIMITED",
+          "amount": 100000000,
+          "amount_cr": 10.0,
+          "share_pct": 71.17
+        },
+        {
+          "donor": "Torrent Group",
+          "amount": 30000000,
+          "amount_cr": 3.0,
+          "share_pct": 21.35
+        },
+        {
+          "donor": "Undisclosed (Purchased pre-12-Apr-2019)",
+          "amount": 8400000,
+          "amount_cr": 0.84,
+          "share_pct": 5.98
+        },
+        {
+          "donor": "M S JUGENDRA SINGH AND COMPANY",
+          "amount": 2100000,
+          "amount_cr": 0.21,
+          "share_pct": 1.49
+        }
+      ],
+      "monthly_timeline": [
+        {
+          "month": "2019-04",
+          "amount": 8400000,
+          "amount_cr": 0.84
+        },
+        {
+          "month": "2019-05",
+          "amount": 100000000,
+          "amount_cr": 10.0
+        },
+        {
+          "month": "2022-01",
+          "amount": 32100000,
+          "amount_cr": 3.21
+        }
+      ],
+      "denominations": [
+        {
+          "denomination": 10000000,
+          "count": 13,
+          "total": 130000000,
+          "total_cr": 13.0
+        },
+        {
+          "denomination": 1000000,
+          "count": 8,
+          "total": 8000000,
+          "total_cr": 0.8
+        },
+        {
+          "denomination": 100000,
+          "count": 25,
+          "total": 2500000,
+          "total_cr": 0.25
+        }
+      ],
+      "note": ""
+    },
+    {
+      "party_code": "JD(U)",
+      "party_name": "BIHAR PRADESH JANTA DAL(UNITED)",
+      "is_tn_regional": false,
+      "is_tn_national": false,
+      "total_amount": 140000000,
+      "total_amount_cr": 14.0,
+      "total_bonds": 14,
+      "matched_bonds": 12,
+      "unmatched_bonds": 2,
+      "top_donors": [
+        {
+          "donor": "Megha Engineering & Infrastructures Ltd",
+          "amount": 100000000,
+          "amount_cr": 10.0,
+          "share_pct": 71.43
+        },
+        {
+          "donor": "Undisclosed (Purchased pre-12-Apr-2019)",
+          "amount": 20000000,
+          "amount_cr": 2.0,
+          "share_pct": 14.29
+        },
+        {
+          "donor": "BHARTI INFRATEL LIMITED",
+          "amount": 10000000,
+          "amount_cr": 1.0,
+          "share_pct": 7.14
+        },
+        {
+          "donor": "SHREE CEMENT LTD",
+          "amount": 10000000,
+          "amount_cr": 1.0,
+          "share_pct": 7.14
+        }
+      ],
+      "monthly_timeline": [
+        {
+          "month": "2019-04",
+          "amount": 30000000,
+          "amount_cr": 3.0
+        },
+        {
+          "month": "2020-10",
+          "amount": 10000000,
+          "amount_cr": 1.0
+        },
+        {
+          "month": "2022-01",
+          "amount": 100000000,
+          "amount_cr": 10.0
+        }
+      ],
+      "denominations": [
+        {
+          "denomination": 10000000,
+          "count": 14,
+          "total": 140000000,
+          "total_cr": 14.0
+        }
+      ],
+      "note": ""
+    },
+    {
+      "party_code": "JMM",
+      "party_name": "JHARKHAND MUKTI MORCHA",
+      "is_tn_regional": false,
+      "is_tn_national": false,
+      "total_amount": 135000000,
+      "total_amount_cr": 13.5,
+      "total_bonds": 45,
+      "matched_bonds": 35,
+      "unmatched_bonds": 10,
+      "top_donors": [
+        {
+          "donor": "Vedanta Limited",
+          "amount": 50000000,
+          "amount_cr": 5.0,
+          "share_pct": 37.04
+        },
+        {
+          "donor": "THRIVENI SAINIK MINING PRIVATE LIMI",
+          "amount": 30000000,
+          "amount_cr": 3.0,
+          "share_pct": 22.22
+        },
+        {
+          "donor": "PUJA COAL PRIVATE LIMITED",
+          "amount": 20000000,
+          "amount_cr": 2.0,
+          "share_pct": 14.81
+        },
+        {
+          "donor": "Undisclosed (Purchased pre-12-Apr-2019)",
+          "amount": 10000000,
+          "amount_cr": 1.0,
+          "share_pct": 7.41
+        },
+        {
+          "donor": "MKJ ENTERPRISES LIMITED",
+          "amount": 10000000,
+          "amount_cr": 1.0,
+          "share_pct": 7.41
+        },
+        {
+          "donor": "SHREE CHAND SARAOGI",
+          "amount": 7500000,
+          "amount_cr": 0.75,
+          "share_pct": 5.56
+        },
+        {
+          "donor": "DINESHCHANDRA R AGRAWAL INFRACON PVT LTD",
+          "amount": 5000000,
+          "amount_cr": 0.5,
+          "share_pct": 3.7
+        },
+        {
+          "donor": "RITESH PROJECTS PVT LTD",
+          "amount": 2500000,
+          "amount_cr": 0.25,
+          "share_pct": 1.85
+        }
+      ],
+      "monthly_timeline": [
+        {
+          "month": "2019-04",
+          "amount": 10000000,
+          "amount_cr": 1.0
+        },
+        {
+          "month": "2023-02",
+          "amount": 10000000,
+          "amount_cr": 1.0
+        },
+        {
+          "month": "2023-04",
+          "amount": 10000000,
+          "amount_cr": 1.0
+        },
+        {
+          "month": "2023-07",
+          "amount": 50000000,
+          "amount_cr": 5.0
+        },
+        {
+          "month": "2023-10",
+          "amount": 55000000,
+          "amount_cr": 5.5
+        }
+      ],
+      "denominations": [
+        {
+          "denomination": 10000000,
+          "count": 11,
+          "total": 110000000,
+          "total_cr": 11.0
+        },
+        {
+          "denomination": 1000000,
+          "count": 24,
+          "total": 24000000,
+          "total_cr": 2.4
+        },
+        {
+          "denomination": 100000,
+          "count": 10,
+          "total": 1000000,
+          "total_cr": 0.1
+        }
+      ],
+      "note": ""
+    },
+    {
+      "party_code": "SAD",
+      "party_name": "SHIROMANI AKALI DAL",
+      "is_tn_regional": false,
+      "is_tn_national": false,
+      "total_amount": 72600000,
+      "total_amount_cr": 7.26,
+      "total_bonds": 33,
+      "matched_bonds": 33,
+      "unmatched_bonds": 0,
+      "top_donors": [
+        {
+          "donor": "FASTWAY TRANSMISSIONS PVT LTD",
+          "amount": 50000000,
+          "amount_cr": 5.0,
+          "share_pct": 68.87
+        },
+        {
+          "donor": "BHARTI INFRATEL LIMITED",
+          "amount": 10000000,
+          "amount_cr": 1.0,
+          "share_pct": 13.77
+        },
+        {
+          "donor": "VARDHMAN TEXTILES LTD",
+          "amount": 7500000,
+          "amount_cr": 0.75,
+          "share_pct": 10.33
+        },
+        {
+          "donor": "KEVENTER FOODPARK INFRA LIMITED",
+          "amount": 5000000,
+          "amount_cr": 0.5,
+          "share_pct": 6.89
+        },
+        {
+          "donor": "SANDEEP KHANNA AND ASSOCIATES",
+          "amount": 40000,
+          "amount_cr": 0.0,
+          "share_pct": 0.06
+        },
+        {
+          "donor": "VIKAS KUMAR GARG",
+          "amount": 30000,
+          "amount_cr": 0.0,
+          "share_pct": 0.04
+        },
+        {
+          "donor": "GOURAV KUMAR",
+          "amount": 30000,
+          "amount_cr": 0.0,
+          "share_pct": 0.04
+        }
+      ],
+      "monthly_timeline": [
+        {
+          "month": "2019-04",
+          "amount": 62600000,
+          "amount_cr": 6.26
+        },
+        {
+          "month": "2019-05",
+          "amount": 5000000,
+          "amount_cr": 0.5
+        },
+        {
+          "month": "2022-01",
+          "amount": 5000000,
+          "amount_cr": 0.5
+        }
+      ],
+      "denominations": [
+        {
+          "denomination": 10000000,
+          "count": 6,
+          "total": 60000000,
+          "total_cr": 6.0
+        },
+        {
+          "denomination": 1000000,
+          "count": 12,
+          "total": 12000000,
+          "total_cr": 1.2
+        },
+        {
+          "denomination": 100000,
+          "count": 5,
+          "total": 500000,
+          "total_cr": 0.05
+        },
+        {
+          "denomination": 10000,
+          "count": 10,
+          "total": 100000,
+          "total_cr": 0.01
+        }
+      ],
+      "note": ""
+    },
+    {
+      "party_code": "AIADMK",
+      "party_name": "ALL INDIA ANNA DRAVIDA MUNNETRA KAZHAGAM",
+      "is_tn_regional": true,
+      "is_tn_national": false,
+      "total_amount": 60500000,
+      "total_amount_cr": 6.05,
+      "total_bonds": 38,
+      "matched_bonds": 0,
+      "unmatched_bonds": 38,
+      "top_donors": [
+        {
+          "donor": "Undisclosed (Purchased pre-12-Apr-2019)",
+          "amount": 60500000,
+          "amount_cr": 6.05,
+          "share_pct": 100.0
+        }
+      ],
+      "monthly_timeline": [
+        {
+          "month": "2019-04",
+          "amount": 60500000,
+          "amount_cr": 6.05
+        }
+      ],
+      "denominations": [
+        {
+          "denomination": 10000000,
+          "count": 3,
+          "total": 30000000,
+          "total_cr": 3.0
+        },
+        {
+          "denomination": 1000000,
+          "count": 30,
+          "total": 30000000,
+          "total_cr": 3.0
+        },
+        {
+          "denomination": 100000,
+          "count": 5,
+          "total": 500000,
+          "total_cr": 0.05
+        }
+      ],
+      "note": ""
+    },
+    {
+      "party_code": "SDF",
+      "party_name": "SIKKIM DEMOCRATIC FRONT",
+      "is_tn_regional": false,
+      "is_tn_national": false,
+      "total_amount": 55000000,
+      "total_amount_cr": 5.5,
+      "total_bonds": 10,
+      "matched_bonds": 10,
+      "unmatched_bonds": 0,
+      "top_donors": [
+        {
+          "donor": "Future Gaming and Hotel Services PR",
+          "amount": 50000000,
+          "amount_cr": 5.0,
+          "share_pct": 90.91
+        },
+        {
+          "donor": "Torrent Group",
+          "amount": 5000000,
+          "amount_cr": 0.5,
+          "share_pct": 9.09
+        }
+      ],
+      "monthly_timeline": [
+        {
+          "month": "2023-11",
+          "amount": 50000000,
+          "amount_cr": 5.0
+        },
+        {
+          "month": "2024-01",
+          "amount": 5000000,
+          "amount_cr": 0.5
+        }
+      ],
+      "denominations": [
+        {
+          "denomination": 10000000,
+          "count": 5,
+          "total": 50000000,
+          "total_cr": 5.0
+        },
+        {
+          "denomination": 1000000,
+          "count": 5,
+          "total": 5000000,
+          "total_cr": 0.5
+        }
+      ],
+      "note": ""
+    },
+    {
+      "party_code": "MAHARASHTRAWADI GOMNTAK PARTY",
+      "party_name": "MAHARASHTRAWADI GOMNTAK PARTY",
+      "is_tn_regional": false,
+      "is_tn_national": false,
+      "total_amount": 5500000,
+      "total_amount_cr": 0.55,
+      "total_bonds": 28,
+      "matched_bonds": 28,
+      "unmatched_bonds": 0,
+      "top_donors": [
+        {
+          "donor": "V M SALGAOCAR CORPORATION PVT LTD",
+          "amount": 3500000,
+          "amount_cr": 0.35,
+          "share_pct": 63.64
+        },
+        {
+          "donor": "SHRINIVAS VASUDEVA DEMPO",
+          "amount": 2000000,
+          "amount_cr": 0.2,
+          "share_pct": 36.36
+        }
+      ],
+      "monthly_timeline": [
+        {
+          "month": "2022-01",
+          "amount": 5500000,
+          "amount_cr": 0.55
+        }
+      ],
+      "denominations": [
+        {
+          "denomination": 1000000,
+          "count": 3,
+          "total": 3000000,
+          "total_cr": 0.3
+        },
+        {
+          "denomination": 100000,
+          "count": 25,
+          "total": 2500000,
+          "total_cr": 0.25
+        }
+      ],
+      "note": ""
+    },
+    {
+      "party_code": "JAMMU AND KASHMIR NATIONAL CONFERENCE",
+      "party_name": "JAMMU AND KASHMIR NATIONAL CONFERENCE",
+      "is_tn_regional": false,
+      "is_tn_national": false,
+      "total_amount": 5000000,
+      "total_amount_cr": 0.5,
+      "total_bonds": 5,
+      "matched_bonds": 5,
+      "unmatched_bonds": 0,
+      "top_donors": [
+        {
+          "donor": "Bharti Airtel Group",
+          "amount": 5000000,
+          "amount_cr": 0.5,
+          "share_pct": 100.0
+        }
+      ],
+      "monthly_timeline": [
+        {
+          "month": "2019-04",
+          "amount": 5000000,
+          "amount_cr": 0.5
+        }
+      ],
+      "denominations": [
+        {
+          "denomination": 1000000,
+          "count": 5,
+          "total": 5000000,
+          "total_cr": 0.5
+        }
+      ],
+      "note": ""
+    },
+    {
+      "party_code": "GOA FORWARD PARTY",
+      "party_name": "GOA FORWARD PARTY",
+      "is_tn_regional": false,
+      "is_tn_national": false,
+      "total_amount": 3500000,
+      "total_amount_cr": 0.35,
+      "total_bonds": 17,
+      "matched_bonds": 17,
+      "unmatched_bonds": 0,
+      "top_donors": [
+        {
+          "donor": "GOA CARBON LTD",
+          "amount": 2000000,
+          "amount_cr": 0.2,
+          "share_pct": 57.14
+        },
+        {
+          "donor": "V M SALGAOCAR CORPORATION PVT LTD",
+          "amount": 1500000,
+          "amount_cr": 0.15,
+          "share_pct": 42.86
+        }
+      ],
+      "monthly_timeline": [
+        {
+          "month": "2022-01",
+          "amount": 3500000,
+          "amount_cr": 0.35
+        }
+      ],
+      "denominations": [
+        {
+          "denomination": 1000000,
+          "count": 2,
+          "total": 2000000,
+          "total_cr": 0.2
+        },
+        {
+          "denomination": 100000,
+          "count": 15,
+          "total": 1500000,
+          "total_cr": 0.15
+        }
+      ],
+      "note": ""
+    },
+    {
+      "party_code": "CPI(M)",
+      "party_name": "Communist Party of India (Marxist)",
+      "is_tn_regional": false,
+      "is_tn_national": true,
+      "total_amount": 0,
+      "total_amount_cr": 0.0,
+      "total_bonds": 0,
+      "matched_bonds": 0,
+      "unmatched_bonds": 0,
+      "top_donors": [],
+      "monthly_timeline": [],
+      "denominations": [],
+      "note": "National Party (Refused on Constitutional Principle)"
+    },
+    {
+      "party_code": "CPI",
+      "party_name": "Communist Party of India",
+      "is_tn_regional": false,
+      "is_tn_national": true,
+      "total_amount": 0,
+      "total_amount_cr": 0.0,
+      "total_bonds": 0,
+      "matched_bonds": 0,
+      "unmatched_bonds": 0,
+      "top_donors": [],
+      "monthly_timeline": [],
+      "denominations": [],
+      "note": "National Party (Refused on Principle)"
+    },
+    {
+      "party_code": "NTK",
+      "party_name": "Naam Tamilar Katchi",
+      "is_tn_regional": true,
+      "is_tn_national": false,
+      "total_amount": 0,
+      "total_amount_cr": 0.0,
+      "total_bonds": 0,
+      "matched_bonds": 0,
+      "unmatched_bonds": 0,
+      "top_donors": [],
+      "monthly_timeline": [],
+      "denominations": [],
+      "note": "State Party (Did Not Receive/Accept)"
+    },
+    {
+      "party_code": "PMK",
+      "party_name": "Pattali Makkal Katchi",
+      "is_tn_regional": true,
+      "is_tn_national": false,
+      "total_amount": 0,
+      "total_amount_cr": 0.0,
+      "total_bonds": 0,
+      "matched_bonds": 0,
+      "unmatched_bonds": 0,
+      "top_donors": [],
+      "monthly_timeline": [],
+      "denominations": [],
+      "note": "State Party (No Encashed Bonds Disclosed)"
+    },
+    {
+      "party_code": "DMDK",
+      "party_name": "Desiya Murpokku Dravida Kazhagam",
+      "is_tn_regional": true,
+      "is_tn_national": false,
+      "total_amount": 0,
+      "total_amount_cr": 0.0,
+      "total_bonds": 0,
+      "matched_bonds": 0,
+      "unmatched_bonds": 0,
+      "top_donors": [],
+      "monthly_timeline": [],
+      "denominations": [],
+      "note": "State Party (No Encashed Bonds Disclosed)"
+    },
+    {
+      "party_code": "MDMK",
+      "party_name": "Marumalarchi Dravida Munnetra Kazhagam",
+      "is_tn_regional": true,
+      "is_tn_national": false,
+      "total_amount": 0,
+      "total_amount_cr": 0.0,
+      "total_bonds": 0,
+      "matched_bonds": 0,
+      "unmatched_bonds": 0,
+      "top_donors": [],
+      "monthly_timeline": [],
+      "denominations": [],
+      "note": "Regional Party (No Bonds Disclosed)"
+    },
+    {
+      "party_code": "VCK",
+      "party_name": "Viduthalai Chiruthaigal Katchi",
+      "is_tn_regional": true,
+      "is_tn_national": false,
+      "total_amount": 0,
+      "total_amount_cr": 0.0,
+      "total_bonds": 0,
+      "matched_bonds": 0,
+      "unmatched_bonds": 0,
+      "top_donors": [],
+      "monthly_timeline": [],
+      "denominations": [],
+      "note": "Regional Party (No Bonds Disclosed)"
+    },
+    {
+      "party_code": "MNM",
+      "party_name": "Makkal Needhi Maiam",
+      "is_tn_regional": true,
+      "is_tn_national": false,
+      "total_amount": 0,
+      "total_amount_cr": 0.0,
+      "total_bonds": 0,
+      "matched_bonds": 0,
+      "unmatched_bonds": 0,
+      "top_donors": [],
+      "monthly_timeline": [],
+      "denominations": [],
+      "note": "Regional Party (No Bonds Disclosed)"
+    },
+    {
+      "party_code": "BSP",
+      "party_name": "Bahujan Samaj Party",
+      "is_tn_regional": false,
+      "is_tn_national": true,
+      "total_amount": 0,
+      "total_amount_cr": 0.0,
+      "total_bonds": 0,
+      "matched_bonds": 0,
+      "unmatched_bonds": 0,
+      "top_donors": [],
+      "monthly_timeline": [],
+      "denominations": [],
+      "note": "National Party (No Electoral Bonds Encashed)"
+    }
+  ],
+  "registry_count": 12710
+}

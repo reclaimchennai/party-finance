@@ -1,0 +1,947 @@
+[
+ {
+  "n": 4,
+  "party": "Revolutionary Socialist Party",
+  "fy": "2019-20",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 131250,
+  "total_expenditure": 121619,
+  "surplus": 9631,
+  "income": {
+   "donations_contributions": null,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": 131250,
+   "interest_dividend": 0,
+   "other": null
+  },
+  "expenditure": {
+   "election": null,
+   "administrative_general": 85599,
+   "employee_salaries": null,
+   "publicity_propaganda": null,
+   "other": 36020
+  },
+  "general_fund_closing": 508669,
+  "cash_bank_and_deposits_closing": 508669,
+  "total_assets": 508669,
+  "auditor": "T.N. Datta & Associates",
+  "pages": {
+   "income_statement": 7,
+   "balance_sheet": 6
+  },
+  "confidence": "high",
+  "notes": "Operating income 131,250 = 'Others Fronts & Members' 45,600 + 'Fees from CC Members' 85,650 (note heading 'Subscription and Donation'); all placed under membership_fees_subscriptions. Printed Total Expenses garbled ('12161.9.00'); 121,619 = office establishment 85,599 + meeting & rally 36,020, consistent with printed surplus 9,631. Cash = cash in hand 129,621 + SBI 379,048."
+ },
+ {
+  "n": 12,
+  "party": "Hills State People's Democratic Party",
+  "fy": "2021-22",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 11466,
+  "total_expenditure": 185564.45,
+  "surplus": -174098.45,
+  "income": {
+   "donations_contributions": 0,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": 0,
+   "interest_dividend": 11466,
+   "other": null
+  },
+  "expenditure": {
+   "election": 26960,
+   "administrative_general": 121365,
+   "employee_salaries": 36000,
+   "publicity_propaganda": null,
+   "other": 1239.45
+  },
+  "general_fund_closing": 1835111.06,
+  "cash_bank_and_deposits_closing": 323961,
+  "total_assets": 1835111.06,
+  "auditor": "Susanta Roy & Co (FRN 322942E)",
+  "pages": {
+   "income_statement": 6,
+   "balance_sheet": 5
+  },
+  "confidence": "medium",
+  "notes": "Fee/subscription and voluntary contributions NIL in 2021-22; only interest income 11,466. Admin costs 148,325 per Note 8 include printing 32,550, meeting 53,315, office 35,500 and election campaign 26,960 (election figure assigned by line order in a jumbled OCR layout; administrative_general = 148,325-26,960). Other expenses 1,239.45 (note shows depreciation 1,238.90; printed total 1,239.45). Deficit printed as -174,098.45. General fund includes Rs 15,00,000 land allotted by Govt of Meghalaya; fixed assets 1,511,150.06; cash = cash 44,633 + savings bank 279,328."
+ },
+ {
+  "n": 16,
+  "party": "Revolutionary Socialist Party",
+  "fy": "2021-22",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 116800,
+  "total_expenditure": 154719,
+  "surplus": -37919,
+  "income": {
+   "donations_contributions": null,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": 116800,
+   "interest_dividend": 0,
+   "other": null
+  },
+  "expenditure": {
+   "election": null,
+   "administrative_general": 130219,
+   "employee_salaries": null,
+   "publicity_propaganda": null,
+   "other": 24500
+  },
+  "general_fund_closing": 394371,
+  "cash_bank_and_deposits_closing": 394371,
+  "total_assets": 394371,
+  "auditor": "T.N. Datta & Associates",
+  "pages": {
+   "income_statement": 7,
+   "balance_sheet": 6
+  },
+  "confidence": "medium",
+  "notes": "Printed Total Expenses reads 154,119 but components 130,219 + 24,500 = 154,719, which also reconciles to printed deficit (garbled '-3791.9.00' = -37,919) and capital fund movement 432,290 -> 394,371; used 154,719. Income 116,800 = Others Fronts & Members 35,600 + Fees from CC Members 81,200 (placed under membership_fees_subscriptions). Cash & deposits = fixed deposit 225,000 + cash in hand 51,621 + SBI 117,750 (summed). Cash flow statement page is headed 2024 and has inconsistent figures; ignored."
+ },
+ {
+  "n": 32,
+  "party": "Bharat Rashtra Samithi",
+  "fy": "2022-23",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 7376776503,
+  "total_expenditure": 574760464,
+  "surplus": 6802016039,
+  "income": {
+   "donations_contributions": 6830688869,
+   "electoral_bonds": 5290370000,
+   "membership_fees_subscriptions": 4475000,
+   "interest_dividend": 541612634,
+   "other": null
+  },
+  "expenditure": {
+   "election": 162531431,
+   "administrative_general": 405954490,
+   "employee_salaries": 120600,
+   "publicity_propaganda": null,
+   "other": 6153943
+  },
+  "general_fund_closing": 11779884178,
+  "cash_bank_and_deposits_closing": 11478137259,
+  "total_assets": 11914130463,
+  "auditor": "G.V. Laxman Rao & Co. (FRN 012280S)",
+  "pages": {
+   "income_statement": 5,
+   "balance_sheet": 4
+  },
+  "confidence": "high",
+  "notes": "Printed total income garbled; 7,37,67,76,503 = 44,75,000 + 6,83,06,88,869 + 54,16,12,634 (matches printed surplus 6,80,20,16,039 after expenditure 57,47,60,464). donations_contributions is Schedule 12 total (includes electoral bonds and electoral trusts 90,00,00,000). Electoral bonds figure is garbled in OCR ('5,2?,03,70,000'); 5,29,03,70,000 derived as Schedule 12 total minus the other legible lines, and consistent with the legible tail. Expenditure 'other' = depreciation 61,36,391 + finance costs 17,552. Election expenditure includes advertisement & publicity 14,80,01,855. Interest/dividend = all Schedule 13 other income. Cash & deposits = bank deposits >12 months 9,67,02,38,029 + cash + bank balances, computed as current assets total 11,49,84,34,888 less TDS/interest receivable; summing OCR lines directly gives 11,47,81,07,259 (30,000 lower, OCR noise). Total assets balance sheet 11,91,41,30,463."
+ },
+ {
+  "n": 39,
+  "party": "Dravida Munnetra Kazhagam",
+  "fy": "2022-23",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 2143531703,
+  "total_expenditure": 526244993,
+  "surplus": 1617286710,
+  "income": {
+   "donations_contributions": 1863648601,
+   "electoral_bonds": 1850000000,
+   "membership_fees_subscriptions": 160054072,
+   "interest_dividend": 109317558,
+   "other": 10511472
+  },
+  "expenditure": {
+   "election": 398961127,
+   "administrative_general": 71770606,
+   "employee_salaries": 10257290,
+   "publicity_propaganda": null,
+   "other": 45255970
+  },
+  "general_fund_closing": 5410646594,
+  "cash_bank_and_deposits_closing": 5236847977,
+  "total_assets": 5666434756,
+  "auditor": "V. Venugopal, Chartered Accountant (Chennai)",
+  "pages": {
+   "income_statement": 7,
+   "balance_sheet": 6
+  },
+  "confidence": "high",
+  "notes": "Printed totals match component sums. Donations (Sch 8) 1,86,36,48,601 includes electoral bonds from corporates 1,85,00,00,000. Other income = coupons/sale of publications 64,35,550 + rent 26,86,772 + misc 13,89,150; interest on bank deposits 10,93,17,558 in interest_dividend. Expenditure other = depreciation 4,48,72,493 + finance cost 3,34,963 + other expenses 48,514. Admin expenses include advertisement & publicity 3,26,70,343 (not separated). Cash & deposits = cash 3,77,656 + bank 5,23,64,70,321 (matches cash flow closing). Earmarked building fund 17,52,26,274 separate from capital fund."
+ },
+ {
+  "n": 48,
+  "party": "Jharkhand Mukti Morcha",
+  "fy": "2022-23",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 26876201,
+  "total_expenditure": 10088491.42,
+  "surplus": 16787709.58,
+  "income": {
+   "donations_contributions": 18979001,
+   "electoral_bonds": 11899000,
+   "membership_fees_subscriptions": 116520,
+   "interest_dividend": null,
+   "other": 7780680
+  },
+  "expenditure": {
+   "election": 3359244,
+   "administrative_general": 2935438.26,
+   "employee_salaries": 690000,
+   "publicity_propaganda": null,
+   "other": 3103809.16
+  },
+  "general_fund_closing": 99074947.33,
+  "cash_bank_and_deposits_closing": 71912896.39,
+  "total_assets": 101142873.39,
+  "auditor": "CA J. Jaipuriar (Jaipuriar & Co.), M.No. 054795",
+  "pages": {
+   "income_statement": 6,
+   "balance_sheet": 5
+  },
+  "confidence": "high",
+  "notes": "Printed total expenditure is OCR-garbled; 10,088,491.42 = sum of schedule heads and equals income less printed surplus 1,67,87,709.58. Electoral bond amount (Sch 12) garbled in OCR, 1,18,99,000 derived as Sch 12 total 1,89,79,001 less central contribution 51,94,001 less others 18,86,000. Other income = coupon donations 77,50,000 + discount 30,680. Expenditure other = finance cost 263,349.76 + depreciation 652,768.09 + other expenses 2,187,691.31. Election expenditure includes advertisement 17,78,078. Cash & deposits = current assets (bank accounts + cash) 68,995,396.39 + fixed deposit 2,917,500 (summed). Total assets computed from components (printed total garbled), equals general fund + current liabilities."
+ },
+ {
+  "n": 49,
+  "party": "Kerala Congress (M)",
+  "fy": "2022-23",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 1420022,
+  "total_expenditure": 462647,
+  "surplus": 957375,
+  "income": {
+   "donations_contributions": 0,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": 1404422,
+   "interest_dividend": null,
+   "other": 15600
+  },
+  "expenditure": {
+   "election": null,
+   "administrative_general": 386048,
+   "employee_salaries": 36500,
+   "publicity_propaganda": null,
+   "other": 40099
+  },
+  "general_fund_closing": 4400215,
+  "cash_bank_and_deposits_closing": 3593009,
+  "total_assets": 4420215,
+  "auditor": "Siby Augustine, Chartered Accountant, Kottayam",
+  "pages": {
+   "income_statement": 7,
+   "balance_sheet": 6
+  },
+  "confidence": "high",
+  "notes": "Statement prints no totals; totals computed from components and match printed surplus 9,57,375. Fee/levy/subscriptions 14,04,422 (levy from ministers' staff etc.) in membership; coupon collection 15,600 in other. Grants/donations NIL. Admin 3,15,539 + repairs 50,509 + audit fee 20,000 = 386,048; other = depreciation 40,099. Balance sheet labels the fund 'Corpus fund' (44,00,215). Cash & deposits = Federal Bank current accounts 17,76,836 + 3,01,793, FDs 15,00,000, cash 14,380 (= Schedule IV current assets). Total assets = tangible 8,27,206 + current 35,93,009."
+ },
+ {
+  "n": 58,
+  "party": "Naga People's Front",
+  "fy": "2022-23",
+  "revised": true,
+  "doc_kind": "partial",
+  "basis": "receipts_payments",
+  "total_income": 580300,
+  "total_expenditure": 579231,
+  "surplus": 1069,
+  "income": {
+   "donations_contributions": null,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": 580300,
+   "interest_dividend": null,
+   "other": null
+  },
+  "expenditure": {
+   "election": null,
+   "administrative_general": 309231,
+   "employee_salaries": 250000,
+   "publicity_propaganda": null,
+   "other": 20000
+  },
+  "general_fund_closing": null,
+  "cash_bank_and_deposits_closing": 79401.05,
+  "total_assets": null,
+  "auditor": "Dhana & Associates, Chartered Accountants (Guwahati), FRN 510525C, partner A. Dinesh Sharma",
+  "pages": {
+   "income_statement": 3,
+   "balance_sheet": null
+  },
+  "confidence": "high",
+  "notes": "Revised cash flow statement only (no balance sheet or income & expenditure account) for the period ended 31-03-2023; figures are cash receipts and payments, current-year column (page 2 is the FY 2021-22 statement, ignored). Receipts: members contribution & subscription 5,80,300. Payments total 5,79,231 = salaries 2,50,000 + audit fee 20,000 (other) + remaining operating payments 3,09,231 (administrative_general). Net cash inflow 1,069; cash at start 78,332.05, end 79,401.05. Cover letter says it revises the cash flow statement in response to ECI letter of 29 Feb 2024."
+ },
+ {
+  "n": 60,
+  "party": "People's Party of Arunachal",
+  "fy": "2022-23",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 359820,
+  "total_expenditure": 338295,
+  "surplus": 21525,
+  "income": {
+   "donations_contributions": 171230,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": 178300,
+   "interest_dividend": 0,
+   "other": 10290
+  },
+  "expenditure": {
+   "election": 0,
+   "administrative_general": 203000,
+   "employee_salaries": 93230,
+   "publicity_propaganda": null,
+   "other": 42065
+  },
+  "general_fund_closing": 148705,
+  "cash_bank_and_deposits_closing": 12355,
+  "total_assets": 193130,
+  "auditor": "Ramesh Chandra Roy & Associates (FRN 016170N), Itanagar",
+  "pages": {
+   "income_statement": 7,
+   "balance_sheet": 6
+  },
+  "confidence": "high",
+  "notes": "All 13 pages OCR but figures reconcile (income and expenditure components sum to printed totals). Printed 'Balance being excess expenditure over income' row is blank but surplus 21,525 transferred to general fund (income exceeds expenditure). Other income = miscellaneous 10,290. Expenditure other = depreciation 32,290 + miscellaneous 9,775. Cash = cash and cash equivalents 12,355 (no bank or FD). Also a special reserve of 11,675 and staff loans/advances 51,100."
+ },
+ {
+  "n": 95,
+  "party": "Bharatiya Janata Party",
+  "fy": "2023-24",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 43404734261,
+  "total_expenditure": 22116988258,
+  "surplus": 21287746003,
+  "income": {
+   "donations_contributions": 39671484299,
+   "electoral_bonds": 16856261000,
+   "membership_fees_subscriptions": 271984465,
+   "interest_dividend": 3690335077,
+   "other": 15716420
+  },
+  "expenditure": {
+   "election": 17540656328,
+   "administrative_general": 3497183135,
+   "employee_salaries": 735295789,
+   "publicity_propaganda": null,
+   "other": 343853006
+  },
+  "general_fund_closing": 91695780347,
+  "cash_bank_and_deposits_closing": 71138024349,
+  "total_assets": 91811553995,
+  "auditor": "V K Thapar & Co., Chartered Accountants (FRN 01181N), partner Veni Thapar",
+  "pages": {
+   "income_statement": 6,
+   "balance_sheet": 5
+  },
+  "confidence": "high",
+  "notes": "Printed totals are OCR-garbled but reconstructed and cross-checked: total income 43,40,47,34,261 = sum of heads; total expenditure 22,11,69,88,258 = sum of heads incl. election/general propaganda 17,54,06,56,328; surplus 21,28,77,46,003 = income less expenditure (note 2.1 OCR shows ...002/003). Interest = bank 37,92,917 + fixed deposits 3,68,65,42,160. Other income (Note 2.10) = 1,57,16,420 (corrected from slight OCR noise; heads sum to it). Voluntary contributions 39,67,14,84,299 include electoral bonds 16,85,62,61,000 (Note 2.9). Expenditure other = finance costs 56,38,252 + other expenses 3,21,46,775 + depreciation 31,98,15,877 less profit on sale of assets 1,37,47,898. Election/general propaganda includes advertisement & publicity. Cash & cash equivalents (bank accounts + FDs, Note 2.6) 71,13,80,24,349 as printed; party has no investments. Accounts on cash basis."
+ },
+ {
+  "n": 99,
+  "party": "Communist Party of India (Marxist-Leninist) Liberation",
+  "fy": "2023-24",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 17095855.38,
+  "total_expenditure": 17549790.09,
+  "surplus": -453934.71,
+  "income": {
+   "donations_contributions": 10726787.38,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": 5557944,
+   "interest_dividend": 773124,
+   "other": 38000
+  },
+  "expenditure": {
+   "election": 5352591,
+   "administrative_general": 10554391.09,
+   "employee_salaries": 0,
+   "publicity_propaganda": null,
+   "other": 1642808
+  },
+  "general_fund_closing": 30586356.85,
+  "cash_bank_and_deposits_closing": 16889424.35,
+  "total_assets": 43541634.16,
+  "auditor": "Saurabh Naruka & Associates, Chartered Accountants (FRN 032027C), M.No. 411367",
+  "pages": {
+   "income_statement": 5,
+   "balance_sheet": 4
+  },
+  "confidence": "high",
+  "notes": "Deficit printed as -453,934.71 (and carried to General Fund, which reconciles: 14,008,390.07 + 17,031,901.49 transferred from earmarked - 453,934.71 = 30,586,356.85). Election expenditure printed 5352391 in the statement but Schedule 11 heads sum to 5,352,591, which is what reconciles to the printed deficit; used 5,352,591. Interest = bank & FD interest 581,241 + accrued FD interest 191,883 (Schedule 10); other = misc receipts 21,600 + sale of party literature 16,400. Expenditure other = depreciation 1,635,430 + bank charges 7,378. Employee costs nil. Earmarked funds 12,515,716.31 (balance sheet) separate. Cash & deposits = cash 276,905 + bank 9,630,835.35 + FDs 6,981,684 (equals current assets)."
+ },
+ {
+  "n": 103,
+  "party": "Goa Forward Party",
+  "fy": "2023-24",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 0,
+  "total_expenditure": 156137,
+  "surplus": -156137,
+  "income": {
+   "donations_contributions": 0,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": 0,
+   "interest_dividend": 0,
+   "other": 0
+  },
+  "expenditure": {
+   "election": 0,
+   "administrative_general": 444,
+   "employee_salaries": 61000,
+   "publicity_propaganda": null,
+   "other": 94693
+  },
+  "general_fund_closing": 24306112.86,
+  "cash_bank_and_deposits_closing": 166205.86,
+  "total_assets": 24554212.86,
+  "auditor": "Devraj Vishwamitra & Co., Chartered Accountants (FRN 147911W)",
+  "pages": {
+   "income_statement": 3,
+   "balance_sheet": 2
+  },
+  "confidence": "high",
+  "notes": "Nil income in both years; deficit (1,56,137) printed as excess of expenditure over income. Expenditure other = depreciation 47,611 + repairs & maintenance 47,082. Admin 444 = interest & late fees. Corpus fund 11,100 separate from general fund 2,43,06,112.86. Cash & bank = cash 6,214 + bank balances 1,59,991.86 (summed; current assets also include sundry debtors 1,04,436). Large assets are advances for office premises (2,39,85,472). A separate Receipts & Payments statement is also in the file."
+ },
+ {
+  "n": 106,
+  "party": "Indian National Lok Dal",
+  "fy": "2023-24",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 8450997.74,
+  "total_expenditure": 5707912.97,
+  "surplus": 2743084.77,
+  "income": {
+   "donations_contributions": 0,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": 8449213.74,
+   "interest_dividend": null,
+   "other": 1784
+  },
+  "expenditure": {
+   "election": 104000,
+   "administrative_general": 4288550,
+   "employee_salaries": 200000,
+   "publicity_propaganda": null,
+   "other": 1115362.97
+  },
+  "general_fund_closing": 18591521.26,
+  "cash_bank_and_deposits_closing": 2701241.28,
+  "total_assets": 20366496.26,
+  "auditor": "Mittal Goel & Associates, Chartered Accountants",
+  "pages": {
+   "income_statement": 2,
+   "balance_sheet": 3
+  },
+  "confidence": "high",
+  "notes": "Surplus printed 2,743,084.17 on the account face but 2,743,084.77 in the carry-forward line and Schedule 2; 8,450,997.74 - 5,707,912.97 = 2,743,084.77 and it reconciles to general fund (15,848,436.49 + 2,743,084.77 = 18,591,521.26), so used .77. Expenditure other = depreciation 315,977.55 + other expenses 799,385.42. Cash & equivalents = cash 51,379.72 + five bank accounts (Schedule 9); current assets also include TDS receivable 1,026,821. Large loans/advances & deposits 4,043,095.90."
+ },
+ {
+  "n": 107,
+  "party": "Jammu and Kashmir National Conference",
+  "fy": "2023-24",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 27668227,
+  "total_expenditure": 27202124.19,
+  "surplus": 466102.81,
+  "income": {
+   "donations_contributions": 10400000,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": 0,
+   "interest_dividend": 15586398,
+   "other": 1681829
+  },
+  "expenditure": {
+   "election": 1973876,
+   "administrative_general": 12480896.19,
+   "employee_salaries": 6332209,
+   "publicity_propaganda": 1132200,
+   "other": 5282943
+  },
+  "general_fund_closing": 351604117.11,
+  "cash_bank_and_deposits_closing": 196143636.54,
+  "total_assets": 353596867.11,
+  "auditor": "P.C. Bindal & Co., Chartered Accountants",
+  "pages": {
+   "income_statement": 6,
+   "balance_sheet": 5
+  },
+  "confidence": "high",
+  "notes": "Election expenditure is garbled in OCR ('1W3,876.00'); 1,973,876 derived as total expenditure 27,202,124.19 less the other printed heads, and the legible tail 3,876 matches. Publicity = 'Public interaction & general party propaganda' 1,132,200. Other income = rental income 1,681,829; interest income 15,586,398 (mostly on FDs). Expenditure other = public welfare 14,000 + depreciation 5,268,943. Fee & subscriptions nil this year. Funds: corpus fund 356,804,749.53 plus general fund (profit/loss c/f) of -5,200,632.42, total 351,604,117.11 reported as general_fund_closing. Cash & equivalents 196,143,636.54 (per cash flow, includes FDs 189,677,478)."
+ },
+ {
+  "n": 115,
+  "party": "Kerala Congress (M)",
+  "fy": "2023-24",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 12862106,
+  "total_expenditure": 2390595.4,
+  "surplus": 10471510.6,
+  "income": {
+   "donations_contributions": 1525500,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": 1021660,
+   "interest_dividend": 354746,
+   "other": 9960200
+  },
+  "expenditure": {
+   "election": null,
+   "administrative_general": 2329755.4,
+   "employee_salaries": 19500,
+   "publicity_propaganda": null,
+   "other": 41340
+  },
+  "general_fund_closing": 14871725.6,
+  "cash_bank_and_deposits_closing": 14050676.6,
+  "total_assets": 14906725.6,
+  "auditor": "Siby Augustine, Chartered Accountant, Kottayam",
+  "pages": {
+   "income_statement": 5,
+   "balance_sheet": 4
+  },
+  "confidence": "high",
+  "notes": "Printed total income/expenditure OCR-damaged; computed from heads and consistent with printed surplus 1,04,71,510.60. Membership = fee/levy/subscriptions 10,03,490 + membership fee collection 18,170. Other income = collection by issuing coupons/sale of publications 99,60,200. Donations from Schedule VII list 15,25,500. Admin = administrative 12,68,755.40 + repairs 10,36,000 + audit fee 25,000. Other = depreciation 41,340. general_fund_closing = corpus fund 44,00,215 + general fund 1,04,71,510.60 (summed; general fund alone is 10,471,510.60). Cash & deposits = Schedule V current assets 1,40,85,859.60 less TDS receivable 35,183 (two Federal Bank current accounts, 8 FDs, cash 32,880)."
+ },
+ {
+  "n": 117,
+  "party": "Maharashtra Navnirman Sena",
+  "fy": "2023-24",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 230404408,
+  "total_expenditure": 43446040,
+  "surplus": 186958368,
+  "income": {
+   "donations_contributions": 208340717,
+   "electoral_bonds": 0,
+   "membership_fees_subscriptions": null,
+   "interest_dividend": 16330018,
+   "other": 5733673
+  },
+  "expenditure": {
+   "election": 6034646,
+   "administrative_general": 22909583,
+   "employee_salaries": 6324000,
+   "publicity_propaganda": null,
+   "other": 8177811
+  },
+  "general_fund_closing": 465234926,
+  "cash_bank_and_deposits_closing": 318103623,
+  "total_assets": 471223040,
+  "auditor": "Mathrudev & Co., Chartered Accountants (Mumbai)",
+  "pages": {
+   "income_statement": 5,
+   "balance_sheet": 4
+  },
+  "confidence": "high",
+  "notes": "Income statement labels the surplus 'excess expenditure over income' but it is a surplus (income exceeds expenditure): 18,69,58,368. Donations are 'other than electoral bonds' (corporate 1,58,50,000 + non-corporate 19,24,90,717). Interest = FD interest 1,63,30,018; other income = profit on sale of mutual funds 57,03,243 + misc 30,430. Expenditure other = finance costs 1,03,739 + depreciation 80,74,072. general_fund_closing = corpus fund 1,05,44,039 + general fund 45,46,90,887 (summed; general fund alone 454,690,887). Cash & deposits = current assets 36,60,27,297 less mutual fund holdings 4,79,23,674 (i.e. cash 2,15,77,739 + current/savings accounts + FDs 24,83,09,051); including mutual funds the figure would be 366,027,297."
+ },
+ {
+  "n": 127,
+  "party": "Rashtriya Loktantrik Party",
+  "fy": "2023-24",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 9947855.72,
+  "total_expenditure": 8415074.87,
+  "surplus": 1532780.85,
+  "income": {
+   "donations_contributions": 9947855.72,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": null,
+   "interest_dividend": null,
+   "other": null
+  },
+  "expenditure": {
+   "election": 8293036,
+   "administrative_general": 106400,
+   "employee_salaries": null,
+   "publicity_propaganda": null,
+   "other": 15638.87
+  },
+  "general_fund_closing": 2695461.25,
+  "cash_bank_and_deposits_closing": 237983.25,
+  "total_assets": 2765911.25,
+  "auditor": "Agarwal Sunil and Associates, Chartered Accountants (partner Vijay Khandelwal, M.No. 421539)",
+  "pages": {
+   "income_statement": 6,
+   "balance_sheet": 5
+  },
+  "confidence": "high",
+  "notes": "All income is Note 8 grants/donations/contributions 9,947,855.72 (no donor split shown). Election expenditure includes advertisement 2,360,306, publicity 1,0x6,209, media 1,380,521 and vehicle rental 624,000 (not separated). Expenditure other = depreciation 13,790 + finance costs 1,848.87. general_fund_closing = corpus fund 15,000 + general fund 2,680,461.25 (summed). Cash & bank = bank of Baroda current account 223,531.25 + cash 14,452; other current assets are advances of 2,500,000."
+ },
+ {
+  "n": 137,
+  "party": "United People's Party Liberal",
+  "fy": "2023-24",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 21423740,
+  "total_expenditure": 14647722.79,
+  "surplus": 6776017.21,
+  "income": {
+   "donations_contributions": 16918445,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": 4505000,
+   "interest_dividend": 295,
+   "other": 0
+  },
+  "expenditure": {
+   "election": 7486450,
+   "administrative_general": 5134279.37,
+   "employee_salaries": 1746392,
+   "publicity_propaganda": null,
+   "other": 280601.42
+  },
+  "general_fund_closing": 13010996.46,
+  "cash_bank_and_deposits_closing": 12548515.68,
+  "total_assets": 13010996.46,
+  "auditor": "Boro & Co., Chartered Accountants (FRN 332126E), Kokrajhar",
+  "pages": {
+   "income_statement": 7,
+   "balance_sheet": 6
+  },
+  "confidence": "high",
+  "notes": "Totals match component sums. Election expenditure includes publicity 27,94,350, travelling, meetings, vehicle hire. Expenditure other = depreciation 35,301.42 + miscellaneous 2,45,300. Cash = Axis bank 6,80,466.68 + cash in hand 1,18,68,049 (summed); remaining current asset is TDS receivable 1,44,768. Very large cash in hand relative to bank balances."
+ },
+ {
+  "n": 139,
+  "party": "Zoram People's Movement",
+  "fy": "2023-24",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 2943815,
+  "total_expenditure": 2878168,
+  "surplus": 65647,
+  "income": {
+   "donations_contributions": 2795245,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": 0,
+   "interest_dividend": null,
+   "other": 148570
+  },
+  "expenditure": {
+   "election": 908015,
+   "administrative_general": 1367982,
+   "employee_salaries": 602171,
+   "publicity_propaganda": null,
+   "other": null
+  },
+  "general_fund_closing": 610113,
+  "cash_bank_and_deposits_closing": 235000,
+  "total_assets": 610113,
+  "auditor": "AKAS & Associates LLP, Chartered Accountants (partner CA Ajay Kumar Joshi), Aizawl",
+  "pages": {
+   "income_statement": 4,
+   "balance_sheet": 5
+  },
+  "confidence": "high",
+  "notes": "Accounts signed 06.05.2025 (late filing); only current-year column printed. The account is labelled 'excess of expenditure over income' but income exceeds expenditure and 65,647 is added to the General Fund, so it is a surplus. Other income = collection by coupons/sale of publications 1,48,570. Donations (Sch 12) include election fund 5,25,930 and special donation 9,20,188. general_fund_closing = corpus fund 5,44,466 + general fund 65,647 (summed). Cash & equivalents (general) 2,35,000; remaining current assets are 'other current assets' 3,75,113."
+ },
+ {
+  "n": 148,
+  "party": "All India Majlis-e-Ittehadul Muslimeen",
+  "fy": "2024-25",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 49094010.5,
+  "total_expenditure": 17313454.73,
+  "surplus": 31780555.77,
+  "income": {
+   "donations_contributions": 2763058.72,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": 0,
+   "interest_dividend": 9435037,
+   "other": 36895914.78
+  },
+  "expenditure": {
+   "election": 8959311,
+   "administrative_general": 7171135.95,
+   "employee_salaries": 368000,
+   "publicity_propaganda": null,
+   "other": 815007.78
+  },
+  "general_fund_closing": 473973437.84,
+  "cash_bank_and_deposits_closing": 113004300.09,
+  "total_assets": 493782829.79,
+  "auditor": "Hawaldar & Associates, Chartered Accountants (FRN 001105S), partner C.H. Amanulla Khan, Hyderabad",
+  "pages": {
+   "income_statement": 9,
+   "balance_sheet": 8
+  },
+  "confidence": "medium",
+  "notes": "Page layout of the income statement is scrambled by OCR but column assignment checked: heads sum exactly to printed totals (A 4,90,94,010.50; B 1,73,13,454.73) and surplus 3,17,80,555.77 equals A-B. Donations 27,63,058.72 (Sch 9); coupons/publications 12,70,000 and other income 4,50,60,951.78 (Sch 11: rental income 3,19,53,809.28, share of income from Darussalam Board 36,72,105.50, interest on IT refund 1,56,187, interest on fixed deposits with DCUB 92,78,850 (derived as remainder; OCR garbled)). interest_dividend = FD interest + IT refund interest; other = rental + Darussalam Board share + coupons 12,70,000. Expenditure other = finance costs 89,111.46 + depreciation 7,25,896.32. No separate general fund: general_fund_closing = corpus fund 12,84,04,607 + reserves 34,55,68,830.84 (summed; reserves are accumulated surplus). Cash & bank end of year 11,30,04,300.09 per cash flow statement (bank accounts only, no cash in hand); other current assets bring Sch 7 total to 26,24,24,790.59."
+ },
+ {
+  "n": 160,
+  "party": "Bharatiya Janata Party",
+  "fy": "2024-25",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 67691498356,
+  "total_expenditure": 37745824397,
+  "surplus": 29945673959,
+  "income": {
+   "donations_contributions": 61248583279,
+   "electoral_bonds": 0,
+   "membership_fees_subscriptions": 57008987,
+   "interest_dividend": 6340967671,
+   "other": 44938419
+  },
+  "expenditure": {
+   "election": 33353685585,
+   "administrative_general": 3230541978,
+   "employee_salaries": 743489497,
+   "publicity_propaganda": null,
+   "other": 418107337
+  },
+  "general_fund_closing": 121641454306,
+  "cash_bank_and_deposits_closing": 99961230523,
+  "total_assets": 121711768487,
+  "auditor": "V K Thapar & Company, Chartered Accountants, partner Veni Thapar",
+  "pages": {
+   "income_statement": 9,
+   "balance_sheet": 8
+  },
+  "confidence": "medium",
+  "notes": "Poor OCR with several garbled digits, reconstructed with cross-checks. Surplus 29,94,56,73,959 verified by cash-flow reconciliation (operating surplus 23,94,84,38,312) and general fund roll-forward 91,69,57,80,347 -> 1,21,64,14,54,306. Voluntary contributions 61,24,85,83,279 (note 2.8 total; statement face garbled). Printed total income reads 67,69,14,96,356 in OCR but heads sum to 67,69,14,98,356; total expenditure 37,74,58,24,397 = income less surplus and matches the garbled printed total. Employee costs read 71,34,89,497 on the statement face but 74,34,89,497 in Note 2.10 (sum of heads), which is needed to reconcile total expenditure; used 74,34,89,497. Electoral bond line (Note 2.8) has no current-year amount (blank; 16,85,62,61,000 in prior year), so recorded as 0. Interest = interest from banks 6,34,09,67,671. Expenditure other = finance costs 33,97,856 + other expenses 2,73,55,296 + depreciation 36,05,97,384 + loss on sale/scrap of assets 2,67,56,801. Election/general propaganda includes advertisement & publicity. Cash & equivalents 99,96,12,30,523 = cash in hand 73,68,09,266 + current accounts 5,31,82,61,642 + FDs 93,90,61,59,615 (cash-flow components)."
+ },
+ {
+  "n": 180,
+  "party": "Jharkhand Mukti Morcha",
+  "fy": "2024-25",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 372572701.73,
+  "total_expenditure": 118346229.41,
+  "surplus": 254226472.31,
+  "income": {
+   "donations_contributions": 345773026.28,
+   "electoral_bonds": 0,
+   "membership_fees_subscriptions": 20166359,
+   "interest_dividend": 2763239,
+   "other": 3870077.45
+  },
+  "expenditure": {
+   "election": 106927246.65,
+   "administrative_general": 6058816.6,
+   "employee_salaries": 864000,
+   "publicity_propaganda": null,
+   "other": 4496166.16
+  },
+  "general_fund_closing": 497908071.84,
+  "cash_bank_and_deposits_closing": 364508595.88,
+  "total_assets": 519034191.38,
+  "auditor": "S. Jaykishan, Chartered Accountants, Ranchi (partner CA J. Jaipuriar, M.No. 054795)",
+  "pages": {
+   "income_statement": 6,
+   "balance_sheet": 5
+  },
+  "confidence": "high",
+  "notes": "Text dump of the statements was unreadable (income & expenditure page lost in pdftotext), so figures were read directly from the page images of the source PDF (pages 5, 6, 9, 11) and cross-checked: heads sum to printed totals; surplus 25,42,26,472.31 as printed (arithmetic difference .01 rounding). Electoral bond line is nil this year (11,50,00,000 prior year). Donations = central contribution 96,41,808 + others 33,61,31,218.28. Fee & subscriptions = life membership 2,70,000 + membership form 1,23,74,350 + candidate fee 75,22,009. Other income: coupons 38,70,000 + discount 77.45; interest received 27,63,239. Expenditure other = finance 10,542.88 + depreciation 15,37,595.02 + other 29,48,028.26. Cash & deposits = current assets (bank accounts, FD, cash in hand 88,09,713.57) 33,65,91,095.88 + term deposits in Sch 8 (29,17,500 + 2,50,00,000) summed; security deposit 3,000 excluded."
+ },
+ {
+  "n": 184,
+  "party": "Maharashtrawadi Gomantak Party",
+  "fy": "2024-25",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 11600000,
+  "total_expenditure": 5491035.33,
+  "surplus": 6108964.67,
+  "income": {
+   "donations_contributions": 11600000,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": null,
+   "interest_dividend": null,
+   "other": null
+  },
+  "expenditure": {
+   "election": 500000,
+   "administrative_general": 679226.35,
+   "employee_salaries": 119000,
+   "publicity_propaganda": null,
+   "other": 4192808.98
+  },
+  "general_fund_closing": 8764793.27,
+  "cash_bank_and_deposits_closing": 1434608.65,
+  "total_assets": 9813866.65,
+  "auditor": "Lakshmi Kantha Rao & Co., Chartered Accountants, Bangalore (proprietor CA J.L. Kantha Rao, M.No. 028490)",
+  "pages": {
+   "income_statement": 6,
+   "balance_sheet": 5
+  },
+  "confidence": "high",
+  "notes": "All income is 10 donations (Sch 12) of 5-30 lakh each. Heads sum to printed total expenditure; surplus 61,08,964.67 as printed. Expenditure other = other expenses 41,19,202.98 (incl. advertising for prior years 13,66,785.78, advertising 4,76,899, DTVSV/TDS tax payment 20,24,880, leadership promotion 2,00,000) + finance costs 73,606; advertising is inside 'other', not separated. No depreciation charged. Fund shown as Corpus 1,43,723 + Reserves 86,21,070.27 (reserves figure partly garbled in OCR, derived from balance-sheet total and matches cash-flow 'sources of funds' 87,64,793.27 = corpus + reserves); general_fund_closing is that sum. Cash & bank = cash in hand 5,30,517.50 + current accounts 9,04,091.15 per cash flow statement. Advance to President 43,50,000 and unsecured loan 7,00,000 on balance sheet."
+ },
+ {
+  "n": 199,
+  "party": "Tipra Motha Party",
+  "fy": "2024-25",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 410958,
+  "total_expenditure": 353988,
+  "surplus": 56970,
+  "income": {
+   "donations_contributions": 401625,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": null,
+   "interest_dividend": 9333,
+   "other": 0
+  },
+  "expenditure": {
+   "election": 0,
+   "administrative_general": 117167,
+   "employee_salaries": 96000,
+   "publicity_propaganda": 10125,
+   "other": 130696
+  },
+  "general_fund_closing": 1356582,
+  "cash_bank_and_deposits_closing": 533313,
+  "total_assets": 1422919,
+  "auditor": "Kumar Sandip & Associates, Chartered Accountants (FRN 037987C), CA Sandip Kumar, Patna",
+  "pages": {
+   "income_statement": 4,
+   "balance_sheet": 5
+  },
+  "confidence": "high",
+  "notes": "The text dump for this scanned filing was unreadable, so figures were read from the page images of the source PDF (pages 4 and 5). Account is in vertical T-format with only the current year. Income: members contribution & donations bank 2,02,667 + cash 1,98,958 = 4,01,625; savings interest 9,333. Expenditure: establishment expenses 2,23,292 (salary 96,000; advertisement & promotion 10,125; remaining 1,17,167 shown as administrative_general) + depreciation 1,30,696 (other) = 3,53,988; total 4,10,958 incl. surplus 56,970. general_fund_closing is the corpus/general fund 13,56,582 (12,99,612 opening + 56,970). Cash in hand 2,27,640 + cash at bank 3,05,673 = 5,33,313; fixed assets 8,89,606. Report dated 31-10-2025, filed 11 Nov 2025."
+ },
+ {
+  "n": 202,
+  "party": "Zoram People's Movement",
+  "fy": "2024-25",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 5721915,
+  "total_expenditure": 6102714,
+  "surplus": -380799,
+  "income": {
+   "donations_contributions": 5721915,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": 0,
+   "interest_dividend": 0,
+   "other": 0
+  },
+  "expenditure": {
+   "election": 2802315,
+   "administrative_general": 2451349,
+   "employee_salaries": 833600,
+   "publicity_propaganda": null,
+   "other": 15450
+  },
+  "general_fund_closing": 229314.69,
+  "cash_bank_and_deposits_closing": 65396,
+  "total_assets": 229314.69,
+  "auditor": "AKAS & Associates LLP, Chartered Accountants, Aizawl",
+  "pages": {
+   "income_statement": 4,
+   "balance_sheet": 5
+  },
+  "confidence": "high",
+  "notes": "Deficit printed as 'excess of expenditure over income (3,80,799)'. Income is Sch 12 grants/donations/contributions 57,21,915 (youth, women, seniors contributions 36,000 plus donations 56,85,915). Expenditure other = depreciation 15,450. Fund is 'Corpus/Capital fund' 2,29,314.69 (opening 6,10,113.69 less deficit). Cash: Sch 9 shows 65,396 as cash & equivalents (row label placement ambiguous in the dump) and 1,31,368.69 as other current assets; current assets total 1,96,764.69; tangible assets 32,550."
+ },
+ {
+  "n": 204,
+  "party": "All India United Democratic Front",
+  "fy": "2025-26",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 14718001,
+  "total_expenditure": 3238438.56,
+  "surplus": 11479562.44,
+  "income": {
+   "donations_contributions": 14718001,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": 0,
+   "interest_dividend": 0,
+   "other": 0
+  },
+  "expenditure": {
+   "election": 2108750,
+   "administrative_general": 599118,
+   "employee_salaries": 480000,
+   "publicity_propaganda": null,
+   "other": 50570.56
+  },
+  "general_fund_closing": 7435591.57,
+  "cash_bank_and_deposits_closing": 2323037.57,
+  "total_assets": 12630535.57,
+  "auditor": "H.S. Madan & Co., Chartered Accountants, Delhi (partner Sakshi, M.No. 097866)",
+  "pages": {
+   "income_statement": 2,
+   "balance_sheet": 3
+  },
+  "confidence": "high",
+  "notes": "Year ended 31 March 2026 (filed 22-07-2026). Income statement columns scrambled in the text dump; current-year column identified and verified: heads sum to 3,238,438.56 and surplus 11,479,562.44 = 14,718,001 - 3,238,438.56, which reconciles to the general fund roll-forward (-4,043,970.87 + 11,479,562.44 = 7,435,591.57). Income is 'contribution towards party fund' only. Expenditure other = finance costs 2,350.56 + depreciation 39,255 + other expenses 8,965. Cash = cash in hand 57,905.15 + SBI 2,188,137.67 + Assam Co-op Apex Bank 76,994.75. Loans/advances include 1,00,00,000 advance for helicopter hire; current liabilities 5,194,944 (summed)."
+ },
+ {
+  "n": 209,
+  "party": "Maharashtrawadi Gomantak Party",
+  "fy": "2025-26",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 3200000,
+  "total_expenditure": 3382802.17,
+  "surplus": -182802.17,
+  "income": {
+   "donations_contributions": 3200000,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": null,
+   "interest_dividend": null,
+   "other": null
+  },
+  "expenditure": {
+   "election": 1165000,
+   "administrative_general": 134053.5,
+   "employee_salaries": 35000,
+   "publicity_propaganda": null,
+   "other": 2048748.67
+  },
+  "general_fund_closing": 8581991.1,
+  "cash_bank_and_deposits_closing": 792747.87,
+  "total_assets": 9405848.87,
+  "auditor": "Lakshmi Kantha Rao & Co., Chartered Accountants, Bangalore (proprietor CA J.L. Kantha Rao, M.No. 028490)",
+  "pages": {
+   "income_statement": 4,
+   "balance_sheet": 5
+  },
+  "confidence": "high",
+  "notes": "Year ended 31 March 2026 (signed 21-07-2026). Deficit printed as 'excess of expenditure over income (1,82,802.17)'. Heads sum to printed total expenditure. Expenditure other = other expenses 19,32,591.67 (incl. advertising 17,22,848.92, not separated) + item 18 of 1,16,157 (labelled finance costs on the account but 'Depreciation' in Schedule 18). Fund shown as Corpus 1,43,723 + Reserves 84,38,268.10 = 85,81,991.10 (matches cash flow 'sources of funds'); reported as general_fund_closing. Cash = cash in hand 5,30,517.50 + Bank of Maharashtra 1,44,309.77 + SBI 1,17,920.60. Advance towards property 47,00,000 on balance sheet."
+ }
+]

@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tamil Nadu Political Parties: Financial Transparency & Electoral Bonds Dashboard</title>
+<meta name="description" content="A unified public accountability dashboard tracking contribution reports (Form 24A), annual audit statements, and electoral bonds for Tamil Nadu regional parties and national parties operating in the state. Sourced from the Election Commission of India.">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#0c0c0c" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f9f9f7" media="(prefers-color-scheme: light)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23d90429'/%3E%3Ctext x='16' y='21' font-family='system-ui' font-size='11' font-weight='800' fill='%23fff' text-anchor='middle'%3ETN%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="/kit/kit.css">
+<link rel="stylesheet" href="/kit/leaflet.css">
+<link rel="stylesheet" href="/parties.css">
+</head>
+<body>
+
+<!-- Ambient Liquid Glass Background Blobs (nfhs6 style) -->
+<div class="liquid" aria-hidden="true">
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+</div>
+
+<!-- SVG Icon Symbols -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+  <symbol id="i-sun" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32l1.41 1.41M2 12h2m16 0h2M6.34 17.66l-1.41 1.41m12.72-12.72l-1.41 1.41"/></g></symbol>
+  <symbol id="i-moon" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10zM2 12h20"/></g></symbol>
+  <symbol id="i-map-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></g></symbol>
+  <symbol id="i-grid" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M3 9h18M3 15h18M9 3v18M15 3v18"/></g></symbol>
+  <symbol id="i-hash" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M4 9h16M4 15h16M10 3 8 21M16 3l-2 18"/></g></symbol>
+  <symbol id="i-building" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><rect width="16" height="20" x="4" y="2" rx="2"/><path d="M9 22v-4h6v4M8 6h.01M16 6h.01M12 6h.01M12 10h.01M12 14h.01M16 10h.01M16 14h.01M8 10h.01M8 14h.01"/></g></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></g></symbol>
+  <symbol id="i-info" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4m0-4h.01"/></g></symbol>
+  <symbol id="i-book" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></g></symbol>
+  <symbol id="i-chart" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M3 3v16a2 2 0 0 0 2 2h16"/><path d="m19 9l-5 5l-4-4l-3 3"/></g></symbol>
+  <symbol id="i-download" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></g></symbol>
+  <symbol id="i-filter" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2 5h20M6 12h12m-9 7h6"/></symbol>
+  <symbol id="i-external" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 6L6 18M6 6l12 12"/></symbol>
+  <symbol id="i-line" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></g></symbol>
+  <symbol id="i-percent" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M19 5 5 19"/><circle cx="6.5" cy="6.5" r="2.5"/><circle cx="17.5" cy="17.5" r="2.5"/></g></symbol>
+</svg>
+
+<!-- Header Topbar -->
+<header class="topbar">
+  <a class="brand" href="/">
+    <span class="brand-mark parties" aria-hidden="true">TN</span>
+    <span class="brand-text">
+      <strong>Tamil Nadu Political Parties Accountability Dashboard</strong>
+      <small id="brand-sub">Election Commission of India Filings & Supreme Court Electoral Bond Disclosures</small>
+    </span>
+  </a>
+  <span class="spacer"></span>
+  <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch theme">
+    <svg class="ic-dark" aria-hidden="true"><use href="#i-moon"></use></svg>
+    <svg class="ic-light" aria-hidden="true"><use href="#i-sun"></use></svg>
+  </button>
+</header>
+
+<!-- Main Shell -->
+<main class="shell">
+  <section class="hero">
+    <h1>Holding Political Parties Financially Accountable.</h1>
+    <p id="lede">
+      Official public financial data for Tamil Nadu regional parties (DMK, AIADMK, TVK, NTK, PMK, DMDK, MDMK, VCK, MNM, IUML) and national parties operating in the state (BJP, INC, CPI(M), CPI, AAP, BSP).
+      Every figure is verified from official signed statutory filings with the Election Commission of India, CEO Tamil Nadu RUPP portal, and Supreme Court mandated SBI disclosure sheets.
+    </p>
+    <div class="tiles" id="tiles"></div>
+  </section>
+
+  <!-- Sticky Interactive Control Bar -->
+  <div class="controlbar" id="controls" aria-label="Dashboard controls"></div>
+
+  <!-- Dynamic Views Container -->
+  <div id="cards"></div>
+
+  <!-- Footer -->
+  <footer class="foot" id="foot">
+    <p>
+      <b>Data Integrity & Statutory Basis:</b> All data presented on this dashboard is compiled directly from official public submissions to the Election Commission of India (ECI) under Section 29C of the Representation of the People Act, 1951 (Form 24A Contribution Reports), Section 139(4B) of the Income Tax Act, 1961 (Annual Audit Statements & Balance Sheets), CEO Tamil Nadu Registered Unrecognized Political Parties (RUPPs) filings, and the Supreme Court of India judgement in <i>Association for Democratic Reforms & CPI(M) v. Union of India</i> (Writ Petition (Civil) No. 880/2017) mandating SBI disclosure of Electoral Bonds.
+    </p>
+    <p>
+      Direct sources: <a href="https://www.eci.gov.in/contribution-reports" target="_blank" rel="noopener noreferrer">ECI Contribution Reports</a> · <a href="https://www.eci.gov.in/annual-audit-reports" target="_blank" rel="noopener noreferrer">ECI Annual Audit Reports</a> · <a href="https://www.erolls.tn.gov.in/dashboard/RUPPs.aspx" target="_blank" rel="noopener noreferrer">CEO Tamil Nadu RUPPs Portal</a> · <a href="https://www.eci.gov.in/disclosure-of-electoral-bonds" target="_blank" rel="noopener noreferrer">ECI Electoral Bonds Disclosure</a> · <a href="https://old.eci.gov.in" target="_blank" rel="noopener noreferrer">Old ECI Archive (2003–2022)</a>.
+    </p>
+  </footer>
+</main>
+
+<!-- Party Financial Dossier Modal Drawer -->
+<div class="modal-overlay" id="party-modal" onclick="if(event.target === this) closePartyModal();">
+  <div class="modal-drawer">
+    <div class="modal-header">
+      <div id="modal-party-title"></div>
+      <button class="icon-btn" onclick="closePartyModal()" type="button" aria-label="Close">
+        <svg class="ic-inline"><use href="#i-close"></use></svg>
+      </button>
+    </div>
+    <div class="modal-body" id="modal-party-body"></div>
+  </div>
+</div>
+
+<div class="tip" id="tip" role="status" aria-live="polite"></div>
+<script src="/kit/leaflet.js"></script>
+<script src="/parties.js"></script>
+</body>
+</html>

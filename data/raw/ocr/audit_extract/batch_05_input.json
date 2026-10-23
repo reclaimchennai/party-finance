@@ -1,0 +1,272 @@
+[
+ {
+  "n": 7,
+  "text_file": "007.txt",
+  "title": "Mizo National Front (Annual Audit Report for the Financial Year 2020-21)",
+  "fy": "2020-21",
+  "pages": 14,
+  "ocr_pages": []
+ },
+ {
+  "n": 15,
+  "text_file": "015.txt",
+  "title": "Mizo National Front (Revised Annual Audit Report for the Financial Year 2021-22)",
+  "fy": "2021-22",
+  "pages": 14,
+  "ocr_pages": []
+ },
+ {
+  "n": 17,
+  "text_file": "017.txt",
+  "title": "United Democratic Party (Annual Audit Report for the Financial Year 2021-22)",
+  "fy": "2021-22",
+  "pages": 10,
+  "ocr_pages": []
+ },
+ {
+  "n": 20,
+  "text_file": "020.txt",
+  "title": "All India Anna Dravida  Munnetra Kazhagam (Annual Audit Report for the Financial Year 2022-23)",
+  "fy": "2022-23",
+  "pages": 23,
+  "ocr_pages": [
+   11,
+   13,
+   15,
+   17,
+   19,
+   21,
+   23
+  ]
+ },
+ {
+  "n": 26,
+  "text_file": "026.txt",
+  "title": "All India N.R. Congress (Annual Audit Report for the Financial Year 2022-23)",
+  "fy": "2022-23",
+  "pages": 16,
+  "ocr_pages": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16
+  ]
+ },
+ {
+  "n": 40,
+  "text_file": "040.txt",
+  "title": "Hill State People's Democratic Party (Annual Audit Report for the Financial Year 2022-23)",
+  "fy": "2022-23",
+  "pages": 9,
+  "ocr_pages": []
+ },
+ {
+  "n": 43,
+  "text_file": "043.txt",
+  "title": "Jammu & Kashmir People's Democratic Party (Annual Audit Report for the Financial Year 2022-23)",
+  "fy": "2022-23",
+  "pages": 17,
+  "ocr_pages": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17
+  ]
+ },
+ {
+  "n": 68,
+  "text_file": "068.txt",
+  "title": "Revolutionary Socialist Party -(Annual Audit Report 2022-23)",
+  "fy": "2022-23",
+  "pages": 8,
+  "ocr_pages": []
+ },
+ {
+  "n": 81,
+  "text_file": "081.txt",
+  "title": "Aam Aadmi Party (Annual Audit Report for the Financial Year 2023-24)",
+  "fy": "2023-24",
+  "pages": 16,
+  "ocr_pages": []
+ },
+ {
+  "n": 83,
+  "text_file": "083.txt",
+  "title": "All India Forward Bloc (Annual Audit Report for the Financial Year 2023-24)",
+  "fy": "2023-24",
+  "pages": 12,
+  "ocr_pages": []
+ },
+ {
+  "n": 85,
+  "text_file": "085.txt",
+  "title": "All India Majilis-e-Ittehadul Muslimeen (Revised Annual Audit Report for the Financial Year 2023-24)",
+  "fy": "2023-24",
+  "pages": 26,
+  "ocr_pages": []
+ },
+ {
+  "n": 104,
+  "text_file": "104.txt",
+  "title": "Goa Forward Party (Annual Audit Report for the Financial Year 2023-24)",
+  "fy": "2023-24",
+  "pages": 11,
+  "ocr_pages": []
+ },
+ {
+  "n": 123,
+  "text_file": "123.txt",
+  "title": "National People's Party (Annual Audit Report for the Financial Year 2023-24)",
+  "fy": "2023-24",
+  "pages": 14,
+  "ocr_pages": []
+ },
+ {
+  "n": 126,
+  "text_file": "126.txt",
+  "title": "Rashtriya Janata Dal (Revised Annual Audit Report for the Financial Year 2023-24)",
+  "fy": "2023-24",
+  "pages": 17,
+  "ocr_pages": []
+ },
+ {
+  "n": 128,
+  "text_file": "128.txt",
+  "title": "Revolutionary Goans Party (Annual Audit Report for the Financial Year 2023-24)",
+  "fy": "2023-24",
+  "pages": 8,
+  "ocr_pages": []
+ },
+ {
+  "n": 132,
+  "text_file": "132.txt",
+  "title": "Sikkim Democratic Front (Annual Audit Report for the Financial Year 2023-24)",
+  "fy": "2023-24",
+  "pages": 22,
+  "ocr_pages": [
+   16,
+   18,
+   20,
+   22
+  ]
+ },
+ {
+  "n": 134,
+  "text_file": "134.txt",
+  "title": "Sikkim Krantikari Morcha (Revised Annual Audit Report for the Financial Year 2023-24)",
+  "fy": "2023-24",
+  "pages": 14,
+  "ocr_pages": [
+   2
+  ]
+ },
+ {
+  "n": 136,
+  "text_file": "136.txt",
+  "title": "Tipra Motha Party (Annual Audit Report for the Financial Year 2023-24)",
+  "fy": "2023-24",
+  "pages": 6,
+  "ocr_pages": []
+ },
+ {
+  "n": 143,
+  "text_file": "143.txt",
+  "title": "AJSU Party (Annual Audit Report for the Financial Year 2024-25)",
+  "fy": "2024-25",
+  "pages": 13,
+  "ocr_pages": []
+ },
+ {
+  "n": 144,
+  "text_file": "144.txt",
+  "title": "AJSU Party (Revised Annual Audit Report for the Financial Year 2024-25)",
+  "fy": "2024-25",
+  "pages": 17,
+  "ocr_pages": [
+   2
+  ]
+ },
+ {
+  "n": 146,
+  "text_file": "146.txt",
+  "title": "All India Anna Dravida Munnetra Kazhagam (Annual Audit Report for the Financial Year 2024-25)",
+  "fy": "2024-25",
+  "pages": 17,
+  "ocr_pages": []
+ },
+ {
+  "n": 154,
+  "text_file": "154.txt",
+  "title": "Asom Gana Parishad (Annual Audit Report for the Financial Year 2024-25)",
+  "fy": "2024-25",
+  "pages": 12,
+  "ocr_pages": []
+ },
+ {
+  "n": 157,
+  "text_file": "157.txt",
+  "title": "Bahujan Samaj Party (Annual Audit Report for the Financial Year 2024-25)",
+  "fy": "2024-25",
+  "pages": 14,
+  "ocr_pages": []
+ },
+ {
+  "n": 163,
+  "text_file": "163.txt",
+  "title": "Communist Party of India (Annual Audit Report for the Financial Year 2024-25)",
+  "fy": "2024-25",
+  "pages": 13,
+  "ocr_pages": [
+   11
+  ]
+ },
+ {
+  "n": 206,
+  "text_file": "206.txt",
+  "title": "Bharat Rashtra Samithi (Annual Audit Report for the Financial Year 2025-26)",
+  "fy": "2025-26",
+  "pages": 15,
+  "ocr_pages": []
+ },
+ {
+  "n": 210,
+  "text_file": "210.txt",
+  "title": "Mizo National Front (Annual Audit Report for the Financial Year 2025-26)",
+  "fy": "2025-26",
+  "pages": 13,
+  "ocr_pages": []
+ },
+ {
+  "n": 211,
+  "text_file": "211.txt",
+  "title": "Naga People's Front (Annual Audit Report for the Financial Year 2025-26)",
+  "fy": "2025-26",
+  "pages": 12,
+  "ocr_pages": []
+ }
+]

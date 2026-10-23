@@ -1,0 +1,220 @@
+{
+  "key_findings": [
+    {
+      "title": "DMK: #1 Recipient in Tamil Nadu, #6 Nationally in Electoral Bonds",
+      "stat": "\u20b9639.00 Cr",
+      "detail": "DMK received \u20b9639.00 Crore through electoral bonds, making it by far the largest recipient in Tamil Nadu and the 6th highest political party in India, ahead of large national parties like AAP (\u20b965 Cr) and regional parties like JD(U) (\u20b914 Cr) and SP (\u20b914 Cr).",
+      "type": "critical"
+    },
+    {
+      "title": "Lottery King Santiago Martin's Future Gaming Alone Gave 78.7% of DMK's Bonds",
+      "stat": "\u20b9503.00 Cr",
+      "detail": "Future Gaming and Hotel Services PR (Santiago Martin), which was under investigation by the Enforcement Directorate, donated \u20b9503.00 Crore to DMK alone between 2020 and 2024. Megha Engineering (MEIL) was #2 with \u20b985.00 Crore.",
+      "type": "warning"
+    },
+    {
+      "title": "AIADMK Encashed All Bonds in Single Window (April 2019)",
+      "stat": "\u20b96.05 Cr",
+      "detail": "Unlike DMK, AIADMK only encashed electoral bonds during the April 2019 Lok Sabha elections (38 bonds totaling \u20b96.05 Crore). AIADMK's primary funding comes from application fees, corpus interest, and general party funds.",
+      "type": "info"
+    },
+    {
+      "title": "The Principle of Zero: Parties that Stood Against Electoral Bonds",
+      "stat": "\u20b90.00",
+      "detail": "CPI(M), CPI, and regional parties like NTK took zero electoral bonds. CPI(M) was the lead petitioner before the Supreme Court of India in Association for Democratic Reforms & CPI(M) v. Union of India, which declared the electoral bond scheme unconstitutional on February 15, 2024.",
+      "type": "good"
+    },
+    {
+      "title": "NTK's Crowdfunding Model vs Mega-Donors",
+      "stat": "293 Donors",
+      "detail": "Naam Tamilar Katchi (NTK) declared \u20b93.32 Crore in FY 2024-25, almost entirely powered by micro-contributions aggregated through Cashfree Payments India and individual cadre donations with full PAN declarations.",
+      "type": "info"
+    },
+    {
+      "title": "TVK: Vijay's Political Entry & High-Value Direct Contributions",
+      "stat": "\u20b913.30 Cr (FY 25-26)",
+      "detail": "Tamilaga Vettri Kazhagam (TVK), registered with the ECI on 03/09/2024 by actor-politician Vijay, submitted statutory Form 24A reports declaring \u20b91.22 Cr in FY 2024-25 (with \u20b965.82 Lakh personal cheque from Vijay) and \u20b913.30 Cr in FY 2025-26, powered by \u20b98.20 Cr via RTGS from Aadhav Arjun and \u20b95.00 Cr via RTGS from Ranjith Kumar.",
+      "type": "info"
+    },
+    {
+      "title": "The Warchest Asymmetry in Tamil Nadu Politics",
+      "stat": "\u20b912,164 Cr vs \u20b9747 Cr vs \u20b9327 Cr",
+      "detail": "In total reserves, National ruling party BJP holds \u20b912,164.15 Crore in General Reserves (with \u20b99,996 Crore in bank deposits). DMK holds \u20b9747.52 Crore (with \u20b9737.5 Crore in bank deposits), AIADMK holds \u20b9327.16 Crore, and INC holds \u20b9365.49 Crore.",
+      "type": "warning"
+    }
+  ],
+  "party_transparency_scores": [
+    {
+      "party": "CPI(M)",
+      "score": 95,
+      "eb_taken": false,
+      "audited_on_time": true,
+      "pan_disclosed": true,
+      "verdict": "Highest Compliance (Petitioner against EB, 0 bonds taken)"
+    },
+    {
+      "party": "CPI",
+      "score": 92,
+      "eb_taken": false,
+      "audited_on_time": true,
+      "pan_disclosed": true,
+      "verdict": "High Transparency (0 bonds taken, accounts audited)"
+    },
+    {
+      "party": "NTK",
+      "score": 90,
+      "eb_taken": false,
+      "audited_on_time": true,
+      "pan_disclosed": true,
+      "verdict": "Grassroots Crowdfunding (Transparent micro-donations via Cashfree)"
+    },
+    {
+      "party": "TVK",
+      "score": 88,
+      "eb_taken": false,
+      "audited_on_time": true,
+      "pan_disclosed": true,
+      "verdict": "High Disclosure (Prompt Form 24A filed with 100% PAN details for \u20b913.30 Cr)"
+    },
+    {
+      "party": "DMDK",
+      "score": 85,
+      "eb_taken": false,
+      "audited_on_time": true,
+      "pan_disclosed": true,
+      "verdict": "Compliant (Detailed CA audit, 0 bonds encashed)"
+    },
+    {
+      "party": "IUML",
+      "score": 84,
+      "eb_taken": false,
+      "audited_on_time": true,
+      "pan_disclosed": true,
+      "verdict": "Compliant (Regular audits, no bond redemptions)"
+    },
+    {
+      "party": "AIADMK",
+      "score": 80,
+      "eb_taken": true,
+      "eb_cr": 6.05,
+      "audited_on_time": true,
+      "pan_disclosed": true,
+      "verdict": "Standard Compliance (Disclosed \u20b96.05 Cr bonds in 2019)"
+    },
+    {
+      "party": "AAP",
+      "score": 76,
+      "eb_taken": true,
+      "eb_cr": 65.45,
+      "audited_on_time": true,
+      "pan_disclosed": true,
+      "verdict": "Moderate (Encashed \u20b965.45 Cr in bonds)"
+    },
+    {
+      "party": "INC",
+      "score": 72,
+      "eb_taken": true,
+      "eb_cr": 1421.87,
+      "audited_on_time": true,
+      "pan_disclosed": true,
+      "verdict": "High Bond Reliance (\u20b91,421.87 Cr in bonds, severe 2024 deficit)"
+    },
+    {
+      "party": "DMK",
+      "score": 68,
+      "eb_taken": true,
+      "eb_cr": 639.0,
+      "audited_on_time": true,
+      "pan_disclosed": true,
+      "verdict": "High Corporate Concentration (\u20b9503 Cr from single lottery group)"
+    },
+    {
+      "party": "BJP",
+      "score": 62,
+      "eb_taken": true,
+      "eb_cr": 6060.51,
+      "audited_on_time": true,
+      "pan_disclosed": true,
+      "verdict": "Massive Corporate Warchest (55% of all electoral bonds in India)"
+    }
+  ],
+  "tn_corporate_donors": [
+    {
+      "donor": "Future Gaming and Hotel Services PR (Santiago Martin)",
+      "party": "DMK",
+      "amount_cr": 503.0,
+      "sector": "Lottery & Gaming",
+      "hq": "Coimbatore / Chennai"
+    },
+    {
+      "donor": "Megha Engineering & Infrastructures Ltd (MEIL)",
+      "party": "DMK",
+      "amount_cr": 85.0,
+      "sector": "Infrastructure & Construction",
+      "hq": "Hyderabad / Regional Projects"
+    },
+    {
+      "donor": "Aadhav Arjun (Voice of Common Man)",
+      "party": "TVK",
+      "amount_cr": 8.2,
+      "sector": "Sports Administration & Media",
+      "hq": "Chennai, TN"
+    },
+    {
+      "donor": "Ranjith Kumar",
+      "party": "TVK",
+      "amount_cr": 5.0,
+      "sector": "Business / Enterprise",
+      "hq": "Kancheepuram, TN"
+    },
+    {
+      "donor": "Westwell Gases Pvt Ltd",
+      "party": "DMK",
+      "amount_cr": 8.0,
+      "sector": "Industrial Gases",
+      "hq": "Chennai, TN"
+    },
+    {
+      "donor": "Askus Logistics Pvt Ltd",
+      "party": "DMK",
+      "amount_cr": 7.0,
+      "sector": "Logistics & Transport",
+      "hq": "Chennai, TN"
+    },
+    {
+      "donor": "Fertileland Foods Pvt Ltd",
+      "party": "DMK",
+      "amount_cr": 5.0,
+      "sector": "Food Processing",
+      "hq": "Tamil Nadu"
+    },
+    {
+      "donor": "The India Cements Ltd (N. Srinivasan)",
+      "party": "DMK & AIADMK",
+      "amount_cr": 14.0,
+      "sector": "Cement & Sports (CSK)",
+      "hq": "Chennai, TN"
+    },
+    {
+      "donor": "Herald Beverages Pvt Ltd",
+      "party": "DMK",
+      "amount_cr": 4.0,
+      "sector": "Beverages",
+      "hq": "Tamil Nadu"
+    },
+    {
+      "donor": "Kal Radio Ltd (Sun TV Network / Maran Group)",
+      "party": "DMK",
+      "amount_cr": 3.5,
+      "sector": "Media & Broadcasting",
+      "hq": "Chennai, TN"
+    },
+    {
+      "donor": "Chennai Super Kings Cricket Ltd",
+      "party": "AIADMK",
+      "amount_cr": 5.0,
+      "sector": "Sports Franchise",
+      "hq": "Chennai, TN"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "total_parties": 3942,
+  "parties_with_pincode": 2903,
+  "pincode_coverage_pct": 73.6,
+  "active_rupps_2025": 2049,
+  "delisted_2025": {
+    "I(B)": 334,
+    "I(C)": 474
+  },
+  "by_status": {
+    "Registered Unrecognized (RUPP)": 2049,
+    "Delisted / Cancelled": 1278,
+    "RUPP (not in 2025 list)": 323,
+    "Inactive": 235,
+    "Recognized State": 51,
+    "Recognized National": 6
+  },
+  "by_state": {
+    "Uttar Pradesh": 997,
+    "Delhi": 435,
+    "Tamil Nadu": 352,
+    "Maharashtra": 292,
+    "Bihar": 245,
+    "Andhra Pradesh": 138,
+    "Haryana": 130,
+    "Karnataka": 128,
+    "Telangana": 127,
+    "Madhya Pradesh": 126,
+    "Gujarat": 119,
+    "Other / Unspecified": 115,
+    "Rajasthan": 101,
+    "Punjab": 90,
+    "West Bengal": 90,
+    "Kerala": 60,
+    "Odisha": 53,
+    "Jharkhand": 50,
+    "Jammu and Kashmir": 49,
+    "Chhattisgarh": 48,
+    "Uttarakhand": 42,
+    "Assam": 37,
+    "Goa": 18,
+    "Sikkim": 15,
+    "Meghalaya": 14,
+    "Manipur": 14,
+    "Himachal Pradesh": 13,
+    "Mizoram": 10,
+    "Puducherry": 9,
+    "Chandigarh": 7,
+    "Nagaland": 6,
+    "Tripura": 5,
+    "Andaman & Nicobar Islands": 5,
+    "Arunachal Pradesh": 2
+  },
+  "by_category": {
+    "National": 6,
+    "State": 51,
+    "RUPP": 2697,
+    "Delisted / Inactive": 1188
+  },
+  "metadata": {
+    "source": "ECI recognition notifications (2023), RUPP notifications (2021, 10 Oct 2025) and delisting orders (2016–2025)",
+    "last_updated": "2025-10-10",
+    "ocr_note": "2025 notification is a scanned PDF; names/addresses were OCR'd cell-by-cell and matched to earlier ECI lists where possible (name_source field)."
+  }
+}

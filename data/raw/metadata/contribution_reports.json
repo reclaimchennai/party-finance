@@ -1,0 +1,1382 @@
+{
+  "code": 200,
+  "status": 1,
+  "success": true,
+  "message": {
+    "Contribution Reports 2025-2026": [
+      {
+        "id": "YVVHEmJmPFqygWa3ODApDQ%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Jannayak Janta Party - Contribution Report for FY 2025-26",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1792127112.pdf",
+        "extension": "pdf",
+        "record_size": "328 KB"
+      },
+      {
+        "id": "4I7wo8qkDB2e1DBaUg84bw%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Shiromani Akali Dal - Contribution Report for FY 2025-26",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1792127093.pdf",
+        "extension": "pdf",
+        "record_size": "1 MB"
+      },
+      {
+        "id": "HjbxNNuvE1LZOHt%2Bitn0ww%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Indian Union Muslim League - Contribution Report for FY 2025-26",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1792127074.pdf",
+        "extension": "pdf",
+        "record_size": "2 MB"
+      },
+      {
+        "id": "JP0BJUTHP005h1vEDzq88Q%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Dravida Munnetra Kazhagam - Contribution Report for FY 2025-26",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1792127042.pdf",
+        "extension": "pdf",
+        "record_size": "4 MB"
+      },
+      {
+        "id": "Z7x%2BAFLNpJk9kYWP5%2B1UWQ%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Maharashtra Navnirman Sena - Contribution Report for FY 2025-26",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1792127015.pdf",
+        "extension": "pdf",
+        "record_size": "758 KB"
+      },
+      {
+        "id": "UPtzHUTxVqBdoDMh0zDdHA%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Communist Party of India (Marxist-Leninist) Liberation - Contribution Report for FY 2025-26",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1791971396.pdf",
+        "extension": "pdf",
+        "record_size": "2 MB"
+      },
+      {
+        "id": "igiTM7cHCdrZ2acrS%2Bymqg%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Naga People's Front - Contribution Report for FY 2025-26",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1791971335.pdf",
+        "extension": "pdf",
+        "record_size": "408 KB"
+      },
+      {
+        "id": "SaYFRCYxE2CYu7S9EjrDkA%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Goa Forward Party - Contribution Report for FY 2025-26",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1791971311.pdf",
+        "extension": "pdf",
+        "record_size": "335 KB"
+      },
+      {
+        "id": "zVv53rjPit%2FECHlKykMJsQ%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "National People's Party - Contribution Report for FY 2025-26",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1791525010.pdf",
+        "extension": "pdf",
+        "record_size": "392 KB"
+      },
+      {
+        "id": "GsVafrOINCrlgzIzXPyc%2Bw%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "All India Anna Dravida Munnetra Kazhagam - Contribution Report for FY 2025-26",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1791355461.pdf",
+        "extension": "pdf",
+        "record_size": "2 MB"
+      },
+      {
+        "id": "PBPeJCZS3IYjSC2oZ%2BAYrQ%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Lok Janshakti Party (Ram Vilas) - Contribution Report for FY 2025-26",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1790594555.pdf",
+        "extension": "pdf",
+        "record_size": "1 MB"
+      },
+      {
+        "id": "PiwWlrs9x3djCkTrE%2Fvfvg%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Aam Aadmi Party - Contribution Report for FY 2025-26",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1790313299.pdf",
+        "extension": "pdf",
+        "record_size": "25 MB"
+      },
+      {
+        "id": "MSlFeXYoLra%2BwlqE6Ux7tw%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Telugu Desam Party - Contribution Report for FY 2025-26",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1790313274.pdf",
+        "extension": "pdf",
+        "record_size": "2 MB"
+      },
+      {
+        "id": "kLyK6VtoL9i7ODPn2mJ6XA%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Bharat Rashtra Samithi - Contribution Report for FY 2025-26",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1790155495.pdf",
+        "extension": "pdf",
+        "record_size": "2 MB"
+      },
+      {
+        "id": "J2p5gpw1BJp2bkK6tin9jQ%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Asom Gana Parishad - Contribution Report for FY 2025-26",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1790155476.pdf",
+        "extension": "pdf",
+        "record_size": "706 KB"
+      },
+      {
+        "id": "Ln0LXTKsbNsppmEkp2PFYg%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Rashtriya Loktantrik Party - Contribution Report for FY 2025-26",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1789989534.pdf",
+        "extension": "pdf",
+        "record_size": "559 KB"
+      },
+      {
+        "id": "P3%2FyK6vnTo%2Fb1SIwuRYF0g%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Biju Janata Dal - Contribution Report for FY 2025-26",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1789989513.pdf",
+        "extension": "pdf",
+        "record_size": "325 KB"
+      },
+      {
+        "id": "DnWAG6%2BLlUVqc1CqvQ2oMQ%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Sikkim Krantikari Morcha - Contribution Report for FY 2025-26",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1789989494.pdf",
+        "extension": "pdf",
+        "record_size": "491 KB"
+      },
+      {
+        "id": "7tjnYwrwKFGfwyR3%2FZ2d8w%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Yuvajana Sramika Rythu Congress Party - Contribution Report for FY 2025-26",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1788758268.pdf",
+        "extension": "pdf",
+        "record_size": "925 KB"
+      },
+      {
+        "id": "sX0Mg5iMX2OhljS3VhCY9Q%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Maharashtrawadi Gomantak - Contribution Report for FY 2025-26",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/August/1786947994.pdf",
+        "extension": "pdf",
+        "record_size": "418 KB"
+      },
+      {
+        "id": "ezpqUpOsvcMKA86GNAxeng%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Kerala Congress (M) - Contribution Report for FY 2025-26",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/August/1785756158.pdf",
+        "extension": "pdf",
+        "record_size": "572 KB"
+      },
+      {
+        "id": "5B71QymqtDMetq%2B7YgNJbA%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "All India United Democratic Front - Contribution Report for FY 2025-26",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/July/1783919404.pdf",
+        "extension": "pdf",
+        "record_size": "2 MB"
+      }
+    ],
+    "Contribution Reports 2024-2025": [
+      {
+        "id": "4uAzYumtC0JzhHZey%2Fl%2BFw%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Bharat Adivasi Party - Contribution Report for FY 2024-25",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/July/1783572179.pdf",
+        "extension": "pdf",
+        "record_size": "307 KB"
+      },
+      {
+        "id": "hkY3Jk58YxnF7asxgZzRZA%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Indian Union Muslim League - Contribution Report for FY 2024-25",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/March/1774440395.pdf",
+        "extension": "pdf",
+        "record_size": "15 MB"
+      },
+      {
+        "id": "1rSBM2TktLjP4YrwwPq%2FVg%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Communist Party of India - Contribution Report for FY 2024-25",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/January/1767327438.pdf",
+        "extension": "pdf",
+        "record_size": "5 MB"
+      },
+      {
+        "id": "xCVR5d6drnSAM6rql00xgA%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Janata Dal (Secular) - Contribution Report for FY 2024-25",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/January/1767327407.pdf",
+        "extension": "pdf",
+        "record_size": "484 KB"
+      },
+      {
+        "id": "aXa1oWQAeCdrlzrZtX7rJg%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Indian National Lok Dal - Contribution Report for FY 2024-25",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/January/1767327387.pdf",
+        "extension": "pdf",
+        "record_size": "630 KB"
+      },
+      {
+        "id": "HMfX20knr5IuGiyJNn8H8w%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Bharatiya Janata Party - Contribution Report for FY 2024-25",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1766120349.pdf",
+        "extension": "pdf",
+        "record_size": "55 MB"
+      },
+      {
+        "id": "fC7mRfPDTey%2F726EfmQBDw%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Communist Party of India (Marxist) - Contribution Report for FY 2024-25",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1766119759.pdf",
+        "extension": "pdf",
+        "record_size": "4 MB"
+      },
+      {
+        "id": "7Z8mqqJits48DDSQKXID1g%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Jharkhand Mukti Morcha - Contribution Report for FY 2024-25",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1765881693.pdf",
+        "extension": "pdf",
+        "record_size": "6 MB"
+      },
+      {
+        "id": "uQWeht%2BQnqUmQhfBa%2BECJg%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Desiya Murpokku Dravida Kazhagam - Contribution Report for FY 2024-25",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1765881638.pdf",
+        "extension": "pdf",
+        "record_size": "567 KB"
+      },
+      {
+        "id": "jgWZtXrjNef7GKMx1eSU3A%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Sikkim Democratic Front - Contribution Report for FY 2024-25",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1765881560.pdf",
+        "extension": "pdf",
+        "record_size": "473 KB"
+      },
+      {
+        "id": "xlbLB1VjQYnoiRioM5GrFQ%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Nationalist Democratic Progressive Party - Contribution Report for FY 2024-25",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1765881537.pdf",
+        "extension": "pdf",
+        "record_size": "390 KB"
+      },
+      {
+        "id": "ci3MRBVgxiYHCvVJambk7Q%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Indian National Congress - Contribution Report for FY 2024-25",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/November/1764227474.pdf",
+        "extension": "pdf",
+        "record_size": "25 MB"
+      },
+      {
+        "id": "cAV0S6vHBEHrM7ivEjjazg%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "AJSU Party - Contribution Report for FY 2024-25",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/November/1764227451.pdf",
+        "extension": "pdf",
+        "record_size": "534 KB"
+      },
+      {
+        "id": "mPWjwsHkBpB7iKMaG8hkyA%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Telugu Desam Party - Contribution Report for FY 2024-25",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/November/1764227412.pdf",
+        "extension": "pdf",
+        "record_size": "6 MB"
+      },
+      {
+        "id": "K3DU0%2Bb6NGtikasQTUlifw%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Maharashtra Navnirman Sena - Contribution Report for FY 2024-25",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/November/1764227377.pdf",
+        "extension": "pdf",
+        "record_size": "889 KB"
+      },
+      {
+        "id": "ZEZvZYo%2BPmxWfQbXp5cd9g%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Apna Dal (Soneylal) - Contribution Report for FY 2024-25",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/November/1764227347.pdf",
+        "extension": "pdf",
+        "record_size": "708 KB"
+      },
+      {
+        "id": "Bd7hj3Cd6s6Zu4htaV9BOg%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "All India Majilis-e-Ittehadul Muslimeen - Contribution Report for FY 2024-25",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/November/1764226939.pdf",
+        "extension": "pdf",
+        "record_size": "402 KB"
+      },
+      {
+        "id": "FEK1xse2Aph4NQgM42%2B0Tg%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Janasena Party - Contribution Report for FY 2024-25",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/November/1764226897.pdf",
+        "extension": "pdf",
+        "record_size": "3 MB"
+      },
+      {
+        "id": "ohQqLf19qA3P8iA%2FhRNGkw%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Communist Party of India (Marxist-Leninist) Liberation - Contribution Report for FY 2024-25",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/November/1764226622.pdf",
+        "extension": "pdf",
+        "record_size": "2 MB"
+      },
+      {
+        "id": "b5AeSCDNBaH9dswGz4boDA%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Janata Dal (United) - Contribution Report for FY 2024-25",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/November/1764226555.pdf",
+        "extension": "pdf",
+        "record_size": "7 MB"
+      },
+      {
+        "id": "2wWsmLZjWiiqAnftj6998Q%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Samajwadi Party - Contribution Report for FY 2024-25",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1761296419.pdf",
+        "extension": "pdf",
+        "record_size": "871 KB"
+      },
+      {
+        "id": "p2Ioe%2BGwUDacd4n0%2BMfX2w%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Naam Tamilar Katchi - Contribution Report for FY 2024-25",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1761296395.pdf",
+        "extension": "pdf",
+        "record_size": "4 MB"
+      },
+      {
+        "id": "zIuWjSIakOluG%2FmNDx29Aw%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "All India Trinamool Congress - Contribution Report for FY 2024-25",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1761296373.pdf",
+        "extension": "pdf",
+        "record_size": "8 MB"
+      },
+      {
+        "id": "naekiMAfOAkrjdZRF88Ing%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Shiromani Akali Dal - Contribution Report for FY 2024-25",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1761296349.pdf",
+        "extension": "pdf",
+        "record_size": "1,020 KB"
+      },
+      {
+        "id": "mU%2FLigKpVq2Emk%2BPuJn5Kw%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Sikkim Krantikari Morcha - Contribution Report for FY 2024-25",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1761296330.pdf",
+        "extension": "pdf",
+        "record_size": "487 KB"
+      },
+      {
+        "id": "ZDyIksD4TkUnlXSICUsysA%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Bharat Rashtra Samithi - Contribution Report for FY 2024-25",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1761296304.pdf",
+        "extension": "pdf",
+        "record_size": "431 KB"
+      },
+      {
+        "id": "9KXOGeD7UKRyvBszOqy4pQ%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Aam Aadmi Party - Contribution Report for FY 2024-25",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1760615540.pdf",
+        "extension": "pdf",
+        "record_size": "17 MB"
+      },
+      {
+        "id": "bI5QcTSCk4k%2F6swCNhyDZg%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Revolutionary Goans Party - Contribution Report for FY 2024-25",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1760615501.pdf",
+        "extension": "pdf",
+        "record_size": "597 KB"
+      },
+      {
+        "id": "Y%2F%2BMAIoJH8jrZJVQI7p5lA%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Yuvajana Sramika Rythu Congress Party - Contribution Report for FY 2024-25",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1760615455.pdf",
+        "extension": "pdf",
+        "record_size": "2 MB"
+      },
+      {
+        "id": "KzRwXbajKzrkmUWbL3myZQ%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Dravida Munnetra Kazhagam - Contribution Report for FY 2024-25",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1760615424.pdf",
+        "extension": "pdf",
+        "record_size": "57 MB"
+      },
+      {
+        "id": "T5srvwTJvA05z2VkX9I0Ow%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "National People's Party - Contribution Report for FY 2024-25",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1759814662.pdf",
+        "extension": "pdf",
+        "record_size": "1 MB"
+      },
+      {
+        "id": "lQu9XM4qtrtBU04EkF54Nw%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "All India Anna Dravida Munnetra Kazhagam - Contribution Report for FY 2024-25",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1759203592.pdf",
+        "extension": "pdf",
+        "record_size": "2 MB"
+      },
+      {
+        "id": "xlH3heRA230P0dhcwoxLTQ%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "All India United Democratic Front - Contribution Report for FY 2024-25",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1759203524.pdf",
+        "extension": "pdf",
+        "record_size": "2 MB"
+      },
+      {
+        "id": "9ktpeZUvtQXO0ljBl3c%2FQw%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Biju Janata Dal - Contribution Report for FY 2024-25",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1759203497.pdf",
+        "extension": "pdf",
+        "record_size": "457 KB"
+      },
+      {
+        "id": "fDYVnTd%2F80Eq99kq8uj1qA%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Maharashtrawadi Gomantak - Contribution Report for FY 2024-25",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1757410494.pdf",
+        "extension": "pdf",
+        "record_size": "455 KB"
+      },
+      {
+        "id": "DzFMsak7vhr35c5DIeebgw%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Rashtriya Loktantrik Party - Contribution Report for FY 2024-25",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1757410465.pdf",
+        "extension": "pdf",
+        "record_size": "471 KB"
+      },
+      {
+        "id": "f6Nsa7Xhn%2FK6ZFzlvJpdzQ%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Bahujan Samaj Party - Contribution Report for FY 2024-25",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/August/1755855992.pdf",
+        "extension": "pdf",
+        "record_size": "367 KB"
+      },
+      {
+        "id": "gKODGO0icfchV4KcNEir2w%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Jannayak Janta Party - Contribution Report for FY 2024-25",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/July/1753702364.pdf",
+        "extension": "pdf",
+        "record_size": "281 KB"
+      },
+      {
+        "id": "aKZoBLeVtXrxvqHO74121g%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Lok Jan Shakti Party (Ram Vilas) - Contribution Report for FY 2024-25",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/July/1753702321.pdf",
+        "extension": "pdf",
+        "record_size": "540 KB"
+      },
+      {
+        "id": "nvSO81igIT91X8K0be0m3w%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Kerala Congress (M) - Contribution Report for FY 2024-25",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/July/1753702298.pdf",
+        "extension": "pdf",
+        "record_size": "768 KB"
+      },
+      {
+        "id": "2hzaWxVUtSqx1Gz30PFP9A%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Naga People's Front - Contribution Report for FY 2024-25",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/July/1753702279.pdf",
+        "extension": "pdf",
+        "record_size": "582 KB"
+      }
+    ],
+    "Contribution Reports 2023-2024": [
+      {
+        "id": "w4gmoiPDfpRta2bNoSgFvg%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Communist Party of India (Marxist) - Revised Contribution Report for FY 2023-24",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1758003425.pdf",
+        "extension": "pdf",
+        "record_size": "4 MB"
+      },
+      {
+        "id": "wlwdHyQUZDycSbquSwuJ5A%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Naga People's Front - Contribution Report for FY 2023-24",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/February/1739788312.pdf",
+        "extension": "pdf",
+        "record_size": "446 KB"
+      },
+      {
+        "id": "47aioFNGlhLZfFlAiWyQYg%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Asom Gana Parishad - Contribution Report for FY 2023-24",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/January/1738304828.pdf",
+        "extension": "pdf",
+        "record_size": "330 KB"
+      },
+      {
+        "id": "3tdyHOq%2Bvmhc00EWX7pFfQ%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Jammu and Kashmir National Conference - Contribution Report for FY 2023-24",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/January/1738147974.pdf",
+        "extension": "pdf",
+        "record_size": "354 KB"
+      },
+      {
+        "id": "AEVISOia3Nf772XgtY79VQ%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Communist Party of India - Contribution Report for FY 2023-24",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/January/1736425068.pdf",
+        "extension": "pdf",
+        "record_size": "2 MB"
+      },
+      {
+        "id": "HksVgsRIjTEQM4YWXso5Rw%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Communist Party of India - Contribution Report for FY 2023-24 (From Kerala and Maharashtra Units)",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/January/1736425040.pdf",
+        "extension": "pdf",
+        "record_size": "2 MB"
+      },
+      {
+        "id": "8fJF%2F7OJX%2BlaeP7nKnl5ww%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Indian National Congress - Contribution Report for FY 2023-24",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734707140.pdf",
+        "extension": "pdf",
+        "record_size": "45 MB"
+      },
+      {
+        "id": "euDNsTuux2ZdmGQySGsXCw%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Bharatiya Janata Party - Contribution Report for FY 2023-24",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734707025.pdf",
+        "extension": "pdf",
+        "record_size": "2 MB"
+      },
+      {
+        "id": "lSBxJs2fKsj7OujJyn%2Fi3g%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Aam Aadmi Party - Contribution Report for FY 2023-24",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734705083.pdf",
+        "extension": "pdf",
+        "record_size": "48 MB"
+      },
+      {
+        "id": "VtzLKjqvSxdcZJ4BL8rYoA%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Communist Party of India (Marxist) - Contribution Report for FY 2023-24",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734704704.pdf",
+        "extension": "pdf",
+        "record_size": "4 MB"
+      },
+      {
+        "id": "KXN8PcYKWhQSY2gyYSx0zg%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "National People's Party - Contribution Report for FY 2023-24",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734704665.pdf",
+        "extension": "pdf",
+        "record_size": "445 KB"
+      },
+      {
+        "id": "DuZ8MoMxalNezSpJfcTjGA%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Bahujan Samaj Party- Contribution Report for FY 2023-24",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734704633.pdf",
+        "extension": "pdf",
+        "record_size": "398 KB"
+      },
+      {
+        "id": "jo6V2PZGMQ1ynluW0Pixdg%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Janata Dal (Secular) - Contribution Report for FY 2023-24",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734704516.pdf",
+        "extension": "pdf",
+        "record_size": "696 KB"
+      },
+      {
+        "id": "wV%2BBkqa3DxWuMN39YrXuxQ%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Janata Dal (United) - Contribution Report for FY 2023-24",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734704471.pdf",
+        "extension": "pdf",
+        "record_size": "3 MB"
+      },
+      {
+        "id": "zAXsaQeE5QBclLk2jkZgmQ%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "All India Trinamool Congress - Contribution Report for FY 2023-24",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734704438.pdf",
+        "extension": "pdf",
+        "record_size": "3 MB"
+      },
+      {
+        "id": "BIYzcMQmqWdGAalgkfRSUA%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Dravida Munnetra Kazhagam - Contribution Report for FY 2023-24",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734704367.pdf",
+        "extension": "pdf",
+        "record_size": "2 MB"
+      },
+      {
+        "id": "C%2BJ%2BVWMKppKCP4Nt6APKnQ%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Telegu Desam Party - Contribution Report for FY 2023-24",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734704325.pdf",
+        "extension": "pdf",
+        "record_size": "4 MB"
+      },
+      {
+        "id": "D12JFpyBihniRZY3va1%2FtQ%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Bharat Rashtra Samithi - Contribution Report for FY 2023-24",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734704297.pdf",
+        "extension": "pdf",
+        "record_size": "640 KB"
+      },
+      {
+        "id": "%2BKvol3jeQCxolnHe5K6Trw%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Jharkhand Mukti Morcha- Contribution Report for FY 2023-24",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734704269.pdf",
+        "extension": "pdf",
+        "record_size": "1 MB"
+      },
+      {
+        "id": "Us5YdwjPwdTyGrmSsxFjeQ%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Maharashtra Navnirman Sena - Contribution Report for FY 2023-24",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734704237.pdf",
+        "extension": "pdf",
+        "record_size": "1 MB"
+      },
+      {
+        "id": "yIHs%2Bkx1N%2FFoqGN6ZtOfrA%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Shriomani Akali Dal - Contribution Report for FY 2023-24",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734704201.pdf",
+        "extension": "pdf",
+        "record_size": "6 MB"
+      },
+      {
+        "id": "mLO36RY1XHrVqngMVkeTdQ%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Yuvajana Sramika Rythu Congress Party - Contribution Report for FY 2023-24",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734704167.pdf",
+        "extension": "pdf",
+        "record_size": "501 KB"
+      },
+      {
+        "id": "k8SEEh1%2Fgqk0lVe%2FeKU5Kg%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Rashtriya Loktantrik Party- Contribution Report for FY 2023-24",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734704128.pdf",
+        "extension": "pdf",
+        "record_size": "1 MB"
+      },
+      {
+        "id": "7q4pciZwEag3YOK8rtez8g%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Desiya Murpokku Dravida Kazhagam - Contribution Report for FY 2023-24",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734704065.pdf",
+        "extension": "pdf",
+        "record_size": "565 KB"
+      },
+      {
+        "id": "neWvk3zXUs%2Ba2e75Q7hbEg%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Apna Dal (Soneylal) - Contribution Report for FY 2023-24",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734704010.pdf",
+        "extension": "pdf",
+        "record_size": "629 KB"
+      },
+      {
+        "id": "vh1bp2g3TFTL9X%2FAVuRDmA%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Communist Party of India (Marxist-Leninist) Liberation - Contribution Report for FY 2023-24",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734703967.pdf",
+        "extension": "pdf",
+        "record_size": "1 MB"
+      },
+      {
+        "id": "xIsAovPjRteWU%2B2MIrBsaQ%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Indian National Lok Dal - Contribution Report for FY 2023-24",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734703928.pdf",
+        "extension": "pdf",
+        "record_size": "331 KB"
+      },
+      {
+        "id": "ALOVq5uHTWPZPgqCdm7nPA%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Samajwadi Party - Contribution Report for FY 2023-24",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734703900.pdf",
+        "extension": "pdf",
+        "record_size": "652 KB"
+      },
+      {
+        "id": "dSC995CDMnC3vw8wEl1jzA%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "National Democratic Progressive Party - Contribution Report for FY 2023-24",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734703874.pdf",
+        "extension": "pdf",
+        "record_size": "426 KB"
+      },
+      {
+        "id": "3rRmErygIDxIxDsuEwVPPg%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Voice of the People Party - Contribution Report for FY 2023-24",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734703843.pdf",
+        "extension": "pdf",
+        "record_size": "380 KB"
+      },
+      {
+        "id": "v4jtwQoQ%2B6apSVRo0V5TBw%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "AJSU Party - Contribution Report for FY 2023-24",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734703812.pdf",
+        "extension": "pdf",
+        "record_size": "863 KB"
+      },
+      {
+        "id": "l9pqsYat5q0HFYSdRj%2Bc5g%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Sikkim Krantikari Morcha - Contribution Report for FY 2023-24",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734703783.pdf",
+        "extension": "pdf",
+        "record_size": "502 KB"
+      },
+      {
+        "id": "AZkfVSn2hCksa0ih5plWMA%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "All India Majilis-e-Ittehadul Muslimeen - Contribution Report for FY 2023-24",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734703748.pdf",
+        "extension": "pdf",
+        "record_size": "1 MB"
+      },
+      {
+        "id": "jZzekLIKK0z141KwIm6ckg%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Biju Janata Dal - Contribution Report for FY 2023-24",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734703647.pdf",
+        "extension": "pdf",
+        "record_size": "353 KB"
+      },
+      {
+        "id": "mcD%2FoNnI0HggLH%2FuYNxgKQ%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Goa Forward Party - Contribution Report for FY 2023-24",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734703616.pdf",
+        "extension": "pdf",
+        "record_size": "356 KB"
+      },
+      {
+        "id": "XZQfcqLkE5PbyZ6AzR3zZg%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Revolutionary Goans Party - Contribution Report for FY 2023-24",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734703559.pdf",
+        "extension": "pdf",
+        "record_size": "609 KB"
+      },
+      {
+        "id": "rIMS%2BcEhkCyU2%2BGaSYGZAw%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "All India United Democratic Front - Contribution Report for FY 2023-24",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734703520.pdf",
+        "extension": "pdf",
+        "record_size": "560 KB"
+      },
+      {
+        "id": "JtSicoxypKpY4Qrfadi4xg%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Sikkim Democratic Front - Contribution Report for FY 2023-24",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/December/1734703474.pdf",
+        "extension": "pdf",
+        "record_size": "550 KB"
+      },
+      {
+        "id": "GONMY%2BYfgw%2BkuWTdQ00aRA%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Lok Janshakti Party (Ram Vilas) - Contribution Report for FY 2023-24",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1726134223.pdf",
+        "extension": "pdf",
+        "record_size": "605 KB"
+      },
+      {
+        "id": "xRMwXCw9SYkbMwHg9744BA%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "All India Anna Dravida Munnetra Kazhagam - Contribution Report for FY 2023-24",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/September/1726134154.pdf",
+        "extension": "pdf",
+        "record_size": "2 MB"
+      },
+      {
+        "id": "JwLVO1e4kfYPbrQsuHtsKw%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Jannayak Janta Party - Contribution Report for FY 2023-24",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/August/1724925865.pdf",
+        "extension": "pdf",
+        "record_size": "4 MB"
+      },
+      {
+        "id": "bz23mjVgXyotflpct0DkSA%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Kerala Congress (M) - Contribution Report for FY 2023-24",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/August/1724925834.pdf",
+        "extension": "pdf",
+        "record_size": "508 KB"
+      },
+      {
+        "id": "Oz9w7al1v8V93LFH4cSmvg%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Maharashtrawadi Gomantak - Contribution Report for FY 2023-24",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/August/1724925795.pdf",
+        "extension": "pdf",
+        "record_size": "672 KB"
+      }
+    ],
+    "Contribution Reports 2022-2023": [
+      {
+        "id": "zUpFWdiUndyI2CWpp8Pfvw%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Voice of the People Party - Contribution Report for FY 2022-23",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/April/1712579759.pdf",
+        "extension": "pdf",
+        "record_size": "391 KB"
+      },
+      {
+        "id": "XiGnxP5VIxPDfb7dH9NTOw%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Rashtriya Loktantrik Party-Contribution Report for FY 2022-23",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/April/1712579656.pdf",
+        "extension": "pdf",
+        "record_size": "1 MB"
+      },
+      {
+        "id": "pbrNzX8qKd7mwXdfP797nQ%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Bahujan Samaj Party - Contribution Report for FY 2022-23",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of BSP for 2022-23.pdf",
+        "extension": "pdf",
+        "record_size": "519 KB"
+      },
+      {
+        "id": "R5%2FzW1aWvySF4um7bhl%2BSA%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Aam Aadmi Party - Contribution Report for FY 2022-23",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/AAP CR for 2022-23.pdf",
+        "extension": "pdf",
+        "record_size": "44 MB"
+      },
+      {
+        "id": "uh3kvhN%2FMmilTibkJcCBcQ%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Communist Party of India (Marxist) - Contribution Report for FY 2022-23",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CPI-M CR for FY 2022-23.pdf",
+        "extension": "pdf",
+        "record_size": "4 MB"
+      },
+      {
+        "id": "StANGR4eztwl2ZG4bDGBmw%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Bharatiya Janata Party - Contribution Report for FY 2022-23",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/BJP CR for FY 2022-23.pdf",
+        "extension": "pdf",
+        "record_size": "2 MB"
+      },
+      {
+        "id": "rcsQnZWYT144AMXGciIoLA%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "National People's Party - Contribution report for FY 2022-23",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/Cr of National People's Party for FY 2022-23.pdf",
+        "extension": "pdf",
+        "record_size": "679 KB"
+      },
+      {
+        "id": "JR2rPGHcS%2BLguwu582KdMg%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Indian National Congress - Contribution Report for FY 2022-23",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of INC for FY 2022-23.pdf",
+        "extension": "pdf",
+        "record_size": "8 MB"
+      },
+      {
+        "id": "%2BTHqIiraL1VJzRvPqNjWCw%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Kerala Congress (M) - Contribution Report for FY 2022-23",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of Kerala Congress (M) for FY 2022-23.pdf",
+        "extension": "pdf",
+        "record_size": "983 KB"
+      },
+      {
+        "id": "GhhVy5Y3uWoTpZNzmDQDjg%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Naga People's Front - Contribution Report for FY 2022-23",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of NPF for FY 2022-23.pdf",
+        "extension": "pdf",
+        "record_size": "789 KB"
+      },
+      {
+        "id": "aWmBt00hl1k36VXh%2BZKfRg%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "All India United Democratic Front - Contribution Report for FY 2022-23",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of All India United Democratic Front for FY 2022-23.pdf",
+        "extension": "pdf",
+        "record_size": "973 KB"
+      },
+      {
+        "id": "f9k1iL4yD%2BgP414u%2FxFx5g%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "AJSU Party - Contribution Report for FY 2022-23",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of AJSU for FY 2022-23.pdf",
+        "extension": "pdf",
+        "record_size": "443 KB"
+      },
+      {
+        "id": "OwbWUadKc32VhTK%2B33huRA%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Biju Janata Dal - Contribution Report for FY 2022-23",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of BJD for FY 2022-23.pdf",
+        "extension": "pdf",
+        "record_size": "331 KB"
+      },
+      {
+        "id": "Sas29sNCN19aTvSxWGGBUg%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Maharashtrawadi Gomantak - Contribution Report for FY 2022-23",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of MG for FY 2022-23.pdf",
+        "extension": "pdf",
+        "record_size": "488 KB"
+      },
+      {
+        "id": "WHYeONZyB9hkiblpBpHneg%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Shiromani Akali Dal - Contribution Report for FY 2022-23",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of SAD for FY 2022-23.pdf",
+        "extension": "pdf",
+        "record_size": "1 MB"
+      },
+      {
+        "id": "Bas4h%2BFVM%2BOTWf%2BVGov3Ww%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Maharashtra Navnirman Sena - Contribution Report for FY 2022-23",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of MNS for FY 2022-23.pdf",
+        "extension": "pdf",
+        "record_size": "2 MB"
+      },
+      {
+        "id": "gDJRXy5DgovEb7vT19fPvg%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Yuvajana Sramika Rythu Congress Party - Contribution Report for FY 2022-23",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of YSRCP for FY 2022-23.pdf",
+        "extension": "pdf",
+        "record_size": "677 KB"
+      },
+      {
+        "id": "FzHQLQoGEUGCy2NaI4lQsg%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Nationalist Democratic Progressive Party - Contribution Report for FY 2022-23",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of Nationalist Democratic Progressive Party for FY 2022-23.pdf",
+        "extension": "pdf",
+        "record_size": "412 KB"
+      },
+      {
+        "id": "ubcTRiRGjGpRrPPzCBqtlw%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "All India Trinamool Congress - Contribution Report for FY 2022-23",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of AITC for FY 2022-23.pdf",
+        "extension": "pdf",
+        "record_size": "531 KB"
+      },
+      {
+        "id": "6vxYEmmDw08yDZZlV0jBFw%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Jannayak Janta Party - Contribution Report for FY 2022-23",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of JJP for FY 2022-23.pdf",
+        "extension": "pdf",
+        "record_size": "2 MB"
+      },
+      {
+        "id": "wom5PvBeOh2o0ZaFXwKavA%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Bharat Rashtra Samithi - Contribution Report for FY 2022-23",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of BRS for FY 2022-23.pdf",
+        "extension": "pdf",
+        "record_size": "3 MB"
+      },
+      {
+        "id": "aIpiEf33vlQyAhMGcLPvZw%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Telugu Desam Party - Contribution Report for FY 2022-23",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of Telugu Desam Party for FY 2022-23.pdf",
+        "extension": "pdf",
+        "record_size": "5 MB"
+      },
+      {
+        "id": "K%2BZYWCdBKK74R4JOkj24lw%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Sikkim Krantikari Morcha - Contribution Report for FY 2022-23",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of  Sikkim Krantikari Morchafor FY 2022-23.pdf",
+        "extension": "pdf",
+        "record_size": "570 KB"
+      },
+      {
+        "id": "hpn%2BBrKrFR2lJRrt4PJRZA%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Indian Union Muslim League - Contribution Report for FY 2022-23",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of IUML for FY 2022-23.pdf",
+        "extension": "pdf",
+        "record_size": "5 MB"
+      },
+      {
+        "id": "Mtu%2F06qZHcKCdY5dw0l8dQ%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Samajwadi Party - Contribution Report for FY 2022-23",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of Samajwadi Party for FY 2022-23.pdf",
+        "extension": "pdf",
+        "record_size": "566 KB"
+      },
+      {
+        "id": "nPZYZchuZtZE0Sv%2BV%2Fmx5A%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Apna Dal (Soneylal) - Contribution Report for FY 2022-23",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of Apna Dal (Soneylal) for FY 2022-23.pdf",
+        "extension": "pdf",
+        "record_size": "767 KB"
+      },
+      {
+        "id": "K3zGy6Tim1do7ZoAAfY2sg%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Communist Party of India (Marxist-Leninist) Liberation - Contribution Report for FY 2022-23",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of CPI-ML-L for FY 2022-23.pdf",
+        "extension": "pdf",
+        "record_size": "2 MB"
+      },
+      {
+        "id": "gcFwEKTVTwBWEddWiGaFEA%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Janata Dal (Secular) - Contribution Report for FY 2022-23",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of Janata Dal-Secular for FY 2022-23.pdf",
+        "extension": "pdf",
+        "record_size": "375 KB"
+      },
+      {
+        "id": "brpUbysBN80BP84m42d8%2Fw%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Janata Dal (United) - Contribution Report for FY 2022-23",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of Janata Dal-United for FY 2022-23.pdf",
+        "extension": "pdf",
+        "record_size": "5 MB"
+      },
+      {
+        "id": "MwD8ret1ACBHDK66cu0ZLg%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Asom Gana Parishad - Contribution Report for FY 2022-23",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of Asom Gana Parishad for FY 2022-23.pdf",
+        "extension": "pdf",
+        "record_size": "359 KB"
+      },
+      {
+        "id": "BxoiCq2Aw5xFN4eK1L90ag%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Desiya Murpokku Dravida Kazhagam - Contribution Report for FY 2022-23",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of Desiya Murpokku Dravida Kazhagam for FY 2022-23.pdf",
+        "extension": "pdf",
+        "record_size": "522 KB"
+      },
+      {
+        "id": "2DpR3Djbpbi0DsS%2Ft1Q0sg%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Goa Forward Party - Contribution Report for FY 2022-23",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of Goa Forward Party for FY 2022-23.pdf",
+        "extension": "pdf",
+        "record_size": "485 KB"
+      },
+      {
+        "id": "9umvIIlbTwaJ0szX3XYZpQ%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Indian National Lok Dal -Contribution Report for FY 2022-23",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of Indian National Lok Dal for FY 2022-23.pdf",
+        "extension": "pdf",
+        "record_size": "327 KB"
+      },
+      {
+        "id": "v5AXYFGIkmW3mgcNB1xEWQ%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Sikkim Democratic Front - Contribution Report for FY 2022-23",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of Sikkim Democratic Front for FY 2022-23.pdf",
+        "extension": "pdf",
+        "record_size": "452 KB"
+      },
+      {
+        "id": "UmaYhvYhDvs4R6iYwscdzA%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Dravida Munnetra Kazhagam - Contribution Report for FY 2022-23",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of DMK for FY 2022-23.pdf",
+        "extension": "pdf",
+        "record_size": "16 MB"
+      },
+      {
+        "id": "Gtrg%2BZ8XAgdFcLCAZeATpw%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Communist Party of India - Contribution Report for FY 2022-23",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of CPI for FY 2022-23.pdf",
+        "extension": "pdf",
+        "record_size": "5 MB"
+      },
+      {
+        "id": "gEFElsnrZ4qgkIWoDQm03A%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "United People's Party Liberal - Contribution Reports of State Recognized for 2022-23",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of United People's Party Liberal for FY 2022-23.pdf",
+        "extension": "pdf",
+        "record_size": "747 KB"
+      },
+      {
+        "id": "6EbxJQIpI%2FCA0PVFn20bkg%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "All India Anna Dravida Munnetra Kazhagam-Contribution Reports of State Recognized Pol. Party for 2022-23",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of AIADMK for FY 2022-23.pdf",
+        "extension": "pdf",
+        "record_size": "643 KB"
+      },
+      {
+        "id": "jGBz9RrK9PlaDV%2BSKSt6JA%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Jammu & Kashmir National Conference - Contribution Reports of State Recognized Pol. Party for 2022-23",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/J&K NC CR for FY 2022-23.pdf",
+        "extension": "pdf",
+        "record_size": "410 KB"
+      },
+      {
+        "id": "nyxLSe7IFKyHOO63vBLS7w%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Rashtriya Loktantrik Party - Contribution Reports of State Recognized Pol. Party for 2022-23",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/RLP CR for 2022-23.pdf",
+        "extension": "pdf",
+        "record_size": "160 KB"
+      },
+      {
+        "id": "FO1ZS3IkA4d2KCwDzkouNw%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "All India Majlis-e-Ittehadul Muslimeen - Contribution Report for FY 2022-23",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public/pdf/report/2023/January/contribution/CR of AIMIM for FY 2022-23.pdf",
+        "extension": "pdf",
+        "record_size": "869 KB"
+      },
+      {
+        "id": "czLzMpE6NwbL1O1fL5tRNQ%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "All India United Democratic Front - Contribution Report for FY 2022-23",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1697188158.pdf",
+        "extension": "pdf",
+        "record_size": "973 KB"
+      },
+      {
+        "id": "0IXengl5x0vpEmPwvCj0Dw%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Naga Peoples Front - Contribution Report for FY 2022-23",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1697188117.pdf",
+        "extension": "pdf",
+        "record_size": "789 KB"
+      },
+      {
+        "id": "MxIGPlWL%2BPHkVXMV9asbtA%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "Kerala Congress (M) - Contribution Report for FY 2022-23",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1697188063.pdf",
+        "extension": "pdf",
+        "record_size": "983 KB"
+      }
+    ],
+    "Contribution Reports 2021-2022": [],
+    "Contribution Reports 2020-2021": [],
+    "Contribution Reports 2019-2020": [],
+    "Contribution Reports 2018-2019": [],
+    "Contribution Reports 2017-2018": [
+      {
+        "id": "iaGB2jcpjbXj%2FPA4SVNxww%3D%3D",
+        "category_id": "0YcWVacCcN+ItMO1821gUQ==",
+        "category_name": "Contribution Reports",
+        "title": "National People's Party - Contribution Report for FY 2017-18",
+        "pdf_url": "https://www.eci.gov.in/eci-backend/public//pdf/report/October/1760696035.pdf",
+        "extension": "pdf",
+        "record_size": "696 KB"
+      }
+    ]
+  },
+  "total_count": 151,
+  "startSN": 1
+}
