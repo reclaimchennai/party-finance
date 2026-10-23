@@ -239,7 +239,7 @@ for (key, fy), (_, e, meta, src_type) in best.items():
         election_exp=exp.get("election"), admin_exp=exp.get("administrative_general"),
         staff_exp=exp.get("employee_salaries"), publicity_exp=exp.get("publicity_propaganda"),
         general_fund=e.get("general_fund_closing"), cash_bank=e.get("cash_bank_and_deposits_closing"),
-        total_assets=e.get("total_assets"), auditor=e.get("auditor"), audit_confidence=e.get("confidence"))
+        total_assets=e.get("total_assets"), audit_confidence=e.get("confidence"))
 
 # --------------------------------------------- 2. CEO Tamil Nadu RUPP filings ---
 erolls = load("public/data/tn_rupp_filings_erolls.json")
@@ -339,6 +339,39 @@ if os.path.exists(myneta_path):
             staff_exp=exp_b.get("staff_exp"), publicity_exp=exp_b.get("publicity_exp"),
             general_fund=fund, cash_bank=cash, total_assets=(m.get("printed_totals") or {}).get("Assets"))
 
+# --------------------------------------------- 2c. Form 24A donor lists (ADR MyNeta) ---
+# Totals fill contributions_24a where the ECI/CEO record has none; the donor lists go
+# to one small file per party for the drawer.
+donors_path = os.path.join(ROOT, "data/derived/myneta_donations.json")
+donor_files = {}
+if os.path.exists(donors_path):
+    for d in json.load(open(donors_path)):
+        k = canon(d["name"]) or canon(d.get("abbr") or "")
+        if not k or not d.get("n_donors"):
+            continue
+        fy = d["fy"]
+        put(k, fy, {"type": "ADR MyNeta Form 24A list", "url": d["url"]}, contributions_24a=d["total"])
+        merged = defaultdict(lambda: {"amount": 0, "n": 0, "pan": False})
+        for x in d["donors"]:
+            nm = clean_name(x["name"])
+            m = merged[nm]
+            m["amount"] += x["amount"] or 0
+            m["n"] += 1
+            m["pan"] = m["pan"] or x["pan_given"]
+        top = sorted(merged.items(), key=lambda kv: -kv[1]["amount"])
+        pf = donor_files.setdefault(k, {"years": {}, "all": defaultdict(int)})
+        pf["years"][fy] = {"n": d["n_donors"], "total": d["total"], "url": d["url"],
+                           "top": [[nm, v["amount"], v["n"], int(v["pan"])] for nm, v in top[:60]]}
+        for nm, v in merged.items():
+            pf["all"][nm] += v["amount"]
+    os.makedirs(os.path.join(OUT, "donors"), exist_ok=True)
+    for k, pf in donor_files.items():
+        pf["all"] = sorted(([nm, v] for nm, v in pf["all"].items()), key=lambda x: -x[1])[:60]
+        with open(os.path.join(OUT, "donors", re.sub(r"[^A-Za-z0-9_-]", "_", k) + ".json"), "w", encoding="utf-8") as f:
+            json.dump(pf, f, separators=(",", ":"), ensure_ascii=False)
+    for k in donor_files:
+        PARTIES[k]["donor_file"] = re.sub(r"[^A-Za-z0-9_-]", "_", k)
+
 # --------------------------------------------- 3. Electoral bonds by FY -------
 eb = load("public/data/electoral_bonds_all.json")
 eb_key = {}
@@ -416,8 +449,9 @@ for k, p in PARTIES.items():
 
 # ------------------------------------------------------------- rollups ---
 fin_rows = []
+SRC_KEYS = ("type", "url", "page", "confidence", "filed", "timing")   # titles/notes stay in the raw extractions
 for (k, fy), row in sorted(finance.items()):
-    srcs = sources[(k, fy)]
+    srcs = [{f: x[f] for f in SRC_KEYS if x.get(f) is not None} for x in sources[(k, fy)]]
     fin_rows.append({"k": k, "fy": fy, **row, "sources": srcs})
 
 for k, p in PARTIES.items():

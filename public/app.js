@@ -420,6 +420,8 @@ async function render() {
   // keep typing focus when a search box re-renders the view
   const act = document.activeElement, focusLabel = act?.tagName === 'INPUT' && main.contains(act) ? act.getAttribute('aria-label') : null;
   const caret = focusLabel ? act.selectionStart : null;
+  lazyQueue.forEach((_, el) => lazyIO?.unobserve(el));   // charts of the previous render
+  lazyQueue.clear();
   main.replaceChildren();
   VIEWS[view](main, params);
   if (lastView !== view) scrollTo(0, 0); else scrollTo(0, keepScroll);
@@ -903,7 +905,7 @@ function viewCompliance(main, q) {
 
   let list = partyRows.filter(r => (!query || longLabel(r.k).toLowerCase().includes(query)) && (!hideNever || r.filed > 0));
   list.sort(sort === 'name' ? (a, b) => label(a.k).localeCompare(label(b.k)) : sort === 'best' ? (a, b) => b.rate - a.rate || b.filed - a.filed : (a, b) => a.rate - b.rate || b.due - a.due);
-  const grid = h('div', { class: 'hm', style: `grid-template-columns: minmax(120px, 2.4fr) repeat(${years.length}, minmax(26px, 1fr)) 56px` });
+  const grid = h('div', { class: 'hm', style: `grid-template-columns: minmax(118px, 2.4fr) repeat(${years.length}, minmax(24px, 1fr)) 48px; min-width: ${130 + years.length * 26 + 48}px` });
   grid.append(h('div', { class: 'colh', style: 'text-align:left' }, 'Party'), ...years.map(y => h('div', { class: 'colh', text: y.length > 7 ? y : `’${y.slice(2, 4)}` , title: y })), h('div', { class: 'colh', style: 'text-align:right', text: 'Rate' }));
   for (const r of list.slice(0, 400)) {
     grid.append(h('div', { class: 'lab' }, h('button', { class: 'party-link', type: 'button', onclick: () => openParty(r.k), title: longLabel(r.k) }, trunc(P[r.k]?.name || r.k, 44))));
@@ -923,7 +925,7 @@ function viewCompliance(main, q) {
   const key = h('div', { class: 'status-key' }, ['On time', 'Late', 'Not filed', ...(scope === 'eci' ? ['Due 31 Oct 2026'] : [])].map(stName => { const st = STATUS[scope === 'eci' && stName === 'On time' ? 'Published' : scope === 'eci' && stName === 'Not filed' ? 'Not published' : stName]; return h('span', {}, h('span', { class: 'cell ' + st.cls, style: 'display:inline-grid' }, icon(st.icon)), st.label); }));
   const csvRows = list.flatMap(r => years.map(y => ({ party: P[r.k]?.name || r.k, fy: y, status: r.ys[y]?.status || '', filed: r.ys[y]?.filed || '', amount: r.ys[y]?.amount ?? '', url: r.ys[y]?.url || '' })));
   main.append(card(`${kinds.find(k => k[0] === kind)?.[1]} — party by year`, `${list.length} parties${list.length > 400 ? ' (first 400 shown)' : ''}. Hover a cell for the date and amount; click to open the filing.`,
-    h('div', {}, key, body(grid)), [csvBtn(() => downloadCSV('filing_compliance.csv', csvRows, ['party', 'fy', 'status', 'filed', 'amount', 'url'].map(k => ({ key: k, label: k }))))], 'Grid'));
+    h('div', {}, key, body(h('div', { class: 'hm-scroll' }, grid))), [csvBtn(() => downloadCSV('filing_compliance.csv', csvRows, ['party', 'fy', 'status', 'filed', 'amount', 'url'].map(k => ({ key: k, label: k }))))], 'Grid'));
 }
 
 /* ============================================================== REGISTRY */
@@ -1088,6 +1090,29 @@ function openParty(k, push = true) {
     requestAnimationFrame(() => barChart(host, Object.entries(by).sort((a, b) => b[1] - a[1]).slice(0, 10).map(([d, v]) => ({ key: d, label: D.bonds.donors[d], value: v, sub: `${pct(v, tot)} of ${p.short || p.name}'s bonds` })), { labelWidth: 200 }));
   }
 
+  if (p.donor_file) {
+    const holder = h('div');
+    bodyEl.append(card('Form 24A donors', 'Donations above ₹20,000, as filed with the ECI and listed by ADR.', body(holder), [], 'Donors'));
+    loadJSON(ver(`data/dash/donors/${p.donor_file}.json`)).then(df => {
+      const yrs = Object.keys(df.years).sort().reverse();
+      const list = h('div');
+      const show = fy => {
+        const y = fy === 'all' ? null : df.years[fy];
+        const rows = y ? y.top : df.all.map(([nm, v]) => [nm, v]);
+        const tot = y ? y.total : df.all.reduce((a, r) => a + r[1], 0);
+        list.replaceChildren(
+          h('p', { class: 'note', text: y ? `${num(y.n)} donations totalling ${inr(y.total)} in FY ${fy}.` : `Largest donors across ${yrs.length} years (built from each year's top 60).` }),
+          h('div', { class: 'table-wrap', style: 'max-height:420px' }, h('table', { class: 'data' },
+            h('thead', {}, h('tr', {}, h('th', { text: 'Donor' }), h('th', { class: 'num', text: 'Amount' }), h('th', { class: 'num', text: 'Share' }))),
+            h('tbody', {}, rows.map(r => h('tr', {}, h('td', { class: 'wrap', text: r[0] }), h('td', { class: 'num', text: inr(r[1]) }),
+              h('td', { class: 'num', text: tot ? `${((r[1] / tot) * 100).toFixed(1)}%` : '' })))))),
+          y ? h('p', { class: 'note' }, h('a', { href: y.url, target: '_blank', rel: 'noopener', text: 'Full list on MyNeta' })) : '');
+      };
+      holder.append(select('Year', [['all', 'All years'], ...yrs.map(y => [y, `FY ${y}`])], 'all', show), list);
+      show('all');
+    }).catch(() => holder.append(h('p', { class: 'note', text: 'Donor list unavailable.' })));
+  }
+
   const stYears = Object.keys(D.statements).filter(x => x.startsWith(k + '|')).map(x => x.split('|')[1]).sort().reverse();
   if (stYears.length) {
     const holder = h('div');
@@ -1111,7 +1136,7 @@ function openParty(k, push = true) {
   const comp = D.compliance.filter(r => r.k === k);
   if (comp.length) {
     const kinds = [...new Set(comp.map(r => r.kind))], years = [...new Set(comp.map(r => r.fy))].sort();
-    const grid = h('div', { class: 'hm', style: `grid-template-columns: minmax(110px, 1.6fr) repeat(${years.length}, minmax(22px, 1fr))` });
+    const grid = h('div', { class: 'hm', style: `grid-template-columns: minmax(110px, 1.6fr) repeat(${years.length}, minmax(22px, 1fr)); min-width: ${120 + years.length * 24}px` });
     grid.append(h('div'), ...years.map(y => h('div', { class: 'colh', text: y.length > 7 ? y : `’${y.slice(2, 4)}`, title: y })));
     for (const kd of kinds) {
       grid.append(h('div', { class: 'lab', text: kd.replace(' (Form 24A)', '').replace('Election expenditure statement', 'Election exp.') }));
@@ -1122,7 +1147,7 @@ function openParty(k, push = true) {
         grid.append(cell);
       }
     }
-    bodyEl.append(card('Filing record', comp[0].scope.includes('CEO') ? 'As recorded by the CEO Tamil Nadu.' : 'Reports published on the ECI website.', body(grid), [], 'Compliance'));
+    bodyEl.append(card('Filing record', comp[0].scope.includes('CEO') ? 'As recorded by the CEO Tamil Nadu.' : 'Reports published on the ECI website.', body(h('div', { class: 'hm-scroll' }, grid)), [], 'Compliance'));
   }
 
   const docs = D.documents.filter(d => d.k === k).sort((a, b) => (b.fy || '').localeCompare(a.fy || ''));

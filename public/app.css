@@ -156,3 +156,7 @@ table.data a:hover { text-decoration: underline; }
 .stmt h3 { font-size: .8125rem; margin: 0 0 4px; color: var(--ink-2); }
 .stmt table.data td { padding: 5px 6px; font-size: .78rem; }
 .stmt table.data td.wrap { min-width: 0; }
+
+/* compliance grid: scrolls sideways on phones with the party column pinned */
+.hm-scroll { overflow-x: auto; overscroll-behavior-x: contain; margin: 0 calc(-1 * var(--gut)); padding: 0 var(--gut); }
+.hm .lab, .hm > .colh:first-child { position: sticky; left: calc(-1 * var(--gut)); background: var(--surface); z-index: 1; padding-left: var(--gut); margin-left: calc(-1 * var(--gut)); }

@@ -6,8 +6,8 @@ back to FY 2001-02 for national and state parties.
 
   statements : balance sheet, income heads and expenditure heads per party-year
                (action=itr), amounts in lakh as published -> rupees
-  donations  : donor-level Form 24A lists per party-year (action=donation), paginated
-               (run with --donors; thousands of pages)
+  donations  : per-year Form 24A totals (summary page) and the top 60 donors of each
+               party-year (action=donation, first two pages; run with --donors)
 
 Every fetched page is cached under data/raw/myneta/html/ so reruns are offline.
 
@@ -67,6 +67,12 @@ def rupees(s):
     elif re.search(r"cror", s, re.I):
         v *= 1e7
     return round(v)
+
+
+def amount_rs(s):
+    """'Rs. 2,81,00,943.00 2 Cror+' -> 28100943 (the trailing words are a rounded restatement)"""
+    m = re.search(r"Rs\.?\s*([\d,]+(?:\.\d+)?)", s or "")
+    return round(float(m.group(1).replace(",", ""))) if m else None
 
 
 def parties_and_links():
@@ -133,25 +139,45 @@ def parse_donors(t):
         cells = [clean(c) for c in re.findall(r"<td[^>]*>(.*?)</td>", row, re.S)]
         if len(cells) >= 7 and cells[0].isdigit():
             rows.append({"name": re.sub(r"\s+", " ", cells[1]), "address": re.sub(r"\s+", " ", cells[2]),
-                         "amount": rupees(cells[3].split("\n")[0]), "mode": re.sub(r"\s+", " ", cells[4]),
+                         "amount": amount_rs(cells[3]), "mode": re.sub(r"\s+", " ", cells[4]),
                          "pan_given": cells[5].strip().upper().startswith("Y"), "fy": cells[6]})
-    pages = [int(x) for x in re.findall(r"[?&]page=(\d+)", t)]
+    pages = [int(x) for x in re.findall(r"action=donation&year=\d+&id=\d+&page=(\d+)", t)]
     return rows, max(pages) if pages else 1
 
 
+def donation_summary(pid):
+    """Per-year Form 24A totals and donor counts for one party (one page)."""
+    t = fetch(f"action=summary&id={pid}&show=donation")
+    out = {}
+    for row in re.findall(r"<tr[^>]*>(.*?)</tr>", t, re.S):
+        cells = [clean(c) for c in re.findall(r"<t[dh][^>]*>(.*?)</t[dh]>", row, re.S)]
+        if len(cells) >= 3 and re.fullmatch(r"\d{4}-\d{2}", cells[0]):
+            out[cells[0]] = {"total": amount_rs(cells[1]), "n_donors": int(re.sub(r"\D", "", cells[2]) or 0)}
+    return out
+
+
+TOP_PAGES = 2   # donor lists are sorted by amount, largest first: two pages = the top 60 donors
+
+
 def donations(parties, links):
+    summaries = {}
+    with ThreadPoolExecutor(4) as ex:
+        for pid, summ in zip(sorted(parties), ex.map(donation_summary, sorted(parties))):
+            summaries[pid] = summ
+
     def one(link):
         pid, year = link
+        fy = f"{year}-{str(year + 1)[2:]}"   # donation pages are keyed by the FY's start year (statements by its end year)
         q = f"action=donation&year={year}&id={pid}"
-        t = fetch(q)
-        donors, pages = parse_donors(t)
-        for p in range(2, pages + 1):
-            more, _ = parse_donors(fetch(f"action=donation&id={pid}&alphabet=&year={year}&page={p}"))
+        donors, pages = parse_donors(fetch(q))
+        for p in range(2, min(pages, TOP_PAGES) + 1):
+            more, _ = parse_donors(fetch(f"action=donation&year={year}&id={pid}&page={p}"))
             donors += more
-        print(f"  donors {pid} {year}: {len(donors)} rows, {pages} pages", flush=True)
-        return {**parties.get(pid, {"myneta_id": pid}), "fy": f"{year - 1}-{str(year)[2:]}",
-                "url": f"{BASE}?{q}", "n_donors": len(donors),
-                "total": sum(d["amount"] or 0 for d in donors), "donors": donors}
+        summ = summaries.get(pid, {}).get(fy, {})
+        print(f"  donors {pid} {year}: top {len(donors)} of {summ.get('n_donors')}", flush=True)
+        return {**parties.get(pid, {"myneta_id": pid}), "fy": fy, "url": f"{BASE}?{q}",
+                "n_donors": summ.get("n_donors", len(donors)),
+                "total": summ.get("total", sum(d["amount"] or 0 for d in donors)), "donors": donors}
     with ThreadPoolExecutor(4) as ex:
         return list(ex.map(one, links))
 
@@ -167,7 +193,7 @@ def main():
         d = donations(parties, don)
         with open(os.path.join(ROOT, "data/derived/myneta_donations.json"), "w", encoding="utf-8") as f:
             json.dump(d, f, separators=(",", ":"), ensure_ascii=False)
-        print(f"donations: {len(d)} party-years, {sum(x['n_donors'] for x in d)} donor rows")
+        print(f"donations: {len(d)} party-years, {sum(len(x['donors']) for x in d)} top-donor rows")
 
 
 if __name__ == "__main__":

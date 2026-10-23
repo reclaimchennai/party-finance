@@ -1,0 +1,1052 @@
+[
+ {
+  "n": 1,
+  "party": "All India Jananayaka Makkal Kazhagam",
+  "fy": "2021-22",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 1009600,
+  "total_expenditure": 1011206,
+  "surplus": -1606,
+  "income": {
+   "donations_contributions": 1009600,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": null,
+   "interest_dividend": null,
+   "other": null
+  },
+  "expenditure": {
+   "election": 4000,
+   "administrative_general": 524669,
+   "employee_salaries": 432000,
+   "publicity_propaganda": 50537,
+   "other": null
+  },
+  "general_fund_closing": 1679,
+  "cash_bank_and_deposits_closing": 7579.0,
+  "total_assets": 7579,
+  "auditor": "S. Pandian, Chartered Accountant (M.No. 029177), Chennai",
+  "pages": {
+   "income_statement": 3,
+   "balance_sheet": 2
+  },
+  "confidence": "high",
+  "notes": "Deficit of Rs 1,606 (printed as negative excess of income over expenditure). Income is all grants/donations/contributions. Election = nomination fees paid. Cash in hand 5362.10 + bank 2216.90 rounded to rupees."
+ },
+ {
+  "n": 3,
+  "party": "Kongunadu Makkal Desia Katchi",
+  "fy": "2021-22",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 1698646,
+  "total_expenditure": 1009770,
+  "surplus": 688876,
+  "income": {
+   "donations_contributions": 1650000,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": 900,
+   "interest_dividend": null,
+   "other": 47746
+  },
+  "expenditure": {
+   "election": null,
+   "administrative_general": 178538,
+   "employee_salaries": 229221,
+   "publicity_propaganda": 89112,
+   "other": 512899
+  },
+  "general_fund_closing": 3704117,
+  "cash_bank_and_deposits_closing": 3078197,
+  "total_assets": 3721817,
+  "auditor": "CA. A. Balu, Vekam and Associates, Chartered Accountants, Erode",
+  "pages": {
+   "income_statement": 4,
+   "balance_sheet": 3
+  },
+  "confidence": "high",
+  "notes": "Printed excess of income over expenses 6,88,876. Other income = newspaper subscription 47,746; membership subscription form sales 900 shown under membership. Other expenditure = newspaper printing 2,93,208, meeting expenses 1,94,691, donation expenses 25,000. Cash = bank 30,58,760 + hand 19,437."
+ },
+ {
+  "n": 8,
+  "party": "Marumalarchi Dravida Munnetra Kazhagam",
+  "fy": "2020-21",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 34014365,
+  "total_expenditure": 6237846,
+  "surplus": 27776519,
+  "income": {
+   "donations_contributions": 27747697,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": 141930,
+   "interest_dividend": 5396208,
+   "other": 728530
+  },
+  "expenditure": {
+   "election": null,
+   "administrative_general": 2253559,
+   "employee_salaries": 2962188,
+   "publicity_propaganda": 51895,
+   "other": 970204
+  },
+  "general_fund_closing": 196023989,
+  "cash_bank_and_deposits_closing": 121793821,
+  "total_assets": 203972720,
+  "auditor": "CA R. Anbazhagan, Chartered Accountant, Tirupur (M.No. 212592)",
+  "pages": {
+   "income_statement": 5,
+   "balance_sheet": 6
+  },
+  "confidence": "high",
+  "notes": "Excess of income over expenditure 2,77,76,519 printed. Total income 3,40,14,365 (sum of income lines = printed side total); total expenditure 62,37,846 (printed side total less printed excess; expenditure lines sum to the same). Donations = party development fund 68,381 + election fund 2,76,79,316. Other income includes nomination fees 2,85,000, nomination form sales 16,000, souvenir and book sales, and 'profit from Sangoli' 3,98,580 (party magazine, separate I&E account on p10 with income 28,25,347; Sangoli owes party headquarters 79,08,731 per balance sheet). Other expenditure = books written off 2,17,798, medical aid, party welfare, committee meeting 3,60,372, leaders travelling, volunteers wing. No election expenditure line. general_fund_closing = capital fund 19,60,23,989. Cash/deposits = Canara Bank FDs 9,38,03,776 (within advances and deposits 10,31,31,472) + bank balance per balance sheet 2,78,21,275 + cash 1,68,770; note the bank balance schedule on p7 totals only 21,76,118 vs 2,78,21,275 on the balance sheet."
+ },
+ {
+  "n": 12,
+  "party": "Makkal Needhi Maiam",
+  "fy": "2019-20",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 46232083,
+  "total_expenditure": 127736789,
+  "surplus": -81504705,
+  "income": {
+   "donations_contributions": 34239815,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": 11992268,
+   "interest_dividend": null,
+   "other": null
+  },
+  "expenditure": {
+   "election": 66080833,
+   "administrative_general": 2586048,
+   "employee_salaries": 3883920,
+   "publicity_propaganda": 24447,
+   "other": 55161541
+  },
+  "general_fund_closing": -106298107,
+  "cash_bank_and_deposits_closing": 3268667,
+  "total_assets": 9180593,
+  "auditor": "SGKN and Co., Chartered Accountants, Chennai (CA Niranjan H, Partner, M.No. 241219; FRN 021603S)",
+  "pages": {
+   "income_statement": 5,
+   "balance_sheet": 4
+  },
+  "confidence": "high",
+  "notes": "Deficit (81,504,705) printed (components give 81,504,706). The first income line (34,239,815, split in bank 34,174,725 / in cash 65,090) has no label in the filing; treated as donations/contributions. Membership fees 1,09,52,268 plus election application forms 10,40,000 = 1,19,92,268 shown under membership. Other expenditure = professional and consultancy 5,35,00,847 (incl. political advisory charges 4,97,91,511) + depreciation 16,60,694. Admin excludes advertisement and publicity 24,447 (shown under publicity). general_fund_closing = accumulated deficit -10,62,98,107 (no corpus line); funded by unsecured loans 11,12,09,199. Cash = bank 31,41,190 + DDs in hand 1,17,000 + petty cash 10,477. Loans and advances (rental deposit 2,00,000) excluded."
+ },
+ {
+  "n": 15,
+  "party": "Naam Tamilar Katchi",
+  "fy": "2019-20",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 9813065,
+  "total_expenditure": 9714922,
+  "surplus": 98143,
+  "income": {
+   "donations_contributions": 9813065,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": null,
+   "interest_dividend": null,
+   "other": null
+  },
+  "expenditure": {
+   "election": 4947337,
+   "administrative_general": 2014145,
+   "employee_salaries": 1001492,
+   "publicity_propaganda": 1638531,
+   "other": 113417
+  },
+  "general_fund_closing": 2156961,
+  "cash_bank_and_deposits_closing": 362796,
+  "total_assets": 2226361,
+  "auditor": "Vijayan & Arun, Chartered Accountants, Chennai (R. Vijayan, Partner, M.No. 229666)",
+  "pages": {
+   "income_statement": 4,
+   "balance_sheet": 3
+  },
+  "confidence": "high",
+  "notes": "Printed excess of income over expenditure 98,142. Admin & general expenses printed 36,52,676 of which advertisement 16,38,531 shown here as publicity; other = depreciation 1,13,417. Cash = bank 1,30,433 + cash in hand 2,32,363 (current assets 3,62,796). Loans, advances and deposits 13,59,553 not counted. Receipts and payments statement also included (p7). Accounts filed late with IT return acknowledgement."
+ },
+ {
+  "n": 16,
+  "party": "Tamil Maanila Congress (Moopanar)",
+  "fy": "2019-20",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 14906365,
+  "total_expenditure": 10930519,
+  "surplus": 3975846,
+  "income": {
+   "donations_contributions": 2620000,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": 9065000,
+   "interest_dividend": 3221365,
+   "other": null
+  },
+  "expenditure": {
+   "election": 2205000,
+   "administrative_general": 3508081,
+   "employee_salaries": 3892143,
+   "publicity_propaganda": 24466,
+   "other": 1300829
+  },
+  "general_fund_closing": 50236588,
+  "cash_bank_and_deposits_closing": 49334647,
+  "total_assets": 50607208,
+  "auditor": "Ponraj & Co., Chartered Accountants, Gudiyattam (N. Raghuram, Partner; FRN 2672S)",
+  "pages": {
+   "income_statement": 5,
+   "balance_sheet": 7
+  },
+  "confidence": "high",
+  "notes": "Excess of income over expenditure 39,75,846 printed (balance sheet labels it 'excess of expenditure over income' but adds it to general fund). Interest = FD interest 31,92,170 + accrued FD interest 10,823 + interest on IT refund 18,372. Other expenditure = CM relief fund (Covid) 10,00,000, 3rd anniversary conference 2,64,600, interest on FD loan 28,754, depreciation 7,475. general_fund_closing = corpus 1,001 + general fund 5,02,35,587. Cash/deposits = FD 4,80,00,000 + cash 99,569 + City Union Bank current account 12,35,078."
+ },
+ {
+  "n": 17,
+  "party": "All India Moovendar Munnani Kazhagam",
+  "fy": "2018-19",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 1814280,
+  "total_expenditure": 1830755,
+  "surplus": -16475,
+  "income": {
+   "donations_contributions": 1810000,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": 2400,
+   "interest_dividend": null,
+   "other": 1880
+  },
+  "expenditure": {
+   "election": null,
+   "administrative_general": 1015257,
+   "employee_salaries": 210000,
+   "publicity_propaganda": null,
+   "other": 605498
+  },
+  "general_fund_closing": 68254,
+  "cash_bank_and_deposits_closing": 59754,
+  "total_assets": 2080638,
+  "auditor": "P.K. Amarnath, B.Com., F.C.A., Chartered Accountant, Madurai (certifying the consolidated accounts)",
+  "pages": {
+   "income_statement": 6,
+   "balance_sheet": 7
+  },
+  "confidence": "medium",
+  "notes": "Consolidated Madurai head office + Chennai office accounts (separate Madurai and Chennai statements follow on pp 10-16). Deficit printed as excess of expenditure over income 16,475 (Madurai 14,915; Chennai 1,560). Donations = general donations 14,10,000 + donation for Kalayarkoil free meals 4,00,000. Other expenditure = refreshment and food 1,25,202, bata 46,582, meeting and press meeting, Kalayarkoil free meals 4,19,779. general_fund_closing = net fund 68,254.18 (fund account 2,058,039.78 plus Chennai surplus 5,098.65 less I&E debit balance 19,94,884.25; printed 'fund account' box: balance 84,729.18 less net loss 16,475 = 68,254.18). total_assets 20,80,638.43 includes the accumulated deficit 19,94,884.25 shown as an asset. Cash = cash in hand 18,986.68 + bank 40,767.50.  No audit report page in the filing; auditor name read from the stamp on the statements."
+ },
+ {
+  "n": 18,
+  "party": "Kongunadu Makkal Desia Katchi",
+  "fy": "2018-19",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 3395959,
+  "total_expenditure": 12036278,
+  "surplus": -8640319,
+  "income": {
+   "donations_contributions": 2264300,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": 12580,
+   "interest_dividend": null,
+   "other": 1119079
+  },
+  "expenditure": {
+   "election": null,
+   "administrative_general": 874782,
+   "employee_salaries": 830234,
+   "publicity_propaganda": 34554,
+   "other": 10296708
+  },
+  "general_fund_closing": -5046175,
+  "cash_bank_and_deposits_closing": 1584448,
+  "total_assets": 2363505,
+  "auditor": "CA. A. Balu, Vekam and Associates, Chartered Accountants, Erode",
+  "pages": {
+   "income_statement": 3,
+   "balance_sheet": 4
+  },
+  "confidence": "high",
+  "notes": "Deficit printed as excess of expenditure over income 86,40,319; Expenditure lines sum to the printed side total 1,20,36,278 (income 33,95,959 plus deficit 86,40,319). Capital opening 35,94,144 less deficit = negative 50,46,175. Other income = newspaper sales, subscription, advertisement, minute book sales. Other expenditure includes conference expenses 77,77,750, donations to Govt of TN 10,00,000 and Uzhavalyem 1,00,000, notice board/flag post aid 3,10,000, newsprint and printing 9.4 lakh, meetings. Cash = bank 11,27,169 + hand 4,57,279."
+ },
+ {
+  "n": 22,
+  "party": "Tamil Maanila Congress (Moopanar)",
+  "fy": "2018-19",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 10818580,
+  "total_expenditure": 10591942,
+  "surplus": 226638,
+  "income": {
+   "donations_contributions": 100000,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": 7582500,
+   "interest_dividend": 3136080,
+   "other": null
+  },
+  "expenditure": {
+   "election": null,
+   "administrative_general": 4583956,
+   "employee_salaries": 3715880,
+   "publicity_propaganda": 285075,
+   "other": 2007031
+  },
+  "general_fund_closing": 46260742,
+  "cash_bank_and_deposits_closing": 47579278,
+  "total_assets": 49018582,
+  "auditor": "Ponraj & Co., Chartered Accountants, Gudiyattam (FRN 2672S)",
+  "pages": {
+   "income_statement": 3,
+   "balance_sheet": 5
+  },
+  "confidence": "high",
+  "notes": "Excess of income over expenditure 2,26,638 printed (balance sheet labels it 'excess of expenditure over income' but adds it to general fund). No election expenditure line. Other expenditure = party workers welfare 5,24,265, CM relief fund 10,00,000, anniversary conference 4,24,000, Kamarajar birthday 20,000, donations 21,040, gifts 6,950, depreciation 10,776. general_fund_closing = corpus 1,001 + general fund 4,62,59,741. Deposits = FD 4,40,42,047 (incl accrued interest 42,047; a loan of 24,00,000 against FD is among liabilities) + cash 1,18,353 + City Union Bank current account 34,18,878."
+ },
+ {
+  "n": 23,
+  "party": "Tamil Maanila Katchi",
+  "fy": "2018-19",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 356800,
+  "total_expenditure": 342257,
+  "surplus": 14543,
+  "income": {
+   "donations_contributions": 167500,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": 15500,
+   "interest_dividend": null,
+   "other": 173800
+  },
+  "expenditure": {
+   "election": null,
+   "administrative_general": 123210,
+   "employee_salaries": 198000,
+   "publicity_propaganda": 15000,
+   "other": 6047
+  },
+  "general_fund_closing": 193,
+  "cash_bank_and_deposits_closing": 29314,
+  "total_assets": 69130,
+  "auditor": "P.S. Manohar & Co., Chartered Accountants, Chennai (P.S. Manohar, M.No. 022645)",
+  "pages": {
+   "income_statement": 5,
+   "balance_sheet": 6
+  },
+  "confidence": "high",
+  "notes": "Printed excess of income over expenditure 14,543. Other income = sale of party flags (katchi kodi) 19,000 + posting fee collection 1,54,800. Publicity = party flags 15,000; other = depreciation 6,047. General fund = capital fund opening -14,350 plus surplus 14,543. A receipts and payments account is on p4. Balance sheet shows 68,937 owed to founder-president Paul Kanagaraj. Pages 9-24 are donor/contribution detail listings. Party is Tamil Maanila Katchi (distinct from Tamil Maanila Congress)."
+ },
+ {
+  "n": 28,
+  "party": "Kongunadu Makkal Desia Katchi",
+  "fy": "2015-16",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 4258041,
+  "total_expenditure": 3678764,
+  "surplus": 579277,
+  "income": {
+   "donations_contributions": 1996100,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": 342545,
+   "interest_dividend": null,
+   "other": 1919396
+  },
+  "expenditure": {
+   "election": null,
+   "administrative_general": 1129493,
+   "employee_salaries": 1316594,
+   "publicity_propaganda": 303185,
+   "other": 929492
+  },
+  "general_fund_closing": 3394550,
+  "cash_bank_and_deposits_closing": 2542997,
+  "total_assets": 3394550,
+  "auditor": "CA. A. Balu, Vekam and Associates, Chartered Accountants, Erode",
+  "pages": {
+   "income_statement": 2,
+   "balance_sheet": 3
+  },
+  "confidence": "high",
+  "notes": "Surplus printed as excess of income over expenditure 5,79,277. Other income = newspaper sales 2,54,565, newspaper subscription 8,63,891, newspaper advertisement 8,00,940. Other expenditure = newsprint purchase, paper printing, plate making, Maanaadu (conference) expenses. Cash = bank 25,17,143 + hand 25,854. Salary includes bonus 57,000. Text numbers reconcile to printed totals."
+ },
+ {
+  "n": 31,
+  "party": "Indiya Jananayaka Katchi",
+  "fy": "2014-15",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 4249575,
+  "total_expenditure": 5031596,
+  "surplus": -782021,
+  "income": {
+   "donations_contributions": 3939850,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": 309725,
+   "interest_dividend": null,
+   "other": null
+  },
+  "expenditure": {
+   "election": 245489,
+   "administrative_general": 2818481,
+   "employee_salaries": 948550,
+   "publicity_propaganda": 183686,
+   "other": 835390
+  },
+  "general_fund_closing": -305044,
+  "cash_bank_and_deposits_closing": 736985,
+  "total_assets": 2459570,
+  "auditor": "A. Subramanian & Co., Chartered Accountants, Chennai (A. Subramanian, Partner, M.No. 019329)",
+  "pages": {
+   "income_statement": 5,
+   "balance_sheet": 4
+  },
+  "confidence": "high",
+  "notes": "Read from rotated page images (pp 4-5). Deficit printed as excess of expenditure over income 7,82,021. Donations = party development donation 35,84,500 + MP election donation receipts 3,55,350; membership fees/entrances 3,09,725. Election = TV advertisement for MP election 2,45,489. Other expenditure = donations paid 2,06,000 and general body meeting 6,29,390. Balance sheet: corpus fund 12,00,000 less debit balance in I&E account 15,05,044 = net -3,05,044 reported as general_fund_closing. Cash = cash 33,478 + City Union Bank 7,03,507 (advances/deposits 57,000 and 97,000 cash with IT dept excluded)."
+ },
+ {
+  "n": 34,
+  "party": "Naam Tamilar Katchi",
+  "fy": "2014-15",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 741712,
+  "total_expenditure": 618394,
+  "surplus": 123318,
+  "income": {
+   "donations_contributions": 741712,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": null,
+   "interest_dividend": null,
+   "other": null
+  },
+  "expenditure": {
+   "election": null,
+   "administrative_general": 210477,
+   "employee_salaries": 407917,
+   "publicity_propaganda": null,
+   "other": null
+  },
+  "general_fund_closing": 222746,
+  "cash_bank_and_deposits_closing": 209411.0,
+  "total_assets": 227326,
+  "auditor": "N. Kannan & Associates, Chartered Accountants, Chennai",
+  "pages": {
+   "income_statement": 4,
+   "balance_sheet": 5
+  },
+  "confidence": "high",
+  "notes": "Also a receipts and payments account on p3 (receipts 8,12,655 incl. opening balances 70,943; payments 8,12,655 incl. closing balances) - I&E account used. Excess of income over expenditure 1,23,318 printed. Employee = salary 3,48,600 + staff welfare 59,317. Capital fund = opening 99,428 + surplus 1,23,318. Pages 1-2 are ITR-V and statement of income."
+ },
+ {
+  "n": 39,
+  "party": "Manithaneya Jananayaga Katchi",
+  "fy": "2019-20",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 477570,
+  "total_expenditure": 398148,
+  "surplus": 79422,
+  "income": {
+   "donations_contributions": null,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": null,
+   "interest_dividend": null,
+   "other": 477570
+  },
+  "expenditure": {
+   "election": null,
+   "administrative_general": 76706,
+   "employee_salaries": 35000,
+   "publicity_propaganda": null,
+   "other": 286442
+  },
+  "general_fund_closing": 294922,
+  "cash_bank_and_deposits_closing": 294922,
+  "total_assets": 294922,
+  "auditor": "Selvaraj Subbiah & Associates, Chartered Accountants, Chennai (CA P. Selvaraj, M.No. 048201)",
+  "pages": {
+   "income_statement": 3,
+   "balance_sheet": 4
+  },
+  "confidence": "high",
+  "notes": "Income printed only as 'Gross Receipts' 4,77,570 (source not broken down, so put in other). Excess of income 79,422 printed. Other expenditure = material/provisions purchased 2,70,000, meeting, stage, lighting, decoration. Fund = corpus 10,000 + accumulated excess 2,84,922. Cash = bank 2,76,242.70 + hand 18,679.30. Accounts for 2019-20 submitted late (Feb 2023) together with 2018-19 and 2020-21."
+ },
+ {
+  "n": 42,
+  "party": "Marumalarchi Dravida Munnetra Kazhagam",
+  "fy": "2014-15",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 10506449,
+  "total_expenditure": 82613104,
+  "surplus": -72106655,
+  "income": {
+   "donations_contributions": 362100,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": 207508,
+   "interest_dividend": 9936491,
+   "other": 350
+  },
+  "expenditure": {
+   "election": 40012475,
+   "administrative_general": 6157134,
+   "employee_salaries": 1819828,
+   "publicity_propaganda": 1173728,
+   "other": 33449939
+  },
+  "general_fund_closing": 178867879,
+  "cash_bank_and_deposits_closing": 104119522,
+  "total_assets": 186241097,
+  "auditor": "A. Arjunaraj & Co., Chartered Accountants, Coimbatore (A. Dhananjayan, Partner, M.No. 216165; FRN 007341S)",
+  "pages": {
+   "income_statement": 7,
+   "balance_sheet": 8
+  },
+  "confidence": "high",
+  "notes": "Deficit printed as excess of expenditure over income 7,21,06,655. Total expenditure 8,26,13,104 includes a line 'Excess of expenditure over income from Sangoli' 11,51,399 (party magazine loss, shown under other) and a Rs 1 rounding line. Election = general elections 4,00,12,475. Other expenditure notably Party Welfare 2,56,24,159, PM National Relief Fund 10,00,000, loss on sale of vehicle 11,79,356. Balance sheet capital fund = opening 13,00,33,531 + election and party development fund 12,09,41,003 (credited directly to capital, not through I&E) less deficit. Cash/deposits = Canara Bank FDs and deposit accounts 9,94,67,250 (within loans, advances and deposits; excludes accrued interest 1,32,97,332) + bank 42,08,180 + cash 4,44,092. Includes separate Sangoli (magazine) accounts on pp 12-13."
+ },
+ {
+  "n": 44,
+  "party": "Marumalarchi Dravida Munnetra Kazhagam",
+  "fy": "2016-17",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 9672470,
+  "total_expenditure": 80968481,
+  "surplus": -71296011,
+  "income": {
+   "donations_contributions": 2362408,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": 94250,
+   "interest_dividend": 5258612,
+   "other": 1957200
+  },
+  "expenditure": {
+   "election": 68692510,
+   "administrative_general": 3187523,
+   "employee_salaries": 2113179,
+   "publicity_propaganda": 464875,
+   "other": 6510394
+  },
+  "general_fund_closing": 162301412,
+  "cash_bank_and_deposits_closing": 91499540,
+  "total_assets": 171006094,
+  "auditor": "A. Arjunaraj & Co., Chartered Accountants, Coimbatore (A. Dhananjayan, Partner, M.No. 216165; FRN 007341S)",
+  "pages": {
+   "income_statement": 5,
+   "balance_sheet": 6
+  },
+  "confidence": "high",
+  "notes": "Deficit printed as excess of expenditure over income 7,12,96,011. Total expenditure 8,09,68,481 (equals printed side total). Election = General Election 2016 lines (media advertisement, meetings, publicity, lump sum payments to candidates 6,10,00,000, other, star campaigner travel) = 6,86,96,510. Other income = Assembly election nomination fee 19,39,000 + form sales 18,200. Other expenditure includes Party Election Wing 10,00,000, committee meeting, leaders travelling, volunteers wing and transfer of Sangoli (magazine) deficit 14,62,420. Capital fund = opening 17,39,47,030 + election fund 5,96,50,393 (credited directly) less deficit. Printed balance sheet totals differ by 3,000 (liabilities 17,10,09,094 vs assets 17,10,06,094); total_assets is the assets total. Deposits = Canara Bank FD/deposit accounts 8,81,58,369 (within loans, advances and deposits 10,04,38,580; excludes accrued interest 75,88,809) + bank 32,06,950 + cash 1,34,221. Heading reads 31.03.2016 on the balance sheet but dated for year ended 31.03.2017."
+ },
+ {
+  "n": 48,
+  "party": "Marumalarchi Dravida Munnetra Kazhagam",
+  "fy": "2018-19",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 27441341,
+  "total_expenditure": 12313676,
+  "surplus": 15127665,
+  "income": {
+   "donations_contributions": 20558979,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": 66515,
+   "interest_dividend": 5832622,
+   "other": 983225
+  },
+  "expenditure": {
+   "election": null,
+   "administrative_general": 4363296,
+   "employee_salaries": 2192635,
+   "publicity_propaganda": 273500,
+   "other": 5484245
+  },
+  "general_fund_closing": 177033303,
+  "cash_bank_and_deposits_closing": 104986355,
+  "total_assets": 186426468,
+  "auditor": "CA R. Anbazhagan, Chartered Accountant, Tirupur (M.No. 212592)",
+  "pages": {
+   "income_statement": 7,
+   "balance_sheet": 8
+  },
+  "confidence": "high",
+  "notes": "Total income 2,74,41,341 (sum of income lines = printed side total); expenditure 1,23,13,676 (printed side total less printed excess of income over expenditure 1,51,27,664.96, rounded). Donations = party development fund 13,89,479 + election fund 1,91,69,500. Other income = book sales, Ponvizha souvenir advertisement 6,06,500 and sales 3,62,600. Other expenditure includes Ponvizha Malar (souvenir) 6,92,900, donation and aid 10,00,000, committee meeting, leaders travelling 16,32,080, medical aid, party welfare, volunteers wing, loss from Sangoli (magazine) 79,000. No election expenditure line. Capital fund = opening 16,19,05,638 + surplus 1,51,27,665. Deposits = Canara Bank FD/deposit accounts 8,86,67,776 (within loans, advances and deposits 10,01,87,636; excludes accrued interest 63,57,675) + bank 1,62,99,738 + cash 18,841. Includes separate Sangoli accounts (pp 12-13)."
+ },
+ {
+  "n": 50,
+  "party": "Makkal Needhi Maiam",
+  "fy": "2021-22",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 3791656,
+  "total_expenditure": 84194923,
+  "surplus": -80403267,
+  "income": {
+   "donations_contributions": 3224416,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": null,
+   "interest_dividend": null,
+   "other": 567240
+  },
+  "expenditure": {
+   "election": 72075518,
+   "administrative_general": 3311216,
+   "employee_salaries": 1659506,
+   "publicity_propaganda": 98431,
+   "other": 7050252
+  },
+  "general_fund_closing": -269161787,
+  "cash_bank_and_deposits_closing": 2061396,
+  "total_assets": 5730558,
+  "auditor": "SGKN & Co., Chartered Accountants, Chennai (CA Niranjan H, Partner, M.No. 241219)",
+  "pages": {
+   "income_statement": 5,
+   "balance_sheet": 4
+  },
+  "confidence": "high",
+  "notes": "Deficit (8,04,03,267) printed. Voluntary contribution 32,24,416 (income statement shows 32,24,415 in bank; derived from total income less 5,67,240). Other income = collection from issue of election application forms 5,67,240 (no membership fees this year). Election expenses 7,20,75,518 (advertisement 3,71,31,726; road shows 3,16,25,292). Other expenditure = professional and consultancy 60,59,050 + depreciation 9,91,202. Admin excludes advertisement and publicity 98,431 (shown under publicity). general_fund_closing = accumulated deficit -26,91,61,787 (no corpus line); funded by unsecured loans 27,48,92,344. Cash = bank 20,56,889 + petty cash 4,507 = 20,61,396."
+ },
+ {
+  "n": 52,
+  "party": "Indiya Jananayaka Katchi",
+  "fy": "2021-22",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 2700000,
+  "total_expenditure": 2867530,
+  "surplus": -167530,
+  "income": {
+   "donations_contributions": 2700000,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": null,
+   "interest_dividend": null,
+   "other": null
+  },
+  "expenditure": {
+   "election": null,
+   "administrative_general": 1544070,
+   "employee_salaries": 921700,
+   "publicity_propaganda": 305760,
+   "other": 96000
+  },
+  "general_fund_closing": -1923042,
+  "cash_bank_and_deposits_closing": 241399,
+  "total_assets": 3536528,
+  "auditor": "A. Subramanian & Co., Chartered Accountants, Chennai (A. Subramanian, Partner, M.No. 019329)",
+  "pages": {
+   "income_statement": 3,
+   "balance_sheet": 2
+  },
+  "confidence": "high",
+  "notes": "Read from page images. Deficit printed as excess of expenditure over income 1,67,530. Income = party development donations 27,00,000. Other expenditure = donations paid (medical & educational) 96,000. Election expenses line blank for 2022. general_fund_closing = corpus fund 12,00,000 less debit balance in I&E account 31,23,042 = net -19,23,042. Cash = cash 172 + City Union Bank 2,41,227. Balance sheet page is p2 (rotated); liabilities include 45,00,000 owed to Dr Parivenchar Pachaimuthu and 9,54,371 to SRM Hotels."
+ },
+ {
+  "n": 58,
+  "party": "Naam Tamilar Katchi",
+  "fy": "2021-22",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 10611016,
+  "total_expenditure": 11545648,
+  "surplus": -934632,
+  "income": {
+   "donations_contributions": 10611016,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": null,
+   "interest_dividend": null,
+   "other": null
+  },
+  "expenditure": {
+   "election": 1804865,
+   "administrative_general": 5042371,
+   "employee_salaries": 3169004,
+   "publicity_propaganda": 1411731,
+   "other": 117677
+  },
+  "general_fund_closing": 3230353,
+  "cash_bank_and_deposits_closing": 1282891,
+  "total_assets": 3318853,
+  "auditor": "Vijayan & Arun, Chartered Accountants, Chennai (R. Vijayan, Partner, M.No. 229666)",
+  "pages": {
+   "income_statement": 6,
+   "balance_sheet": 5
+  },
+  "confidence": "high",
+  "notes": "Deficit (9,34,631) printed as excess of income over expenditure. Admin & general printed 64,54,102 incl. advertisement 14,11,731 (shown as publicity); other = depreciation 1,17,677. Cash = bank 7,29,928 + cash in hand 5,52,963 (current assets 12,82,892). Loans, advances and deposits 15,23,577 not counted."
+ },
+ {
+  "n": 60,
+  "party": "Manithaneya Makkal Katchi",
+  "fy": "2022-23",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 124682,
+  "total_expenditure": 537871,
+  "surplus": -413189,
+  "income": {
+   "donations_contributions": 91502,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": 33180,
+   "interest_dividend": null,
+   "other": null
+  },
+  "expenditure": {
+   "election": null,
+   "administrative_general": 229247,
+   "employee_salaries": 85100,
+   "publicity_propaganda": null,
+   "other": 223524
+  },
+  "general_fund_closing": 1325974,
+  "cash_bank_and_deposits_closing": 92547,
+  "total_assets": 1325974,
+  "auditor": "Riffai & Co., Chartered Accountants, Chennai (Ahamed Riffai S.S., M.No. 204097)",
+  "pages": {
+   "income_statement": 5,
+   "balance_sheet": 3
+  },
+  "confidence": "high",
+  "notes": "Deficit (4,13,189) printed as balance being excess of income over expenditure. Donations 91,502 = election fund received from party president MH Jawahirullah MLA. Other expenditure = finance costs 5,310 + depreciation 2,18,214. Fixed assets 12,33,427; current assets (bank only) 92,547. A receipts and payments account is also included (p7)."
+ },
+ {
+  "n": 62,
+  "party": "Naam Tamilar Katchi",
+  "fy": "2022-23",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 13649467,
+  "total_expenditure": 12809434,
+  "surplus": 840033,
+  "income": {
+   "donations_contributions": 13649467,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": null,
+   "interest_dividend": null,
+   "other": null
+  },
+  "expenditure": {
+   "election": 2852830,
+   "administrative_general": 5210466,
+   "employee_salaries": 3327536,
+   "publicity_propaganda": 1328108,
+   "other": 90494
+  },
+  "general_fund_closing": 4070385,
+  "cash_bank_and_deposits_closing": 2214919,
+  "total_assets": 4160385,
+  "auditor": "M Yamini & Co., Chartered Accountants, Chennai (Yamini M, M.No. 244794)",
+  "pages": {
+   "income_statement": 5,
+   "balance_sheet": 4
+  },
+  "confidence": "high",
+  "notes": "Excess of income over expenditure 8,40,033 printed. Admin & general printed 65,38,574 incl. advertisement 13,28,108 (shown as publicity); other = depreciation 90,494. Cash = bank 21,58,656 + cash in hand 56,263 (current assets 22,14,919). Loans, advances and deposits 15,23,577 not counted. Note 9 line items as OCR'd add to 62,38,575, i.e. about 3,00,000 short of the printed 65,38,574 (likely a misread digit in a line item); the printed statement totals are internally consistent and were used."
+ },
+ {
+  "n": 63,
+  "party": "Indiya Jananayaka Katchi",
+  "fy": "2020-21",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 260000,
+  "total_expenditure": 3452284,
+  "surplus": -3192284,
+  "income": {
+   "donations_contributions": 260000,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": null,
+   "interest_dividend": null,
+   "other": null
+  },
+  "expenditure": {
+   "election": 10000,
+   "administrative_general": 1788883,
+   "employee_salaries": 1239750,
+   "publicity_propaganda": 28350,
+   "other": 385300
+  },
+  "general_fund_closing": -1755512,
+  "cash_bank_and_deposits_closing": 12654,
+  "total_assets": 3704058,
+  "auditor": "A. Subramanian & Co., Chartered Accountants, Chennai (A. Subramanian, Partner, M.No. 019329)",
+  "pages": {
+   "income_statement": 4,
+   "balance_sheet": 3
+  },
+  "confidence": "high",
+  "notes": "Deficit printed as excess of expenditure over income 31,92,284. Printed expenditure total 34,52,284; line items add to 34,52,283 (1 rupee footing difference in the filing). Income = party development donations 2,60,000. Other expenditure = donations paid 3,85,300. general_fund_closing = corpus 12,00,000 less debit balance 29,55,512 (opening 2,36,772 less deficit 31,92,284) = net -17,55,512. Cash = cash 990 + City Union Bank 11,664. Balance sheet page is p3 (printed upside down)."
+ },
+ {
+  "n": 69,
+  "party": "Indiya Jananayaka Katchi",
+  "fy": "2022-23",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 15910000,
+  "total_expenditure": 15507486,
+  "surplus": 402514,
+  "income": {
+   "donations_contributions": 15910000,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": null,
+   "interest_dividend": null,
+   "other": null
+  },
+  "expenditure": {
+   "election": null,
+   "administrative_general": 9303976,
+   "employee_salaries": 1650480,
+   "publicity_propaganda": 4509567,
+   "other": 43463
+  },
+  "general_fund_closing": -1520528,
+  "cash_bank_and_deposits_closing": 1580474,
+  "total_assets": 3933843,
+  "auditor": "A. Subramanian & Co., Chartered Accountants, Chennai (A. Subramanian, Partner, M.No. 019329)",
+  "pages": {
+   "income_statement": 4,
+   "balance_sheet": 3
+  },
+  "confidence": "high",
+  "notes": "Read balance sheet from rotated page image. Excess of income over expenditure 4,02,514 printed. Income = party development donations 1,59,10,000. Employee = salary and bonus 15,02,500 + staff welfare 1,47,980. Publicity = advertisement 45,09,567. Admin includes rent 74,71,000. Other = loss on sale of asset 43,463. general_fund_closing = corpus 12,00,000 less debit balance 27,20,528 = net -15,20,528. Cash = cash 26,651 + City Union Bank 15,53,823."
+ },
+ {
+  "n": 72,
+  "party": "Manithaneya Makkal Katchi",
+  "fy": "2023-24",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "receipts_payments",
+  "total_income": 1504600,
+  "total_expenditure": 1499197,
+  "surplus": 5403,
+  "income": {
+   "donations_contributions": 1504600,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": null,
+   "interest_dividend": null,
+   "other": null
+  },
+  "expenditure": {
+   "election": null,
+   "administrative_general": 1497087,
+   "employee_salaries": null,
+   "publicity_propaganda": null,
+   "other": 2110
+  },
+  "general_fund_closing": 1146083,
+  "cash_bank_and_deposits_closing": 97950,
+  "total_assets": 1146083,
+  "auditor": "Riffai and Co., Chartered Accountants, Chennai (Ahamed Riffai S.S., M.No. 204097)",
+  "pages": {
+   "income_statement": 7,
+   "balance_sheet": 5
+  },
+  "confidence": "medium",
+  "notes": "No income and expenditure account in the filing; only receipts and payments (p7) plus balance sheet and schedules. total_income/total_expenditure are receipts/payments for the year (excl. opening balance of 92,547; receipts incl. opening = 15,97,147); surplus is receipts minus payments (5,403). Schedule 1 shows the accrual net loss for the year as (1,79,891) after depreciation of about 1,85,295, general fund falling from 13,25,974 to 11,46,083. All donations in cash up to Rs 2,000 (14,00,000) or non-cash (34,600)."
+ },
+ {
+  "n": 74,
+  "party": "Marumalarchi Dravida Munnetra Kazhagam",
+  "fy": "2023-24",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 56706391,
+  "total_expenditure": 23791526,
+  "surplus": 32914865.18,
+  "income": {
+   "donations_contributions": 42270671,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": 450252,
+   "interest_dividend": 4344286,
+   "other": 9641182
+  },
+  "expenditure": {
+   "election": 1100000,
+   "administrative_general": 4763852,
+   "employee_salaries": 2694530,
+   "publicity_propaganda": 305257,
+   "other": 14927887
+  },
+  "general_fund_closing": 226738970,
+  "cash_bank_and_deposits_closing": 157097259,
+  "total_assets": 236104604,
+  "auditor": "Anbazhagan R & Co., Chartered Accountants, Tirupur (R. Anbazhagan, Proprietor, M.No. 212592; FRN 027727S)",
+  "pages": {
+   "income_statement": 10,
+   "balance_sheet": 5
+  },
+  "confidence": "high",
+  "notes": "Figures printed in rupees and paise, rounded. No electoral bonds named. Income: donations = party development fund (election fund 4,00,82,018; others 2,44,652) + Anna 115 birth anniversary conference fund 16,53,000 + internet wing fund 2,91,001; forms and application fees 89,50,765 (nomination fee on party election 87,35,570) shown under other; interest = FD 41,66,412 + SB 1,77,874; other also includes scrap/book sales and profit from Sangoli 6,73,457. Expenditure: election = election expenses to candidate 11,00,000; other = CM relief fund 4,00,000, party development programme 88,10,000, Anna 115 conference 31,20,469, committee meeting 18,66,894, membership registration 4,34,713, aid, leaders travel, medical. Publicity = advertisement 1,19,400 + social media advertisement 1,85,857. Deposits = Canara Bank FDs 14,26,12,971 (within loans, advances and deposits 14,27,45,732) + cash and bank 1,44,84,288. Loans/borrowings 87,94,384 owed to Sangoli. Sangoli accounts on pp 13-15."
+ },
+ {
+  "n": 75,
+  "party": "Makkal Needhi Maiam",
+  "fy": "2023-24",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 4605190,
+  "total_expenditure": 11683574,
+  "surplus": -7078384,
+  "income": {
+   "donations_contributions": 4605190,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": null,
+   "interest_dividend": null,
+   "other": null
+  },
+  "expenditure": {
+   "election": null,
+   "administrative_general": 5796609,
+   "employee_salaries": 1887164,
+   "publicity_propaganda": null,
+   "other": 3999801
+  },
+  "general_fund_closing": -289474793,
+  "cash_bank_and_deposits_closing": 6000602,
+  "total_assets": 8456084,
+  "auditor": "SGKN and Co., Chartered Accountants, Chennai (CA Niranjan H, Partner, M.No. 241219)",
+  "pages": {
+   "income_statement": 5,
+   "balance_sheet": 4
+  },
+  "confidence": "high",
+  "notes": "Deficit (70,78,384) printed. Income is voluntary contribution only (in bank 45,43,190 + cash 62,000). Admin = event expenses 34,66,008, office 15,02,007, subscriptions 7,15,689, travelling 1,12,905. Other expenditure = legal, professional and consultancy 33,14,551 + depreciation 6,85,250. No election expenditure. general_fund_closing = accumulated deficit -28,94,74,793 (no corpus line); funded by unsecured loans 29,79,30,877. Cash = bank 59,27,362 + petty cash 73,240."
+ },
+ {
+  "n": 78,
+  "party": "Manithaneya Jananayaga Katchi",
+  "fy": "2021-22",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 1131812,
+  "total_expenditure": 1123990,
+  "surplus": 7822,
+  "income": {
+   "donations_contributions": 1131812,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": null,
+   "interest_dividend": null,
+   "other": null
+  },
+  "expenditure": {
+   "election": null,
+   "administrative_general": 457140,
+   "employee_salaries": 360000,
+   "publicity_propaganda": null,
+   "other": 306850
+  },
+  "general_fund_closing": 737990,
+  "cash_bank_and_deposits_closing": 104684,
+  "total_assets": 782990,
+  "auditor": "G. Dimple & Co., Chartered Accountant, Chennai (CA G. Dimple, M.No. 245234)",
+  "pages": {
+   "income_statement": 8,
+   "balance_sheet": 9
+  },
+  "confidence": "high",
+  "notes": "Income printed as 'General Donation & Other Receipts' 11,31,812.20; expenditure 11,23,990.12; excess of income 7,822.08 (rounded). Other expenditure = general aids/helps/donations 2,29,540 (medical, educational, marriage aid, food and clothes), stage and public meet 35,000, general meeting 42,310. Fund = general fund 7,27,990.08 + corpus fund 10,000. Cash = cash 94,911.90 + bank 9,772.08. Loans and advances (rental advance 1,12,500, deposit 5,00,000) not counted as cash. Accounts filed in Feb 2023 for FY 2021-22 and 2022-23 together."
+ },
+ {
+  "n": 84,
+  "party": "Periyar Ambedkar Munnetra Kazhagam (PAMK)",
+  "fy": "2024-25",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 542100,
+  "total_expenditure": 539200,
+  "surplus": 2900,
+  "income": {
+   "donations_contributions": 483100,
+   "electoral_bonds": 0,
+   "membership_fees_subscriptions": 59000,
+   "interest_dividend": null,
+   "other": null
+  },
+  "expenditure": {
+   "election": null,
+   "administrative_general": 143200,
+   "employee_salaries": 396000,
+   "publicity_propaganda": null,
+   "other": null
+  },
+  "general_fund_closing": 287301,
+  "cash_bank_and_deposits_closing": 287301,
+  "total_assets": 287301,
+  "auditor": "V. Venugopal, Chartered Accountant (UDIN 25018078BMIJUV4450), Chennai",
+  "pages": {
+   "income_statement": 15,
+   "balance_sheet": 12
+  },
+  "confidence": "high",
+  "notes": "Excess of income over expenditure 2,900 printed. The I&E heading says 'year ended 31/03/2024' but the current-year column and schedules are FY 2024-25 (previous-year column 16,86,300 income). Electoral bonds explicitly shown as NIL (corporate and non-corporate), so 0. Salary to staff 3,96,000 is booked inside administrative and general expenses (5,39,200) and shown here as employee_salaries. Cash = cash on hand 2,75,800 + current account 11,501. Filed Nov 2025."
+ },
+ {
+  "n": 86,
+  "party": "Tamil Maanila Congress (Moopanar)",
+  "fy": "2024-25",
+  "revised": false,
+  "doc_kind": "full_accounts",
+  "basis": "income_expenditure",
+  "total_income": 8690671,
+  "total_expenditure": 14070577,
+  "surplus": -5379906,
+  "income": {
+   "donations_contributions": null,
+   "electoral_bonds": null,
+   "membership_fees_subscriptions": 6296000,
+   "interest_dividend": 2394671,
+   "other": null
+  },
+  "expenditure": {
+   "election": 663160,
+   "administrative_general": 3086229,
+   "employee_salaries": 2853250,
+   "publicity_propaganda": 554720,
+   "other": 6913218
+  },
+  "general_fund_closing": 32013125,
+  "cash_bank_and_deposits_closing": 34508181,
+  "total_assets": 37407125,
+  "auditor": "Ponraj & Co., Chartered Accountants, Gudiyattam (N. Raghuram, Partner; FRN 2672S)",
+  "pages": {
+   "income_statement": 6,
+   "balance_sheet": 8
+  },
+  "confidence": "high",
+  "notes": "Deficit printed as excess of expenditure over income (5,379,906). Income = membership subscription 62,96,000 + interest (FD 23,76,526, accrued FD 17,828, IT refund 317). Election = election flag expenses 6,63,160. Admin includes office rent 14,40,000. Other expenditure = party cadre support 7,77,100, amount sent to district presidents 46,55,000, meeting expenses 61,878, function expenses 10,87,900, education and medical support, lyrics, gifts, subscription 847, depreciation 2,221. general_fund_closing = corpus 1,001 + general fund 3,20,12,124. Deposits = FD 3,30,00,000 (a 50,00,000 loan against it is a liability) + cash 1,27,299 + City Union Bank current account 13,80,882. Filed with CEO Dec 2025."
+ }
+]

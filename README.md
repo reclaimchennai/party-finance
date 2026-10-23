@@ -66,8 +66,18 @@ A comprehensive registry of **every party in the ECI registry (3,942 parties, up
 | `sbi-electoral-bonds.zip` | SBI electoral bond redemption and purchase disclosures (PDF) |
 | `eci-party-notifications.zip` | ECI recognition / RUPP notifications and delisting orders (PDF) |
 | `ocr-text.zip` | Page-marked text of every audit report, OCR of the 2025 RUPP notification |
+| `tn-rupp-audit-reports.zip` | 88 TN RUPP audited-accounts PDFs from the CEO Tamil Nadu portal, with their page text |
+| `myneta-pages.zip` | Cached ADR MyNeta statement and donor-list pages |
 
 `SHA256SUMS.txt` in the release lists checksums.
+
+### Sources and credits
+
+- Election Commission of India: audited annual accounts, Form 24A contribution reports, election-expenditure statements, party recognition and RUPP notifications, delisting orders.
+- Chief Electoral Officer, Tamil Nadu: RUPP filing register and the filed PDFs.
+- State Bank of India electoral bond disclosures (Supreme Court order, *ADR v. Union of India*).
+- Association for Democratic Reforms, [MyNeta](https://myneta.info/party/): transcribed income-expenditure statements and Form 24A donor lists for FY 2001-02 onward.
+- State boundaries: [DataMeet](https://github.com/datameet/maps) (Survey of India boundaries, including all of Jammu & Kashmir and Ladakh), MIT licence.
 
 ## 📊 The explorer (`public/index.html`, `public/app.js`)
 
@@ -99,7 +109,12 @@ Run in this order (Python deps: `python3 -m venv .venv && .venv/bin/pip install 
 | 7 | `.venv/bin/python pipeline/build_all_india_parties.py` — 2021–2023 ECI lists + 2016–2022 delisting orders | `data/derived/all_india_parties.json` |
 | 8 | `pipeline/parse_rupp_2025.py` — OCR of the scanned ECI notification No.56/2025/PPS-III (Tables I(A) 2,049 RUPPs, I(B) 334 and I(C) 474 delisted); `--reocr` to redo cells | `data/derived/rupp_2025_notification.json` |
 | 9 | `pipeline/apply_rupp_2025.py` (`--rebase` after step 7) — merges the 2025 list into the registry | `public/data/all_india_parties.*` |
-| 10 | `pipeline/build_dashboard_data.py` — joins everything on one party key | `public/data/dash/*.json` |
+| 10 | `pipeline/download_tn_rupp_audits.py` + `extract_audit_text.py tn` — TN RUPP audited-accounts PDFs from the CEO Tamil Nadu portal (receipts ≥ ₹10 lakh plus profiled parties), itemised per `data/raw/ocr/tn_rupp_extract/INSTRUCTIONS.md` | `data/raw/ocr/tn_rupp_extract/` |
+| 11 | `pipeline/scrape_myneta.py --donors` — ADR MyNeta: every income/expenditure head and balance sheet back to FY 2001-02 for 66 parties, plus Form 24A donor lists (pages cached in `data/raw/myneta/html/`) | `data/derived/myneta_*.json` |
+| 12 | `pipeline/build_dashboard_data.py` — joins everything on one party key. Precedence per party-year: our own page-referenced reads (ECI, CEO TN) → ADR's transcription → CEO TN portal totals. Where ours and ADR's overlap they agree to a median 0.002% | `public/data/dash/*.json` |
+| 13 | `pipeline/stamp_site.py` — content-hash `app.js` / `app.css` in `index.html` (data files are versioned via `meta.json`) | `public/index.html` |
+
+`pipeline/names.py` cleans display names (glued or broken words from PDFs, shouting caps) and merges spelling variants of the same buyer.
 
 ---
 
