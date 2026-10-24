@@ -67,7 +67,7 @@ A comprehensive registry of **every party in the ECI registry (3,942 parties, up
 | `eci-party-notifications.zip` | ECI recognition / RUPP notifications and delisting orders (PDF) |
 | `ocr-text.zip` | Page-marked text of every audit report, OCR of the 2025 RUPP notification |
 | `tn-rupp-audit-reports.zip` | 88 TN RUPP audited-accounts PDFs from the CEO Tamil Nadu portal, with their page text |
-| `election-expenditure-statements.zip` | 174 election-expenditure statements (ECI archive, ECI, CEO Tamil Nadu) for Tamil Nadu elections 2006–2026 |
+| `election-expenditure-2006-2016.zip`, `-2019.zip`, `-2021.zip`, `-2024-2026.zip` | 174 election-expenditure statements (ECI archive, ECI, CEO Tamil Nadu) for Tamil Nadu elections 2006–2026; the 2024–2026 archive also holds `manifest.json` and the OCR text |
 | `myneta-pages.zip` | Cached ADR MyNeta statement and donor-list pages |
 
 `SHA256SUMS.txt` in the release lists checksums.
