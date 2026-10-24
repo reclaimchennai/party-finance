@@ -374,6 +374,7 @@ const ver = u => (D.meta?.version ? `${u}?v=${D.meta.version}` : u);
 const LAZY_DATA = {
   bonds: 'data/electoral_bonds_all.json', compliance: 'data/dash/compliance.json', documents: 'data/dash/documents.json',
   registry: 'data/all_india_parties.json', geo: 'data/india-states.geojson', statements: 'data/dash/statements.json',
+  elections: 'data/dash/elections.json',
 };
 const pendingData = {};
 function need(...names) {
@@ -386,10 +387,10 @@ function prepBonds() {
   const tot = {}; D.bonds.rows.forEach(r => { const k = D.bondParty[r[0]]; tot[k] = (tot[k] || 0) + r[2]; });
   D.bondTop7 = Object.entries(tot).sort((a, b) => b[1] - a[1]).slice(0, 7).map(x => x[0]);
 }
-const VIEW_NEEDS = { bonds: ['bonds'], compliance: ['compliance'], registry: ['registry', 'geo'], documents: ['documents'] };
+const VIEW_NEEDS = { bonds: ['bonds'], compliance: ['compliance'], registry: ['registry', 'geo'], documents: ['documents'], elections: ['elections'] };
 
 /* ---------------------------------------------------------------- router */
-const VIEWS = { overview: viewOverview, finance: viewFinance, bonds: viewBonds, compliance: viewCompliance, registry: viewRegistry, documents: viewDocuments };
+const VIEWS = { overview: viewOverview, finance: viewFinance, elections: viewElections, bonds: viewBonds, compliance: viewCompliance, registry: viewRegistry, documents: viewDocuments };
 function parseHash() {
   const [v, q] = location.hash.slice(1).split('?');
   return { view: VIEWS[v] ? v : 'overview', params: Object.fromEntries(new URLSearchParams(q || '')) };
@@ -1009,6 +1010,102 @@ function indiaMap(host, geo, counts, selState, onClick, pts) {
 }
 
 /* ============================================================= DOCUMENTS */
+/* ============================================================= ELECTIONS */
+// What parties spent on each election, from the expenditure statements they file
+// after polling (Tamil Nadu: Lok Sabha and Assembly elections, 2004 onward).
+const EE_HEADS = [
+  ['h_star', 'Star campaigners’ travel'], ['h_leaders', 'Other leaders’ travel'], ['h_media', 'Media advertising'],
+  ['h_publicity', 'Posters, banners & publicity'], ['h_meetings', 'Rallies & meetings'], ['h_candidates', 'Paid to / spent on candidates'],
+  ['h_state', 'Spent by state units'], ['h_other', 'Other'], ['h_none', 'Not itemised'],
+];
+const EE_COLORS = [SLOT(0), SLOT(6), SLOT(1), SLOT(3), SLOT(2), SLOT(4), SLOT(5), SLOT(7), 'var(--other)'];
+const EE_MEASURES = [['tn_total', 'Spent in Tamil Nadu'], ['total', 'Whole statement (all states it covers)'], ['h_candidates', 'Paid to / spent on candidates'], ['h_media', 'Media advertising'],
+  ['h_publicity', 'Posters, banners & publicity'], ['h_star', 'Star campaigners’ travel'], ['h_meetings', 'Rallies & meetings'], ['eb_received', 'Electoral bonds received during the election']];
+const eeShort = e => e.replace('Tamil Nadu Assembly', 'TN Assembly').replace('Lok Sabha', 'Lok Sabha');
+function viewElections(main, q) {
+  const rows = D.elections.filter(r => P[r.k] || r.k);
+  const scope = q.scope || 'tn', measure = q.m || 'tn_total', sel = (q.p ? q.p.split(',') : []).filter(Boolean);
+  const inSc = r => scope === 'all' || r.tn_party;
+  const elections = [...new Set(rows.map(r => r.election))].sort((a, b) => (+a.slice(-4) - +b.slice(-4)) || a.localeCompare(b));
+  const withMeasure = rows.filter(r => inSc(r) && r[measure] != null);
+  const latest = [...elections].reverse().find(e => withMeasure.filter(r => r.election === e).length >= 3) || elections.at(-1);
+  const election = q.e && elections.includes(q.e) ? q.e : latest;
+  main.append(h('div', { class: 'view-head' }, h('h1', { text: 'Election spending' }),
+    h('p', { text: 'What parties told the Election Commission they spent on each Tamil Nadu election — Lok Sabha and Assembly, 2004 onward — and what the money went on: campaign travel, advertising, rallies, publicity, and payments to candidates. National parties’ statements cover Tamil Nadu together with the other states polling at the same time.' })));
+  const pool = [...new Set(rows.filter(inSc).map(r => r.k))].map(k => P[k] || { k, name: k, short: k });
+  main.append(h('div', { class: 'controlbar' },
+    seg([['tn', 'Tamil Nadu parties'], ['all', 'With national parties']], scope, v => setParams({ scope: v === 'tn' ? '' : v }), 'Parties'),
+    select('Election', elections.map(e => [e, e]), election, v => setParams({ e: v })),
+    select('Measure', EE_MEASURES, measure, v => setParams({ m: v === 'tn_total' ? '' : v })),
+    partyPicker(sel, pool, ks => setParams({ p: ks.join(',') }))));
+
+  const inEl = withMeasure.filter(r => r.election === election).sort((a, b) => b[measure] - a[measure]);
+  const top = inEl[0];
+  main.append(h('div', { class: 'tiles', style: 'margin-bottom:16px' },
+    tile('Statements', num(rows.filter(inSc).length), `${elections.length} elections, ${new Set(rows.filter(inSc).map(r => r.k)).size} parties`),
+    tile(`Largest spender, ${eeShort(election)}`, top ? label(top.k) : '—', top ? inr(top[measure]) : ''),
+    tile(`All listed parties, ${eeShort(election)}`, inr(inEl.reduce((a, r) => a + r[measure], 0)), `${inEl.length} statements`),
+    tile('On candidates', pct(inEl.reduce((a, r) => a + (r.h_candidates || 0), 0), inEl.reduce((a, r) => a + (r.total || 0), 0)), `of total spending, ${eeShort(election)}`)));
+
+  // ranking for one election
+  const rankHost = h('div', { class: 'chart-wrap' });
+  main.append(card(`${EE_MEASURES.find(m => m[0] === measure)[1]}, ${election}`, measure === 'tn_total' ? 'Tamil Nadu parties’ statements cover Tamil Nadu (and Puducherry where they contest it); national parties appear only where their statement gives a Tamil Nadu figure. Click a bar to open the party.' : 'Click a bar to open the party. Heads other than the Tamil Nadu figure cover every state in a statement.', body(rankHost), [csvBtn(() => downloadCSV(`election_spending_${election}.csv`, inEl, EE_COLS))], 'Ranking'));
+  lazy(rankHost, () => barChart(rankHost, inEl.slice(0, 30).map(r => ({ key: r.k, label: label(r.k), value: r[measure], sub: `${P[r.k]?.name || r.k} · ${r.kind} statement${r.states ? ' · ' + r.states : ''}`, color: partyColor(r.k), src: r.source })), { onClick: r => openParty(r.key), valueLabel: 'Spent' }));
+
+  // trends: Lok Sabha and Assembly separately
+  const trendKeys = sel.length ? sel : [...new Set(rows.filter(r => inSc(r) && r.total).sort((a, b) => b.total - a.total).map(r => r.k))].slice(0, 5);
+  for (const [prefix, title] of [['Lok Sabha', 'Lok Sabha elections'], ['Tamil Nadu Assembly', 'Tamil Nadu Assembly elections']]) {
+    const host = h('div');
+    const xs = elections.filter(e => e.startsWith(prefix));
+    main.append(card(`${EE_MEASURES.find(m => m[0] === measure)[1]}: ${title}`, sel.length ? 'Compared parties.' : 'The five largest spenders. Add parties to compare your own set.', body(host), [], 'Over the years'));
+    lazy(host, () => {
+      const series = trendKeys.map((k, i) => ({ key: k, label: label(k), color: partyColor(k, i), points: Object.fromEntries(rows.filter(r => r.k === k && r.election.startsWith(prefix) && r[measure] != null).map(r => [r.election, r[measure]])) }));
+      host.append(legend(series, true)); const ch = h('div'); host.append(ch);
+      lineChart(ch, xs, series, { xLabel: x => x, tick: tickFmt });
+    });
+  }
+
+  // what the money went on: one panel per party, stacked by head across elections
+  const grid = h('div', { class: 'multiples' });
+  const partyKeys = (sel.length ? sel : [...new Set(rows.filter(inSc).map(r => r.k))]).filter(k => rows.some(r => r.k === k && r.total))
+    .sort((a, b) => Math.max(...rows.filter(r => r.k === b).map(r => r.total || 0)) - Math.max(...rows.filter(r => r.k === a).map(r => r.total || 0)));
+  main.append(card('What the money went on', 'Each party’s spending per election, split by head. Elections a party skipped or did not report are left out; each panel has its own scale.',
+    body(legend(EE_HEADS.map(([, l], i) => ({ label: l, color: EE_COLORS[i] }))), grid), [], 'Breakdown'));
+  for (const k of partyKeys) {
+    const pr = rows.filter(r => r.k === k && r.total).sort((a, b) => elections.indexOf(a.election) - elections.indexOf(b.election));
+    const panel = h('div', { class: 'mini' }), ch = h('div', { class: 'mini-chart' });
+    const best = pr.reduce((a, r) => (r.total > (a?.total || 0) ? r : a), null);
+    panel.append(h('div', { class: 'mini-head' }, h('button', { class: 'party-link', type: 'button', onclick: () => openParty(k), title: P[k]?.name }, label(k)),
+      h('span', { class: 'mini-v', text: `max ${inr(best.total)} · ${eeShort(best.election)}` })), ch);
+    grid.append(panel);
+    lazy(ch, () => stackedColumns(ch, pr.map(r => r.election), EE_HEADS.map(([key, l], i) => ({ key, label: l, color: EE_COLORS[i], points: Object.fromEntries(pr.map(r => [r.election, r[key] || 0])) })),
+      { height: 170, xLabel: e => eeShort(e).replace('TN Assembly ', 'AE ’').replace('Lok Sabha ', 'LS ’').replace(/’20(\d\d)/, '’$1') }));
+  }
+
+  // every statement
+  const tblHost = h('div');
+  const all = rows.filter(r => inSc(r) && (!sel.length || sel.includes(r.k))).map(r => ({ ...r, name: P[r.k]?.name || r.k, short: P[r.k]?.short }));
+  main.append(card('All statements', `${num(all.length)} election-expenditure statements. Sort by any column; the source column opens the filing.`, tblHost,
+    [csvBtn(() => downloadCSV('election_spending.csv', all, EE_COLS))], 'Table'));
+  dataTable(tblHost, all, EE_COLS, { sort: 'total' });
+}
+const EE_COLS = [
+  { key: 'name', label: 'Party', render: partyCell, csv: r => P[r.k]?.name || r.k },
+  { key: 'election', label: 'Election', sortVal: r => r.year * 10 + (r.election.startsWith('Lok') ? 0 : 1) },
+  { key: 'kind', label: 'Statement' },
+  { key: 'tn_total', label: 'In Tamil Nadu', num: true },
+  { key: 'total', label: 'Whole statement', num: true },
+  { key: 'h_candidates', label: 'Candidates', num: true },
+  { key: 'h_media', label: 'Media ads', num: true },
+  { key: 'h_publicity', label: 'Publicity', num: true },
+  { key: 'h_star', label: 'Star campaigners', num: true },
+  { key: 'h_meetings', label: 'Rallies', num: true },
+  { key: 'eb_received', label: 'Bonds received', num: true },
+  { key: 'states', label: 'States covered', wrap: true },
+  { key: 'url', label: 'Source', render: r => r.url ? h('span', {}, h('a', { href: rel(r.url), target: '_blank', rel: 'noopener', text: r.source || 'PDF' }), r.confidence && r.confidence !== 'high' ? h('span', { class: `badge conf-${r.confidence}`, style: 'margin-left:6px', text: r.confidence }) : null) : '—', csv: r => r.url },
+];
+
+/* ============================================================= DOCUMENTS */
 function viewDocuments(main, q) {
   const query = (q.q || '').toLowerCase(), kind = q.kind || '', src = q.src || '', fy = q.fy || '', party = q.party_f || '';
   const docs = D.documents.filter(d => (!kind || d.kind === kind) && (!src || d.source === src) && (!fy || d.fy === fy) && (!party || d.k === party)
@@ -1042,11 +1139,11 @@ function viewDocuments(main, q) {
 /* ================================================================ DRAWER */
 function openParty(k, push = true) {
   const p = P[k]; if (!p) return;
-  if (!D.bonds || !D.compliance || !D.documents || !D.statements) {
+  if (!D.bonds || !D.compliance || !D.documents || !D.statements || !D.elections) {
     $('#drawer-title').replaceChildren(h('div', { class: 'p-title' }, h('div', {}, h('h2', { text: p.name }))));
     $('#drawer-body').replaceChildren(h('div', { class: 'loading', text: 'Loading filings…' }));
     $('#drawer').classList.add('open'); $('#drawer').setAttribute('aria-hidden', 'false');
-    need('bonds', 'compliance', 'documents', 'statements').then(() => openParty(k, push));
+    need('bonds', 'compliance', 'documents', 'statements', 'elections').then(() => openParty(k, push));
     return;
   }
   if (push && parseHash().params.party !== k) { history.replaceState(null, '', location.hash.replace(/([?&])party=[^&]*&?/, '$1').replace(/[?&]$/, '') + (location.hash.includes('?') ? '&' : '?') + 'party=' + encodeURIComponent(k)); }
@@ -1079,6 +1176,18 @@ function openParty(k, push = true) {
       wrap.append(cell);
       miniStack(ch, rows.map(r => r.fy), layers, { title: `${p.short || p.name}: ${sec.title.replace(' over time', '').toLowerCase()}`, height: 190 });
     }));
+  }
+
+  const ee = (D.elections || []).filter(r => r.k === k && r.total).sort((a, b) => (a.year - b.year) || a.election.localeCompare(b.election));
+  if (ee.length) {
+    const ch = h('div'), tbl = h('div');
+    bodyEl.append(card('Election spending', `${ee.length} statements, ${eeShort(ee[0].election)} to ${eeShort(ee.at(-1).election)}. Split by head.`,
+      body(legend(EE_HEADS.map(([, l], i) => ({ label: l, color: EE_COLORS[i] })).filter((_, i) => ee.some(r => r[EE_HEADS[i][0]]))), ch, tbl), [], 'Elections'));
+    requestAnimationFrame(() => {
+      stackedColumns(ch, ee.map(r => r.election), EE_HEADS.map(([key, l], i) => ({ key, label: l, color: EE_COLORS[i], points: Object.fromEntries(ee.map(r => [r.election, r[key] || 0])) })),
+        { height: 220, xLabel: e => eeShort(e).replace('TN Assembly ', 'AE ').replace('Lok Sabha ', 'LS ') });
+      dataTable(tbl, ee.map(r => ({ ...r, name: p.name })), EE_COLS.filter(c => c.key !== 'name' && (c.key === 'url' || c.key === 'election' || ee.some(r => r[c.key] != null))), { sort: 'election', dir: -1 });
+    });
   }
 
   const bi = D.bondParty.map((x, i) => (x === k ? i : -1)).filter(i => i >= 0);

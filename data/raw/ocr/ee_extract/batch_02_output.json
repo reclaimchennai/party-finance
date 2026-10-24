@@ -1,0 +1,1039 @@
+[
+ {
+  "n": 2,
+  "party": "Indian Union Muslim League",
+  "election": "Lok Sabha 2019",
+  "states_covered": [
+   "Kerala",
+   "Tamil Nadu"
+  ],
+  "doc_kind": "full",
+  "period": {
+   "announced": "10/03/2019",
+   "completed": "26/05/2019"
+  },
+  "opening_balance": 34502766,
+  "receipts": {
+   "cash": 0,
+   "cheque_bank": 12510799,
+   "electoral_bonds": null,
+   "in_kind": 26507,
+   "total": 12537306
+  },
+  "propaganda": {
+   "star_campaigner_travel": 0,
+   "other_leaders_travel": 0,
+   "media_advertisement": 0,
+   "publicity_materials": 0,
+   "public_meetings": 0,
+   "other": 0,
+   "total": 0
+  },
+  "candidates": {
+   "lump_sum_to_candidates": 0,
+   "media_for_candidates": 0,
+   "publicity_for_candidates": 0,
+   "meetings_for_candidates": 0,
+   "criminal_antecedents_publicity": 0,
+   "other": 0,
+   "total": 0
+  },
+  "to_state_units_or_other_parties": 0,
+  "state_unit": {
+   "propaganda_total": 2665265,
+   "candidates_total": 7632407
+  },
+  "total_expenditure": 10297672,
+  "tamil_nadu_share": 1028885,
+  "closing_balance": 34742221,
+  "pages": {
+   "part_a": 2,
+   "schedule_1": null
+  },
+  "confidence": "medium",
+  "notes": "Central HQ spent nothing (Part A NIL). Part B Kerala: propaganda 2,636,379.52 (star travel 864,939; other leaders 173,680; meetings 646,810; other 950,950.52), candidates 6,632,407 (lump sums 6,600,000 + criminal-antecedents publicity 32,407). Part B Tamil Nadu: propaganda 28,885 (other), candidates 1,000,000 lump sum (K. Navaskani). total_expenditure is the sum of Part B sheets = 10,297,671.52; printed Part C summary says 1,02,36,379.52 because it omits TN propaganda 28,885 and criminal-antecedents 32,407. tamil_nadu_share = TN sheet 28,885+1,000,000. Opening/closing/receipts from Part C combined summary (opening 3,45,02,766.20; closing 3,47,42,220.69; receipts 1,25,37,306); cheque receipts = Kerala 10,474,344.01 + TN 2,036,455.11. Part A opening/closing figures (4,36,776/5,07,570) are inconsistent with NIL activity and ignored."
+ },
+ {
+  "n": 9,
+  "party": "All India Trinamool Congress",
+  "election": "Tamil Nadu Assembly 2021",
+  "states_covered": [
+   "West Bengal"
+  ],
+  "doc_kind": "full",
+  "period": {
+   "announced": "26/02/2021",
+   "completed": "04/05/2021"
+  },
+  "opening_balance": 2390143398,
+  "receipts": {
+   "cash": 0,
+   "cheque_bank": 563284097,
+   "electoral_bonds": null,
+   "in_kind": 0,
+   "total": 563284097
+  },
+  "propaganda": {
+   "star_campaigner_travel": 330215809,
+   "other_leaders_travel": 0,
+   "media_advertisement": 119354521,
+   "publicity_materials": 121844558,
+   "public_meetings": 28896988,
+   "other": 196353868,
+   "total": 796665744
+  },
+  "candidates": {
+   "lump_sum_to_candidates": 722500000,
+   "media_for_candidates": 0,
+   "publicity_for_candidates": 0,
+   "meetings_for_candidates": 0,
+   "criminal_antecedents_publicity": 23684170,
+   "other": 0,
+   "total": 746184170
+  },
+  "to_state_units_or_other_parties": 0,
+  "state_unit": {
+   "propaganda_total": 0,
+   "candidates_total": 0
+  },
+  "total_expenditure": 1542849914,
+  "tamil_nadu_share": null,
+  "closing_balance": 1501889116,
+  "pages": {
+   "part_a": 3,
+   "schedule_1": 1
+  },
+  "confidence": "high",
+  "notes": "Statement covers West Bengal Assembly 2021 only (cover letter and Part D name West Bengal; Schedule 1 lists only West Bengal), despite the listing title mentioning five states; no Tamil Nadu figures, so tamil_nadu_share null. Part B (state unit) all NIL. Heads add to printed totals. Crore figures given in rupees (e.g. 79,66,65,744). Part C gross total not printed; total_expenditure = 79,66,65,744 + 74,61,84,170. Rest of the 83-page PDF is schedules (not read)."
+ },
+ {
+  "n": 12,
+  "party": "All India Anna Dravida Munnetra Kazhagam",
+  "election": "Tamil Nadu Assembly 2021",
+  "states_covered": [
+   "Tamil Nadu",
+   "Puducherry",
+   "Kerala"
+  ],
+  "doc_kind": "full",
+  "period": {
+   "announced": "26/02/2021",
+   "completed": "04/05/2021"
+  },
+  "opening_balance": 2661423059,
+  "receipts": {
+   "cash": 94008285,
+   "cheque_bank": 50671119,
+   "electoral_bonds": null,
+   "in_kind": 0,
+   "total": 144679404
+  },
+  "propaganda": {
+   "star_campaigner_travel": 0,
+   "other_leaders_travel": 0,
+   "media_advertisement": 0,
+   "publicity_materials": 0,
+   "public_meetings": 0,
+   "other": 0,
+   "total": 0
+  },
+  "candidates": {
+   "lump_sum_to_candidates": 0,
+   "media_for_candidates": 0,
+   "publicity_for_candidates": 0,
+   "meetings_for_candidates": 0,
+   "criminal_antecedents_publicity": 0,
+   "other": 0,
+   "total": 0
+  },
+  "to_state_units_or_other_parties": 0,
+  "state_unit": {
+   "propaganda_total": 570517025,
+   "candidates_total": 2869748
+  },
+  "total_expenditure": 573386773,
+  "tamil_nadu_share": 573386773,
+  "closing_balance": 2227377503,
+  "pages": {
+   "part_a": 2,
+   "schedule_1": null
+  },
+  "confidence": "high",
+  "notes": "Part A (central HQ) all NIL; everything is in the single Part B sheet for Tamil Nadu/Puducherry/Kerala. Part B propaganda: star travel 1,241,000; other leaders 1,507,579; media 566,538,263; publicity materials 347,574; public meetings 698,032; other 184,577 (sums to printed 570,517,025). Candidates: only criminal-antecedents publicity 2,869,748. Statement note says party contested Puducherry and Kerala but incurred no expense there, so tamil_nadu_share = total (inferred from that note). Receipts cash 9,40,08,285 and cheque 5,06,71,119. Part C gross total line illegible; total_expenditure computed. Also covers Kanniyakumari by-election: party did not contest. Figures read from page images."
+ },
+ {
+  "n": 17,
+  "party": "Bharatiya Janata Party",
+  "election": "Tamil Nadu Assembly 2021",
+  "states_covered": [
+   "Tamil Nadu"
+  ],
+  "doc_kind": "full",
+  "period": {
+   "announced": "26/02/2021",
+   "completed": "04/05/2021"
+  },
+  "opening_balance": 22576886784,
+  "receipts": {
+   "cash": 4971534,
+   "cheque_bank": 5481836889,
+   "electoral_bonds": null,
+   "in_kind": 0,
+   "total": 5486808423
+  },
+  "propaganda": {
+   "star_campaigner_travel": 51635580,
+   "other_leaders_travel": 0,
+   "media_advertisement": 5355140,
+   "publicity_materials": 0,
+   "public_meetings": 1664350,
+   "other": 0,
+   "total": 58655070
+  },
+  "candidates": {
+   "lump_sum_to_candidates": 0,
+   "media_for_candidates": 0,
+   "publicity_for_candidates": 0,
+   "meetings_for_candidates": 0,
+   "criminal_antecedents_publicity": 0,
+   "other": 0,
+   "total": 0
+  },
+  "to_state_units_or_other_parties": 150000000,
+  "state_unit": {
+   "propaganda_total": 132036049,
+   "candidates_total": 39045194
+  },
+  "total_expenditure": 229736313,
+  "tamil_nadu_share": 229736313,
+  "closing_balance": 25863294634,
+  "pages": {
+   "part_a": 2,
+   "schedule_1": 1
+  },
+  "confidence": "high",
+  "notes": "TN-only statement (pages 1-20 of the PDF); the PDF also contains a separate West Bengal statement from page 21 onward which is excluded. Part A: propaganda 58,655,070 (star travel 51,635,580; media 5,355,140; public meetings 1,664,350), no candidate spending; transfers of 10 crore (18/03/2021) + 5 crore (25/03/2021) to BJP Tamil Nadu = 150,000,000, not added to total. Part B TN: propaganda 132,036,049 (star travel 5,301,768; other leaders 3,524,737; media 96,853,432; publicity 7,978,781; meetings 4,947,231; other 13,430,100), candidates 39,045,194 (lump sums 36,166,600; publicity 35,000; rally logistics 539,669; criminal antecedents 2,303,925). Heads sum to printed totals. Opening, receipts and closing are Part A + Part B combined (Part B receipts include the 15 crore transfer, so combined receipts double count it); opening Part A 22,497,412,484 + Part B 79,474,300; closing Part A 25,676,257,264 + Part B 187,037,370. Receipts all cheque/draft except Part B cash 4,971,534. No Part C summary page in this statement. Part A figures confirmed on page image."
+ },
+ {
+  "n": 22,
+  "party": "All India Trinamool Congress",
+  "election": "Tamil Nadu Assembly 2021",
+  "states_covered": [
+   "Tamil Nadu"
+  ],
+  "doc_kind": "full",
+  "period": {
+   "announced": "12/03/2021",
+   "completed": "04/05/2021"
+  },
+  "opening_balance": 2358481804,
+  "receipts": {
+   "cash": 0,
+   "cheque_bank": 562717146,
+   "electoral_bonds": null,
+   "in_kind": 0,
+   "total": 562717146
+  },
+  "propaganda": {
+   "star_campaigner_travel": 0,
+   "other_leaders_travel": 0,
+   "media_advertisement": 0,
+   "publicity_materials": 0,
+   "public_meetings": 0,
+   "other": 0,
+   "total": 0
+  },
+  "candidates": {
+   "lump_sum_to_candidates": 0,
+   "media_for_candidates": 0,
+   "publicity_for_candidates": 0,
+   "meetings_for_candidates": 0,
+   "criminal_antecedents_publicity": 0,
+   "other": 0,
+   "total": 0
+  },
+  "to_state_units_or_other_parties": 0,
+  "state_unit": {
+   "propaganda_total": 0,
+   "candidates_total": 0
+  },
+  "total_expenditure": 0,
+  "tamil_nadu_share": 0,
+  "closing_balance": 1501889116,
+  "pages": {
+   "part_a": 3,
+   "schedule_1": 1
+  },
+  "confidence": "high",
+  "notes": "Statement for Tamil Nadu Assembly 2021 only. All expenditure heads in Part A, Part B, Part C and all schedules are NIL, i.e. no spending reported in Tamil Nadu (Part B also NIL, no 5.5 transfers). Balances are the central HQ funds (opening 2,35,84,81,804; receipts 56,27,17,146 by cheque; closing 1,50,18,89,116), identical closing to the same party's West Bengal statement; they are not TN spending. Part C gross total line not printed."
+ },
+ {
+  "n": 25,
+  "party": "All India Anna Dravida Munnetra Kazhagam",
+  "election": "Tamil Nadu Assembly 2011",
+  "states_covered": [
+   "Tamil Nadu",
+   "Puducherry",
+   "Kerala"
+  ],
+  "doc_kind": "full",
+  "period": {
+   "announced": "19/03/2011",
+   "completed": "16/05/2011"
+  },
+  "opening_balance": 389181709,
+  "receipts": {
+   "cash": 119575,
+   "cheque_bank": 4876262,
+   "electoral_bonds": null,
+   "in_kind": null,
+   "total": 4995837
+  },
+  "propaganda": {
+   "star_campaigner_travel": 4323532,
+   "other_leaders_travel": 292739,
+   "media_advertisement": 111948409,
+   "publicity_materials": 10279568,
+   "public_meetings": 0,
+   "other": 59000,
+   "total": 126903248
+  },
+  "candidates": {
+   "lump_sum_to_candidates": 0,
+   "media_for_candidates": null,
+   "publicity_for_candidates": null,
+   "meetings_for_candidates": null,
+   "criminal_antecedents_publicity": null,
+   "other": null,
+   "total": 0
+  },
+  "to_state_units_or_other_parties": null,
+  "state_unit": {
+   "propaganda_total": null,
+   "candidates_total": null
+  },
+  "total_expenditure": 126903248,
+  "tamil_nadu_share": null,
+  "closing_balance": 388577694,
+  "pages": {
+   "part_a": null,
+   "schedule_1": null
+  },
+  "confidence": "high",
+  "notes": "Pre-2014 free-form statement. All spending reported 'at State level' for Tamil Nadu, Puducherry and Kerala combined (national and district level NIL, individual candidates NIL; lump sum to candidates: No); no state-wise split, so tamil_nadu_share null. Printed total election expenses 126,903,248 (Abstract grand total). Heads: electronic media 107,774,574 + newspaper ads 4,173,835 = media 111,948,409; printed materials 10,279,568; section B leaders' travel (aircraft/helicopter, Swajas Air Charters, 4,144,982) plus their boarding/lodging 178,550 = 4,323,532 mapped to star campaigner travel; section C other leaders/workers car travel 292,739 mapped to other leaders travel; misc 59,000. The total includes 106,265,528 paid in advance and 16,173,136 unpaid at completion. Statement also shows non-election payments of 1,135,268 (excluded). Closing balance is gross cash 48,833 + bank 388,528,861 = 388,577,694 (net of unpaid items and advances: 266,139,030). Receipts: cash 119,575, cheque/DD 4,876,262. Read from page images."
+ },
+ {
+  "n": 29,
+  "party": "Communist Party of India (Marxist)",
+  "election": "Tamil Nadu Assembly 2011",
+  "states_covered": [
+   "Assam",
+   "Tamil Nadu",
+   "Kerala",
+   "West Bengal",
+   "Puducherry"
+  ],
+  "doc_kind": "full",
+  "period": {
+   "announced": "01/03/2011",
+   "completed": "18/05/2011"
+  },
+  "opening_balance": 81570588,
+  "receipts": {
+   "cash": 772261,
+   "cheque_bank": 6266910,
+   "electoral_bonds": null,
+   "in_kind": null,
+   "total": 7039171
+  },
+  "propaganda": {
+   "star_campaigner_travel": 196369,
+   "other_leaders_travel": 7630,
+   "media_advertisement": 0,
+   "publicity_materials": 0,
+   "public_meetings": 0,
+   "other": 0,
+   "total": 203999
+  },
+  "candidates": {
+   "lump_sum_to_candidates": 0,
+   "media_for_candidates": null,
+   "publicity_for_candidates": null,
+   "meetings_for_candidates": null,
+   "criminal_antecedents_publicity": null,
+   "other": null,
+   "total": 0
+  },
+  "to_state_units_or_other_parties": null,
+  "state_unit": {
+   "propaganda_total": 64193457,
+   "candidates_total": 98251318
+  },
+  "total_expenditure": 162648774,
+  "tamil_nadu_share": 9016097,
+  "closing_balance": 84370698,
+  "pages": {
+   "part_a": null,
+   "schedule_1": null
+  },
+  "confidence": "high",
+  "notes": "Pre-2014 free-form 908-page statement for the 2011 Assembly elections of Assam, Tamil Nadu, Kerala, West Bengal and Puducherry, with state, district and candidate sheets. Printed overall abstract (PDF p.~530): national/central 2,03,999 + state level 1,45,96,021.39 + district level 4,95,97,436.01 + individual candidates 9,82,51,318 = grand total 16,26,48,774.40 (rounded here). propaganda = national level only (leaders' travel 1,96,369 incl. air tickets; other leaders/workers train 7,630); state_unit.propaganda_total = state + district level general propaganda (14,596,021 + 49,597,436); candidates_total = individual-candidate spending. Lump sum to candidates: No. Tamil Nadu share from the TN abstract (PDF p.~829): state level 6,90,932 + district level 8,85,224 + individual candidates 74,39,941 = 90,16,097; no TN national-level spending is attributed. Opening, receipts and closing are national/central level only (opening 8,15,70,587.92; receipts cash 7,72,261 + cheque 62,66,910; closing 8,43,70,697.92); the TN state sheet shows opening 1,12,03,779, receipts 2,75,95,483, closing 1,59,36,432. Note: national Part I 'total expenditure' is 42,39,061, but Part II general propaganda at national level totals only 2,03,999 (the difference is not itemised; probably funds passed to state units). Read from page images (original text dump is the West Bengal start of the file)."
+ },
+ {
+  "n": 40,
+  "party": "Bahujan Samaj Party",
+  "election": "Tamil Nadu Assembly 2006",
+  "states_covered": [
+   "Assam",
+   "Kerala",
+   "West Bengal",
+   "Tamil Nadu",
+   "Puducherry"
+  ],
+  "doc_kind": "full",
+  "period": {
+   "announced": "01/03/2006",
+   "completed": "20/05/2006"
+  },
+  "opening_balance": 265952465,
+  "receipts": {
+   "cash": 10000000,
+   "cheque_bank": 25750000,
+   "electoral_bonds": null,
+   "in_kind": null,
+   "total": 35750000
+  },
+  "propaganda": {
+   "star_campaigner_travel": 2283279,
+   "other_leaders_travel": 0,
+   "media_advertisement": 0,
+   "publicity_materials": 2366500,
+   "public_meetings": 0,
+   "other": 30162271,
+   "total": 34812050
+  },
+  "candidates": {
+   "lump_sum_to_candidates": 0,
+   "media_for_candidates": null,
+   "publicity_for_candidates": null,
+   "meetings_for_candidates": null,
+   "criminal_antecedents_publicity": null,
+   "other": null,
+   "total": 0
+  },
+  "to_state_units_or_other_parties": null,
+  "state_unit": {
+   "propaganda_total": 0,
+   "candidates_total": 0
+  },
+  "total_expenditure": 34812050,
+  "tamil_nadu_share": null,
+  "closing_balance": 266890415,
+  "pages": {
+   "part_a": null,
+   "schedule_1": null
+  },
+  "confidence": "high",
+  "notes": "Pre-2014 free-form statement for the 2006 Assembly elections of Assam, Kerala, West Bengal, Tamil Nadu and Pondicherry. All spending is at national/central level: Rs 3,48,12,050 (Abstract grand total); state-level, district-level and individual-candidate columns NIL/N.A.; lump sum to candidates NIL. No state-wise split, so tamil_nadu_share null. Heads: printed materials 3,66,500 + cut-outs/hoardings 20,00,000 = publicity 2,366,500; leaders' travel (cars 88,861 + aircraft 14,13,218) 15,02,079 + boarding/lodging 7,81,200 = 2,283,279 (mapped to star campaigner travel); campaign office 1,92,62,271 + misc 1,09,00,000 = 30,162,271 (other). Sum checks to printed totals. Receipts cash 1,00,00,000, cheque/DD 2,57,50,000. Aircraft flights include Chennai/Madurai/Hosur/Pondicherry sectors but no cost split by state."
+ },
+ {
+  "n": 42,
+  "party": "Communist Party of India",
+  "election": "Tamil Nadu Assembly 2006",
+  "states_covered": [
+   "West Bengal",
+   "Tamil Nadu",
+   "Puducherry",
+   "Kerala",
+   "Assam"
+  ],
+  "doc_kind": "full",
+  "period": {
+   "announced": "01/03/2006",
+   "completed": "20/05/2006"
+  },
+  "opening_balance": 2294130,
+  "receipts": {
+   "cash": 710601,
+   "cheque_bank": 3485738,
+   "electoral_bonds": null,
+   "in_kind": null,
+   "total": 4196339
+  },
+  "propaganda": {
+   "star_campaigner_travel": 0,
+   "other_leaders_travel": 100274,
+   "media_advertisement": 0,
+   "publicity_materials": 0,
+   "public_meetings": 0,
+   "other": 0,
+   "total": 100274
+  },
+  "candidates": {
+   "lump_sum_to_candidates": 0,
+   "media_for_candidates": null,
+   "publicity_for_candidates": null,
+   "meetings_for_candidates": null,
+   "criminal_antecedents_publicity": null,
+   "other": null,
+   "total": 0
+  },
+  "to_state_units_or_other_parties": 700000,
+  "state_unit": {
+   "propaganda_total": null,
+   "candidates_total": null
+  },
+  "total_expenditure": 8487506,
+  "tamil_nadu_share": 3351538,
+  "closing_balance": 2521383,
+  "pages": {
+   "part_a": null,
+   "schedule_1": null
+  },
+  "confidence": "medium",
+  "notes": "Pre-2014 free-form statement for the 2006 Assemblies of West Bengal, Tamil Nadu, Pondicherry, Kerala and Assam: one national sheet plus a sheet and abstract per state; no single overall grand total is printed. total_expenditure is computed = national travel 100,274 + WB 1,371,006.80 (state 663,519.80 + district 707,487) + TN 3,351,538 + Pondicherry 43,020 + Kerala 3,567,342 + Assam 54,325; the national Rs 800,274 printed grand total also contains 700,000 passed to Kerala (200,000) and Tamil Nadu (500,000) CPI units, which is excluded to avoid double counting (shown in to_state_units_or_other_parties). National sheet: leaders/workers travel 100,274 (train 23,000, air 77,274); opening 22,94,130.34, receipts cash 7,10,601 + cheque 34,85,737.50, closing 25,21,382.84 (the printed total 64,90,468.84 is opening plus receipts). Tamil Nadu state abstract: state-level 33,51,538 = publicity 3,06,060 (printed materials 2,85,060 + audio 21,000) + travel of other leaders/workers 45,478 + lump sums of 3,00,000 to each of 10 candidates (30,00,000); district and individual-candidate levels NIL; tamil_nadu_share is that figure. TN sheet itself shows opening 2,65,735, receipts 41,00,261, expenses 37,27,641, closing 63,83,355. The statement answers 'No' to lump sums at national level. state_unit split left null because Kerala/WB sheet heads cannot be cleanly separated into propaganda vs candidate spending. OCR text read; Kerala abstract printed the 35,67,342 on the national line."
+ },
+ {
+  "n": 50,
+  "party": "Indian National Congress",
+  "election": "Tamil Nadu Assembly 2016",
+  "states_covered": [
+   "Assam",
+   "Kerala",
+   "Puducherry",
+   "Tamil Nadu",
+   "West Bengal"
+  ],
+  "doc_kind": "full",
+  "period": {
+   "announced": "04/03/2016",
+   "completed": "21/05/2016"
+  },
+  "opening_balance": 3493987243,
+  "receipts": {
+   "cash": 356944641,
+   "cheque_bank": 104288087,
+   "electoral_bonds": null,
+   "in_kind": null,
+   "total": 461232728
+  },
+  "propaganda": {
+   "star_campaigner_travel": 95852168,
+   "other_leaders_travel": 122264,
+   "media_advertisement": 5794098,
+   "publicity_materials": 0,
+   "public_meetings": 43949807,
+   "other": 0,
+   "total": 145718337
+  },
+  "candidates": {
+   "lump_sum_to_candidates": 0,
+   "media_for_candidates": 0,
+   "publicity_for_candidates": 0,
+   "meetings_for_candidates": 0,
+   "criminal_antecedents_publicity": null,
+   "other": 0,
+   "total": 0
+  },
+  "to_state_units_or_other_parties": 481300000,
+  "state_unit": {
+   "propaganda_total": 269317918,
+   "candidates_total": 546684125
+  },
+  "total_expenditure": 961720380,
+  "tamil_nadu_share": 160114910,
+  "closing_balance": 4819264180,
+  "pages": {
+   "part_a": 2,
+   "schedule_1": 1
+  },
+  "confidence": "high",
+  "notes": "Five-state 2016 Assembly statement (Assam, Kerala, Puducherry, Tamil Nadu, West Bengal). Part A (AICC): propaganda 14,57,18,337 (star travel 9,58,52,168; other leaders 1,22,264; media 57,94,098; public meetings 4,39,49,807; publicity materials blank), nothing on candidates; transfers to state units 48,13,00,000 (not added). Part B state-wise sheet (read from rotated page images): state-unit propaganda 26,93,17,918 and candidates 54,66,84,125 (lump sums 53,65,65,000; media 7,99,339; rally logistics 8,34,565; other 84,85,221). Part C gross total 96,17,20,380 = total_expenditure (heads sum correctly). Tamil Nadu share = Part A Schedule 1 TN propaganda 45,59,397 + Part B TN propaganda 5,30,55,513 (star travel 76,61,356; other leaders 6,02,444; media 87,11,225; publicity 2,27,795; meetings 2,13,69,370; other 1,44,83,323) + TN candidate lump sums 10,25,00,000 = 160,114,910. Opening, receipts and closing are Part C net totals; receipts exclude the 48,13,00,000 inter-office transfers (gross cheque 58,55,88,087, net 10,42,88,087; cash 35,69,44,641). Part C closing 4,81,92,64,180."
+ },
+ {
+  "n": 56,
+  "party": "Indian Union Muslim League",
+  "election": "Lok Sabha 2014",
+  "states_covered": [
+   "Kerala",
+   "Tamil Nadu"
+  ],
+  "doc_kind": "full",
+  "period": {
+   "announced": "03/2014 (month only)",
+   "completed": "29/05/2014"
+  },
+  "opening_balance": 1572858,
+  "receipts": {
+   "cash": 4526482,
+   "cheque_bank": 10842926,
+   "electoral_bonds": null,
+   "in_kind": 0,
+   "total": 15369408
+  },
+  "propaganda": {
+   "star_campaigner_travel": 0,
+   "other_leaders_travel": 0,
+   "media_advertisement": 0,
+   "publicity_materials": 0,
+   "public_meetings": 0,
+   "other": 0,
+   "total": 0
+  },
+  "candidates": {
+   "lump_sum_to_candidates": 0,
+   "media_for_candidates": 0,
+   "publicity_for_candidates": 0,
+   "meetings_for_candidates": 0,
+   "criminal_antecedents_publicity": 0,
+   "other": 0,
+   "total": 0
+  },
+  "to_state_units_or_other_parties": 0,
+  "state_unit": {
+   "propaganda_total": 2388027,
+   "candidates_total": 6850000
+  },
+  "total_expenditure": 9238027,
+  "tamil_nadu_share": 394200,
+  "closing_balance": 7704239,
+  "pages": {
+   "part_a": 2,
+   "schedule_1": null
+  },
+  "confidence": "medium",
+  "notes": "Lok Sabha 2014; Part A (central HQ) all NIL (cover letter: only Kerala and Tamil Nadu units spent). Part B Kerala (Malappuram and Ponnani): propaganda 1,993,827 (star travel 974,400; other leaders 240,832; public meetings 210,000; other 568,595) and lump sums to candidates 6,850,000 (E. Ahamed, E.T. Mohammed Basheer). Part B Tamil Nadu (Vellore): propaganda 394,200 (star travel only), candidates NIL; tamil_nadu_share = 394,200. total_expenditure = 1,993,827 + 394,200 + 6,850,000 = 9,238,027; the Part C summary prints 88,43,827 because it omits the Tamil Nadu 394,200. Opening/receipts/closing are Kerala + TN sums (also given in Part C; Part C cheque receipts misprint 1,08,12,925.51 vs computed 10,842,925.51). Opening cash 407,000 + bank 1,165,858.35; closing Kerala 7,614,238.86 + TN 90,000. Announcement date given only as March 2014. Kerala sheet read from page image; TN from OCR text."
+ },
+ {
+  "n": 58,
+  "party": "Aam Aadmi Party",
+  "election": "Tamil Nadu Assembly 2016",
+  "states_covered": [
+   "Assam",
+   "West Bengal",
+   "Kerala",
+   "Tamil Nadu",
+   "Puducherry"
+  ],
+  "doc_kind": "covering_letter_only",
+  "period": {
+   "announced": "04/03/2016",
+   "completed": null
+  },
+  "opening_balance": null,
+  "receipts": {
+   "cash": null,
+   "cheque_bank": null,
+   "electoral_bonds": null,
+   "in_kind": null,
+   "total": null
+  },
+  "propaganda": {
+   "star_campaigner_travel": null,
+   "other_leaders_travel": null,
+   "media_advertisement": null,
+   "publicity_materials": null,
+   "public_meetings": null,
+   "other": null,
+   "total": null
+  },
+  "candidates": {
+   "lump_sum_to_candidates": null,
+   "media_for_candidates": null,
+   "publicity_for_candidates": null,
+   "meetings_for_candidates": null,
+   "criminal_antecedents_publicity": null,
+   "other": null,
+   "total": null
+  },
+  "to_state_units_or_other_parties": null,
+  "state_unit": {
+   "propaganda_total": null,
+   "candidates_total": null
+  },
+  "total_expenditure": 0,
+  "tamil_nadu_share": 0,
+  "closing_balance": null,
+  "pages": {
+   "part_a": null,
+   "schedule_1": null
+  },
+  "confidence": "high",
+  "notes": "Two pages only: covering letter dated 20 Sept 2016 stating the party did not contest these Assembly elections (Assam, West Bengal, Kerala, Tamil Nadu, Puducherry) and is therefore submitting a NIL statement, plus a blank Annexure A (lump sums to candidates) with no entries. No balances or expenditure figures given; total 0 and TN share 0 reflect the NIL declaration. Handwritten text read from OCR; announcement date appears as 04.03.2016."
+ },
+ {
+  "n": 59,
+  "party": "Pattali Makkal Katchi",
+  "election": "Tamil Nadu Assembly 2016",
+  "states_covered": [
+   "Tamil Nadu"
+  ],
+  "doc_kind": "full",
+  "period": {
+   "announced": "19/05/2016",
+   "completed": "25/05/2016"
+  },
+  "opening_balance": 3378735,
+  "receipts": {
+   "cash": 81941930,
+   "cheque_bank": 835000,
+   "electoral_bonds": null,
+   "in_kind": 0,
+   "total": 82776930
+  },
+  "propaganda": {
+   "star_campaigner_travel": 0,
+   "other_leaders_travel": 0,
+   "media_advertisement": 29996000,
+   "publicity_materials": 0,
+   "public_meetings": 240000,
+   "other": 0,
+   "total": 30236000
+  },
+  "candidates": {
+   "lump_sum_to_candidates": 0,
+   "media_for_candidates": 0,
+   "publicity_for_candidates": 0,
+   "meetings_for_candidates": 0,
+   "criminal_antecedents_publicity": null,
+   "other": 0,
+   "total": 0
+  },
+  "to_state_units_or_other_parties": 54750000,
+  "state_unit": {
+   "propaganda_total": 0,
+   "candidates_total": 0
+  },
+  "total_expenditure": 30236000,
+  "tamil_nadu_share": 30236000,
+  "closing_balance": 1086788,
+  "pages": {
+   "part_a": 3,
+   "schedule_1": 1
+  },
+  "confidence": "high",
+  "notes": "Tamil Nadu Assembly 2016 only; all spending is at central HQ (Part A); Part B state unit all NIL. Part A: media advertisement 2,99,96,000 + public meetings 2,40,000 = 3,02,36,000 (matches Part C item H; Part C item F IV mistakenly prints NIL). Receipts mostly cash 8,19,41,930 plus cheque 8,35,000. 5.5 shows 5,47,50,000 transferred to the party's own account (PMK) and bank charges 82,877, not counted as expenditure; balance reconciles to closing 10,86,788. Dates as printed (19/05/2016 to 25/05/2016) look odd for an election announced in March 2016 but are as on the statement. Part A figures confirmed on page image; Part A opening balance = Indian Bank 70,462 + Canara Bank 33,08,273."
+ },
+ {
+  "n": 66,
+  "party": "Naam Tamilar Katchi",
+  "election": "Lok Sabha 2019",
+  "states_covered": [
+   "Tamil Nadu",
+   "Puducherry"
+  ],
+  "doc_kind": "full",
+  "period": {
+   "announced": "19/03/2019",
+   "completed": "23/05/2019"
+  },
+  "opening_balance": 784880,
+  "receipts": {
+   "cash": 35500,
+   "cheque_bank": 4323658,
+   "electoral_bonds": null,
+   "in_kind": 0,
+   "total": 4359158
+  },
+  "propaganda": {
+   "star_campaigner_travel": 35345,
+   "other_leaders_travel": 50450,
+   "media_advertisement": 2079887,
+   "publicity_materials": 280000,
+   "public_meetings": 95000,
+   "other": 0,
+   "total": 2540682
+  },
+  "candidates": {
+   "lump_sum_to_candidates": 1788700,
+   "media_for_candidates": 96172,
+   "publicity_for_candidates": 0,
+   "meetings_for_candidates": 0,
+   "criminal_antecedents_publicity": null,
+   "other": 0,
+   "total": 1884872
+  },
+  "to_state_units_or_other_parties": 0,
+  "state_unit": {
+   "propaganda_total": 0,
+   "candidates_total": 0
+  },
+  "total_expenditure": 4425554,
+  "tamil_nadu_share": null,
+  "closing_balance": 718484,
+  "pages": {
+   "part_a": 3,
+   "schedule_1": 1
+  },
+  "confidence": "high",
+  "notes": "Lok Sabha 2019 for Tamil Nadu and Puducherry (Schedule 1 shows one combined line 'Tamilnadu & Pondichery', so no TN-only split; Part C also mentions 22 Assembly by-election seats). All spending at central HQ (Part A); Part B state unit NIL. Heads sum to printed totals; Part C gross total 44,25,554 matches. Opening cash 2,48,928 + bank 5,35,952; closing cash 2,10,194 + bank 5,08,290. Typed OCR text clean; no page images needed."
+ },
+ {
+  "n": 68,
+  "party": "Marumalarchi Dravida Munnetra Kazhagam",
+  "election": "Tamil Nadu Assembly 2016",
+  "states_covered": [
+   "Tamil Nadu",
+   "Puducherry"
+  ],
+  "doc_kind": "full",
+  "period": {
+   "announced": "04/03/2016",
+   "completed": "21/05/2016"
+  },
+  "opening_balance": 2757916,
+  "receipts": {
+   "cash": 7767488,
+   "cheque_bank": 65684957,
+   "electoral_bonds": null,
+   "in_kind": 0,
+   "total": 73452445
+  },
+  "propaganda": {
+   "star_campaigner_travel": null,
+   "other_leaders_travel": null,
+   "media_advertisement": null,
+   "publicity_materials": null,
+   "public_meetings": null,
+   "other": null,
+   "total": null
+  },
+  "candidates": {
+   "lump_sum_to_candidates": null,
+   "media_for_candidates": null,
+   "publicity_for_candidates": null,
+   "meetings_for_candidates": null,
+   "criminal_antecedents_publicity": null,
+   "other": null,
+   "total": null
+  },
+  "to_state_units_or_other_parties": null,
+  "state_unit": {
+   "propaganda_total": 7692510,
+   "candidates_total": 61000000
+  },
+  "total_expenditure": 68692510,
+  "tamil_nadu_share": null,
+  "closing_balance": 2994183,
+  "pages": {
+   "part_a": 2,
+   "schedule_1": null
+  },
+  "confidence": "medium",
+  "notes": "Part A (central HQ) is left blank (no figures, not marked NIL); all figures are in Part B for Tamil Nadu including Puducherry. Part B propaganda 7,692,510 (star travel 153,793; other leaders 19,300; media 1,632,770; publicity 993,300; public meetings 3,819,442; other 1,073,905) and lump sums to candidates 61,000,000 (29 candidates fielded) = 68,692,510, which equals the 6.3 'total' (68,692,510) that evidently includes the lump sums; Part C item F IV repeats 68,692,510 under propaganda and gross total H is blank. Part B figures confirmed on page image. Opening cash 244,661 + bank 2,513,255 (Part B total 2,757,916); Part C receipt cash line misprints 77167488 vs Part B 7,767,488 (total 73,452,445 fits the latter). Balances do not fully reconcile (opening + receipts - spending is about 7.67m vs printed closing 2,994,183). tamil_nadu_share null: sheet combines Tamil Nadu and Puducherry, no split."
+ },
+ {
+  "n": 74,
+  "party": "Naam Tamilar Katchi",
+  "election": "Lok Sabha 2024",
+  "states_covered": [
+   "Tamil Nadu",
+   "Puducherry"
+  ],
+  "doc_kind": "full",
+  "period": {
+   "announced": "16/03/2024",
+   "completed": "04/06/2024"
+  },
+  "opening_balance": 2435078,
+  "receipts": {
+   "cash": 100000,
+   "cheque_bank": 21808012,
+   "electoral_bonds": null,
+   "in_kind": 0,
+   "total": 21908012
+  },
+  "propaganda": {
+   "star_campaigner_travel": 3028261,
+   "other_leaders_travel": 1265000,
+   "media_advertisement": 6327170,
+   "publicity_materials": 933000,
+   "public_meetings": 930000,
+   "other": 3410000,
+   "total": 15893431
+  },
+  "candidates": {
+   "lump_sum_to_candidates": 5030000,
+   "media_for_candidates": 0,
+   "publicity_for_candidates": 0,
+   "meetings_for_candidates": 0,
+   "criminal_antecedents_publicity": 0,
+   "other": 0,
+   "total": 5030000
+  },
+  "to_state_units_or_other_parties": 0,
+  "state_unit": {
+   "propaganda_total": 0,
+   "candidates_total": 0
+  },
+  "total_expenditure": 20923431,
+  "tamil_nadu_share": null,
+  "closing_balance": 558984,
+  "pages": {
+   "part_a": 4,
+   "schedule_1": 1
+  },
+  "confidence": "high",
+  "notes": "Lok Sabha 2024 for Tamil Nadu and Puducherry; Schedule 1 is NIL (no state split) so tamil_nadu_share null. All spending at central HQ (Part A); Part B NIL. Propaganda 1,58,93,431 (star travel 30,28,261; other leaders 12,65,000; media 63,27,170; publicity 9,33,000; public meetings 9,30,000; other 34,10,000) plus lump sums to candidates 50,30,000 = 2,09,23,431. Part C 'gross total' line prints Rs 50,30,000 (it only repeats item G; item H omits propaganda), so total_expenditure is computed from the heads, which agree with the printed Part A totals. Opening balance cash 1,00,000 + bank 23,35,078 = 24,35,078 (Part A cash line OCR '1,06,600' misread; image shows 1,00,000). Balance does not fully reconcile: opening + receipts - spending is about 34.2 lakh vs printed closing 5,58,984."
+ },
+ {
+  "n": 84,
+  "party": "Desiya Murpokku Dravida Kazhagam",
+  "election": "Lok Sabha 2024",
+  "states_covered": [
+   "Tamil Nadu"
+  ],
+  "doc_kind": "part",
+  "period": {
+   "announced": "16/03/2024",
+   "completed": "06/06/2024"
+  },
+  "opening_balance": null,
+  "receipts": {
+   "cash": null,
+   "cheque_bank": null,
+   "electoral_bonds": null,
+   "in_kind": null,
+   "total": null
+  },
+  "propaganda": {
+   "star_campaigner_travel": null,
+   "other_leaders_travel": null,
+   "media_advertisement": null,
+   "publicity_materials": null,
+   "public_meetings": null,
+   "other": null,
+   "total": null
+  },
+  "candidates": {
+   "lump_sum_to_candidates": 4500000,
+   "media_for_candidates": null,
+   "publicity_for_candidates": null,
+   "meetings_for_candidates": null,
+   "criminal_antecedents_publicity": null,
+   "other": null,
+   "total": null
+  },
+  "to_state_units_or_other_parties": null,
+  "state_unit": {
+   "propaganda_total": null,
+   "candidates_total": null
+  },
+  "total_expenditure": 4500000,
+  "tamil_nadu_share": 4500000,
+  "closing_balance": null,
+  "pages": {
+   "part_a": null,
+   "schedule_1": null
+  },
+  "confidence": "medium",
+  "notes": "Part statement only: a covering letter (27/09/2024, signed by Premalatha Vijayakant) and Annexure A listing lump-sum RTGS payments to five Tamil Nadu Lok Sabha candidates on 10/04/2024 (4 x Rs 10,00,000 and 1 x Rs 5,00,000; grand total Rs 45,00,000, sums correctly). No Parts A/B/C, balances, propaganda or other expenditure were filed, so total_expenditure is only a floor equal to the candidate lump sums; the party's real total is unknown. Completion date printed as 06.06.2024 (election count was 4 June). Read from OCR text."
+ },
+ {
+  "n": 86,
+  "party": "Bahujan Samaj Party",
+  "election": "Tamil Nadu Assembly 2026",
+  "states_covered": [
+   "Tamil Nadu"
+  ],
+  "doc_kind": "full",
+  "period": {
+   "announced": "15/03/2026",
+   "completed": "06/05/2026"
+  },
+  "opening_balance": 6287811572,
+  "receipts": {
+   "cash": 0,
+   "cheque_bank": 0,
+   "electoral_bonds": null,
+   "in_kind": 0,
+   "total": 0
+  },
+  "propaganda": {
+   "star_campaigner_travel": 38493,
+   "other_leaders_travel": 0,
+   "media_advertisement": 0,
+   "publicity_materials": 21646510,
+   "public_meetings": 0,
+   "other": 0,
+   "total": 21685003
+  },
+  "candidates": {
+   "lump_sum_to_candidates": 0,
+   "media_for_candidates": 0,
+   "publicity_for_candidates": 0,
+   "meetings_for_candidates": 0,
+   "criminal_antecedents_publicity": 0,
+   "other": 0,
+   "total": 0
+  },
+  "to_state_units_or_other_parties": 0,
+  "state_unit": {
+   "propaganda_total": null,
+   "candidates_total": null
+  },
+  "total_expenditure": 21685003,
+  "tamil_nadu_share": 21685003,
+  "closing_balance": 6462089708,
+  "pages": {
+   "part_a": 2,
+   "schedule_1": null
+  },
+  "confidence": "high",
+  "notes": "Tamil Nadu Assembly 2026 only. Central HQ (Part A) spending 2,16,85,003: publicity materials 2,16,46,510 + star campaigner travel 38,493; no candidate spending; no receipts declared. Part B (state unit) blank (no figures, not marked NIL), so state_unit left null. Part C item H prints 2,16,85,003. Opening balance cash 4,76,39,447 + bank 624,01,72,125 = 628,78,11,572; closing cash 4,86,59,561 + bank 641,34,30,147 = 646,20,89,708 (closing exceeds opening although no receipts are declared; not explained in the statement). Figures read from OCR; sums check. Only first 20 of 34 pages dumped; later pages are schedules."
+ },
+ {
+  "n": 93,
+  "party": "Dravida Munnetra Kazhagam",
+  "election": "Tamil Nadu Assembly 2026",
+  "states_covered": [
+   "Tamil Nadu",
+   "Puducherry"
+  ],
+  "doc_kind": "full",
+  "period": {
+   "announced": "16/03/2026",
+   "completed": "06/05/2026"
+  },
+  "opening_balance": 3651434363,
+  "receipts": {
+   "cash": 20500,
+   "cheque_bank": 1262712758,
+   "electoral_bonds": null,
+   "in_kind": 0,
+   "total": 1262733258
+  },
+  "propaganda": {
+   "star_campaigner_travel": 59093637,
+   "other_leaders_travel": 801147,
+   "media_advertisement": 706336125,
+   "publicity_materials": 20344675,
+   "public_meetings": 0,
+   "other": 712384575,
+   "total": 1498960159
+  },
+  "candidates": {
+   "lump_sum_to_candidates": 457500000,
+   "media_for_candidates": 0,
+   "publicity_for_candidates": 0,
+   "meetings_for_candidates": 0,
+   "criminal_antecedents_publicity": 22017633,
+   "other": 0,
+   "total": 479517633
+  },
+  "to_state_units_or_other_parties": 0,
+  "state_unit": {
+   "propaganda_total": 0,
+   "candidates_total": 0
+  },
+  "total_expenditure": 1978477792,
+  "tamil_nadu_share": null,
+  "closing_balance": 3193989533,
+  "pages": {
+   "part_a": 4,
+   "schedule_1": 1
+  },
+  "confidence": "high",
+  "notes": "Statement for the 2026 Tamil Nadu Assembly and Union Territory of Puducherry elections; Part B (state unit) is N/A and Schedule 1 is N/A, so no state-wise split is given in the statement (schedule entries seen in the first 20 pages are all labelled Tamil Nadu, but the later pages were not read, so tamil_nadu_share left null). Part A propaganda 1,49,89,60,159 (star travel 5,90,93,637; other leaders 8,01,147; media 70,63,36,125; publicity 2,03,44,675; other 71,23,84,575; public meetings NIL) - the 5.3a line prints 1,49,89,60,160 (Re 1 rounding); candidates 47,95,17,633 (lump sums 45,75,00,000 + criminal-antecedents publicity 2,20,17,633; Part C prints ...632). Part C gross total 1,97,84,77,792 = total_expenditure. Includes 25,82,99,704 authorised but outstanding. Opening cash 1,47,717 + bank 3,65,12,86,646 (Part C OCR shows 3,60,12,86,646, a misread; bank items sum to 3,651,286,646); closing all bank 3,19,39,89,533, cash NIL. Receipts cash 20,500 + cheque 1,26,27,12,758. Balances reconcile."
+ }
+]

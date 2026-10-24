@@ -127,6 +127,13 @@ for a, k in ALIAS_EXTRA.items():
 ALIASES[norm("Communist Party of India (Marxist-Leninist) Liberation")] = "CPIMLL"
 
 
+def alias_short_names():
+    """Party abbreviations (AIADMK, CPI(M), ...) resolve too, unless already taken."""
+    for k, p in PARTIES.items():
+        if p.get("short") and len(p["short"]) >= 2:
+            ALIASES.setdefault(norm(p["short"]), k)
+
+
 def canon(name):
     """Party key for any spelling seen in ECI titles, SBI data or erolls listings."""
     n = norm(name)
@@ -372,6 +379,91 @@ if os.path.exists(donors_path):
     for k in donor_files:
         PARTIES[k]["donor_file"] = re.sub(r"[^A-Za-z0-9_-]", "_", k)
 
+# --------------------------------------------- 2d. Election-expenditure statements ---
+alias_short_names()
+# Tamil Nadu elections 2004 onward (scrape_election_expenditure.py + per-statement reads).
+elections_out, ee_docs = [], []
+ee_index_path = os.path.join(ROOT, "data/raw/ocr/ee_text/index.json")
+if os.path.exists(ee_index_path):
+    ee_index = {d["n"]: d for d in load("data/raw/ocr/ee_text/index.json")}
+    ee_reads = {}
+    for f in sorted(glob.glob(os.path.join(ROOT, "data/raw/ocr/ee_extract/batch_*_output.json"))):
+        for e in json.load(open(f)):
+            ee_reads[e["n"]] = e
+    KIND_RANK = {"Full": 3, "Compliance": 1, "Part": 2}
+    best_ee = {}
+    for n, meta in ee_index.items():
+        e = ee_reads.get(n, {})
+        name = re.split(r"\s+-\s+(?:Election|Main|Full|Part|Compliance)|\s*\(Report|\s+\d+-[A-Z]", meta.get("title", ""))[0]
+        name = title_party(name) if meta.get("source") != "CEO Tamil Nadu" else name
+        key = party_key_for(name) if meta.get("source") == "CEO Tamil Nadu" else canon(name)
+        if not key:
+            unmapped_titles.add(meta.get("title"))
+            continue
+        total = e.get("total_expenditure")
+        if total is None and meta.get("portal_amount"):
+            total = meta["portal_amount"]
+        if total is None:
+            continue
+        # main statement over supplements/by-election filings in the same cycle: full kind, then the larger total
+        score = (KIND_RANK.get(meta.get("kind"), 0), e.get("doc_kind") in (None, "full"), total or 0,
+                 {"high": 3, "medium": 2, "low": 1}.get(e.get("confidence"), 0))
+        k2 = (key, meta.get("election"))
+        if k2 not in best_ee or score > best_ee[k2][0]:
+            best_ee[k2] = (score, e, meta, total)
+    # small CEO TN statements that were not read page by page: the portal's total only
+    indexed = {d["pdf_file"] for d in ee_index.values()}
+    for fname, meta in load("data/raw/election_expenditure/manifest.json").items():
+        if fname in indexed or meta.get("source") != "CEO Tamil Nadu" or meta.get("portal_amount") is None:
+            continue
+        key = party_key_for(meta["title"].split(" - Election Expenditure")[0])
+        if (key, meta["election"]) not in best_ee:
+            best_ee[(key, meta["election"])] = ((0, 0), {}, {**meta, "pdf_url": meta["pdf_url"]}, meta["portal_amount"])
+    for (key, election), (_, e, meta, total) in best_ee.items():
+        p = PARTIES.get(key, {})
+        tn_party = bool(p.get("tn") and p.get("rec") != "National" or p.get("tn_rupp") or p.get("state") in ("Tamil Nadu", "Puducherry"))
+        states = e.get("states_covered") or []
+        covers_tn = not states or any(re.search(r"tamil", s_, re.I) for s_ in states)
+        # Tamil Nadu's part of the money: TN parties' statements are about TN (with Puducherry at most);
+        # national parties' only where they give a state split or file for TN alone.
+        if tn_party:
+            tn_total = total
+        elif not covers_tn:
+            continue            # e.g. a West Bengal-only filing listed under the TN election
+        elif e.get("tamil_nadu_share") is not None:
+            tn_total = e["tamil_nadu_share"]
+        elif states and all(re.search(r"tamil|puduch|pondich", s_, re.I) for s_ in states):
+            tn_total = total
+        else:
+            tn_total = None     # several states, no split
+        if not total and not tn_party:
+            continue            # NIL statements of parties that did not contest in TN
+        pr, cand, su, rec = e.get("propaganda") or {}, e.get("candidates") or {}, e.get("state_unit") or {}, e.get("receipts") or {}
+        heads = {"h_star": pr.get("star_campaigner_travel"), "h_leaders": pr.get("other_leaders_travel"),
+                 "h_media": pr.get("media_advertisement"), "h_publicity": pr.get("publicity_materials"),
+                 "h_meetings": pr.get("public_meetings"), "h_candidates": cand.get("total"),
+                 "h_state": (su.get("propaganda_total") or 0) + (su.get("candidates_total") or 0) or None,
+                 "h_other": pr.get("other")}
+        itemised = sum(v or 0 for v in heads.values())
+        if not itemised:
+            heads = {"h_none": total}
+        elif itemised < total * 0.98:
+            heads["h_other"] = (heads.get("h_other") or 0) + (total - itemised)   # unexplained remainder
+        year = int(re.search(r"(\d{4})", election).group(1))
+        elections_out.append({
+            "k": key, "election": election, "year": year, "type": "LS" if election.startswith("Lok") else "AE",
+            "kind": meta.get("kind"), "doc_kind": e.get("doc_kind"), "total": total, "tn_total": tn_total,
+            "tn_share": e.get("tamil_nadu_share"),
+            **{h_: v for h_, v in heads.items() if v is not None},
+            "eb_received": rec.get("electoral_bonds"), "receipts": rec.get("total"),
+            "opening": e.get("opening_balance"), "closing": e.get("closing_balance"),
+            "states": ", ".join(e.get("states_covered") or []) or None,
+            "url": meta.get("pdf_url"), "source": meta.get("source"), "confidence": e.get("confidence"),
+            "tn_party": tn_party,
+        })
+        ee_docs.append({"k": key, "kind": "Election expenditure statement", "fy": str(year), "title": meta.get("title"),
+                     "url": meta.get("pdf_url"), "size": None, "source": meta.get("source"), "election": election})
+
 # --------------------------------------------- 3. Electoral bonds by FY -------
 eb = load("public/data/electoral_bonds_all.json")
 eb_key = {}
@@ -447,6 +539,9 @@ for k, p in PARTIES.items():
             compliance.append({"k": k, "scope": "Recognised party (ECI)", "kind": kind, "fy": fy,
                                "status": "Published" if filed else ("Due 31 Oct 2026" if fy == "2025-26" and kind == "Annual audit report" and date.today() <= date(2026, 10, 31) else "Not published")})
 
+known_urls = {d["url"] for d in docs}
+docs.extend(d for d in ee_docs if d["url"] not in known_urls)
+
 # ------------------------------------------------------------- rollups ---
 fin_rows = []
 SRC_KEYS = ("type", "url", "page", "confidence", "filed", "timing")   # titles/notes stay in the raw extractions
@@ -477,7 +572,7 @@ meta = {"built": date.today().isoformat(), "fin_rows": len(fin_rows), "parties":
 # browsers can cache it for good and still pick up a rebuild immediately.
 payloads = {name: json.dumps(obj, separators=(",", ":"), ensure_ascii=False) for name, obj in
             (("parties", parties_out), ("finance", fin_rows), ("compliance", compliance),
-             ("documents", docs), ("statements", statements))}
+             ("documents", docs), ("statements", statements), ("elections", elections_out))}
 h = hashlib.sha1()
 for name in sorted(payloads):
     h.update(payloads[name].encode())

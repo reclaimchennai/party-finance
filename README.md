@@ -67,6 +67,7 @@ A comprehensive registry of **every party in the ECI registry (3,942 parties, up
 | `eci-party-notifications.zip` | ECI recognition / RUPP notifications and delisting orders (PDF) |
 | `ocr-text.zip` | Page-marked text of every audit report, OCR of the 2025 RUPP notification |
 | `tn-rupp-audit-reports.zip` | 88 TN RUPP audited-accounts PDFs from the CEO Tamil Nadu portal, with their page text |
+| `election-expenditure-statements.zip` | 174 election-expenditure statements (ECI archive, ECI, CEO Tamil Nadu) for Tamil Nadu elections 2006–2026 |
 | `myneta-pages.zip` | Cached ADR MyNeta statement and donor-list pages |
 
 `SHA256SUMS.txt` in the release lists checksums.
@@ -86,6 +87,7 @@ Six views, every filter kept in the URL hash so any view can be shared:
 | View | What you can do |
 |---|---|
 | Overview | Headline figures, income and electoral-bond rankings, TN RUPP filing trend |
+| Election spending | Every Tamil Nadu Lok Sabha and Assembly election 2006–2026: what each party spent, on what (travel, advertising, rallies, publicity, candidates), Tamil Nadu share of national parties' statements |
 | Finances | Pick scope (TN focus / recognised / TN unrecognised / all), measure and year; ranked bars, multi-party trend, income mix, full table with source links + CSV |
 | Electoral bonds | Filter all 20,421 bonds by party, buyer and year; monthly timeline, party shares, buyer rankings and table |
 | Filing compliance | Party × year grid (on time / late / not filed) for TN RUPPs from the CEO TN portal, and ECI publication status for recognised parties |
@@ -112,6 +114,7 @@ Run in this order (Python deps: `python3 -m venv .venv && .venv/bin/pip install 
 | 10 | `pipeline/download_tn_rupp_audits.py` + `extract_audit_text.py tn` — TN RUPP audited-accounts PDFs from the CEO Tamil Nadu portal (receipts ≥ ₹10 lakh plus profiled parties), itemised per `data/raw/ocr/tn_rupp_extract/INSTRUCTIONS.md` | `data/raw/ocr/tn_rupp_extract/` |
 | 11 | `pipeline/scrape_myneta.py --donors` — ADR MyNeta: every income/expenditure head and balance sheet back to FY 2001-02 for 66 parties, plus Form 24A donor lists (pages cached in `data/raw/myneta/html/`) | `data/derived/myneta_*.json` |
 | 12 | `pipeline/build_dashboard_data.py` — joins everything on one party key. Precedence per party-year: our own page-referenced reads (ECI, CEO TN) → ADR's transcription → CEO TN portal totals. Where ours and ADR's overlap they agree to a median 0.002% | `public/data/dash/*.json` |
+| 12b | `pipeline/scrape_election_expenditure.py` + `extract_audit_text.py ee` — election-expenditure statements for Tamil Nadu (ECI archive 2006–2021, ECI 2024–26, CEO TN), first 20 pages OCR'd and read per `data/raw/ocr/ee_extract/INSTRUCTIONS.md` | `public/data/dash/elections.json` |
 | 13 | `pipeline/stamp_site.py` — content-hash `app.js` / `app.css` in `index.html` (data files are versioned via `meta.json`) | `public/index.html` |
 
 `pipeline/names.py` cleans display names (glued or broken words from PDFs, shouting caps) and merges spelling variants of the same buyer.
